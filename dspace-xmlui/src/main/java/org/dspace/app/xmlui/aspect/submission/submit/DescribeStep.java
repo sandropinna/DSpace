@@ -423,7 +423,7 @@ public class DescribeStep extends AbstractSubmissionStep
         {
                 // The name field is a composite field containing two text fields, one
                 // for first name the other for last name.
-                Composite fullName = form.addItem().addComposite(fieldName, "submit-name");
+                Composite fullName = form.addItem().addComposite(fieldName, "submit-nameo");
                 Text lastName = fullName.addText(fieldName+"_last");
                 Text firstName = fullName.addText(fieldName+"_first");
 
