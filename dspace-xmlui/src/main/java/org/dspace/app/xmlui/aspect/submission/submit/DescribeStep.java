@@ -39,6 +39,7 @@ import org.dspace.app.xmlui.wing.element.TextArea;
 import org.dspace.authorize.AuthorizeException;
 import org.dspace.content.Collection;
 import org.dspace.content.DCDate;
+import org.dspace.content.DCPagenumber;
 import org.dspace.content.DCPersonName;
 import org.dspace.content.DCSeriesNumber;
 import org.dspace.content.DCValue;
@@ -230,6 +231,10 @@ public class DescribeStep extends AbstractSubmissionStep
                         {
                                 renderDateField(form, fieldName, dcInput, dcValues, readonly);
                         }
+                        else if (inputType.equals("pagenumber"))
+                        {
+                                renderPagenumberField(form, fieldName, dcInput, dcValues, readonly);
+                        }
                         else if (inputType.equals("series"))
                         {
                                 renderSeriesField(form, fieldName, dcInput, dcValues, readonly);
@@ -359,6 +364,7 @@ public class DescribeStep extends AbstractSubmissionStep
                         DCDate date = new DCDate(value.value);
                         displayValue = date.toString();
                     }
+                    
                     else if (inputType.equals("dropdown"))
                     {
                         displayValue = input.getDisplayString(pairsName,value.value);
@@ -423,7 +429,7 @@ public class DescribeStep extends AbstractSubmissionStep
         {
                 // The name field is a composite field containing two text fields, one
                 // for first name the other for last name.
-                Composite fullName = form.addItem().addComposite(fieldName, "submit-nameo");
+                Composite fullName = form.addItem().addComposite(fieldName, "submit-name");
                 Text lastName = fullName.addText(fieldName+"_last");
                 Text firstName = fullName.addText(fieldName+"_first");
 
@@ -626,6 +632,81 @@ public class DescribeStep extends AbstractSubmissionStep
                         {
                             day.setValue(String.valueOf(dcDate.getDay()));
                         }
+                }
+        }
+        
+        private void renderPagenumberField(List form, String fieldName, DCInput dcInput, DCValue[] dcValues, boolean readonly) throws WingException
+        {
+                
+                Composite pagenumber = form.addItem().addComposite(fieldName, "submit-pagenumber");
+                Text startPage = pagenumber.addText(fieldName+"_startPage");
+                Text endPage = pagenumber.addText(fieldName+"_endPage");
+
+                // Set up the full field
+                pagenumber.setLabel(dcInput.getLabel());
+                pagenumber.setHelp(cleanHints(dcInput.getHints()));
+                if (dcInput.isRequired())
+                {
+                    pagenumber.setRequired();
+                }
+                if (isFieldInError(fieldName))
+                {
+                    if (dcInput.getWarning() != null && dcInput.getWarning().length() > 0)
+                    {
+                        pagenumber.addError(dcInput.getWarning());
+                    }
+                    else
+                    {
+                        pagenumber.addError(T_required_field);
+                    }
+                }
+                if (dcInput.isRepeatable() && !readonly)
+                {
+                    pagenumber.enableAddOperation();
+                }
+                if ((dcInput.isRepeatable() || dcValues.length > 1) && !readonly)
+                {
+                    pagenumber.enableDeleteOperation();
+                }
+
+                if (readonly)
+                {
+                    startPage.setDisabled();
+                    endPage.setDisabled();
+                }
+                
+                // Setup the year field
+                //startPage.setLabel(T_year);
+                startPage.setLabel("Pagina Iniziale");
+                startPage.setSize(4,4);
+
+                // Setup the day field
+                //endPage.setLabel(T_day);
+                endPage.setLabel("Pagina Finale");
+                endPage.setSize(2,2);
+                
+                // Setup the field's values
+                if (dcInput.isRepeatable() || dcValues.length > 1)
+                {
+                        for (DCValue dcValue : dcValues)
+                        {
+                               // DCDate dcDate = new DCDate(dcValue.value);
+                                DCPagenumber dcPagenumber = new DCPagenumber(30, 40);
+
+                                startPage.addInstance().setValue(String.valueOf(dcPagenumber.getStartPage()));
+                               
+                                endPage.addInstance().setValue(String.valueOf(dcPagenumber.getEndPage()));
+                                pagenumber.addInstance().setValue(dcPagenumber.toString());
+                        }
+                }
+                else if (dcValues.length == 1)
+                {
+                       // DCDate dcDate = new DCDate(dcValues[0].value);
+                	 DCPagenumber dcPagenumber = new DCPagenumber(30, 40);
+
+                     startPage.setValue("30");
+                     endPage.setValue("40");
+                    
                 }
         }
         

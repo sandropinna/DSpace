@@ -27,6 +27,7 @@ import org.dspace.app.util.Util;
 import org.dspace.authorize.AuthorizeException;
 import org.dspace.content.Collection;
 import org.dspace.content.DCDate;
+import org.dspace.content.DCPagenumber;
 import org.dspace.content.DCPersonName;
 import org.dspace.content.DCSeriesNumber;
 import org.dspace.content.DCValue;
@@ -214,6 +215,10 @@ public class DescribeStep extends AbstractProcessingStep
             else if (inputType.equals("date"))
             {
                 readDate(request, item, schema, element, qualifier);
+            }
+            else if (inputType.equals("pagenumber"))
+            {
+                readPagenumber(request, item, schema, element, qualifier);
             }
             // choice-controlled input with "select" presentation type is
             // always rendered as a dropdown menu
@@ -805,6 +810,26 @@ public class DescribeStep extends AbstractProcessingStep
             // Only put in date if there is one!
             item.addMetadata(schema, element, qualifier, null, d.toString());
         }
+    }
+    
+    protected void readPagenumber(HttpServletRequest request, Item item, String schema,
+            String element, String qualifier) throws SQLException
+    {
+        String metadataField = MetadataField
+                .formKey(schema, element, qualifier);
+
+        int startPage = Util.getIntParameter(request, metadataField + "_startPage");
+        int endPage = Util.getIntParameter(request, metadataField + "_endPage");
+        
+
+        // FIXME: Probably should be some more validation
+        DCPagenumber dcPagenumber = new DCPagenumber(startPage, endPage);
+        
+
+        // already done in doProcessing see also bug DS-203
+        // item.clearMetadata(schema, element, qualifier, Item.ANY);
+        item.addMetadata(schema, element, qualifier, null, dcPagenumber.toString());
+        
     }
 
     /**
