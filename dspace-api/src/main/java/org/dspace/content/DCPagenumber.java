@@ -32,6 +32,10 @@ public class DCPagenumber
     }
     
     public DCPagenumber(String fromDC){
+    	if ((fromDC == null) || fromDC.equals(""))
+        {
+            return;
+        }
     	String[] tokens = fromDC.split("-");
     	this.startPage = Integer.parseInt(tokens[0]);
     	this.endPage = Integer.parseInt(tokens[1]);

@@ -710,13 +710,13 @@ public class DescribeStep extends AbstractSubmissionStep
                 	 if(dcPagenumber.getStartPage().equals(-1)){
                 		 startPage.setValue("");
                 	 }else{
-                		 startPage.setValue(dcPagenumber.getStartPage().toString());
+                		 startPage.setValue(String.valueOf(dcPagenumber.getStartPage()));
                 	 }
                 	 
                 	 if(dcPagenumber.getEndPage().equals(-1)){
                 		 endPage.setValue("");
                 	 }else{
-                		 endPage.setValue(dcPagenumber.getEndPage().toString());
+                		 endPage.setValue(String.valueOf(dcPagenumber.getEndPage()));
                 	 }
                 	
                     
