@@ -30,13 +30,23 @@ public class DCPagenumber
         this.startPage = startPage;
         this.endPage = endPage;
     }
+    
+    public DCPagenumber(String fromDC){
+    	String[] tokens = fromDC.split("-");
+    	this.startPage = Integer.parseInt(tokens[0]);
+    	this.endPage = Integer.parseInt(tokens[1]);
+    }
 
 
     
     public String toString()
     {
-        
-        return this.startPage + "-" + this.endPage;
+       String ret = "";
+      // if(this.startPage.equals(-1)&& this.endPage.equals(-1)){
+    	//   return ret;    	   
+       //}
+       ret =  this.startPage + "-" + this.endPage;
+       return ret;
     }
 
 

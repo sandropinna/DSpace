@@ -86,8 +86,12 @@ public class DescribeStep extends AbstractSubmissionStep
         message("xmlui.Submission.submit.DescribeStep.series_name");
     protected static final Message T_report_no=
         message("xmlui.Submission.submit.DescribeStep.report_no");
+    protected static final Message T_startPage=
+            message("xmlui.Submission.submit.DescribeStep.startPage");
+    protected static final Message T_endPage=
+            message("xmlui.Submission.submit.DescribeStep.endPage");
         
-        /**
+     /**
      * A shared resource of the inputs reader. The 'inputs' are the
      * questions we ask the user to describe an item during the
      * submission process. The reader is a utility class to read
@@ -675,15 +679,13 @@ public class DescribeStep extends AbstractSubmissionStep
                     endPage.setDisabled();
                 }
                 
-                // Setup the year field
-                //startPage.setLabel(T_year);
-                startPage.setLabel("Pagina Iniziale");
-                startPage.setSize(4,4);
+                // Setup the startPage field
+                startPage.setLabel(T_startPage);
+                //startPage.setSize(4,4);
 
-                // Setup the day field
-                //endPage.setLabel(T_day);
-                endPage.setLabel("Pagina Finale");
-                endPage.setSize(2,2);
+                // Setup the endPage field
+                endPage.setLabel(T_endPage);
+                //endPage.setSize(2,2);
                 
                 // Setup the field's values
                 if (dcInput.isRepeatable() || dcValues.length > 1)
@@ -701,11 +703,21 @@ public class DescribeStep extends AbstractSubmissionStep
                 }
                 else if (dcValues.length == 1)
                 {
-                       // DCDate dcDate = new DCDate(dcValues[0].value);
-                	 DCPagenumber dcPagenumber = new DCPagenumber(30, 40);
-
-                     startPage.setValue("30");
-                     endPage.setValue("40");
+                     // DCDate dcDate = new DCDate(dcValues[0].value);
+                	 DCPagenumber dcPagenumber = new DCPagenumber(dcValues[0].value);
+                	 
+                	 if(dcPagenumber.getStartPage().equals(-1)){
+                		 startPage.setValue("");
+                	 }else{
+                		 startPage.setValue(dcPagenumber.getStartPage().toString());
+                	 }
+                	 
+                	 if(dcPagenumber.getEndPage().equals(-1)){
+                		 endPage.setValue("");
+                	 }else{
+                		 endPage.setValue(dcPagenumber.getEndPage().toString());
+                	 }
+                	
                     
                 }
         }
