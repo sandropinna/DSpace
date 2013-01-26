@@ -693,12 +693,13 @@ public class DescribeStep extends AbstractSubmissionStep
                         for (DCValue dcValue : dcValues)
                         {
                                // DCDate dcDate = new DCDate(dcValue.value);
-                                DCPagenumber dcPagenumber = new DCPagenumber(30, 40);
+                                DCPagenumber dcPagenumber = new DCPagenumber(dcValue.value);
 
                                 startPage.addInstance().setValue(String.valueOf(dcPagenumber.getStartPage()));
                                
                                 endPage.addInstance().setValue(String.valueOf(dcPagenumber.getEndPage()));
-                                pagenumber.addInstance().setValue(dcPagenumber.toString());
+                                pagenumber.addInstance().setValue(dcPagenumber.toString());                 
+                                
                         }
                 }
                 else if (dcValues.length == 1)
