@@ -20,8 +20,8 @@ public class DCPagenumber
     /** Logger */
     private static Logger log = Logger.getLogger(DCPagenumber.class);
 
-   private Integer startPage;
-   private Integer endPage;
+   private Integer startPage = -1;
+   private Integer endPage = -1;
 
     
    
@@ -32,14 +32,13 @@ public class DCPagenumber
     }
     
     public DCPagenumber(String fromDC){
-    	System.out.println("-----FROM DC----: " + fromDC);
     	if ((fromDC == null) || fromDC.equals(""))
         {
             return;
         }
-    	String[] tokens = fromDC.split("-");
-    	this.startPage = Integer.parseInt(tokens[0]);
-    	this.endPage = Integer.parseInt(tokens[1]);
+    	int indiceseparatore = fromDC.indexOf('-', 1);
+		this.startPage = Integer.parseInt(fromDC.substring(0, indiceseparatore));
+		this.endPage = Integer.parseInt(fromDC.substring(indiceseparatore+1, fromDC.length()));
     }
 
 
