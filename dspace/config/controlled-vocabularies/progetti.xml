@@ -25,42 +25,42 @@ The Norwegian Science Index
 		
 		<node id="300" label="Progetto Cluster">
 			<isComposedBy>
-				<node id="210" label="Archiviazione e distribuzione digitale di modelli 3D complessi"/>				
-				<node id="220" label="Biomedicina e Tecnologie per la Salute" >
+				<node id="310" label="Archiviazione e distribuzione digitale di modelli 3D complessi"/>				
+				<node id="320" label="Biomedicina e Tecnologie per la Salute" >
 					<isComposedBy>
-						<node id="221" label="Bioinformatica" />
+						<node id="321" label="Bioinformatica" />
 						<node id="322" label="Drug Delivery" />
 					</isComposedBy>
 				</node>				
-				<node id="290" label="Biosensori per sistemi diagnostici" />				
-				<node id="310" label="Caratterizzazione e shelf life di birre prodotte in microbirrifici e birrerie artigianali" />
-				<node id="310" label="Contenuti, format e applicazioni per i nuovi media" />
-				<node id="310" label="Energia da biomasse e biocombustibili in Sardegna" />
-				<node id="310" label="EnoWireless: reti di sensori per la viticoltura" />
-				<node id="310" label="FLOSS" />
-				<node id="310" label="Genotipizzazione ed espressione genica negli ovini" />
-				<node id="310" label="Green chemistry: ottenimento di biomolecole con metodi ecocompatibili" />
-				<node id="310" label="Intelligenza d'ambiente. Tecnologie e applicazioni" />
-				<node id="310" label="Mashup e Geo-Web: nuove idee per il Web 2.0" />
-				<node id="310" label="Media center aperto: dall'entertainment all'home automation" />
-				<node id="310" label="Metabolomica per prodotti diagnostici e per la tracciabilità dei prodotti agro-alimentari" />
-				<node id="310" label="Multi-touch, superfici interattive & tangible user interfaces" />
-				<node id="310" label="OSS-ERP: Open source software - Enterprise resource planning" />
-				<node id="310" label="Opportunità del software libero" />
-				<node id="310" label="Processamento geometrico e produzione di modelli tangibili" />
-				<node id="310" label="Protocolli e metodologie proteomiche per prodotti diagnostici, terapeutici e profilattici" />
-				<node id="310" label="Protocolli per la qualità e la tracciabilità dei prodotti ittici" />
-				<node id="310" label="Radioattività nei materiali da costruzione" />
-				<node id="310" label="Recupero dell'oro dei rifiuti elettrici ed elettronici" />
-				<node id="310" label="Sardinia Hike and Bike" />
-				<node id="310" label="Sfarinati di grano duro: valorizzazione della materia prima per prodotti tradizionali" />
-				<node id="310" label="Solare fotovoltaico in Sardegna" />
-				<node id="310" label="Sviluppo e utilizzo di nanodevice" />
-				<node id="310" label="TV collaborativa multipiattaforma: tecnologie e applicazioni" />
-				<node id="310" label="Tecnologia di scansione 3D" />
-				<node id="310" label="Tipizzazione genetica della popolazione sarda" />
-				<node id="310" label="Utilizzo delle nuove tecnologie per la progettazione e prototipazione rapida" />
-				<node id="310" label="Utilizzo di scarti industriali e materie prime secondarie" />
+				<node id="330" label="Biosensori per sistemi diagnostici" />				
+				<node id="340" label="Caratterizzazione e shelf life di birre prodotte in microbirrifici e birrerie artigianali" />
+				<node id="350" label="Contenuti, format e applicazioni per i nuovi media" />
+				<node id="360" label="Energia da biomasse e biocombustibili in Sardegna" />
+				<node id="370" label="EnoWireless: reti di sensori per la viticoltura" />
+				<node id="380" label="FLOSS" />
+				<node id="390" label="Genotipizzazione ed espressione genica negli ovini" />
+				<node id="400" label="Green chemistry: ottenimento di biomolecole con metodi ecocompatibili" />
+				<node id="410" label="Intelligenza d'ambiente. Tecnologie e applicazioni" />
+				<node id="420" label="Mashup e Geo-Web: nuove idee per il Web 2.0" />
+				<node id="430" label="Media center aperto: dall'entertainment all'home automation" />
+				<node id="440" label="Metabolomica per prodotti diagnostici e per la tracciabilità dei prodotti agro-alimentari" />
+				<node id="450" label="Multi-touch, superfici interattive & tangible user interfaces" />
+				<node id="460" label="OSS-ERP: Open source software - Enterprise resource planning" />
+				<node id="470" label="Opportunità del software libero" />
+				<node id="480" label="Processamento geometrico e produzione di modelli tangibili" />
+				<node id="490" label="Protocolli e metodologie proteomiche per prodotti diagnostici, terapeutici e profilattici" />
+				<node id="500" label="Protocolli per la qualità e la tracciabilità dei prodotti ittici" />
+				<node id="510" label="Radioattività nei materiali da costruzione" />
+				<node id="520" label="Recupero dell'oro dei rifiuti elettrici ed elettronici" />
+				<node id="530" label="Sardinia Hike and Bike" />
+				<node id="540" label="Sfarinati di grano duro: valorizzazione della materia prima per prodotti tradizionali" />
+				<node id="550" label="Solare fotovoltaico in Sardegna" />
+				<node id="560" label="Sviluppo e utilizzo di nanodevice" />
+				<node id="570" label="TV collaborativa multipiattaforma: tecnologie e applicazioni" />
+				<node id="580" label="Tecnologia di scansione 3D" />
+				<node id="590" label="Tipizzazione genetica della popolazione sarda" />
+				<node id="600" label="Utilizzo delle nuove tecnologie per la progettazione e prototipazione rapida" />
+				<node id="610" label="Utilizzo di scarti industriali e materie prime secondarie" />
 			</isComposedBy>
 		</node>		
 	</isComposedBy>
