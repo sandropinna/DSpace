@@ -34,11 +34,24 @@ public class DCPagenumber
     public DCPagenumber(String fromDC){
     	if ((fromDC == null) || fromDC.equals(""))
         {
-            return;
+            this.startPage = -1;
+            this.endPage = -1;
+        }else{
+        	int indiceseparatore = fromDC.indexOf('-');
+        	String sStartPage = fromDC.substring(0, indiceseparatore);
+        	try{
+        		this.startPage = Integer.parseInt(sStartPage);
+        	}catch(Exception ex){
+        		this.startPage = -1;
+        	}
+        	String sEndPage = fromDC.substring(indiceseparatore+1, fromDC.length());
+        	try{
+        		this.endPage = Integer.parseInt(sEndPage);
+        	}catch(Exception ex){
+        		this.endPage = -1;
+        	}	
         }
-    	int indiceseparatore = fromDC.indexOf('-', 1);
-		this.startPage = Integer.parseInt(fromDC.substring(0, indiceseparatore));
-		this.endPage = Integer.parseInt(fromDC.substring(indiceseparatore+1, fromDC.length()));
+    	
     }
 
 
@@ -46,10 +59,25 @@ public class DCPagenumber
     public String toString()
     {
        String ret = "";
-      // if(this.startPage.equals(-1)&& this.endPage.equals(-1)){
-    	//   return ret;    	   
-       //}
-       ret =  this.startPage + "-" + this.endPage;
+       String sStartPage = "";
+       String sEndPage = "";
+      
+      if(this.getStartPage().equals(-1)){
+    	  sStartPage = "";
+      }else{
+    	  sStartPage = this.getStartPage().toString();
+      }
+      if(this.getEndPage().equals(-1)){
+    	  sEndPage = "";
+      }else{
+    	  sEndPage = this.getEndPage().toString();
+      }
+      
+      if(this.getStartPage().equals(-1) && this.getEndPage().equals(-1)){
+    	  ret = "";
+      }else{
+    	  ret = sStartPage + "-" + sEndPage;
+      }
        return ret;
     }
 
