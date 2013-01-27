@@ -378,19 +378,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
      
-     <!--  
-     <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>pagenumber</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Da pagina a pagina</label>
-         <input-type>onebox</input-type>
-         <hint>Inserire pagina iniziale-pagina finale (Esempio 20-30)</hint>
-         <required></required>
-       </field>
-       -->
-       
+          
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
@@ -402,6 +390,17 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Progetti</label>
+         <input-type>onebox</input-type>
+         <hint>Scegliere il progetto </hint>
+         <required></required>
+         <vocabulary [closed = "false"]>progetti</vocabulary>
+       </field>       
      </page>
      
 
