@@ -32,6 +32,7 @@ public class DCPagenumber
     }
     
     public DCPagenumber(String fromDC){
+    	System.out.println("-----FROM DC----: " + fromDC);
     	if ((fromDC == null) || fromDC.equals(""))
         {
             return;
