@@ -735,7 +735,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data fine progetto</label>
          <input-type>date</input-type>
          <hint>Inserisci la data di fine del progetto</hint>
-         <required>Devi inserire almeno l'anno</required>
+         <required></required>
      </field>
        
       <field>
