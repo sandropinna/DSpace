@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-The Norwegian Science Index
--->
 
 <node id="VDP" label="Finanziamenti">
 	<isComposedBy>
 		<node id="000" label="Accordo di Programma Quadro (APQ)">
 			<isComposedBy>
-				<node id="010" label="ICT SIAI101">					
-				</node>
+				<node id="010" label="ICT SIAI101"/>					
 			</isComposedBy>
 		</node>
 		
-		<node id="200" label="Fondi Sardegna Ricerche">
-			
-		</node>
-		<node id="300" label="Fondo Consortile - Sardegna Ricerche">
-			
-		</node>
-		<node id="400" label="MIUR">
-			
-		</node>
-		<node id="500" label="Piano del Lavoro - RAS">
-			
-		</node>
+		<node id="200" label="Fondi Sardegna Ricerche"/>			
 		
+		<node id="300" label="Fondo Consortile - Sardegna Ricerche"/>			
 		
+		<node id="400" label="MIUR"/>
+		
+		<node id="500" label="Piano del Lavoro - RAS"/>
+		
+		<node id="600" label="POR Sardegna 2007-2013"/>
+		
+		<node id="700" label="POR Sardegna 2000-2006">
+			<isComposedBy>
+				<node id="800" label="Misura 3.13"/>
+				<node id="900" label="Misura 4.2"/>			 
+			</isComposedBy>			
+		</node>		
 	</isComposedBy>
 </node>
