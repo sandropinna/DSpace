@@ -2902,7 +2902,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzaione del documento</hint>
+         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
