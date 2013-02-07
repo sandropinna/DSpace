@@ -476,6 +476,28 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
          <required></required>
        </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>embargoEnd</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data Fine Embargo</label>
+         <input-type>date</input-type>
+         <hint>Inserisci la data di fine embargo</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>embargo</dc-element>
+         <dc-qualifier>description</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Motivazione Embargo</label>
+         <input-type>textarea</input-type>
+         <hint>Inserisci le motivazioni dell'embargo</hint>
+         <required></required>
+       </field>
      </page>
    </form>
 
