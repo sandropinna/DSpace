@@ -399,9 +399,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
          <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
          <required></required>
-       </field>  
-     
-         
+       </field>           
      </page>
      
 
@@ -483,7 +481,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>embargoEnd</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Data Fine Embargo</label>
-         <input-type>date</input-type>
+         <input-type>onebox</input-type>
          <hint>Inserisci la data di fine embargo</hint>
          <required></required>
        </field>
