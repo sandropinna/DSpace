@@ -475,6 +475,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
+       <!--  
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>date</dc-element>
@@ -482,7 +483,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data Fine Embargo</label>
          <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo</hint>
+         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
          <required></required>
        </field>
        
@@ -496,6 +497,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <hint>Inserisci le motivazioni dell'embargo</hint>
          <required></required>
        </field>
+       
+       -->
      </page>
    </form>
 

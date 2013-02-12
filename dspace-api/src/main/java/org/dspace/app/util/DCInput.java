@@ -104,6 +104,7 @@ public class DCInput
         repeatable = "true".equalsIgnoreCase(repStr)
                 || "yes".equalsIgnoreCase(repStr);
         label = fieldMap.get("label");
+        
         inputType = fieldMap.get("input-type");
         // these types are list-controlled
         if ("dropdown".equals(inputType) || "qualdrop_value".equals(inputType)

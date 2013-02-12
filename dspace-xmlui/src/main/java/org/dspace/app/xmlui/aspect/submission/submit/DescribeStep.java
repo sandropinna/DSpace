@@ -774,7 +774,8 @@ public class DescribeStep extends AbstractSubmissionStep
                 {
                     fullSeries.enableDeleteOperation();
                 }
-
+                
+                
                 series.setLabel(T_series_name);
                 number.setLabel(T_report_no);
 
