@@ -96,7 +96,8 @@ public class EmbargoManager
         {
             context.setIgnoreAuthorization(true);
             item.clearMetadata(lift_schema, lift_element, lift_qualifier, Item.ANY);
-            item.addMetadata(lift_schema, lift_element, lift_qualifier, null, slift);
+           // item.addMetadata(lift_schema, lift_element, lift_qualifier, null, slift);
+            item.addMetadata("dc", "date", "embargoend", null, slift);
             log.info("Set embargo on Item "+item.getHandle()+", expires on: "+slift);
 
             setter.setEmbargo(context, item);
