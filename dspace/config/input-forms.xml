@@ -475,11 +475,11 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <!--  
+         
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>date</dc-element>
-         <dc-qualifier>embargoEnd</dc-qualifier>
+         <dc-qualifier>embargoend</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Data Fine Embargo</label>
          <input-type>onebox</input-type>
@@ -498,7 +498,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       -->
+       
      </page>
    </form>
 
@@ -1674,16 +1674,27 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
+      <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
-         <dc-qualifier>ispartofseries</dc-qualifier>
+         <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Titolo della serie/Volume</label>
-         <input-type>series</input-type>
-         <hint>Inserisci il titolo della serie a cui appartiene in documento e il numero del volume</hint>
+         <label>Titolo della serie</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolo della serie a cui appartiene il documento</hint>
          <required></required>
-       </field>      
+        </field>
+        
+         <field>
+         	<dc-schema>dc</dc-schema>
+         	<dc-element>relation</dc-element>
+         	<dc-qualifier>ispartofseries</dc-qualifier>
+         	<repeatable>false</repeatable>
+         	<label>Volume/Numero</label>
+         	<input-type>series</input-type>
+         	<hint>Inserisci il numero del volume e il numero del fascicolo</hint>
+         <required></required>
+       </field>         
        
               
       
@@ -1908,11 +1919,22 @@ it, please enter the types and the actual numbers or codes below.</hint>
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
-         <dc-qualifier>ispartofseries</dc-qualifier>
+         <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Titolo della serie/Volume</label>
-         <input-type>series</input-type>
-         <hint>Inserisci il titolo della serie a cui appartiene in documento e il numero del volume</hint>
+         <label>Titolo della serie</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolo della serie a cui appartiene il documento</hint>
+         <required></required>
+        </field>
+        
+         <field>
+         	<dc-schema>dc</dc-schema>
+         	<dc-element>relation</dc-element>
+         	<dc-qualifier>ispartofseries</dc-qualifier>
+         	<repeatable>false</repeatable>
+         	<label>Volume/Numero</label>
+         	<input-type>series</input-type>
+         	<hint>Inserisci il numero del volume e il numero del fascicolo</hint>
          <required></required>
        </field>      
        
@@ -2140,7 +2162,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Inserire il numero del volume</hint>
          <required></required>
-       </field>
+       </field>      
+       
        
        <field>
          <dc-schema>dc</dc-schema>
