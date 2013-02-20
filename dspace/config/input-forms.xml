@@ -117,9 +117,9 @@
          <dc-element>identifier</dc-element>
          <dc-qualifier>citation</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Citation</label>
+         <label>Citazione</label>
          <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
          <required></required>
        </field>
 
@@ -339,9 +339,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>identifier</dc-element>
          <dc-qualifier>citation</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Citation</label>
+         <label>Citazione</label>
          <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
          <required></required>
        </field>
 
@@ -421,7 +421,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -650,7 +650,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -842,7 +842,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -1003,7 +1003,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -1174,7 +1174,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -1345,7 +1345,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -1527,7 +1527,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -1715,9 +1715,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>identifier</dc-element>
          <dc-qualifier>citation</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Citation</label>
+         <label>Citazione</label>
          <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
          <required></required>
        </field>
 
@@ -1769,7 +1769,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -1957,9 +1957,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>identifier</dc-element>
          <dc-qualifier>citation</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Citation</label>
+         <label>Citazione</label>
          <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
          <required></required>
        </field>         
 
@@ -2006,7 +2006,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -2193,9 +2193,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>identifier</dc-element>
          <dc-qualifier>citation</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Citation</label>
+         <label>Citazione</label>
          <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
          <required></required>
        </field>
 
@@ -2268,7 +2268,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -2450,7 +2450,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -2633,7 +2633,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -2816,7 +2816,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -2979,7 +2979,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
 	  <field>
          <dc-schema>dc</dc-schema>
          <dc-element>identifier</dc-element>
-         <dc-qualifier>other</dc-qualifier>
+         <dc-qualifier>patentnumber</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Numero di pubblicazione</label>
          <input-type>onebox</input-type>
@@ -3033,7 +3033,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci una breve descrizione del contenuto del documento</hint>
@@ -3118,7 +3118,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci l'indicazione dei beni e/o servizi secondo la classificazione di Nizza e se si tratta di marchio collettivo o individuale</hint>
@@ -3289,7 +3289,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
          <hint>Inserisci l'indicazione di prodotto secondo la classificazione di Locarno</hint>
