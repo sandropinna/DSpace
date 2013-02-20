@@ -333,17 +333,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <hint>Inserisci il nome dell'editore</hint>
          <required></required>
        </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>identifier</dc-element>
-         <dc-qualifier>citation</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Citazione</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
-         <required></required>
-       </field>
+       
 
        <field>
          <dc-schema>dc</dc-schema>
@@ -366,7 +356,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>pagenumber</input-type>
          <hint>Inserisci gli estremi delle pagine iniziali e finali del documento </hint>
          <required></required>
-       </field>
+       </field> 
+       
      
      <field>
          <dc-schema>dc</dc-schema>
@@ -377,7 +368,18 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Inserire il numero identificativo di questo documento</hint>
          <required></required>
-       </field>          
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>citation</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Citazione</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
+         <required></required>
+       </field>         
 
        <field>
          <dc-schema>dc</dc-schema>
@@ -1719,11 +1721,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
          <required></required>
-       </field>
-
-             
-          
-         
+       </field>        
 
        <field>
          <dc-schema>dc</dc-schema>
@@ -2185,32 +2183,29 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Inserisci l'identificatore standard per le pubblicazioni monografiche</hint>
          <required></required>
-       </field> 
-       
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>identifier</dc-element>
-         <dc-qualifier>citation</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Citazione</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
-         <required></required>
-       </field>
+       </field>       
 
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
-         <dc-qualifier>ispartofseries</dc-qualifier>
+         <dc-qualifier>volume</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Volume/Numero</label>
-         <input-type>series</input-type>
-         <hint>Inserisci il numero del volume e il numero del fascicolo</hint>
+         <label>Titolo della serie</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolo della serie a cui appartiene la pubblicazione</hint>
          <required></required>
        </field>
        
-          
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier>issue</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Numero del fascicolo</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il numero del fascicolo</hint>
+         <required></required>
+       </field>           
       
      
      <field>
@@ -2222,7 +2217,18 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Inserire il numero identificativo di questo documento</hint>
          <required></required>
-       </field>          
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>citation</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Citazione</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la citazione standard del documento se conosciuta.</hint>
+         <required></required>
+       </field>         
 
        <field>
          <dc-schema>dc</dc-schema>

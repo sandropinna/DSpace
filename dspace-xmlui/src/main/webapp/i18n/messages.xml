@@ -648,7 +648,7 @@
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">Report or paper No.</message>
 	<message key="xmlui.Submission.submit.DescribeStep.startPage">Pagina Iniziale</message>
 	<message key="xmlui.Submission.submit.DescribeStep.endPage">Pagina Finale</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Subject Categories</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Seleziona una voce dall'albero</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Subject Categories</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Filter subjects</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filter</message>
