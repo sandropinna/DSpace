@@ -67,6 +67,7 @@
                     <tr>
                         <td colspan="4">
                             <p><i18n:text>xmlui.dri2xhtml.METS-1.0.item-no-files</i18n:text></p>
+                            <p>Link al documento originale nel sito del Crs4:</p>
                         </td>
                     </tr>
                 </table>
