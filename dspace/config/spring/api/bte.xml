@@ -102,6 +102,12 @@
 					</key>
 					<ref bean="issnDSpaceMetadata" />
 				</entry>
+				<entry>
+					<key>
+						<value>url</value>
+					</key>
+					<ref bean="urlDSpaceMetadata" />
+				</entry>
 			</map>
 		</constructor-arg>
 	</bean>
@@ -173,5 +179,10 @@
 	<bean id="issnDSpaceMetadata" class="gr.ekt.transformationengine.dspace.DSpaceMetadata">
 		<property name="schema" value="dc" />
 		<property name="element" value="identifier" />
+	</bean>
+	<bean id="urlDSpaceMetadata" class="gr.ekt.transformationengine.dspace.DSpaceMetadata">
+		<property name="schema" value="dc" />
+		<property name="element" value="relation" />
+		<property name="qualifier" value="uri" />
 	</bean>
 </beans> 
