@@ -68,31 +68,31 @@
 			<map>
 				<entry>
 					<key>
-						<value>Title</value>
+						<value>title</value>
 					</key>
 					<ref bean="titleDSpaceMetadata" />
 				</entry>
 				<entry>
 					<key>
-						<value>Type</value>
+						<value>type</value>
 					</key>
 					<ref bean="typeDSpaceMetadata" />
 				</entry>
 				<entry>
 					<key>
-						<value>Author</value>
+						<value>author</value>
 					</key>
 					<ref bean="authorDSpaceMetadata" />
 				</entry>
 				<entry>
 					<key>
-						<value>Journal</value>
+						<value>journal</value>
 					</key>
 					<ref bean="sourceDSpaceMetadata" />
 				</entry>
 				<entry>
 					<key>
-						<value>Year</value>
+						<value>year</value>
 					</key>
 					<ref bean="dateDSpaceMetadata" />
 				</entry>
