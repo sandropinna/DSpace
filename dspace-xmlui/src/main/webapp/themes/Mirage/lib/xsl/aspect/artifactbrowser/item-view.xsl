@@ -58,7 +58,7 @@
             
                
             <!-- relation.uri row -->
-          <xsl:when test="(dim:field[@element='relation' and @qualifier='uri'])">
+          <xsl:when test="count(dim:field[@element='relation' and @qualifier='uri']) != 0">
                     <div class="simple-item-view-other">
 	                <span class="bold">Link al sito CRS4:</span>
 	                <span>
