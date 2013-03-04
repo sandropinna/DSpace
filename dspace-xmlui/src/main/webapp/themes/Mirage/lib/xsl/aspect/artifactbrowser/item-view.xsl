@@ -73,7 +73,7 @@
                     </tr>
                     
                     <div class="simple-item-view-other">
-	                <span class="bold">Link al documento originale:</i18n:text>:</span>
+	                <span class="bold">Link al documento originale:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='relation' and @qualifier='uri']">
 		                    <a>
