@@ -55,31 +55,7 @@
             <xsl:when test="./mets:fileSec/mets:fileGrp[@USE='ORE']">
                 <xsl:apply-templates select="./mets:fileSec/mets:fileGrp[@USE='ORE']"/>
             </xsl:when>
-            
-               
-            <!-- relation.uri row -->
-          <xsl:when test="count(dim:field[@element='relation' and @qualifier='uri']) != 0">
-                    <div class="simple-item-view-other">
-	                <span class="bold">Link al sito CRS4:</span>
-	                <span>
-	                	<xsl:for-each select="dim:field[@element='relation' and @qualifier='uri']">
-		                    <a>
-		                        <xsl:attribute name="href">
-		                            <xsl:copy-of select="./node()"/>
-		                        </xsl:attribute>
-		                        <xsl:copy-of select="./node()"/>
-		                    </a>
-		                    <xsl:if test="count(following-sibling::dim:field[@element='relation' and @qualifier='uri']) != 0">
-		                    	<br/>
-		                    </xsl:if>
-	                    </xsl:for-each>
-	                </span>
-	            </div>              
-          </xsl:when>
-            
-            
-            
-            
+                    
             <xsl:otherwise>
                 <h2><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-head</i18n:text></h2>
                 <table class="ds-table file-list">
@@ -227,6 +203,28 @@
 	                    </xsl:for-each>
 	                </span>
 	            </div>
+	            
+	            <!-- CRS4 -->
+	            <div class="simple-item-view-other">
+	                <span class="bold">URL CRS4:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='relation' and @qualifier='uri']">
+		                    <a>
+		                        <xsl:attribute name="href">
+		                            <xsl:copy-of select="./node()"/>
+		                        </xsl:attribute>
+		                        <xsl:copy-of select="./node()"/>
+		                    </a>
+		                    <xsl:if test="count(following-sibling::dim:field[@element='relation' and @qualifier='uri']) != 0">
+		                    	<br/>
+		                    </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>	            
+	            
+	            
+	            
+	            
               <xsl:call-template name="itemSummaryView-DIM-fields">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
