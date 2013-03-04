@@ -55,6 +55,8 @@
             <xsl:when test="./mets:fileSec/mets:fileGrp[@USE='ORE']">
                 <xsl:apply-templates select="./mets:fileSec/mets:fileGrp[@USE='ORE']"/>
             </xsl:when>
+            
+            
             <xsl:otherwise>
                 <h2><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-head</i18n:text></h2>
                 <table class="ds-table file-list">
@@ -66,10 +68,29 @@
                     </tr>
                     <tr>
                         <td colspan="4">
-                            <p><i18n:text>xmlui.dri2xhtml.METS-1.0.item-no-files</i18n:text></p>
-                            <p>Link al documento originale nel sito del Crs4:</p>
+                            <p><i18n:text>xmlui.dri2xhtml.METS-1.0.item-no-files</i18n:text></p>                            
                         </td>
                     </tr>
+                    
+                    <div class="simple-item-view-other">
+	                <span class="bold">Link al documento originale:</i18n:text>:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='relation' and @qualifier='uri']">
+		                    <a>
+		                        <xsl:attribute name="href">
+		                            <xsl:copy-of select="./node()"/>
+		                        </xsl:attribute>
+		                        <xsl:copy-of select="./node()"/>
+		                    </a>
+		                    <xsl:if test="count(following-sibling::dim:field[@element='relation' and @qualifier='uri']) != 0">
+		                    	<br/>
+		                    </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>
+                    
+                    
+                    
                 </table>
             </xsl:otherwise>
         </xsl:choose>
