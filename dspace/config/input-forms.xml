@@ -3933,12 +3933,164 @@ it, please enter the types and the actual numbers or codes below.</hint>
      </pair>
    </value-pairs>
    
+   <value-pairs value-pairs-name="common_types_articolo" dc-term="type">
+     <pair>
+       <displayed-value>Articolo</displayed-value>
+       <stored-value>Articolo</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_contributo_a_convegno" dc-term="type">
+     <pair>
+       <displayed-value>Contributo a convegno</displayed-value>
+       <stored-value>Contributo a convegno</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_scheda_progetto" dc-term="type">
+     <pair>
+       <displayed-value>Scheda Progetto</displayed-value>
+       <stored-value>Scheda progetto</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_report" dc-term="type">
+     <pair>
+       <displayed-value>Report</displayed-value>
+       <stored-value>Report</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_catalogo" dc-term="type">
+     <pair>
+       <displayed-value>Catalogo</displayed-value>
+       <stored-value>Catalogo</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_manuale" dc-term="type">
+     <pair>
+       <displayed-value>Manuale</displayed-value>
+       <stored-value>Manuale</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_working_paper" dc-term="type">
+     <pair>
+       <displayed-value>Working Paper</displayed-value>
+       <stored-value>Working Paper</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_libro" dc-term="type">
+     <pair>
+       <displayed-value>Libro</displayed-value>
+       <stored-value>Libro</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_contributo_in_un_libro" dc-term="type">
+     <pair>
+       <displayed-value>Contributo in un libro</displayed-value>
+       <stored-value>Contributo in un libro</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_atti_di_convegno" dc-term="type">
+     <pair>
+       <displayed-value>Atti di convegno</displayed-value>
+       <stored-value>Atti di convegno</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_tesi" dc-term="type">
+     <pair>
+       <displayed-value>Tesi</displayed-value>
+       <stored-value>Tesi</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_altro" dc-term="type">
+     <pair>
+       <displayed-value>Altro</displayed-value>
+       <stored-value>Altro</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_video" dc-term="type">
+     <pair>
+       <displayed-value>Video</displayed-value>
+       <stored-value>Video</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_brevetto" dc-term="type">
+     <pair>
+       <displayed-value>Brevetto</displayed-value>
+       <stored-value>Brevetto</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_marchio_registrato" dc-term="type">
+     <pair>
+       <displayed-value>Marchio registrato</displayed-value>
+       <stored-value>Marchio registrato</stored-value>
+     </pair>     
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types_design_registrato" dc-term="type">
+     <pair>
+       <displayed-value>Design registrato</displayed-value>
+       <stored-value>Design registrato</stored-value>
+     </pair>     
+   </value-pairs>
    
    
    
+    <value-pairs value-pairs-name="istituzioni" dc-term="contributor">
+     <pair>
+       <displayed-value>Sardegna Ricerche</displayed-value>
+       <stored-value>Sardegna Ricerche</stored-value>
+     </pair>  
+     <pair>
+       <displayed-value>CRS4</displayed-value>
+       <stored-value>CRS4</stored-value>
+     </pair>  
+     <pair>
+       <displayed-value>Porto Conte Ricerche</displayed-value>
+       <stored-value>Porto Conte Ricerche</stored-value>
+     </pair>  
+     <pair>
+       <displayed-value>CNR</displayed-value>
+       <stored-value>CNR</stored-value>
+     </pair>     
+   </value-pairs>
    
+   <value-pairs value-pairs-name="status_pubblicazione" dc-term="description_status">
+     <pair>
+       <displayed-value>Pubblicato</displayed-value>
+       <stored-value>Pubblicato</stored-value>
+     </pair>  
+     <pair>
+       <displayed-value>In corso di stampa</displayed-value>
+       <stored-value>In corso di stampa</stored-value>
+     </pair>  
+   </value-pairs>
    
-   
+   <value-pairs value-pairs-name="status_pubblicazione_3" dc-term="description_status">
+     <pair>
+       <displayed-value>Pubblicato</displayed-value>
+       <stored-value>Pubblicato</stored-value>
+     </pair>  
+     <pair>
+       <displayed-value>In corso di stampa</displayed-value>
+       <stored-value>In corso di stampa</stored-value>
+     </pair> 
+     <pair>
+       <displayed-value>Inedito</displayed-value>
+       <stored-value>Inedito</stored-value>
+     </pair>  
+   </value-pairs>  
    
 
    <!-- default language order: (from dspace 1.2.1)
