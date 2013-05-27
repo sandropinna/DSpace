@@ -16,8 +16,11 @@
  <form-map>
    <name-map collection-handle="default" form-name="traditional" />
    <name-map collection-handle="11050/5" form-name="altro" />
+   <name-map collection-handle="11050/32" form-name="altro" />
    <name-map collection-handle="11050/6" form-name="articolo" />
+   <name-map collection-handle="11050/33" form-name="articolo" />
    <name-map collection-handle="11050/7" form-name="atti_di_convegno" /> 
+   <name-map collection-handle="11050/34" form-name="atti_di_convegno" /> 
    <name-map collection-handle="11050/8" form-name="brevetto" />
    <name-map collection-handle="11050/9" form-name="catalogo" />
    <name-map collection-handle="11050/10" form-name="contributo_a_convegno" />
