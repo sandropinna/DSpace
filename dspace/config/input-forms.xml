@@ -396,7 +396,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -680,7 +680,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -942,7 +942,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -1183,7 +1183,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -1377,7 +1377,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -1604,7 +1604,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -1898,7 +1898,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -2101,7 +2101,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -2361,7 +2361,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -2554,7 +2554,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -2749,7 +2749,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -2943,7 +2943,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -3351,7 +3351,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -3556,7 +3556,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
@@ -3760,7 +3760,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>
        </field>
 
