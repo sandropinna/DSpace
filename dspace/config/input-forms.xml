@@ -350,7 +350,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -634,7 +634,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -896,7 +896,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -1137,7 +1137,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -1331,7 +1331,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -1558,7 +1558,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -1852,7 +1852,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -1983,7 +1983,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!-- <vocabulary>srsc</vocabulary>  -->
        </field> 
        
        <field>
@@ -2315,7 +2315,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -2508,7 +2508,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -2641,7 +2641,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+        <!--  <vocabulary>srsc</vocabulary>  -->
        </field> 
        
        <field>
@@ -2897,7 +2897,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -3111,7 +3111,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -3305,7 +3305,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -3510,7 +3510,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -3714,7 +3714,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>twobox</input-type>
          <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!--  <vocabulary>srsc</vocabulary>   -->
        </field>
 
        <field>
@@ -3819,6 +3819,10 @@ it, please enter the types and the actual numbers or codes below.</hint>
      <pair>
        <displayed-value>ISSN</displayed-value>
        <stored-value>issn</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>EISSN</displayed-value>
+       <stored-value>eissn</stored-value>
      </pair>
      <pair>
        <displayed-value>Other</displayed-value>
