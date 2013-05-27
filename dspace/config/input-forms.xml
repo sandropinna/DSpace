@@ -2004,20 +2004,42 @@ it, please enter the types and the actual numbers or codes below.</hint>
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
-         <dc-qualifier>inventor</dc-qualifier>
+         <dc-qualifier>inventorperson</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Autore</label>
+         <label>Autore (Persona fisica)</label>
          <input-type>name</input-type>
-         <hint>Inserisci il nome(i) dell'(degli) autore(i) (disegnatore o progettista) o del collettivo di autori, ovvero campo n. 72</hint>
+         <hint>Inserisci il nome(i) dell'(degli) autore(i) (disegnatore o progettista) ovvero campo n. 72</hint>
          <required></required>
        </field>   
        
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
+         <dc-qualifier>inventororganisation</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Autore (Organizzazione)</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il collettivo di autori ovvero campo n. 72</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Titolare</label>
+         <label>Titolare (Persona fisica)</label>
+         <input-type>name</input-type>
+         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
+         <required></required>
+       </field>  
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Organizzazione)</label>
          <input-type>onebox</input-type>
          <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
          <required></required>
@@ -2663,11 +2685,22 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Titolare</label>
+         <label>Titolare (Persona fisica)</label>
+         <input-type>name</input-type>
+         <hint>Inserisci il titolare del marchio non il mandatario</hint>
+         <required></required>
+       </field>   
+      
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Organizzazione)</label>
          <input-type>onebox</input-type>
          <hint>Inserisci il titolare del marchio non il mandatario</hint>
          <required></required>
-       </field>     
+       </field>    
        
        
        <field>
