@@ -67,74 +67,82 @@ Progetti
 			</isComposedBy>
 		</node>		
 		<node id="300" label="Progetto Pilota">
-			<node id="301" label="Erbe Officinali" />
-			<node id="302" label="Innovazione e tecnologia nel settore lapideo " />
-			<node id="303" label="L'innovazione nella tradizione: individuazione di nuove linee di gioielli da realizzare con tecniche di lavorazione tradizionali" />
-			<node id="304" label="La valorizzazione delle produzioni di pane tipico Coccoi e Moddizzosu" />
-			<node id="305" label="Optitec" />
-			<node id="306" label="Programma di realizzazione in partnership di progettazione di prototipazione e sperimentazione della prov. di Nuoro" />
+			<isComposedBy>
+				<node id="301" label="Erbe Officinali" />
+				<node id="302" label="Innovazione e tecnologia nel settore lapideo " />
+				<node id="303" label="L'innovazione nella tradizione: individuazione di nuove linee di gioielli da realizzare con tecniche di lavorazione tradizionali" />
+				<node id="304" label="La valorizzazione delle produzioni di pane tipico Coccoi e Moddizzosu" />
+				<node id="305" label="Optitec" />
+				<node id="306" label="Programma di realizzazione in partnership di progettazione di prototipazione e sperimentazione della prov. di Nuoro" />
 			
-			<node id="307" label="Stabilizzazione" >
-				<isComposedBy>
-					<node id="309" label="Impiego di Alte Pressioni Idrostatiche per il prolungamento della shelf life di formaggi freschi" />
-					<node id="310" label="Impiego di tecnologie di stabilizzazione innovative nella conservazione delle gonadi di ricci di mare" />
-					<node id="311" label="Messa a punto della tecnologia di preparazione del carciofo di IV gamma" />				
-				</isComposedBy>			
-			</node>
-			<node id="308" label="Starter " >
-				<isComposedBy>
-					<node id="312" label="Messa a punto di un lievito naturale a pasta acida per la produzione di pani tipici" />
-					<node id="313" label="Problematiche di confezionamento e shelf life di prodotti da forno tradizionali " />
-				</isComposedBy>			
-			</node>		
+				<node id="307" label="Stabilizzazione" >
+					<isComposedBy>
+						<node id="309" label="Impiego di Alte Pressioni Idrostatiche per il prolungamento della shelf life di formaggi freschi" />
+						<node id="310" label="Impiego di tecnologie di stabilizzazione innovative nella conservazione delle gonadi di ricci di mare" />
+						<node id="311" label="Messa a punto della tecnologia di preparazione del carciofo di IV gamma" />				
+					</isComposedBy>			
+				</node>
+				<node id="308" label="Starter " >
+					<isComposedBy>
+						<node id="312" label="Messa a punto di un lievito naturale a pasta acida per la produzione di pani tipici" />
+						<node id="313" label="Problematiche di confezionamento e shelf life di prodotti da forno tradizionali " />
+					</isComposedBy>			
+				</node>	
+			</isComposedBy>	
 		</node>
 		
 		<node id="400" label="Programma di R&amp;S">
-			<node id="401" label="Applicativi e servizi interattivi per la TV digitale terrestre" />
-			<node id="402" label="Popolazione sana" />
-			<node id="403" label="Sviluppo di prodotti biotecnologici per la diagnostica e la ricerca medica" />
-			<node id="404" label="Tecnologie ICT in Biomedicina" />
-			<node id="405" label="Tecnologie ICT in Biomedicina 2" />
-			<node id="406" label="Tecnologie bioinformatiche applicate alla medicina personalizzata " />				
+			<isComposedBy>
+				<node id="401" label="Applicativi e servizi interattivi per la TV digitale terrestre" />
+				<node id="402" label="Popolazione sana" />
+				<node id="403" label="Sviluppo di prodotti biotecnologici per la diagnostica e la ricerca medica" />
+				<node id="404" label="Tecnologie ICT in Biomedicina" />
+				<node id="405" label="Tecnologie ICT in Biomedicina 2" />
+				<node id="406" label="Tecnologie bioinformatiche applicate alla medicina personalizzata " />
+			</isComposedBy>				
 		</node>
 		
 		<node id="500" label="Programma di Servizi">
-			<node id="501" label="P.I.S (Programma Integrato di Servizi)" >
-				<isComposedBy>
-					<node id="505" label="Adeguamento dei laboratori odontotecnici alla direttiva 9342CEE" />
-					<node id="506" label="Brevettazione, prototipazione e design industriale" />
-					<node id="507" label="Export" />
-					<node id="508" label="Misure di adeguamento al nuovo sistema di accesso al credito bancario previsto da Basilea 2" />
-					<node id="509" label="Promozione e marketing per reti di imprese nel sistema del turismo" />
-					<node id="510" label="Qualità ambientale nel sistema turistico" />
-					<node id="511" label="Sviluppo di nuovi prodotti" />
-					<node id="512" label="Web marketing per il turismo e settori complementari" />
-				</isComposedBy>	
-			</node>
-			<node id="502" label="Servizi di innovazione e trasferimento tecnologico - Cluster Energie Rinnovabili" />
-			<node id="503" label="Servizi di innovazione e trasferimento tecnologico - Sardegna DistrICT" />
-			<node id="504" label="Servizi per il potenziamento delle imprese" />				
+			<isComposedBy>
+				<node id="501" label="P.I.S (Programma Integrato di Servizi)" >
+					<isComposedBy>
+						<node id="505" label="Adeguamento dei laboratori odontotecnici alla direttiva 9342CEE" />
+						<node id="506" label="Brevettazione, prototipazione e design industriale" />
+						<node id="507" label="Export" />
+						<node id="508" label="Misure di adeguamento al nuovo sistema di accesso al credito bancario previsto da Basilea 2" />
+						<node id="509" label="Promozione e marketing per reti di imprese nel sistema del turismo" />
+						<node id="510" label="Qualità ambientale nel sistema turistico" />
+						<node id="511" label="Sviluppo di nuovi prodotti" />
+						<node id="512" label="Web marketing per il turismo e settori complementari" />
+					</isComposedBy>	
+				</node>
+				<node id="502" label="Servizi di innovazione e trasferimento tecnologico - Cluster Energie Rinnovabili" />
+				<node id="503" label="Servizi di innovazione e trasferimento tecnologico - Sardegna DistrICT" />
+				<node id="504" label="Servizi per il potenziamento delle imprese" />	
+			</isComposedBy>			
 		</node>
 		
-		<node id="600" label="Programmi Complessi">			
-			<node id="601" label="Azione Biovalley: Patologie autoimmuni in Sardegna" />
-			<node id="602" label="Biblioteca Scientifica Regionale" />
-			<node id="603" label="Creazione imprese innovative" />
-			<node id="604" label="Innova.Re" />
-			<node id="605" label="Progetti per sistemi d'imprese" >
-				<isComposedBy>
-					<node id="609" label="Innovazione e valorizzazione dei pani tradizionali della Sardegna" />
-					<node id="610" label="Innovazione e valorizzazione del sughero" />
-					<node id="611" label="Innovazione nel settore lapideo" />
-					<node id="612" label="Miglioramento e valorizzazione del siero e scotta ovini" />
-					<node id="613" label="Paste fresche: valorizzazione della tradizione alimentare sarda" />
-					<node id="614" label="Piatti pronti: valorizzazione del sistema dei prodotti tradizionali" />
-					<node id="615" label="Valorizzazione e commercializzazione delle produzioni tipiche locali nei canali turistici " />
-				</isComposedBy>	
-			</node>
-			<node id="606" label='Progetto interregionale "Cicloturismo"' />
-			<node id="607" label="Promozione settore lapideo (progetto interregionale)" />
-			<node id="608" label="Rete Regionale per l'Innovazione " />				
+		<node id="600" label="Programmi Complessi">	
+			<isComposedBy>		
+				<node id="601" label="Azione Biovalley: Patologie autoimmuni in Sardegna" />
+				<node id="602" label="Biblioteca Scientifica Regionale" />
+				<node id="603" label="Creazione imprese innovative" />
+				<node id="604" label="Innova.Re" />
+				<node id="605" label="Progetti per sistemi d'imprese" >
+					<isComposedBy>
+						<node id="609" label="Innovazione e valorizzazione dei pani tradizionali della Sardegna" />
+						<node id="610" label="Innovazione e valorizzazione del sughero" />
+						<node id="611" label="Innovazione nel settore lapideo" />
+						<node id="612" label="Miglioramento e valorizzazione del siero e scotta ovini" />
+						<node id="613" label="Paste fresche: valorizzazione della tradizione alimentare sarda" />
+						<node id="614" label="Piatti pronti: valorizzazione del sistema dei prodotti tradizionali" />
+						<node id="615" label="Valorizzazione e commercializzazione delle produzioni tipiche locali nei canali turistici " />
+					</isComposedBy>	
+				</node>
+				<node id="606" label='Progetto interregionale "Cicloturismo"' />
+				<node id="607" label="Promozione settore lapideo (progetto interregionale)" />
+				<node id="608" label="Rete Regionale per l'Innovazione " />		
+			</isComposedBy>		
 		</node>		
 	</isComposedBy>
 </node>
