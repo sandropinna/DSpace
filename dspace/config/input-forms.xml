@@ -17,23 +17,84 @@
    <name-map collection-handle="default" form-name="traditional" />
    <name-map collection-handle="11050/5" form-name="altro" />
    <name-map collection-handle="11050/32" form-name="altro" />
+   <name-map collection-handle="11050/48" form-name="altro" />
+   <name-map collection-handle="11050/64" form-name="altro" />  
+    
    <name-map collection-handle="11050/6" form-name="articolo" />
    <name-map collection-handle="11050/33" form-name="articolo" />
+   <name-map collection-handle="11050/49" form-name="articolo" />
+   <name-map collection-handle="11050/65" form-name="articolo" />
+      
    <name-map collection-handle="11050/7" form-name="atti_di_convegno" /> 
    <name-map collection-handle="11050/34" form-name="atti_di_convegno" /> 
+   <name-map collection-handle="11050/50" form-name="atti_di_convegno" /> 
+   <name-map collection-handle="11050/66" form-name="atti_di_convegno" /> 
+   
    <name-map collection-handle="11050/8" form-name="brevetto" />
+   <name-map collection-handle="11050/35" form-name="brevetto" />
+   <name-map collection-handle="11050/51" form-name="brevetto" />
+   <name-map collection-handle="11050/67" form-name="brevetto" />
+   
    <name-map collection-handle="11050/9" form-name="catalogo" />
+   <name-map collection-handle="11050/36" form-name="catalogo" />
+   <name-map collection-handle="11050/52" form-name="catalogo" />
+   <name-map collection-handle="11050/68" form-name="catalogo" />
+   
    <name-map collection-handle="11050/10" form-name="contributo_a_convegno" />
+   <name-map collection-handle="11050/37" form-name="contributo_a_convegno" />
+   <name-map collection-handle="11050/53" form-name="contributo_a_convegno" />
+   <name-map collection-handle="11050/69" form-name="contributo_a_convegno" />
+   
    <name-map collection-handle="11050/11" form-name="contributo_in_un_libro" />
+   <name-map collection-handle="11050/38" form-name="contributo_in_un_libro" />
+   <name-map collection-handle="11050/54" form-name="contributo_in_un_libro" />
+   <name-map collection-handle="11050/70" form-name="contributo_in_un_libro" />
+   
    <name-map collection-handle="11050/12" form-name="design_registrato" />
+   <name-map collection-handle="11050/39" form-name="design_registrato" />
+   <name-map collection-handle="11050/55" form-name="design_registrato" />
+   <name-map collection-handle="11050/71" form-name="design_registrato" />
+   
    <name-map collection-handle="11050/13" form-name="libro" />
+   <name-map collection-handle="11050/40" form-name="libro" />
+   <name-map collection-handle="11050/56" form-name="libro" />
+   <name-map collection-handle="11050/72" form-name="libro" />
+   
    <name-map collection-handle="11050/14" form-name="manuale" />
+   <name-map collection-handle="11050/41" form-name="manuale" />
+   <name-map collection-handle="11050/57" form-name="manuale" />
+   <name-map collection-handle="11050/73" form-name="manuale" />
+   
    <name-map collection-handle="11050/15" form-name="marchio_registrato" />
+   <name-map collection-handle="11050/42" form-name="marchio_registrato" />
+   <name-map collection-handle="11050/58" form-name="marchio_registrato" />
+   <name-map collection-handle="11050/74" form-name="marchio_registrato" />
+   
    <name-map collection-handle="11050/16" form-name="report" />
+   <name-map collection-handle="11050/43" form-name="report" />
+   <name-map collection-handle="11050/59" form-name="report" />
+   <name-map collection-handle="11050/75" form-name="report" />
+   
    <name-map collection-handle="11050/17" form-name="scheda_progetto" />
+   <name-map collection-handle="11050/44" form-name="scheda_progetto" />
+   <name-map collection-handle="11050/60" form-name="scheda_progetto" />
+   <name-map collection-handle="11050/76" form-name="scheda_progetto" />
+   
    <name-map collection-handle="11050/18" form-name="tesi" />
-   <name-map collection-handle="11050/19" form-name="video" />      
+   <name-map collection-handle="11050/45" form-name="tesi" />
+   <name-map collection-handle="11050/61" form-name="tesi" />
+   <name-map collection-handle="11050/77" form-name="tesi" />
+   
+   <name-map collection-handle="11050/19" form-name="video" />  
+   <name-map collection-handle="11050/46" form-name="video" />  
+   <name-map collection-handle="11050/62" form-name="video" />  
+   <name-map collection-handle="11050/78" form-name="video" />  
+       
    <name-map collection-handle="11050/20" form-name="working_paper" />   
+   <name-map collection-handle="11050/47" form-name="working_paper" /> 
+   <name-map collection-handle="11050/63" form-name="working_paper" /> 
+   <name-map collection-handle="11050/79" form-name="working_paper" /> 
+      
  </form-map>
 
 
