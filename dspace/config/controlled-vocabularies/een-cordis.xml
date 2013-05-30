@@ -5,7 +5,7 @@ EEN CORDIS
 
 <node id="EEN CORDIS" label="EEN CORDIS">
 	<isComposedBy>
-		<node id="AA.00.00" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
+		<node id="0000" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
 				<node id="0100" label="Elettronica, microelettronica "/>				
 				<node id="0200" label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro"/>				
