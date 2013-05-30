@@ -7,11 +7,11 @@ EEN CORDIS
 	<isComposedBy>
 		<node id="AA.00.00" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
-				<node id="AA0100" label="Elettronica, microelettronica "/>				
-				<node id="AA0200" label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro"/>				
-				<node id="AA0300" label="IT e applicazioni telematiche "/>				
-				<node id="AA0400" label="Multimedia"/>				
-				<node id="AA0500" label="Telecomunicazioni, reti "/>				
+				<node id="0100" label="Elettronica, microelettronica "/>				
+				<node id="0200" label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro"/>				
+				<node id="0300" label="IT e applicazioni telematiche "/>				
+				<node id="0400" label="Multimedia"/>				
+				<node id="0500" label="Telecomunicazioni, reti "/>				
 			</isComposedBy>
 		</node>	
 		
