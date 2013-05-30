@@ -19,6 +19,8 @@ EEN CORDIS
 				</node>
 			</isComposedBy>
 		</node>	
+		
+		<!-- 
 		<node id="BB.00.00" label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
 			<isComposedBy>
 				<node id="BB.01.00" label="Progettazione e Modellazione / Prototipi">
@@ -41,9 +43,9 @@ EEN CORDIS
 				</node>
 				<node id="BB.10.00" label="Tecnologia aerospaziale ">
 				</node>
-			</isComposedBy>
-			
+			</isComposedBy>			
 		</node>		
+		
 		<node id="CC.00.00" label="ALTRE TECNOLOGIE INDUSTRIALI ">
 			<isComposedBy>
 				<node id="CC.01.00" label="Altre tecnologie industriali ">
@@ -66,9 +68,9 @@ EEN CORDIS
 				</node>
 				<node id="CC.10.00" label="Elettrodomestici e beni per la casa">
 				</node>
-			</isComposedBy>
-			
+			</isComposedBy>			
 		</node>		
+		
 		<node id="DD.00.00" label="ENERGIA">
 			<isComposedBy>
 				<node id="DD.01.00" label="Stoccaggio e trasporto di energia">
@@ -85,9 +87,9 @@ EEN CORDIS
 				</node>
 				<node id="DD.07.00" label="Altri temi di energia ">
 				</node>				
-			</isComposedBy>
-			
-		</node>		
+			</isComposedBy>			
+		</node>	
+		
 		<node id="EE.00.00" label="FISICA E SCIENZE ESATTE ">
 			<isComposedBy>
 				<node id="EE.01.00" label="Astronomia">
@@ -110,9 +112,9 @@ EEN CORDIS
 				</node>
 				<node id="EE.10.00" label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
 				</node>
-			</isComposedBy>
-			
+			</isComposedBy>			
 		</node>		
+		
 		<node id="FF.00.00" label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
 				<node id="FF.01.00" label="Medicina, salute ">
@@ -123,9 +125,9 @@ EEN CORDIS
 				</node>
 				<node id="FF.04.00" label="Micro e nanotecnologie per le scienze biologiche ">
 				</node>				
-			</isComposedBy>
+			</isComposedBy>			
+		</node>	
 			
-		</node>		
 		<node id="GG.00.00" label="Agricoltura e risorse marine">
 			<isComposedBy>
 				<node id="GG.01.00" label="Agricoltura">
@@ -133,11 +135,10 @@ EEN CORDIS
 				<node id="GG.02.00" label="Silvicoltura, tecnologia forestale">
 				</node>
 				<node id="GG.03.00" label="Risorse del mare, della pesca ">
-				</node>
-				
-			</isComposedBy>
-			
+				</node>				
+			</isComposedBy>			
 		</node>		
+		
 		<node id="HH.00.00" label="INDUSTRIA AGROALIMENTARE">
 			<isComposedBy>
 				<node id="HH.01.00" label="Tecnologie per l'industria alimentare ">
@@ -145,11 +146,10 @@ EEN CORDIS
 				<node id="HH.02.00" label="Qualità e sicurezza alimentare">
 				</node>
 				<node id="HH.03.00" label="Nutrizione e salute">
-				</node>
-				
-			</isComposedBy>
-			
+				</node>				
+			</isComposedBy>			
 		</node>		
+		
 		<node id="II.00.00" label="MISURAZIONI E STANDARD ">
 			<isComposedBy>
 				<node id="II.01.00" label="Strumenti di misurazione ">
@@ -163,11 +163,10 @@ EEN CORDIS
 				<node id="II.05.00" label="Materiali di riferimento ">
 				</node>
 				<node id="II.06.00" label="Standards">
-				</node>
-				
-			</isComposedBy>
-			
+				</node>				
+			</isComposedBy>			
 		</node>		
+		
 		<node id="LL.00.00" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
 			<isComposedBy>
 				<node id="LL.01.00" label="Sicurezza">
@@ -175,11 +174,10 @@ EEN CORDIS
 				<node id="LL.02.00" label="Ambiente">
 				</node>
 				<node id="LL.03.00" label="Gestione dei rifiuti ">
-				</node>
-				
-			</isComposedBy>
+				</node>				
+			</isComposedBy>			
+		</node>	
 			
-		</node>		
 		<node id="MM.00.00" label="QUESTIONI SOCIALI ED ECONOMICHE">
 			<isComposedBy>
 				<node id="MM.01.00" label="Modelli di sviluppo socioeconomico, aspetti economici ">
@@ -197,11 +195,10 @@ EEN CORDIS
 				<node id="MM.07.00" label="Strumenti di previsione ">
 				</node>
 				<node id="MM.08.00" label="Sport e tempo libero ">
-				</node>
-				
-			</isComposedBy>
-			
+				</node>				
+			</isComposedBy>			
 		</node>		
+		
 		<node id="NN.00.00" label="SCIENZE UMANE">
 			<isComposedBy>
 				<node id="NN.01.00" label="Arti">
@@ -217,11 +214,10 @@ EEN CORDIS
 				<node id="NN.06.00" label="Filosofia">
 				</node>
 				<node id="NN.07.00" label="Scienze religiose ">
-				</node>
-				
-			</isComposedBy>
-			
+				</node>				
+			</isComposedBy>			
 		</node>	
+		
 		<node id="OO.00.00" label="SCIENZE SOCIALI ">
 			<isComposedBy>
 				<node id="OO.01.00" label="Antropologia">
@@ -250,9 +246,9 @@ EEN CORDIS
 				</node>
 				<node id="OO.13.00" label="Sociologia">
 				</node>
-			</isComposedBy>
-			
+			</isComposedBy>			
 		</node>	
+		
 		<node id="PP.00.00" label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
 			<isComposedBy>
 				<node id="PP.01.00" label="Politiche">
@@ -274,10 +270,9 @@ EEN CORDIS
 				<node id="PP.09.00" label="Etica della ricerca">
 				</node>
 				<node id="PP.10.00" label="Diritti di proprietà intellettuale">
-				</node>
-				
-			</isComposedBy>	
-			
-		</node>							
+				</node>				
+			</isComposedBy>				
+		</node>	
+		-->						
 	</isComposedBy>
 </node>
