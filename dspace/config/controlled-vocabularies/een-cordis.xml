@@ -5,7 +5,7 @@ EEN CORDIS
 
 <node id="EEN CORDIS" label="EEN CORDIS">
 	<isComposedBy>
-		<node  label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
+		<node id="1" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
 				<node label="Elettronica, microelettronica">	
 					<isComposedBy>
@@ -178,7 +178,7 @@ EEN CORDIS
 			</isComposedBy>
 		</node>
 		
-		<node label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
+		<node id="2" label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
 			<isComposedBy>
 				<node label="Progettazione e Modellazione / Prototipi">
 					<isComposedBy>
@@ -368,7 +368,7 @@ EEN CORDIS
 		</node>		
 		
 		 
-		<node label="ALTRE TECNOLOGIE INDUSTRIALI ">
+		<node id="3" label="ALTRE TECNOLOGIE INDUSTRIALI ">
 			<isComposedBy>
 				<node  label="Altre tecnologie industriali ">
 				</node>
@@ -394,7 +394,7 @@ EEN CORDIS
 		</node>		
 		
 		 
-		<node label="ENERGIA">
+		<node id="4" label="ENERGIA">
 			<isComposedBy>
 				<node label="Stoccaggio e trasporto di energia">
 				</node>
@@ -413,7 +413,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node label="FISICA E SCIENZE ESATTE ">
+		<node id="5" label="FISICA E SCIENZE ESATTE ">
 			<isComposedBy>
 				<node label="Astronomia">
 				</node>
@@ -438,7 +438,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node label="SCIENZE BIOLOGICHE ">
+		<node id="6" label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
 				<node label="Medicina, salute ">
 				</node>
@@ -451,7 +451,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 			
-		<node label="Agricoltura e risorse marine">
+		<node id="7" label="Agricoltura e risorse marine">
 			<isComposedBy>
 				<node label="Agricoltura">
 				</node>
@@ -462,7 +462,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node label="INDUSTRIA AGROALIMENTARE">
+		<node id="8" label="INDUSTRIA AGROALIMENTARE">
 			<isComposedBy>
 				<node label="Tecnologie per l'industria alimentare ">
 				</node>
@@ -473,7 +473,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node label="MISURAZIONI E STANDARD ">
+		<node id="9" label="MISURAZIONI E STANDARD ">
 			<isComposedBy>
 				<node label="Strumenti di misurazione ">
 				</node>
@@ -490,7 +490,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
+		<node id="10" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
 			<isComposedBy>
 				<node label="Sicurezza">
 				</node>
@@ -501,7 +501,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 			
-		<node label="QUESTIONI SOCIALI ED ECONOMICHE">
+		<node id="11" label="QUESTIONI SOCIALI ED ECONOMICHE">
 			<isComposedBy>
 				<node label="Modelli di sviluppo socioeconomico, aspetti economici ">
 				</node>
@@ -522,7 +522,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node label="SCIENZE UMANE">
+		<node id="12" label="SCIENZE UMANE">
 			<isComposedBy>
 				<node label="Arti">
 				</node>
@@ -541,7 +541,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node label="SCIENZE SOCIALI ">
+		<node id="13" label="SCIENZE SOCIALI ">
 			<isComposedBy>
 				<node label="Antropologia">
 				</node>
@@ -572,7 +572,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
+		<node id="14" label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
 			<isComposedBy>
 				<node label="Politiche">
 				</node>
