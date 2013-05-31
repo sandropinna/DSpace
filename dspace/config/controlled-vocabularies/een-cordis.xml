@@ -7,11 +7,144 @@ EEN CORDIS
 	<isComposedBy>
 		<node  label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
-				<node label="Elettronica, microelettronica "/>				
-				<node label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro"/>				
-				<node label="IT e applicazioni telematiche "/>				
-				<node label="Multimedia"/>				
-				<node label="Telecomunicazioni, reti "/>				
+				<node label="Elettronica, microelettronica ">	
+					<isComposedBy>
+						<node label="Automazione, robotica, sistemi di controllo">
+						</node>
+						<node label="Sistemi digitali, rappresentazione digitale ">
+						</node>	
+						<node label="Circuiti elettronici, componenti e attrezzature ">
+						</node>
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>		
+					</isComposedBy>
+				</node>			
+				<node label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro">
+					<isComposedBy>
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>						
+					</isComposedBy>	
+				</node>			
+				<node label="IT e applicazioni telematiche ">	
+					<isComposedBy>
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>						
+					</isComposedBy>
+				</node>			
+				<node label="Multimedia">	
+					<isComposedBy>
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+						<node label="">
+						</node>	
+					</isComposedBy>
+				</node>			
+				<node label="Telecomunicazioni, reti ">
+				</node>				
 			</isComposedBy>
 		</node>	
 		
@@ -67,206 +200,206 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<!-- 
-		<node id="DD.00.00" label="ENERGIA">
+		 
+		<node label="ENERGIA">
 			<isComposedBy>
-				<node id="DD.01.00" label="Stoccaggio e trasporto di energia">
+				<node label="Stoccaggio e trasporto di energia">
 				</node>
-				<node id="DD.02.00" label="Produzione, trasmissione e conversione di energia">
+				<node label="Produzione, trasmissione e conversione di energia">
 				</node>
-				<node id="DD.03.00" label="Fonti energetiche fossili">
+				<node label="Fonti energetiche fossili">
 				</node>
-				<node id="DD.04.00" label="Fissione nucleare / fusione nucleare ">
+				<node label="Fissione nucleare / fusione nucleare ">
 				</node>
-				<node id="DD.05.00" label="Energia da fonti rinnovabili">
+				<node label="Energia da fonti rinnovabili">
 				</node>
-				<node id="DD.06.00" label="Uso razionale dell'energia ">
+				<node label="Uso razionale dell'energia ">
 				</node>
-				<node id="DD.07.00" label="Altri temi di energia ">
+				<node label="Altri temi di energia ">
 				</node>				
 			</isComposedBy>			
 		</node>	
 		
-		<node id="EE.00.00" label="FISICA E SCIENZE ESATTE ">
+		<node label="FISICA E SCIENZE ESATTE ">
 			<isComposedBy>
-				<node id="EE.01.00" label="Astronomia">
+				<node label="Astronomia">
 				</node>
-				<node id="EE.02.00" label="Chimica">
+				<node label="Chimica">
 				</node>
-				<node id="EE.03.00" label="Scienze della terra ">
+				<node label="Scienze della terra ">
 				</node>
-				<node id="EE.04.00" label="Matematica, statistica">
+				<node label="Matematica, statistica">
 				</node>
-				<node id="EE.05.00" label="Meteorologia / climatologia">
+				<node label="Meteorologia / climatologia">
 				</node>
-				<node id="EE.06.00" label="Fisica">
+				<node label="Fisica">
 				</node>
-				<node id="EE.07.00" label="Ingegneria meccanica ">
+				<node label="Ingegneria meccanica ">
 				</node>
-				<node id="EE.08.00" label="Idraulica">
+				<node label="Idraulica">
 				</node>
-				<node id="EE.09.00" label="Tecnologie di separazione ">
+				<node label="Tecnologie di separazione ">
 				</node>
-				<node id="EE.10.00" label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+				<node label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
 				</node>
 			</isComposedBy>			
 		</node>		
 		
-		<node id="FF.00.00" label="SCIENZE BIOLOGICHE ">
+		<node label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
-				<node id="FF.01.00" label="Medicina, salute ">
+				<node label="Medicina, salute ">
 				</node>
-				<node id="FF.02.00" label="Biologia / biotecnologia ">
+				<node label="Biologia / biotecnologia ">
 				</node>
-				<node id="FF.03.00" label="Ricerca sul genoma ">
+				<node label="Ricerca sul genoma ">
 				</node>
-				<node id="FF.04.00" label="Micro e nanotecnologie per le scienze biologiche ">
-				</node>				
-			</isComposedBy>			
-		</node>	
-			
-		<node id="GG.00.00" label="Agricoltura e risorse marine">
-			<isComposedBy>
-				<node id="GG.01.00" label="Agricoltura">
-				</node>
-				<node id="GG.02.00" label="Silvicoltura, tecnologia forestale">
-				</node>
-				<node id="GG.03.00" label="Risorse del mare, della pesca ">
-				</node>				
-			</isComposedBy>			
-		</node>		
-		
-		<node id="HH.00.00" label="INDUSTRIA AGROALIMENTARE">
-			<isComposedBy>
-				<node id="HH.01.00" label="Tecnologie per l'industria alimentare ">
-				</node>
-				<node id="HH.02.00" label="Qualità e sicurezza alimentare">
-				</node>
-				<node id="HH.03.00" label="Nutrizione e salute">
-				</node>				
-			</isComposedBy>			
-		</node>		
-		
-		<node id="II.00.00" label="MISURAZIONI E STANDARD ">
-			<isComposedBy>
-				<node id="II.01.00" label="Strumenti di misurazione ">
-				</node>
-				<node id="II.02.00" label="Amplificatore, A / D trasduttore">
-				</node>
-				<node id="II.03.00" label="Sistemi di misurazione elettronica">
-				</node>
-				<node id="II.04.00" label="Dispositivi di registrazione ">
-				</node>
-				<node id="II.05.00" label="Materiali di riferimento ">
-				</node>
-				<node id="II.06.00" label="Standards">
-				</node>				
-			</isComposedBy>			
-		</node>		
-		
-		<node id="LL.00.00" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
-			<isComposedBy>
-				<node id="LL.01.00" label="Sicurezza">
-				</node>
-				<node id="LL.02.00" label="Ambiente">
-				</node>
-				<node id="LL.03.00" label="Gestione dei rifiuti ">
+				<node label="Micro e nanotecnologie per le scienze biologiche ">
 				</node>				
 			</isComposedBy>			
 		</node>	
 			
-		<node id="MM.00.00" label="QUESTIONI SOCIALI ED ECONOMICHE">
+		<node label="Agricoltura e risorse marine">
 			<isComposedBy>
-				<node id="MM.01.00" label="Modelli di sviluppo socioeconomico, aspetti economici ">
+				<node label="Agricoltura">
 				</node>
-				<node id="MM.02.00" label="Istruzione e formazione ">
+				<node label="Silvicoltura, tecnologia forestale">
 				</node>
-				<node id="MM.03.00" label="Informazione e mezzi di comunicazione, società">
-				</node>
-				<node id="MM.04.00" label="Tecnologia, società e occupazione ">
-				</node>
-				<node id="MM.05.00" label="Infrastrutture per le scienze sociali e umanistiche ">
-				</node>
-				<node id="MM.06.00" label="Partecipazione dei cittadini ">
-				</node>
-				<node id="MM.07.00" label="Strumenti di previsione ">
-				</node>
-				<node id="MM.08.00" label="Sport e tempo libero ">
+				<node label="Risorse del mare, della pesca ">
 				</node>				
 			</isComposedBy>			
 		</node>		
 		
-		<node id="NN.00.00" label="SCIENZE UMANE">
+		<node label="INDUSTRIA AGROALIMENTARE">
 			<isComposedBy>
-				<node id="NN.01.00" label="Arti">
+				<node label="Tecnologie per l'industria alimentare ">
 				</node>
-				<node id="NN.02.00" label="Storia">
+				<node label="Qualità e sicurezza alimentare">
 				</node>
-				<node id="NN.03.00" label="Scienza delle informazioni">
+				<node label="Nutrizione e salute">
+				</node>				
+			</isComposedBy>			
+		</node>		
+		
+		<node label="MISURAZIONI E STANDARD ">
+			<isComposedBy>
+				<node label="Strumenti di misurazione ">
 				</node>
-				<node id="NN.04.00" label="Scienze del linguaggio">
+				<node label="Amplificatore, A / D trasduttore">
 				</node>
-				<node id="NN.05.00" label="Letteratura">
+				<node label="Sistemi di misurazione elettronica">
 				</node>
-				<node id="NN.06.00" label="Filosofia">
+				<node label="Dispositivi di registrazione ">
 				</node>
-				<node id="NN.07.00" label="Scienze religiose ">
+				<node label="Materiali di riferimento ">
+				</node>
+				<node label="Standards">
+				</node>				
+			</isComposedBy>			
+		</node>		
+		
+		<node label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
+			<isComposedBy>
+				<node label="Sicurezza">
+				</node>
+				<node label="Ambiente">
+				</node>
+				<node label="Gestione dei rifiuti ">
+				</node>				
+			</isComposedBy>			
+		</node>	
+			
+		<node label="QUESTIONI SOCIALI ED ECONOMICHE">
+			<isComposedBy>
+				<node label="Modelli di sviluppo socioeconomico, aspetti economici ">
+				</node>
+				<node label="Istruzione e formazione ">
+				</node>
+				<node label="Informazione e mezzi di comunicazione, società">
+				</node>
+				<node label="Tecnologia, società e occupazione ">
+				</node>
+				<node label="Infrastrutture per le scienze sociali e umanistiche ">
+				</node>
+				<node label="Partecipazione dei cittadini ">
+				</node>
+				<node label="Strumenti di previsione ">
+				</node>
+				<node label="Sport e tempo libero ">
+				</node>				
+			</isComposedBy>			
+		</node>		
+		
+		<node label="SCIENZE UMANE">
+			<isComposedBy>
+				<node label="Arti">
+				</node>
+				<node label="Storia">
+				</node>
+				<node label="Scienza delle informazioni">
+				</node>
+				<node label="Scienze del linguaggio">
+				</node>
+				<node label="Letteratura">
+				</node>
+				<node label="Filosofia">
+				</node>
+				<node label="Scienze religiose ">
 				</node>				
 			</isComposedBy>			
 		</node>	
 		
-		<node id="OO.00.00" label="SCIENZE SOCIALI ">
+		<node label="SCIENZE SOCIALI ">
 			<isComposedBy>
-				<node id="OO.01.00" label="Antropologia">
+				<node label="Antropologia">
 				</node>
-				<node id="OO.02.00" label="Scienze della comunicazione ">
+				<node label="Scienze della comunicazione ">
 				</node>
-				<node id="OO.03.00" label="Criminologia">
+				<node label="Criminologia">
 				</node>
-				<node id="OO.04.00" label="Studi culturali ">
+				<node label="Studi culturali ">
 				</node>
-				<node id="OO.05.00" label="Demografia">
+				<node label="Demografia">
 				</node>
-				<node id="OO.06.00" label="Economia">
+				<node label="Economia">
 				</node>
-				<node id="OO.07.00" label="Scienze dell'educazione">
+				<node label="Scienze dell'educazione">
 				</node>
-				<node id="OO.08.00" label="Etica nelle scienze sociali">
+				<node label="Etica nelle scienze sociali">
 				</node>
-				<node id="OO.09.00" label="Geografia">
+				<node label="Geografia">
 				</node>
-				<node id="OO.10.00" label="Scienze giuridiche">
+				<node label="Scienze giuridiche">
 				</node>
-				<node id="OO.11.00" label="Scienze politiche">
+				<node label="Scienze politiche">
 				</node>
-				<node id="OO.12.00" label="Scienze Psicologiche">
+				<node label="Scienze Psicologiche">
 				</node>
-				<node id="OO.13.00" label="Sociologia">
+				<node label="Sociologia">
 				</node>
 			</isComposedBy>			
 		</node>	
 		
-		<node id="PP.00.00" label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
+		<node label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
 			<isComposedBy>
-				<node id="PP.01.00" label="Politiche">
+				<node label="Politiche">
 				</node>
-				<node id="PP.02.00" label="Legislazione, regolamentazione">
+				<node label="Legislazione, regolamentazione">
 				</node>
-				<node id="PP.03.00" label="Previsioni">
+				<node label="Previsioni">
 				</node>
-				<node id="PP.04.00" label="Valutazione">
+				<node label="Valutazione">
 				</node>
-				<node id="PP.05.00" label="Innovazione, trasferimento di tecnologie">
+				<node label="Innovazione, trasferimento di tecnologie">
 				</node>
-				<node id="PP.06.00" label="Coordinamento, cooperazione">
+				<node label="Coordinamento, cooperazione">
 				</node>
-				<node id="PP.07.00" label="Ricerca scientifica">
+				<node label="Ricerca scientifica">
 				</node>
-				<node id="PP.08.00" label="Aspetti imprenditoriali">
+				<node label="Aspetti imprenditoriali">
 				</node>
-				<node id="PP.09.00" label="Etica della ricerca">
+				<node label="Etica della ricerca">
 				</node>
-				<node id="PP.10.00" label="Diritti di proprietà intellettuale">
+				<node label="Diritti di proprietà intellettuale">
 				</node>				
 			</isComposedBy>				
 		</node>	
