@@ -5,67 +5,69 @@ EEN CORDIS
 
 <node id="EEN CORDIS" label="EEN CORDIS">
 	<isComposedBy>
-		<node id="0000" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
+		<node  label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
-				<node id="0100" label="Elettronica, microelettronica "/>				
-				<node id="0200" label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro"/>				
-				<node id="0300" label="IT e applicazioni telematiche "/>				
-				<node id="0400" label="Multimedia"/>				
-				<node id="0500" label="Telecomunicazioni, reti "/>				
+				<node label="Elettronica, microelettronica "/>				
+				<node label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro"/>				
+				<node label="IT e applicazioni telematiche "/>				
+				<node label="Multimedia"/>				
+				<node label="Telecomunicazioni, reti "/>				
 			</isComposedBy>
 		</node>	
 		
+		
+		<node label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
+			<isComposedBy>
+				<node label="Progettazione e Modellazione / Prototipi">
+				</node>
+				<node label="Produzione industriale">
+				</node>
+				<node label="Controllo di processo e logistica ">
+				</node>
+				<node label="Progettazione e manutenzione impianti ">
+				</node>
+				<node label="Imballaggio / movimentazione">
+				</node>
+				<node label="Tecnologia delle costruzioni ">
+				</node>
+				<node label="Tecnologia dei materiali">
+				</node>
+				<node label="Infrastrutture di trasporto">
+				</node>
+				<node label="Tecnologie del trasporto e della navigazione">
+				</node>
+				<node label="Tecnologia aerospaziale ">
+				</node>
+			</isComposedBy>			
+		</node>		
+		
+		 
+		<node label="ALTRE TECNOLOGIE INDUSTRIALI ">
+			<isComposedBy>
+				<node  label="Altre tecnologie industriali ">
+				</node>
+				<node  label="Ingegneria degli impianti di processo">
+				</node>
+				<node  label="Ingegneria delle apparecchiature">
+				</node>
+				<node  label="Ingegneria e tecnologia chimica">
+				</node>
+				<node  label="Tecnologia Tessile ">
+				</node>
+				<node  label="Tecnologia delle calzature e del cuoio">
+				</node>
+				<node  label="Ingegneria e  tecnologia del suono">
+				</node>
+				<node  label="Tecnologie minerarie">
+				</node>
+				<node  label="Stampa">
+				</node>
+				<node  label="Elettrodomestici e beni per la casa">
+				</node>
+			</isComposedBy>			
+		</node>		
+		
 		<!-- 
-		<node id="BB.00.00" label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
-			<isComposedBy>
-				<node id="BB.01.00" label="Progettazione e Modellazione / Prototipi">
-				</node>
-				<node id="BB.02.00" label="Produzione industriale">
-				</node>
-				<node id="BB.03.00" label="Controllo di processo e logistica ">
-				</node>
-				<node id="BB.04.00" label="Progettazione e manutenzione impianti ">
-				</node>
-				<node id="BB.05.00" label="Imballaggio / movimentazione">
-				</node>
-				<node id="BB.06.00" label="Tecnologia delle costruzioni ">
-				</node>
-				<node id="BB.07.00" label="Tecnologia dei materiali">
-				</node>
-				<node id="BB.08.00" label="Infrastrutture di trasporto">
-				</node>
-				<node id="BB.09.00" label="Tecnologie del trasporto e della navigazione">
-				</node>
-				<node id="BB.10.00" label="Tecnologia aerospaziale ">
-				</node>
-			</isComposedBy>			
-		</node>		
-		
-		<node id="CC.00.00" label="ALTRE TECNOLOGIE INDUSTRIALI ">
-			<isComposedBy>
-				<node id="CC.01.00" label="Altre tecnologie industriali ">
-				</node>
-				<node id="CC.02.00" label="Ingegneria degli impianti di processo">
-				</node>
-				<node id="CC.03.00" label="Ingegneria delle apparecchiature">
-				</node>
-				<node id="CC.04.00" label="Ingegneria e tecnologia chimica">
-				</node>
-				<node id="CC.05.00" label="Tecnologia Tessile ">
-				</node>
-				<node id="CC.06.00" label="Tecnologia delle calzature e del cuoio">
-				</node>
-				<node id="CC.07.00" label="Ingegneria e  tecnologia del suono">
-				</node>
-				<node id="CC.08.00" label="Tecnologie minerarie">
-				</node>
-				<node id="CC.09.00" label="Stampa">
-				</node>
-				<node id="CC.10.00" label="Elettrodomestici e beni per la casa">
-				</node>
-			</isComposedBy>			
-		</node>		
-		
 		<node id="DD.00.00" label="ENERGIA">
 			<isComposedBy>
 				<node id="DD.01.00" label="Stoccaggio e trasporto di energia">
