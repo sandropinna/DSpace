@@ -7,146 +7,176 @@ EEN CORDIS
 	<isComposedBy>
 		<node  label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
-				<node label="Elettronica, microelettronica ">	
+				<node label="Elettronica, microelettronica">	
 					<isComposedBy>
 						<node label="Automazione, robotica, sistemi di controllo">
 						</node>
-						<node label="Sistemi digitali, rappresentazione digitale ">
+						<node label="Sistemi digitali, rappresentazione digitale">
 						</node>	
-						<node label="Circuiti elettronici, componenti e attrezzature ">
+						<node label="Circuiti elettronici, componenti e attrezzature">
 						</node>
-						<node label="">
+						<node label="Ingegneria elettronica">
 						</node>	
-						<node label="">
+						<node label="Sistemi Embedded e Sistemi Real Time">
 						</node>	
-						<node label="">
+						<node label="Tecnologia dell'Alta Frequenza, Microonde">
 						</node>	
-						<node label="">
+						<node label="Materiali superconduttori e magnetici / dispositivi">
 						</node>	
-						<node label="">
+						<node label="Microingegneria">
 						</node>	
-						<node label="">
+						<node label="Microlavorazioni">
 						</node>	
-						<node label="">
+						<node label="Nanotecnologie legate all'elettronica e alla microelettronica">
 						</node>	
-						<node label="">
+						<node label="Reti ottiche e sistemi">
 						</node>	
-						<node label="">
+						<node label="Tecnologie delle periferiche (archiviazione dati in memoria di massa, tecnologie di visualizzazione) relative all'elettronica e alla microelettronica">
 						</node>	
-						<node label="">
+						<node label="Circuiti stampati e circuiti integrati">
 						</node>	
-						<node label="">
+						<node label="Informatica quantistica">
 						</node>	
-						<node label="">
+						<node label="Semiconduttori">
 						</node>	
-						<node label="">
+						<node label="Smart card e sistemi di accesso">
 						</node>	
-						<node label="">
+						<node label="Sensori ambientali e biometrici, attuatori">
 						</node>		
 					</isComposedBy>
 				</node>			
 				<node label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro">
 					<isComposedBy>
-						<node label="">
+						<node label="Architetture di sistemi avanzati">
 						</node>	
-						<node label="">
+						<node label="Archivistica / documentazione / documentazione tecnica">
 						</node>	
-						<node label="">
+						<node label="Intelligenza artificiale (AI)">
 						</node>	
-						<node label="">
+						<node label="Giochi per computer">
 						</node>	
-						<node label="">
+						<node label="Computer hardware">
 						</node>	
-						<node label="">
+						<node label="Computer software">
 						</node>	
-						<node label="">
+						<node label="Tecnologia dei computer (grafica, metacomputing)">
 						</node>	
-						<node label="">
+						<node label="Elaborazione dei dati / Scambio di dati,  Middleware">
 						</node>	
-						<node label="">
+						<node label="Protezione dei dati, tecnologia di archiviazione, crittografia, sicurezza dei dati">
 						</node>	
-						<node label="">
+						<node label="Banche dati, gestione di database, estrazione dei dati">
 						</node>	
-						<node label="">
+						<node label="Commercio elettronico, pagamento elettronico">
 						</node>	
-						<node label="">
+						<node label="Imaging, elaborazione di immagini, pattern recognition">
 						</node>	
-						<node label="">
+						<node label="Tecnologia dell'informazione/Informatica">
 						</node>	
-						<node label="">
+						<node label="Tecnologie di connettivitࡉnternet (Wireless, Wi-Fi, Bluetooth)">
 						</node>	
-						<node label="">
+						<node label="Knowledge management, gestione dei processi">
 						</node>	
-						<node label="">
+						<node label="Simulazione">
 						</node>	
-						<node label="">
+						<node label="Tecnologie di speech processing">
 						</node>	
-						<node label="">
+						<node label="Interfaccia utente, usabilità">
 						</node>	
-						<node label="">
+						<node label="Firma elettronica">
 						</node>	
-						<node label="">
+						<node label="Software per l'automazione di edifici">
 						</node>	
-						<node label="">
+						<node label="Controllo remoto">
 						</node>	
-						<node label="">
+						<node label="Dispositivi intelligenti">
 						</node>						
 					</isComposedBy>	
 				</node>			
 				<node label="IT e applicazioni telematiche ">	
 					<isComposedBy>
-						<node label="">
+						<node label="Applicazioni per la salute">
 						</node>	
-						<node label="">
+						<node label="Applicazioni per il turismo">
 						</node>	
-						<node label="">
+						<node label="Applicazioni per i trasporti e la logistica">
 						</node>	
-						<node label="">
+						<node label="ASP Application Service Providing">
 						</node>	
-						<node label="">
+						<node label="e-Government">
 						</node>	
-						<node label="">
+						<node label="Sistemi di gestione ambientale e sistemi di gestione documentale">
 						</node>	
-						<node label="">
+						<node label="Gis sistemi di informazione geografica">
 						</node>	
-						<node label="">
+						<node label="CRM ֠Gestione relazioni con i clienti">
 						</node>	
-						<node label="">
+						<node label="Sistema di gestione della qualità">
 						</node>	
-						<node label="">
+						<node label="Sistema di gestione della manutenzione">
 						</node>	
-						<node label="">
+						<node label="Pianificazione delle operazioni e sistema di schedulazione">
 						</node>	
-						<node label="">
+						<node label="Sistema didattico">
 						</node>	
-						<node label="">
+						<node label="ICM ֠Gestione dei contenuti Internet">
 						</node>	
-						<node label="">
+						<node label="Gestione dell'analisi del rischio">
 						</node>	
-						<node label="">
+						<node label="Gestione dell'igiene e della sicurezza nel lavoro">
 						</node>						
 					</isComposedBy>
 				</node>			
 				<node label="Multimedia">	
 					<isComposedBy>
-						<node label="">
+						<node label="Beni Culturali">
 						</node>	
-						<node label="">
+						<node label="E-Learning">
 						</node>	
-						<node label="">
+						<node label="E-Publishing, contenuti digitali">
 						</node>	
-						<node label="">
+						<node label="Tecnologie del linguaggio umano">
 						</node>	
-						<node label="">
+						<node label="Filtraggio di informazioni, semantica, statistica">
 						</node>	
-						<node label="">
+						<node label="Visualizzazione, realtࡶirtuale">
 						</node>	
 					</isComposedBy>
 				</node>			
 				<node label="Telecomunicazioni, reti ">
+					<isComposedBy>
+						<node label="Attrezzature audiovisive e di comunicazione">
+						</node>	
+						<node label="Tecnologie a banda larga">
+						</node>	
+						<node label="Telefonia mobile">
+						</node>	
+						<node label="Tecnologie a banda stretta">
+						</node>	
+						<node label="Tecnologia di rete, sicurezza della rete">
+						</node>	
+						<node label="Radar">
+						</node>	
+						<node label="Reti di ricerca, GRID">
+						</node>	
+						<node label="Tecnologia satellitare/ sistemi / posizionamento / comunicazione GPS - Global Positioning System">
+						</node>	
+						<node label="Elaborazione dei segnali">
+						</node>	
+						<node label="Hi-Fi">
+						</node>	
+						<node label="Suoni e musica (Computing)">
+						</node>	
+						<node label="Immagini e video (Computing)">
+						</node>	
+						<node label="Protocolli di comunicazione, interoperabilità">
+						</node>	
+						<node label="Gateway residenziali">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>
-		</node>	
+		</node>
 		
 		
 		<node label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
