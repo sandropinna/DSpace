@@ -178,28 +178,191 @@ EEN CORDIS
 			</isComposedBy>
 		</node>
 		
-		
 		<node label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
 			<isComposedBy>
 				<node label="Progettazione e Modellazione / Prototipi">
+					<isComposedBy>
+						<node label="Progettazione e Modellazione / Prototipi">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Produzione industriale">
+					<isComposedBy>
+						<node label="Pulizia (sabbiatura, spazzolatura)">
+						</node>
+						<node label="Rivestimenti">
+						</node>
+						<node label="Essiccazione">
+						</node>
+						<node label="Erosione e rimozione (elettroerosione, ossitaglio, taglio plasma e laser, erosione elettrochimica, taglio a getto d'acqua)">
+						</node>
+						<node label="Formatura (laminazione, fucinatura, trafilatura, pressatura)">
+						</node>
+						<node label="Tempra, trattamento termico">
+						</node>
+						<node label="Tecniche di assemblaggio (rivettatura, avvitatura, incollaggio)">
+						</node>
+						<node label="Assemblaggio (saldatura con e senza materiale d'apporto, forzamento)">
+						</node>
+						<node label="Macchine Utensili">
+						</node>
+						<node label="Lavorazioni meccaniche (tornitura, foratura, stampaggio, fresatura, piallatura, taglio)">
+						</node>
+						<node label="Lavorazioni meccaniche fini, (rettifica, lappatura)">
+						</node>
+						<node label="Miscelazione (polvere, ecc), separazione (cernita, filtraggio)">
+						</node>
+						<node label="Stampaggio, stampaggio ad iniezione, estrusione, sinterizzazione">
+						</node>
+						<node label="Trattamento di superficie (pittura, galvanizzazione, lucidatura, CVD, PVD)">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Controllo di processo e logistica ">
+					<isComposedBy>
+						<node label="Controllo di processo e logistica">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Progettazione e manutenzione impianti ">
+				<node label="Progettazione e manutenzione impianti">
+					<isComposedBy>
+						<node label="Progettazione e manutenzione impianti">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Imballaggio / movimentazione">
+					<isComposedBy>
+						<node label="Laminati e lamine">
+						</node>
+						<node label="Laminato">
+						</node>
+						<node label="Imballaggio per macchinari">
+						</node>
+						<node label="Imballaggio per materiali">
+						</node>
+						<node label="Sacchetti di plastica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Tecnologia delle costruzioni ">
+					<isComposedBy>
+						<node label="Materiali da costruzione, componenti e metodi">
+						</node>
+						<node label="Ingegneria civile">
+						</node>
+						<node label="Macchine per l'edilizia">
+						</node>
+						<node label="Resistenza al fuoco / sicurezza">
+						</node>
+						<node label="Ingegneria Meccanica, Idraulica, ingegneria acustica e delle vibrazioni nell'ambito della tecnologia delle costruzioni">
+						</node>
+						<node label="Tecnologia delle condotte">
+						</node>
+						<node label="Tecnologia della polpa di legno relativa alla tecnologia delle costruzioni">
+						</node>
+						<node label="Tecnologia dei sensori / multisensori, strumentazione relativa alle tecnologia delle costruzioni">
+						</node>
+						<node label="Simulazioni, ingegneria delle simulazioni">
+						</node>
+						<node label="Isolamento acustico">
+						</node>
+						<node label="Vuoto / tecnologia del vuoto spinto">
+						</node>
+						<node label="Sicurezza del gas">
+						</node>
+						<node label="Sicurezza">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Tecnologia dei materiali">
+					<isComposedBy>
+						<node label="Adesivi">
+						</node>
+						<node label="Materiali da costruzione">
+						</node>
+						<node label="Materiali ceramici e polveri">
+						</node>
+						<node label="Colori e vernici">
+						</node>
+						<node label="Materiali compositi">
+						</node>
+						<node label="Prodotti chimici, coloranti e inchiostri">
+						</node>
+						<node label="Vetro">
+						</node>
+						<node label="Ferro e acciaio, acciaierie">
+						</node>
+						<node label="Tecnologia del trasporto dei materiali (solidi, fluidi, gas)">
+						</node>
+						<node label="Metalli e leghe">
+						</node>
+						<node label="Metalli non ferrosi">
+						</node>
+						<node label="Materiali ottici">
+						</node>
+						<node label="Tecnologia della carta">
+						</node>
+						<node label="Plastiche, polimeri">
+						</node>
+						<node label="Proprietࡤei materiali, corrosione / degradazione">
+						</node>
+						<node label="Gomma">
+						</node>
+						<node label="Pietra">
+						</node>
+						<node label="Materiali tessili avanzati">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Infrastrutture di trasporto">
+					<isComposedBy>
+						<node label="Trasporto aereo">
+						</node>
+						<node label="Trasporto intermodale">
+						</node>
+						<node label="Logistica">
+						</node>
+						<node label="Trasporto ferroviario">
+						</node>
+						<node label="Trasporto su strada">
+						</node>
+						<node label="Ingegneria del traffico / sistemi di controllo">
+						</node>
+						<node label="Sistemi di trasbordo">
+						</node>
+						<node label="Trasporto acquatico">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Tecnologie del trasporto e della navigazione">
+					<isComposedBy>
+						<node label="Progettazione di veicoli">
+						</node>
+						<node label="Veicoli Ibridi e elettrici">
+						</node>
+						<node label="Veicoli ferroviari">
+						</node>
+						<node label="Veicoli stradali">
+						</node>
+						<node label="Costruzione navale">
+						</node>
+						<node label="Sistemi di Trazione / Propulsione">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Tecnologia aerospaziale ">
+					<isComposedBy>
+						<node label="Tecnologia aeronautica / avionica">
+						</node>
+						<node label="Velivoli">
+						</node>
+						<node label="Elicotteri">
+						</node>
+						<node label="Sistemi di navigazione satellitare">
+						</node>
+						<node label="Esplorazione e tecnologia dello spazio">
+						</node>
+					</isComposedBy>
 				</node>
 			</isComposedBy>			
 		</node>		
@@ -433,6 +596,6 @@ EEN CORDIS
 				</node>				
 			</isComposedBy>				
 		</node>	
-		-->						
+							
 	</isComposedBy>
 </node>
