@@ -367,97 +367,473 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		 
 		<node id="3" label="ALTRE TECNOLOGIE INDUSTRIALI ">
 			<isComposedBy>
 				<node  label="Altre tecnologie industriali ">
+					<isComposedBy>
+						<node label="Tecnologia della pulizia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Ingegneria degli impianti di processo">
+					<isComposedBy>
+						<node label="Ingegneria degli impianti di processo">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Ingegneria delle apparecchiature">
+					<isComposedBy>
+						<node label="Ingegneria delle apparecchiature">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Ingegneria e tecnologia chimica">
+					<isComposedBy>
+						<node label="Prodotti chimici per l'agricoltura">
+						</node>
+						<node label="Sostanze inorganiche">
+						</node>
+						<node label="Colori, tinte nell'ambito dell'ingegneria e  della tecnologia chimica">
+						</node>
+						<node label="Ingegneria e tecnologia elettrica  / apparecchiature elettriche">
+						</node>
+						<node label="Fibre artificiali">
+						</node>
+						<node label="Sostanze organiche">
+						</node>
+						<node label="Prodotti farmaceutici">
+						</node>
+						<node label="Materie plastiche e gomma nell'ambito della tecnologia e ingegneria chimica">
+						</node>
+						<node label="Saponi, detergenti">
+						</node>
+						<node label="Prodotti chimici speciali, prodotti intermedi">
+						</node>
+						<node label="Cura, igiene, bellezza">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Tecnologia Tessile ">
+					<isComposedBy>
+						<node label="Componenti adesivi per il rinforzo della cucitura">
+						</node>
+						<node label="Imbottitura a secco nell'ambito della Tecnologia Tessile">
+						</node>
+						<node label="Tintura in riferimento alla tecnologia tessile">
+						</node>
+						<node label="Finitura relativa alla tecnologia tessile">
+						</node>
+						<node label="Tessuto non tessuto con riferimento alla Tecnologia Tessile">
+						</node>
+						<node label="Colle a base solvente per il rafforzamento dei bordi e cucitura">
+						</node>
+						<node label="Fibre tessili termoplastiche">
+						</node>
+						<node label="Attivitࡤi tessitura relativa alla tecnologia tessile">
+						</node>
+						<node label="Prodotti tecnici tessuti per applicazioni industriali">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Tecnologia delle calzature e del cuoio">
+					<isComposedBy>
+						<node label="Imbottitura a secco riferita alla Tecnologia delle calzature e del cuoio">
+						</node>
+						<node label="Coloranti relativi alla tecnologia delle calzature e del cuoio">
+						</node>
+						<node label="Conciatura delle pelli in riferimento alla tecnologia delle calzature e del cuoio">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Ingegneria e  tecnologia del suono">
+					<isComposedBy>
+						<node label="Ingegneria e  tecnologia del suono">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Tecnologie minerarie">
+					<isComposedBy>
+						<node label="Tecnologie minerarie">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Stampa">
+					<isComposedBy>
+						<node label="Flessografia">
+						</node>
+						<node label="Bobine di materiale stampato">
+						</node>
+					</isComposedBy>
 				</node>
 				<node  label="Elettrodomestici e beni per la casa">
+					<isComposedBy>
+						<node label="Elettrodomestici e beni per la casa">
+						</node>
+					</isComposedBy>
 				</node>
 			</isComposedBy>			
-		</node>		
-		
-		 
+		</node>	 
+			
 		<node id="4" label="ENERGIA">
 			<isComposedBy>
 				<node label="Stoccaggio e trasporto di energia">
+					<isComposedBy>
+						<node label="Immagazzinamento del calore">
+						</node>
+						<node label="Fornitura e trasporto di calore, teleriscaldamento">
+						</node>
+						<node label="Stoccaggio di energia elettrica, batterie">
+						</node>
+						<node label="Trasmissione di elettricità">
+						</node>
+						<node label="Trasporto e stoccaggio di gas e combustibili liquidi">
+						</node>
+						<node label="Trasporto e stoccaggio di idrogeno">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Produzione, trasmissione e conversione di energia">
+					<isComposedBy>
+						<node label="Celle combustibili, produzione di idrogeno">
+						</node>
+						<node label="Liquefazione del combustibile, gassificazione">
+						</node>
+						<node label="Tecnologia dei forni, costruzione di caldaie per riscaldamento">
+						</node>
+						<node label="Generatori, motori elettrici e convertitori di potenza">
+						</node>
+						<node label="Scambiatori di calore">
+						</node>
+						<node label="Pompe di calore, tecnologie di raffreddamento">
+						</node>
+						<node label="Riscaldamento, ventilazione">
+						</node>
+						<node label="Turbine, macchine a fluido, motori alternativi, produzione combinata di calore e di energia elettrica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Fonti energetiche fossili">
+					<isComposedBy>
+						<node label="Carbone e idrocarburi">
+						</node>
+						<node label="Combustibili fossili gassosi">
+						</node>
+						<node label="Combustibili fossili solidi">
+						</node>
+						<node label="Combustibili fossili liquidi">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Fissione nucleare / fusione nucleare ">
+				<node label="Fissione nucleare / fusione nucleare">
+					<isComposedBy>
+						<node label="Fissione nucleare / fusione nucleare">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Energia da fonti rinnovabili">
+					<isComposedBy>
+						<node label="Biomassa gassosa">
+						</node>
+						<node label="Energia geotermica">
+						</node>
+						<node label="Potenza idraulica">
+						</node>
+						<node label="Biomassa liquida">
+						</node>
+						<node label="Fotovoltaico">
+						</node>
+						<node label="Energia solare/termica">
+						</node>
+						<node label="Biomassa solida">
+						</node>
+						<node label="Energie non convenzionali e alternative">
+						</node>
+						<node label="Incenerimento dei rifiuti">
+						</node>
+						<node label="Energia eolica">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Uso razionale dell'energia ">
+				<node label="Uso razionale dell'energia">
+					<isComposedBy>
+						<node label="Gestione dell'energia">
+						</node>
+						<node label="Illuminazione, proiezione luci">
+						</node>
+						<node label="Ottimizzazione dei processi, utilizzo del calore residuo">
+						</node>
+						<node label="Isolamento termico,efficienza energetica negli edifici">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Altri temi di energia ">
+				<node label="Altri temi di energia">
+					<isComposedBy>
+						<node label="Combustione, fiamme">
+						</node>
+						<node label="Tecnologia del combustibile">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>	
 		
-		<node id="5" label="FISICA E SCIENZE ESATTE ">
+		<node id="5" label="FISICA E SCIENZE ESATTE">
 			<isComposedBy>
 				<node label="Astronomia">
+					<isComposedBy>
+						<node label="Astronomia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Chimica">
+					<isComposedBy>
+						<node label="Chimica analitica">
+						</node>
+						<node label="Chimica computazionale e modellazione">
+						</node>
+						<node label="Chimica inorganica">
+						</node>
+						<node label="Chimica organica">
+						</node>
+						<node label="Petrolchimica, ingegneria del petrolio">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze della terra ">
+					<isComposedBy>
+						<node label="Geologia, ingegneria geologica, geotecnica">
+						</node>
+						<node label="Oceanografia">
+						</node>
+						<node label="Tettonica, sismologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Matematica, statistica">
+					<isComposedBy>
+						<node label="Algoritmi e complessità">
+						</node>
+						<node label="Modellazione matematica">
+						</node>
+						<node label="Analisi statistica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Meteorologia / climatologia">
+					<isComposedBy>
+						<node label="Biosensori">
+						</node>
+						<node label="Sensori di umidità">
+						</node>
+						<node label="Controllo della temperatura">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Fisica">
+					<isComposedBy>
+						<node label="Acustica">
+						</node>
+						<node label="Astrofisica / cosmologia">
+						</node>
+						<node label="Tecnologia laser">
+						</node>
+						<node label="Fisica nucleare">
+						</node>
+						<node label="Fisica dei fluidi">
+						</node>
+						<node label="Tecnologia dei sensori/multisensori, strumentazione">
+						</node>
+						<node label="Fisica dello stato solido">
+						</node>
+						<node label="Termodinamica">
+						</node>
+						<node label="Ingegneria acustica e delle vibrazioni">
+						</node>
+						<node label="Ottica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Ingegneria meccanica ">
+					<isComposedBy>
+						<node label="Micromeccanica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Idraulica">
+					<isComposedBy>
+						<node label="Idraulica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Tecnologie di separazione ">
+					<isComposedBy>
+						<node label="Filtrazione e processi a membrana">
+						</node>
+						<node label="Estrazione">
+						</node>
+						<node label="Adsorbimento">
+						</node>
+						<node label="Distillazione">
+						</node>				
+						<node label="Sublimazione">
+						</node>
+						<node label="Altri processi">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+					<isComposedBy>
+						<node label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+						</node>
+					</isComposedBy>
 				</node>
 			</isComposedBy>			
-		</node>		
+		</node>	
 		
 		<node id="6" label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
 				<node label="Medicina, salute ">
+					<isComposedBy>
+						<node label="Biostatistica, Epidemiologia">
+						</node>
+						<node label="Cura e servizi sanitari">
+						</node>
+						<node label="Ricerca clinica, esperimenti">
+						</node>
+						<node label="Citologia, cancerologia, oncologia">
+						</node>
+						<node label="Odontoiatria / odontologia, stomatologia">
+						</node>
+						<node label="Diagnostica, diagnosi">
+						</node>
+						<node label="Malattie">
+						</node>
+						<node label="Medicina ambientale, medicina sociale, medicina dello sport">
+						</node>
+						<node label="Terapia genica">
+						</node>
+						<node label="Gerontologia e geriatria">
+						</node>
+						<node label="Malattie del cuore e della circolazione sanguigna">
+						</node>
+						<node label="Apparecchiature medicali ed elettromedicali">
+						</node>
+						<node label="Ricerca medica">
+						</node>
+						<node label="Tecnologia medica / ingegneria biomedica">
+						</node>
+						<node label="Neurologia, ricerca sul cervello">
+						</node>
+						<node label="Prodotti farmaceutici / droghe">
+						</node>
+						<node label="Fisiologia">
+						</node>
+						<node label="Chirurgia">
+						</node>
+						<node label="Virus, virologia / antiobiotici / batteriologia">
+						</node>
+						<node label="Attrezzatura da laboratorio">
+						</node>
+						<node label="Equipaggiamenti di salvataggio e di emergenza">
+						</node>
+						<node label="Fisioterapia,  tecnologia ortopedica">
+						</node>
+						<node label="Prodotti monouso e beni di consumo">
+						</node>
+						<node label="Tessuti medicali">
+						</node>
+						<node label="Arredi sanitari">
+						</node>
+						<node label="Biomateriali medicali">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Biologia / biotecnologia ">
+					<isComposedBy>
+						<node label="Biochimica / biofisica">
+						</node>
+						<node label="Biologia cellulare e molecolare">
+						</node>
+						<node label="Enzimologia / ingegneria delle proteine / fermentazione">
+						</node>
+						<node label="Ingegneria genetica">
+						</node>
+						<node label="Test in vitro, prove">
+						</node>
+						<node label="Microbiologia">
+						</node>
+						<node label="Progettazione Molecolare">
+						</node>
+						<node label="Tossicologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Ricerca sul genoma ">
+					<isComposedBy>
+						<node label="Bioinformatica">
+						</node>
+						<node label="Espressione genica, ricerca proteomica">
+						</node>
+						<node label="Genetica delle popolazioni">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Micro e nanotecnologie per le scienze biologiche ">
+					<isComposedBy>
+						<node label="Micro e nanotecnologie per le scienze biologiche">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>	
 			
-		<node id="7" label="Agricoltura e risorse marine">
+		<node id="7" label="AGRICOLTURA E RISORSE MARINE">
 			<isComposedBy>
 				<node label="Agricoltura">
+					<isComposedBy>
+						<node label="Macchinari e tecnologia per l'agricoltura">
+						</node>
+						<node label="Produzione animale / allevamento">
+						</node>
+						<node label="Controllo biologico">
+						</node>
+						<node label="Produzione agricola">
+						</node>
+						<node label="Orticoltura">
+						</node>
+						<node label="Pesticidi">
+						</node>
+						<node label="Agricoltura di precisione">
+						</node>
+						<node label="Rivestimento delle sementi">
+						</node>
+						<node label="Medicina veterinaria">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Silvicoltura, tecnologia forestale">
+					<isComposedBy>
+						<node label="Tecnologia forestale">
+						</node>
+						<node label="Tecnologia della carta">
+						</node>
+						<node label="Cartotecnica">
+						</node>
+						<node label="Silvicultura">
+						</node>
+						<node label="Prodotti del legno">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Risorse del mare, della pesca ">
+					<isComposedBy>
+						<node label="Acquacoltura">
+						</node>
+						<node label="Pesci / pesca / tecnologia della pesca">
+						</node>
+						<node label="Scienze marine">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>		
@@ -465,10 +841,36 @@ EEN CORDIS
 		<node id="8" label="INDUSTRIA AGROALIMENTARE">
 			<isComposedBy>
 				<node label="Tecnologie per l'industria alimentare ">
+					<isComposedBy>
+						<node label="Tecnologia delle bevande">
+						</node>
+						<node label="Additivi alimentari / ingredienti / integratori">
+						</node>
+						<node label="Confezionamento alimentare / trattamento">
+						</node>
+						<node label="Trasformazione dei prodotti alimentari">
+						</node>
+						<node label="Tecnologia alimentare">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Qualità e sicurezza alimentare">
+				<node label="Qualità sicurezza alimentare">
+					<isComposedBy>
+						<node label="Controllo e metodi di analisi">
+						</node>
+						<node label="Microbiologia alimentare / tossicologia / controllo di qualità">
+						</node>
+						<node label="Metodi di produzione sana">
+						</node>
+						<node label="Tracciabilitࡤei prodotti alimentari">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Nutrizione e salute">
+					<isComposedBy>
+						<node label="Nutrizione e salute">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>		
@@ -476,27 +878,115 @@ EEN CORDIS
 		<node id="9" label="MISURAZIONI E STANDARD ">
 			<isComposedBy>
 				<node label="Strumenti di misurazione ">
+					<isComposedBy>
+						<node label="Tecnologia acustica riferita alle misurazioni">
+						</node>
+						<node label="Attrezzature e metodi per test / analisi">
+						</node>
+						<node label="Test chimici su materiali">
+						</node>
+						<node label="Tecnologia elettrica riferita alle misurazioni">
+						</node>
+						<node label="Tecnologia meccanica riferita alle misurazioni">
+						</node>
+						<node label="Test ottici sui materiali">
+						</node>
+						<node label="Tecnologia ottica riferita alle misurazioni">
+						</node>
+						<node label="Altri controlli non distruttivi">
+						</node>
+						<node label="Tecnologia dei sensori riferita alle misure">
+						</node>
+						<node label="Test termici su materiali">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Amplificatore, A / D trasduttore">
+					<isComposedBy>
+						<node label="Amplificatore, A / D trasduttore">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Sistemi di misurazione elettronica">
+					<isComposedBy>
+						<node label="Sistemi di misurazione elettronica">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Dispositivi di registrazione ">
+				<node label="Dispositivi di registrazione">
+					<isComposedBy>
+						<node label="Dispositivi di registrazione">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Materiali di riferimento ">
+				<node label="Materiali di riferimento">
+					<isComposedBy>
+						<node label="Materiali di riferimento">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Standards">
+					<isComposedBy>
+						<node label="Standard di qualità">
+						</node>
+						<node label="Norme tecniche">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
-		</node>		
+		</node>	
 		
 		<node id="10" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
 			<isComposedBy>
 				<node label="Sicurezza">
+					<isComposedBy>
+						<node label="Sicurezza acustica">
+						</node>
+						<node label="Valutazione del rischio">
+						</node>
+						<node label="Tecnologia della sicurezza antincendio">
+						</node>
+						<node label="Materiali pericolosi">
+						</node>
+						<node label="Radioprotezione">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Ambiente">
+					<isComposedBy>
+						<node label="Trattamento dell'inquinamento">
+						</node>
+						<node label="Biodiversità">
+						</node>
+						<node label="Ecologia">
+						</node>
+						<node label="Tecnologia ed Ingegneria ambientale">
+						</node>
+						<node label="Misurazione e rilevamento dell'inquinamento">
+						</node>
+						<node label="Calamit࡮aturali">
+						</node>
+						<node label="Tecnologia del telerilevamento">
+						</node>
+						<node label="Inquinamento del suolo">
+						</node>
+						<node label="Inquinamento delle acque / trattamento ">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Gestione dei rifiuti ">
+					<isComposedBy>
+						<node label="Biotrattamenti / compostaggio / bioconversione">
+						</node>
+						<node label="Incenerimento e pirolisi">
+						</node>
+						<node label="Smaltimento dei rifiuti del suolo e delle acque">
+						</node>
+						<node label="Riciclaggio, recupero">
+						</node>
+						<node label="Rifiuti radioattivi">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>	
