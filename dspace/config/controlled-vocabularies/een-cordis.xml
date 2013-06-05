@@ -1531,24 +1531,98 @@ EEN CORDIS
 		<node id="14" label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
 			<isComposedBy>
 				<node label="Politiche">
+					<isComposedBy>
+						<node label="Formulazione, valutazione o applicazione di politiche, strategie politiche o piani d'azione per la ricerca e lo sviluppo nella scienza e nella tecnologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Legislazione, regolamentazione">
+					<isComposedBy>
+						<node label="Formulazione, valutazione o applicazione di leggi e regolamenti, provvedimenti amministrativi, codici di condotta, decisioni, direttive o accordi per la ricerca e lo sviluppo nella scienza e nella tecnologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Previsioni">
+					<isComposedBy>
+						<node label="Individuazione di futuri sviluppi nella ricerca e nello sviluppo tecnologico e di opzioni strategiche a lungo termine">
+						</node>
+						<node label="Contributi alle politiche in materia di ricerca e sviluppo tecnologico">
+						</node>
+						<node label="Metodologie di previsione">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Valutazione">
+					<isComposedBy>
+						<node label="Valutazione dei programmi comunitari in materia di ricerca e sviluppo tecnologico">
+						</node>
+						<node label="Metodologie di valutazione">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Innovazione, trasferimento di tecnologie">
+					<isComposedBy>
+						<node label="Sviluppo di meccanismi volti a promuovere l'innovazione e il trasferimento tecnologico, utilizzo dei risultati della ricerca, diritti di proprietàe brevetti">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Coordinamento, cooperazione">
+					<isComposedBy>
+						<node label="Promozione di azioni congiunte, scambio di informazioni, mobilitì condivisione di risorse per la ricerca, esercizi di confronto">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Ricerca scientifica">
+					<isComposedBy>
+						<node label="Ricerca scientifica e industriale generale, o attivitàdi ricerca non incluse altrove">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Aspetti imprenditoriali">
+					<isComposedBy>
+						<node label="PMI orientate sulla ricerca">
+						</node>
+						<node label="PMI ad alta tecnologia">
+						</node>
+						<node label="Organizzazioni di ricerca finanziate privatamente">
+						</node>
+						<node label="Competitività in R&amp;S">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Etica della ricerca">
+					<isComposedBy>
+						<node label="Sperimentazioni cliniche">
+						</node>
+						<node label="Sperimentazione animale">
+						</node>
+						<node label="Cellule staminali">
+						</node>
+						<node label="Clonazione">
+						</node>
+						<node label="Temi di ricerca controversi">
+						</node>
+						<node label="Sistemi di supervisione etica">
+						</node>
+						<node label="Consigli etici di ricerca">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Diritti di proprietà intellettuale">
+					<isComposedBy>
+						<node label="Brevetti">
+						</node>
+						<node label="Diritti d'Autore">
+						</node>
+						<node label="Appoggio DPI">
+						</node>
+						<node label="Gestione dei diritti digitali">
+						</node>
+						<node label="Questioni commerciali">
+						</node>
+						<node label="Farmaci generici">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>				
 		</node>	
