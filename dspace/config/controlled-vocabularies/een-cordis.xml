@@ -61,7 +61,7 @@ EEN CORDIS
 						</node>	
 						<node label="Tecnologia dei computer (grafica, metacomputing)">
 						</node>	
-						<node label="Elaborazione dei dati / Scambio di dati,  Middleware">
+						<node label="Elaborazione dei dati / Scambio di dati, Middleware">
 						</node>	
 						<node label="Protezione dei dati, tecnologia di archiviazione, crittografia, sicurezza dei dati">
 						</node>	
@@ -73,7 +73,7 @@ EEN CORDIS
 						</node>	
 						<node label="Tecnologia dell'informazione/Informatica">
 						</node>	
-						<node label="Tecnologie di connettivitࡉnternet (Wireless, Wi-Fi, Bluetooth)">
+						<node label="Tecnologie di connettivitàInternet (Wireless, Wi-Fi, Bluetooth)">
 						</node>	
 						<node label="Knowledge management, gestione dei processi">
 						</node>	
@@ -109,7 +109,7 @@ EEN CORDIS
 						</node>	
 						<node label="Gis sistemi di informazione geografica">
 						</node>	
-						<node label="CRM ֠Gestione relazioni con i clienti">
+						<node label="CRM-Gestione relazioni con i clienti">
 						</node>	
 						<node label="Sistema di gestione della qualità">
 						</node>	
@@ -119,7 +119,7 @@ EEN CORDIS
 						</node>	
 						<node label="Sistema didattico">
 						</node>	
-						<node label="ICM ֠Gestione dei contenuti Internet">
+						<node label="ICM-Gestione dei contenuti Internet">
 						</node>	
 						<node label="Gestione dell'analisi del rischio">
 						</node>	
@@ -139,11 +139,11 @@ EEN CORDIS
 						</node>	
 						<node label="Filtraggio di informazioni, semantica, statistica">
 						</node>	
-						<node label="Visualizzazione, realtࡶirtuale">
+						<node label="Visualizzazione, realtàvirtuale">
 						</node>	
 					</isComposedBy>
 				</node>			
-				<node label="Telecomunicazioni, reti ">
+				<node label="Telecomunicazioni, reti">
 					<isComposedBy>
 						<node label="Attrezzature audiovisive e di comunicazione">
 						</node>	
@@ -159,7 +159,7 @@ EEN CORDIS
 						</node>	
 						<node label="Reti di ricerca, GRID">
 						</node>	
-						<node label="Tecnologia satellitare/ sistemi / posizionamento / comunicazione GPS - Global Positioning System">
+						<node label="Tecnologia satellitare / sistemi / posizionamento / comunicazione GPS - Global Positioning System">
 						</node>	
 						<node label="Elaborazione dei segnali">
 						</node>	
@@ -304,7 +304,7 @@ EEN CORDIS
 						</node>
 						<node label="Plastiche, polimeri">
 						</node>
-						<node label="Proprietࡤei materiali, corrosione / degradazione">
+						<node label="Proprietàdei materiali, corrosione / degradazione">
 						</node>
 						<node label="Gomma">
 						</node>
@@ -641,7 +641,7 @@ EEN CORDIS
 						</node>
 						<node label="Fisica dei fluidi">
 						</node>
-						<node label="Tecnologia dei sensori/multisensori, strumentazione">
+						<node label="Tecnologia dei sensori / multisensori, strumentazione">
 						</node>
 						<node label="Fisica dello stato solido">
 						</node>
@@ -970,11 +970,11 @@ EEN CORDIS
 						</node>
 						<node label="Inquinamento del suolo">
 						</node>
-						<node label="Inquinamento delle acque / trattamento ">
+						<node label="Inquinamento delle acque / trattamento">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Gestione dei rifiuti ">
+				<node label="Gestione dei rifiuti">
 					<isComposedBy>
 						<node label="Biotrattamenti / compostaggio / bioconversione">
 						</node>
@@ -1190,7 +1190,7 @@ EEN CORDIS
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze religiose ">
+				<node label="Scienze religiose">
 					<isComposedBy>
 						<node label="Studi biblici">
 						</node>
@@ -1227,7 +1227,7 @@ EEN CORDIS
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze della comunicazione ">
+				<node label="Scienze della comunicazione">
 					<isComposedBy>
 						<node label="Comunicazione audiovisiva">
 						</node>
@@ -1528,7 +1528,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node id="14" label="Tematiche orizzontali sulla ricerca e lo sviluppo tecnologico">
+		<node id="14" label="TEMATICHE ORIZZONTALI SULLA RICERCA E LO SVILUPPO TECNOLOGICO">
 			<isComposedBy>
 				<node label="Politiche">
 					<isComposedBy>
