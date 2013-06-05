@@ -429,7 +429,7 @@ EEN CORDIS
 						</node>
 						<node label="Fibre tessili termoplastiche">
 						</node>
-						<node label="Attivitࡤi tessitura relativa alla tecnologia tessile">
+						<node label="Attività di tessitura relativa alla tecnologia tessile">
 						</node>
 						<node label="Prodotti tecnici tessuti per applicazioni industriali">
 						</node>
@@ -862,7 +862,7 @@ EEN CORDIS
 						</node>
 						<node label="Metodi di produzione sana">
 						</node>
-						<node label="Tracciabilitࡤei prodotti alimentari">
+						<node label="Tracciabilità dei prodotti alimentari">
 						</node>
 					</isComposedBy>
 				</node>
@@ -964,7 +964,7 @@ EEN CORDIS
 						</node>
 						<node label="Misurazione e rilevamento dell'inquinamento">
 						</node>
-						<node label="Calamit࡮aturali">
+						<node label="Calamità naturali">
 						</node>
 						<node label="Tecnologia del telerilevamento">
 						</node>
@@ -993,21 +993,53 @@ EEN CORDIS
 			
 		<node id="11" label="QUESTIONI SOCIALI ED ECONOMICHE">
 			<isComposedBy>
-				<node label="Modelli di sviluppo socioeconomico, aspetti economici ">
+				<node label="Modelli di sviluppo socioeconomico, aspetti economici">
+					<isComposedBy>
+						<node label="Modelli di sviluppo socioeconomico, aspetti economici">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Istruzione e formazione ">
+				<node label="Istruzione e formazione">
+					<isComposedBy>
+						<node label="Istruzione e formazione">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Informazione e mezzi di comunicazione, società">
+					<isComposedBy>
+						<node label="Informazione e mezzi di comunicazione, società">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Tecnologia, società e occupazione ">
+				<node label="Tecnologia, società e occupazione">
+					<isComposedBy>
+						<node label="Tecnologia, società e occupazione">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Infrastrutture per le scienze sociali e umanistiche ">
+				<node label="Infrastrutture per le scienze sociali e umanistiche">
+					<isComposedBy>
+						<node label="Infrastrutture per le scienze sociali e umanistiche">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Partecipazione dei cittadini ">
+				<node label="Partecipazione dei cittadini">
+					<isComposedBy>
+						<node label="Partecipazione dei cittadini">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Strumenti di previsione ">
+				<node label="Strumenti di previsione">
+					<isComposedBy>
+						<node label="Strumenti di previsione">
+						</node>
+					</isComposedBy>
 				</node>
-				<node label="Sport e tempo libero ">
+				<node label="Sport e tempo libero">
+					<isComposedBy>
+						<node label="Sport e tempo libero">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>		
@@ -1015,49 +1047,483 @@ EEN CORDIS
 		<node id="12" label="SCIENZE UMANE">
 			<isComposedBy>
 				<node label="Arti">
+					<isComposedBy>
+						<node label="Gestione delle arti">
+						</node>
+						<node label="Studi sulla moda">
+						</node>
+						<node label="Belle arti">
+						</node>
+						<node label="Artigianato">
+						</node>
+						<node label="Arti dello spettacolo">
+						</node>
+						<node label="Arti visive">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Storia">
+					<isComposedBy>
+						<node label="Storia antica">
+						</node>
+						<node label="Archeologia">
+						</node>
+						<node label="Storia dell'arte">
+						</node>
+						<node label="Storia della Chiesa">
+						</node>
+						<node label="Storia contemporanea">
+						</node>
+						<node label="Storia economica">
+						</node>
+						<node label="Genealogia">
+						</node>
+						<node label="Araldica">
+						</node>
+						<node label="Storia dell'agricoltura">
+						</node>
+						<node label="Storia del design">
+						</node>
+						<node label="Storia del diritto">
+						</node>
+						<node label="Storia delle arti dello spettacolo">
+						</node>
+						<node label="Storia della filosofia">
+						</node>
+						<node label="Storia delle religioni">
+						</node>
+						<node label="Storia della scienza">
+						</node>
+						<node label="Storia delle scienze sociali">
+						</node>
+						<node label="Storia locale">
+						</node>
+						<node label="Storia medievale">
+						</node>
+						<node label="Storia moderna">
+						</node>
+						<node label="Storia della musica">
+						</node>
+						<node label="Numismatica">
+						</node>
+						<node label="Paleografia">
+						</node>
+						<node label="Storia politica">
+						</node>
+						<node label="Preistoria">
+						</node>
+						<node label="Sigillografia">
+						</node>
+						<node label="Storia sociale">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienza delle informazioni">
+					<isComposedBy>
+						<node label="Archivistica">
+						</node>
+						<node label="Diplomatica">
+						</node>
+						<node label="Documentazione">
+						</node>
+						<node label="Gestione delle informazioni">
+						</node>
+						<node label="Biblioteconomia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze del linguaggio">
+					<isComposedBy>
+						<node label="Lingue">
+						</node>
+						<node label="Linguistica">
+						</node>
+						<node label="Filologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Letteratura">
+					<isComposedBy>
+						<node label="Letteratura africana">
+						</node>
+						<node label="Letteratura americana">
+						</node>
+						<node label="Letteratura asiatica">
+						</node>
+						<node label="Letteratura austronesiana">
+						</node>
+						<node label="Letteratura comparata">
+						</node>
+						<node label="Letteratura europea">
+						</node>
+						<node label="Letteratura greca">
+						</node>
+						<node label="Letteratura camito-semitica">
+						</node>
+						<node label="Critica letteraria">
+						</node>
+						<node label="Scrittura">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Filosofia">
+					<isComposedBy>
+						<node label="Estetica">
+						</node>
+						<node label="Epistemologia">
+						</node>
+						<node label="Etica">
+						</node>
+						<node label="Logica">
+						</node>
+						<node label="Metafisica">
+						</node>
+						<node label="Fenomenologia">
+						</node>
+						<node label="Antropologia filosofica">
+						</node>
+						<node label="Filosofia del diritto">
+						</node>
+						<node label="Filosofia della scienza">
+						</node>
+						<node label="Semiotica">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze religiose ">
+					<isComposedBy>
+						<node label="Studi biblici">
+						</node>
+						<node label="Studi sulla Chiesa">
+						</node>
+						<node label="Religione comparata">
+						</node>
+						<node label="Religioni pagane">
+						</node>
+						<node label="Studi pastoral">
+						</node>
+						<node label="Teologia">
+						</node>
+					</isComposedBy>
 				</node>				
 			</isComposedBy>			
 		</node>	
 		
-		<node id="13" label="SCIENZE SOCIALI ">
+		<node id="13" label="SCIENZE SOCIALI">
 			<isComposedBy>
 				<node label="Antropologia">
+					<isComposedBy>
+						<node label="Antropologia della comunicazione">
+						</node>
+						<node label="Antropologia Culturale">
+						</node>
+						<node label="Etnologia">
+						</node>
+						<node label="Antropologia medica">
+						</node>
+						<node label="Antropologia fisica">
+						</node>
+						<node label="Antropologia sociale">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze della comunicazione ">
+					<isComposedBy>
+						<node label="Comunicazione audiovisiva">
+						</node>
+						<node label="Comunicazione d'impresa">
+						</node>
+						<node label="Editing">
+						</node>
+						<node label="Comunicazione grafica">
+						</node>
+						<node label="Giornalismo">
+						</node>
+						<node label="Studi sui media">
+						</node>
+						<node label="Servizi di informazione on-line">
+						</node>
+						<node label="Relazioni pubbliche">
+						</node>
+						<node label="Editoria">
+						</node>
+						<node label="Scienze della comunicazione">
+						</node>
+						<node label="Comunicazione verbale">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Criminologia">
+					<isComposedBy>
+						<node label="Criminologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Studi culturali ">
+					<isComposedBy>
+						<node label="Studi africani">
+						</node>
+						<node label="Studi americani">
+						</node>
+						<node label="Studi sull'antichità">
+						</node>
+						<node label="Studi anglosassoni">
+						</node>
+						<node label="Studi arabi">
+						</node>
+						<node label="Studi asiatici">
+						</node>
+						<node label="Studi bizantini">
+						</node>
+						<node label="Studi copti">
+						</node>
+						<node label="Studi sugli esquimesi">
+						</node>
+						<node label="Studi europei">
+						</node>
+						<node label="Studi islamici">
+						</node>
+						<node label="Studi ebraici">
+						</node>
+						<node label="Studi medioevali">
+						</node>
+						<node label="Studi mediorientali">
+						</node>
+						<node label="Studi orientali">
+						</node>
+						<node label="Studi regionali">
+						</node>
+						<node label="Studi sul Rinascimento">
+						</node>
+						<node label="Studi russi">
+						</node>
+						<node label="Studi sul Terzo Mondo">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Demografia">
+					<isComposedBy>
+						<node label="Demografia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Economia">
+					<isComposedBy>
+						<node label="Scienze amministrative">
+						</node>
+						<node label="Economia agraria">
+						</node>
+						<node label="Economia applicata">
+						</node>
+						<node label="Attivitࡢancaria">
+						</node>
+						<node label="Economia aziendale">
+						</node>
+						<node label="Rilievi catastali">
+						</node>
+						<node label="Economia e commercio">
+						</node>
+						<node label="Economia delle costruzioni">
+						</node>
+						<node label="Economia dei consumatori">
+						</node>
+						<node label="Economia dei cicli">
+						</node>
+						<node label="Econometria">
+						</node>
+						<node label="Politica economica">
+						</node>
+						<node label="Sistemi economici">
+						</node>
+						<node label="Teoria economica">
+						</node>
+						<node label="Economia dello sviluppo">
+						</node>
+						<node label="Economia ambientale">
+						</node>
+						<node label="Scienze delle finanze">
+						</node>
+						<node label="Economia della pesca">
+						</node>
+						<node label="Economia agroalimentare">
+						</node>
+						<node label="Economia sanitaria">
+						</node>
+						<node label="Economia domestica">
+						</node>
+						<node label="Economia industriale">
+						</node>
+						<node label="Economia della conoscenza">
+						</node>
+						<node label="Economia del lavoro">
+						</node>
+						<node label="Economia del mercato del lavoro">
+						</node>
+						<node label="Economia del territorio">
+						</node>
+						<node label="Economia dei locali pubblici">
+						</node>
+						<node label="Macroeconomia">
+						</node>
+						<node label="Studi sulla gestione d'impresa">
+						</node>
+						<node label="Marketing">
+						</node>
+						<node label="Microeconomia">
+						</node>
+						<node label="Economia politica">
+						</node>
+						<node label="Economia della produzione">
+						</node>
+						<node label="Economia sociale">
+						</node>
+						<node label="Studi sul turismo">
+						</node>
+						<node label="Economia dei trasporti">
+						</node>
+						<node label="Valutazione">
+						</node>
+						<node label="Economia veterinaria">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze dell'educazione">
+					<isComposedBy>
+						<node label="Istruzione">
+						</node>
+						<node label="Studi sull'apprendimento">
+						</node>
+						<node label="Metodologia della ricerca">
+						</node>
+						<node label="Metodi di insegnamento">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Etica nelle scienze sociali">
+					<isComposedBy>
+						<node label="Etica nelle scienze sociali">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Geografia">
+					<isComposedBy>
+						<node label="Cartografia">
+						</node>
+						<node label="Geografia economica">
+						</node>
+						<node label="Geopolitica">
+						</node>
+						<node label="Geografia storica">
+						</node>
+						<node label="Geografia umana">
+						</node>
+						<node label="Geografia regionale">
+						</node>
+						<node label="Geografia sociale">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze giuridiche">
+					<isComposedBy>
+						<node label="Diritto agrario">
+						</node>
+						<node label="Diritto canonico">
+						</node>
+						<node label="Diritto comparato">
+						</node>
+						<node label="Diritto penale">
+						</node>
+						<node label="Diritto ambientale">
+						</node>
+						<node label="Diritto europeo">
+						</node>
+						<node label="Diritto finanziario">
+						</node>
+						<node label="Diritto tributario">
+						</node>
+						<node label="Diritto della salute">
+						</node>
+						<node label="Diritto informatico">
+						</node>
+						<node label="Diritto internazionale">
+						</node>
+						<node label="Diritto marittimo">
+						</node>
+						<node label="Diritto aerospaziale">
+						</node>
+						<node label="Diritto giudiziario">
+						</node>
+						<node label="Diritto minorile">
+						</node>
+						<node label="Diritto del lavoro">
+						</node>
+						<node label="Diritto dei media">
+						</node>
+						<node label="Diritto medico">
+						</node>
+						<node label="Diritto privato">
+						</node>
+						<node label="Diritto pubblico">
+						</node>
+						<node label="Diritto romano">
+						</node>
+						<node label="Diritto sociale">
+						</node>
+						<node label="Diritto dei trasporti">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze politiche">
+					<isComposedBy>
+						<node label="Governance">
+						</node>
+						<node label="Studi politici">
+						</node>
+						<node label="Percezione della scienza nel dominio pubblico">
+						</node>
+						<node label="Politica pubblica">
+						</node>
+						<node label="Scienza e società">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Scienze Psicologiche">
+					<isComposedBy>
+						<node label="Scienze comportamentali">
+						</node>
+						<node label="Scienze cognitive">
+						</node>
+						<node label="Studi psicoanalitici">
+						</node>
+						<node label="Psicologia">
+						</node>
+					</isComposedBy>
 				</node>
 				<node label="Sociologia">
+					<isComposedBy>
+						<node label="Sociologia dell'educazione">
+						</node>
+						<node label="Macrosociologia">
+						</node>
+						<node label="Sociologia rurale">
+						</node>
+						<node label="Sociologia del mutamento">
+						</node>
+						<node label="Sociologia della tecnica">
+						</node>
+						<node label="Teoria della scelta sociale">
+						</node>
+						<node label="Ricerca socio-economica">
+						</node>
+						<node label="Sociologia dell'impresa">
+						</node>
+						<node label="Sociologia del lavoro">
+						</node>
+						<node label="Sociologia della religione">
+						</node>
+						<node label="Sociologia urbana">
+						</node>
+					</isComposedBy>
 				</node>
 			</isComposedBy>			
 		</node>	
