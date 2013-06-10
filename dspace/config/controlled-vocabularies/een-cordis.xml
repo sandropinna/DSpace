@@ -73,7 +73,7 @@ EEN CORDIS
 						</node>	
 						<node label="Tecnologia dell'informazione/Informatica">
 						</node>	
-						<node label="Tecnologie di connettivitàInternet (Wireless, Wi-Fi, Bluetooth)">
+						<node label="Tecnologie di connettività Internet (Wireless, Wi-Fi, Bluetooth)">
 						</node>	
 						<node label="Knowledge management, gestione dei processi">
 						</node>	
@@ -139,7 +139,7 @@ EEN CORDIS
 						</node>	
 						<node label="Filtraggio di informazioni, semantica, statistica">
 						</node>	
-						<node label="Visualizzazione, realtàvirtuale">
+						<node label="Visualizzazione, realtà virtuale">
 						</node>	
 					</isComposedBy>
 				</node>			
@@ -1562,7 +1562,7 @@ EEN CORDIS
 				</node>
 				<node label="Innovazione, trasferimento di tecnologie">
 					<isComposedBy>
-						<node label="Sviluppo di meccanismi volti a promuovere l'innovazione e il trasferimento tecnologico, utilizzo dei risultati della ricerca, diritti di proprietàe brevetti">
+						<node label="Sviluppo di meccanismi volti a promuovere l'innovazione e il trasferimento tecnologico, utilizzo dei risultati della ricerca, diritti di proprietà e brevetti">
 						</node>
 					</isComposedBy>
 				</node>
@@ -1574,7 +1574,7 @@ EEN CORDIS
 				</node>
 				<node label="Ricerca scientifica">
 					<isComposedBy>
-						<node label="Ricerca scientifica e industriale generale, o attivitàdi ricerca non incluse altrove">
+						<node label="Ricerca scientifica e industriale generale, o attività di ricerca non incluse altrove">
 						</node>
 					</isComposedBy>
 				</node>
