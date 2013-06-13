@@ -5,47 +5,47 @@ EEN CORDIS
 
 <node id="EEN CORDIS" label="EEN CORDIS">
 	<isComposedBy>
-		<node id="1" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
+		<node id="EEN11" label="ELETTRONICA, INFORMATICA E TELECOMUNICAZIONI">
 			<isComposedBy>
-				<node label="Elettronica, microelettronica">	
+				<node id="EEN110" label="Elettronica, microelettronica">	
 					<isComposedBy>
-						<node label="Automazione, robotica, sistemi di controllo">
+						<node id="VR110101" label="Automazione, robotica, sistemi di controllo">
 						</node>
-						<node label="Sistemi digitali, rappresentazione digitale">
+						<node id="VR110102" label="Sistemi digitali, rappresentazione digitale">
 						</node>	
-						<node label="Circuiti elettronici, componenti e attrezzature">
+						<node id="VR110103" label="Circuiti elettronici, componenti e attrezzature">
 						</node>
-						<node label="Ingegneria elettronica">
+						<node id="VR110104" label="Ingegneria elettronica">
 						</node>	
-						<node label="Sistemi Embedded e Sistemi Real Time">
+						<node id="VR110105" label="Sistemi Embedded e Sistemi Real Time">
 						</node>	
-						<node label="Tecnologia dell'Alta Frequenza, Microonde">
+						<node id="VR110106" label="Tecnologia dell'Alta Frequenza, Microonde">
 						</node>	
-						<node label="Materiali superconduttori e magnetici / dispositivi">
+						<node id="VR110107" label="Materiali superconduttori e magnetici / dispositivi">
 						</node>	
-						<node label="Microingegneria">
+						<node id="VR110108" label="Microingegneria">
 						</node>	
-						<node label="Microlavorazioni">
+						<node id="VR110109" label="Microlavorazioni">
 						</node>	
-						<node label="Nanotecnologie legate all'elettronica e alla microelettronica">
+						<node id="VR110110" label="Nanotecnologie legate all'elettronica e alla microelettronica">
 						</node>	
-						<node label="Reti ottiche e sistemi">
+						<node id="VR110111" label="Reti ottiche e sistemi">
 						</node>	
-						<node label="Tecnologie delle periferiche (archiviazione dati in memoria di massa, tecnologie di visualizzazione) relative all'elettronica e alla microelettronica">
+						<node id="VR110112" label="Tecnologie delle periferiche (archiviazione dati in memoria di massa, tecnologie di visualizzazione) relative all'elettronica e alla microelettronica">
 						</node>	
-						<node label="Circuiti stampati e circuiti integrati">
+						<node id="VR110113" label="Circuiti stampati e circuiti integrati">
 						</node>	
-						<node label="Informatica quantistica">
+						<node id="VR110114" label="Informatica quantistica">
 						</node>	
-						<node label="Semiconduttori">
+						<node id="VR110115" label="Semiconduttori">
 						</node>	
-						<node label="Smart card e sistemi di accesso">
+						<node id="VR110116" label="Smart card e sistemi di accesso">
 						</node>	
-						<node label="Sensori ambientali e biometrici, attuatori">
+						<node id="VR110117" label="Sensori ambientali e biometrici, attuatori">
 						</node>		
 					</isComposedBy>
 				</node>			
-				<node label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro">
+				<node id="EEN111" label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro">
 					<isComposedBy>
 						<node label="Architetture di sistemi avanzati">
 						</node>	
@@ -93,7 +93,7 @@ EEN CORDIS
 						</node>						
 					</isComposedBy>	
 				</node>			
-				<node label="IT e applicazioni telematiche ">	
+				<node id="EEN112" label="IT e applicazioni telematiche ">	
 					<isComposedBy>
 						<node label="Applicazioni per la salute">
 						</node>	
@@ -127,7 +127,7 @@ EEN CORDIS
 						</node>						
 					</isComposedBy>
 				</node>			
-				<node label="Multimedia">	
+				<node id="EEN113" label="Multimedia">	
 					<isComposedBy>
 						<node label="Beni Culturali">
 						</node>	
@@ -143,7 +143,7 @@ EEN CORDIS
 						</node>	
 					</isComposedBy>
 				</node>			
-				<node label="Telecomunicazioni, reti">
+				<node id="EEN114" label="Telecomunicazioni, reti">
 					<isComposedBy>
 						<node label="Attrezzature audiovisive e di comunicazione">
 						</node>	
@@ -178,7 +178,7 @@ EEN CORDIS
 			</isComposedBy>
 		</node>
 		
-		<node id="2" label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
+		<node id="EEN12" label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
 			<isComposedBy>
 				<node label="Progettazione e Modellazione / Prototipi">
 					<isComposedBy>
@@ -367,7 +367,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node id="3" label="ALTRE TECNOLOGIE INDUSTRIALI ">
+		<node id="EEN13" label="ALTRE TECNOLOGIE INDUSTRIALI ">
 			<isComposedBy>
 				<node  label="Altre tecnologie industriali ">
 					<isComposedBy>
@@ -474,7 +474,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	 
 			
-		<node id="4" label="ENERGIA">
+		<node id="EEN14" label="ENERGIA">
 			<isComposedBy>
 				<node label="Stoccaggio e trasporto di energia">
 					<isComposedBy>
@@ -577,7 +577,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node id="5" label="FISICA E SCIENZE ESATTE">
+		<node id="EEN15" label="FISICA E SCIENZE ESATTE">
 			<isComposedBy>
 				<node label="Astronomia">
 					<isComposedBy>
@@ -690,7 +690,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node id="6" label="SCIENZE BIOLOGICHE ">
+		<node id="EEN16" label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
 				<node label="Medicina, salute ">
 					<isComposedBy>
@@ -787,7 +787,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 			
-		<node id="7" label="AGRICOLTURA E RISORSE MARINE">
+		<node id="EEN17" label="AGRICOLTURA E RISORSE MARINE">
 			<isComposedBy>
 				<node label="Agricoltura">
 					<isComposedBy>
@@ -838,7 +838,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node id="8" label="INDUSTRIA AGROALIMENTARE">
+		<node id="EEN18" label="INDUSTRIA AGROALIMENTARE">
 			<isComposedBy>
 				<node label="Tecnologie per l'industria alimentare ">
 					<isComposedBy>
@@ -875,7 +875,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node id="9" label="MISURAZIONI E STANDARD ">
+		<node id="EEN19" label="MISURAZIONI E STANDARD ">
 			<isComposedBy>
 				<node label="Strumenti di misurazione ">
 					<isComposedBy>
@@ -936,7 +936,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node id="10" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
+		<node id="EEN20" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
 			<isComposedBy>
 				<node label="Sicurezza">
 					<isComposedBy>
@@ -991,7 +991,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 			
-		<node id="11" label="QUESTIONI SOCIALI ED ECONOMICHE">
+		<node id="EEN21" label="QUESTIONI SOCIALI ED ECONOMICHE">
 			<isComposedBy>
 				<node label="Modelli di sviluppo socioeconomico, aspetti economici">
 					<isComposedBy>
@@ -1044,7 +1044,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>		
 		
-		<node id="12" label="SCIENZE UMANE">
+		<node id="EEN22" label="SCIENZE UMANE">
 			<isComposedBy>
 				<node label="Arti">
 					<isComposedBy>
@@ -1209,7 +1209,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node id="13" label="SCIENZE SOCIALI">
+		<node id="EEN23" label="SCIENZE SOCIALI">
 			<isComposedBy>
 				<node label="Antropologia">
 					<isComposedBy>
@@ -1528,7 +1528,7 @@ EEN CORDIS
 			</isComposedBy>			
 		</node>	
 		
-		<node id="14" label="TEMATICHE ORIZZONTALI SULLA RICERCA E LO SVILUPPO TECNOLOGICO">
+		<node id="EEN24" label="TEMATICHE ORIZZONTALI SULLA RICERCA E LO SVILUPPO TECNOLOGICO">
 			<isComposedBy>
 				<node label="Politiche">
 					<isComposedBy>
