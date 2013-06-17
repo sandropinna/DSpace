@@ -47,131 +47,131 @@ EEN CORDIS
 				</node>			
 				<node id="EEN111" label="Elaborazione dell'informazione, sistema informativo, gestione del flusso di lavoro">
 					<isComposedBy>
-						<node label="Architetture di sistemi avanzati">
+						<node id="VR111101" label="Architetture di sistemi avanzati">
 						</node>	
-						<node label="Archivistica / documentazione / documentazione tecnica">
+						<node id="VR111102" label="Archivistica / documentazione / documentazione tecnica">
 						</node>	
-						<node label="Intelligenza artificiale (AI)">
+						<node id="VR111103" label="Intelligenza artificiale (AI)">
 						</node>	
-						<node label="Giochi per computer">
+						<node id="VR111104" label="Giochi per computer">
 						</node>	
-						<node label="Computer hardware">
+						<node id="VR111105" label="Computer hardware">
 						</node>	
-						<node label="Computer software">
+						<node id="VR111106" label="Computer software">
 						</node>	
-						<node label="Tecnologia dei computer (grafica, metacomputing)">
+						<node id="VR111107" label="Tecnologia dei computer (grafica, metacomputing)">
 						</node>	
-						<node label="Elaborazione dei dati / Scambio di dati, Middleware">
+						<node id="VR111108" label="Elaborazione dei dati / Scambio di dati, Middleware">
 						</node>	
-						<node label="Protezione dei dati, tecnologia di archiviazione, crittografia, sicurezza dei dati">
+						<node id="VR111109" label="Protezione dei dati, tecnologia di archiviazione, crittografia, sicurezza dei dati">
 						</node>	
-						<node label="Banche dati, gestione di database, estrazione dei dati">
+						<node id="VR111110" label="Banche dati, gestione di database, estrazione dei dati">
 						</node>	
-						<node label="Commercio elettronico, pagamento elettronico">
+						<node id="VR111111" label="Commercio elettronico, pagamento elettronico">
 						</node>	
-						<node label="Imaging, elaborazione di immagini, pattern recognition">
+						<node id="VR111112" label="Imaging, elaborazione di immagini, pattern recognition">
 						</node>	
-						<node label="Tecnologia dell'informazione/Informatica">
+						<node id="VR111113" label="Tecnologia dell'informazione/Informatica">
 						</node>	
-						<node label="Tecnologie di connettività Internet (Wireless, Wi-Fi, Bluetooth)">
+						<node id="VR111114" label="Tecnologie di connettivitàInternet (Wireless, Wi-Fi, Bluetooth)">
 						</node>	
-						<node label="Knowledge management, gestione dei processi">
+						<node id="VR111115" label="Knowledge management, gestione dei processi">
 						</node>	
-						<node label="Simulazione">
+						<node id="VR111116" label="Simulazione">
 						</node>	
-						<node label="Tecnologie di speech processing">
+						<node id="VR111117" label="Tecnologie di speech processing">
 						</node>	
-						<node label="Interfaccia utente, usabilità">
+						<node id="VR111118" label="Interfaccia utente, usabilità">
 						</node>	
-						<node label="Firma elettronica">
+						<node id="VR111119" label="Firma elettronica">
 						</node>	
-						<node label="Software per l'automazione di edifici">
+						<node id="VR111120" label="Software per l'automazione di edifici">
 						</node>	
-						<node label="Controllo remoto">
+						<node id="VR111121" label="Controllo remoto">
 						</node>	
-						<node label="Dispositivi intelligenti">
+						<node id="VR111122" label="Dispositivi intelligenti">
 						</node>						
 					</isComposedBy>	
 				</node>			
-				<node id="EEN112" label="IT e applicazioni telematiche ">	
+				<node id="EEN112" label="IT e applicazioni telematiche">	
 					<isComposedBy>
-						<node label="Applicazioni per la salute">
+						<node id="VR112101" label="Applicazioni per la salute">
 						</node>	
-						<node label="Applicazioni per il turismo">
+						<node id="VR112102" label="Applicazioni per il turismo">
 						</node>	
-						<node label="Applicazioni per i trasporti e la logistica">
+						<node id="VR112103" label="Applicazioni per i trasporti e la logistica">
 						</node>	
-						<node label="ASP Application Service Providing">
+						<node id="VR112104" label="ASP Application Service Providing">
 						</node>	
-						<node label="e-Government">
+						<node id="VR112105" label="e-Government">
 						</node>	
-						<node label="Sistemi di gestione ambientale e sistemi di gestione documentale">
+						<node id="VR112106" label="Sistemi di gestione ambientale e sistemi di gestione documentale">
 						</node>	
-						<node label="Gis sistemi di informazione geografica">
+						<node id="VR112107" label="Gis sistemi di informazione geografica">
 						</node>	
-						<node label="CRM-Gestione relazioni con i clienti">
+						<node id="VR112108" label="CRM-Gestione relazioni con i clienti">
 						</node>	
-						<node label="Sistema di gestione della qualità">
+						<node id="VR112109" label="Sistema di gestione della qualità">
 						</node>	
-						<node label="Sistema di gestione della manutenzione">
+						<node id="VR112110" label="Sistema di gestione della manutenzione">
 						</node>	
-						<node label="Pianificazione delle operazioni e sistema di schedulazione">
+						<node id="VR112111" label="Pianificazione delle operazioni e sistema di schedulazione">
 						</node>	
-						<node label="Sistema didattico">
+						<node id="VR112112" label="Sistema didattico">
 						</node>	
-						<node label="ICM-Gestione dei contenuti Internet">
+						<node id="VR112113" label="ICM-Gestione dei contenuti Internet">
 						</node>	
-						<node label="Gestione dell'analisi del rischio">
+						<node id="VR112114" label="Gestione dell'analisi del rischio">
 						</node>	
-						<node label="Gestione dell'igiene e della sicurezza nel lavoro">
+						<node id="VR112115" label="Gestione dell'igiene e della sicurezza nel lavoro">
 						</node>						
 					</isComposedBy>
 				</node>			
 				<node id="EEN113" label="Multimedia">	
 					<isComposedBy>
-						<node label="Beni Culturali">
+						<node id="VR113101" label="Beni Culturali">
 						</node>	
-						<node label="E-Learning">
+						<node id="VR113102" label="E-Learning">
 						</node>	
-						<node label="E-Publishing, contenuti digitali">
+						<node id="VR113103" label="E-Publishing, contenuti digitali">
 						</node>	
-						<node label="Tecnologie del linguaggio umano">
+						<node id="VR113104" label="Tecnologie del linguaggio umano">
 						</node>	
-						<node label="Filtraggio di informazioni, semantica, statistica">
+						<node id="VR113105" label="Filtraggio di informazioni, semantica, statistica">
 						</node>	
-						<node label="Visualizzazione, realtà virtuale">
+						<node id="VR113106" label="Visualizzazione, realtàvirtuale">
 						</node>	
 					</isComposedBy>
 				</node>			
 				<node id="EEN114" label="Telecomunicazioni, reti">
 					<isComposedBy>
-						<node label="Attrezzature audiovisive e di comunicazione">
+						<node id="VR114101" label="Attrezzature audiovisive e di comunicazione">
 						</node>	
-						<node label="Tecnologie a banda larga">
+						<node id="VR114102" label="Tecnologie a banda larga">
 						</node>	
-						<node label="Telefonia mobile">
+						<node id="VR114103" label="Telefonia mobile">
 						</node>	
-						<node label="Tecnologie a banda stretta">
+						<node id="VR114104" label="Tecnologie a banda stretta">
 						</node>	
-						<node label="Tecnologia di rete, sicurezza della rete">
+						<node id="VR114105" label="Tecnologia di rete, sicurezza della rete">
 						</node>	
-						<node label="Radar">
+						<node id="VR114106" label="Radar">
 						</node>	
-						<node label="Reti di ricerca, GRID">
+						<node id="VR114107" label="Reti di ricerca, GRID">
 						</node>	
-						<node label="Tecnologia satellitare / sistemi / posizionamento / comunicazione GPS - Global Positioning System">
+						<node id="VR114108" label="Tecnologia satellitare / sistemi / posizionamento / comunicazione GPS - Global Positioning System">
 						</node>	
-						<node label="Elaborazione dei segnali">
+						<node id="VR114109" label="Elaborazione dei segnali">
 						</node>	
-						<node label="Hi-Fi">
+						<node id="VR114110" label="Hi-Fi">
 						</node>	
-						<node label="Suoni e musica (Computing)">
+						<node id="VR114111" label="Suoni e musica (Computing)">
 						</node>	
-						<node label="Immagini e video (Computing)">
+						<node id="VR114112" label="Immagini e video (Computing)">
 						</node>	
-						<node label="Protocolli di comunicazione, interoperabilità">
+						<node id="VR114113" label="Protocolli di comunicazione, interoperabilità">
 						</node>	
-						<node label="Gateway residenziali">
+						<node id="VR114114" label="Gateway residenziali">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -180,187 +180,187 @@ EEN CORDIS
 		
 		<node id="EEN12" label="PRODUZIONE INDUSTRIALE, TECNOLOGIE DEI MATERIALI E DEI TRASPORTI">
 			<isComposedBy>
-				<node label="Progettazione e Modellazione / Prototipi">
+				<node id="EEN121" label="Progettazione e Modellazione / Prototipi">
 					<isComposedBy>
-						<node label="Progettazione e Modellazione / Prototipi">
+						<node id="VR121101" label="Progettazione e Modellazione / Prototipi">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Produzione industriale">
+				<node id="EEN122" label="Produzione industriale">
 					<isComposedBy>
-						<node label="Pulizia (sabbiatura, spazzolatura)">
+						<node id="VR122101" label="Pulizia (sabbiatura, spazzolatura)">
 						</node>
-						<node label="Rivestimenti">
+						<node id="VR122102" label="Rivestimenti">
 						</node>
-						<node label="Essiccazione">
+						<node id="VR122103" label="Essiccazione">
 						</node>
-						<node label="Erosione e rimozione (elettroerosione, ossitaglio, taglio plasma e laser, erosione elettrochimica, taglio a getto d'acqua)">
+						<node id="VR122104" label="Erosione e rimozione (elettroerosione, ossitaglio, taglio plasma e laser, erosione elettrochimica, taglio a getto d'acqua)">
 						</node>
-						<node label="Formatura (laminazione, fucinatura, trafilatura, pressatura)">
+						<node id="VR122105" label="Formatura (laminazione, fucinatura, trafilatura, pressatura)">
 						</node>
-						<node label="Tempra, trattamento termico">
+						<node id="VR122106" label="Tempra, trattamento termico">
 						</node>
-						<node label="Tecniche di assemblaggio (rivettatura, avvitatura, incollaggio)">
+						<node id="VR122107" label="Tecniche di assemblaggio (rivettatura, avvitatura, incollaggio)">
 						</node>
-						<node label="Assemblaggio (saldatura con e senza materiale d'apporto, forzamento)">
+						<node id="VR122108" label="Assemblaggio (saldatura con e senza materiale d'apporto, forzamento)">
 						</node>
-						<node label="Macchine Utensili">
+						<node id="VR122109" label="Macchine Utensili">
 						</node>
-						<node label="Lavorazioni meccaniche (tornitura, foratura, stampaggio, fresatura, piallatura, taglio)">
+						<node id="VR122110" label="Lavorazioni meccaniche (tornitura, foratura, stampaggio, fresatura, piallatura, taglio)">
 						</node>
-						<node label="Lavorazioni meccaniche fini, (rettifica, lappatura)">
+						<node id="VR122111" label="Lavorazioni meccaniche fini, (rettifica, lappatura)">
 						</node>
-						<node label="Miscelazione (polvere, ecc), separazione (cernita, filtraggio)">
+						<node id="VR122112" label="Miscelazione (polvere, ecc), separazione (cernita, filtraggio)">
 						</node>
-						<node label="Stampaggio, stampaggio ad iniezione, estrusione, sinterizzazione">
+						<node id="VR122113" label="Stampaggio, stampaggio ad iniezione, estrusione, sinterizzazione">
 						</node>
-						<node label="Trattamento di superficie (pittura, galvanizzazione, lucidatura, CVD, PVD)">
+						<node id="VR122114" label="Trattamento di superficie (pittura, galvanizzazione, lucidatura, CVD, PVD)">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Controllo di processo e logistica ">
+				<node id="EEN123" label="Controllo di processo e logistica ">
 					<isComposedBy>
-						<node label="Controllo di processo e logistica">
+						<node id="VR123101" label="Controllo di processo e logistica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Progettazione e manutenzione impianti">
+				<node id="EEN124" label="Progettazione e manutenzione impianti">
 					<isComposedBy>
-						<node label="Progettazione e manutenzione impianti">
+						<node id="VR124101" label="Progettazione e manutenzione impianti">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Imballaggio / movimentazione">
+				<node id="EEN125" label="Imballaggio / movimentazione">
 					<isComposedBy>
-						<node label="Laminati e lamine">
+						<node id="VR125101" label="Laminati e lamine">
 						</node>
-						<node label="Laminato">
+						<node id="VR125102" label="Laminato">
 						</node>
-						<node label="Imballaggio per macchinari">
+						<node id="VR125103" label="Imballaggio per macchinari">
 						</node>
-						<node label="Imballaggio per materiali">
+						<node id="VR125104" label="Imballaggio per materiali">
 						</node>
-						<node label="Sacchetti di plastica">
+						<node id="VR125105" label="Sacchetti di plastica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Tecnologia delle costruzioni ">
+				<node id="EEN126" label="Tecnologia delle costruzioni ">
 					<isComposedBy>
-						<node label="Materiali da costruzione, componenti e metodi">
+						<node id="VR126101" label="Materiali da costruzione, componenti e metodi">
 						</node>
-						<node label="Ingegneria civile">
+						<node id="VR126102" label="Ingegneria civile">
 						</node>
-						<node label="Macchine per l'edilizia">
+						<node id="VR126103" label="Macchine per l'edilizia">
 						</node>
-						<node label="Resistenza al fuoco / sicurezza">
+						<node id="VR126104" label="Resistenza al fuoco / sicurezza">
 						</node>
-						<node label="Ingegneria Meccanica, Idraulica, ingegneria acustica e delle vibrazioni nell'ambito della tecnologia delle costruzioni">
+						<node id="VR126105" label="Ingegneria Meccanica, Idraulica, ingegneria acustica e delle vibrazioni nell'ambito della tecnologia delle costruzioni">
 						</node>
-						<node label="Tecnologia delle condotte">
+						<node id="VR126106" label="Tecnologia delle condotte">
 						</node>
-						<node label="Tecnologia della polpa di legno relativa alla tecnologia delle costruzioni">
+						<node id="VR126107" label="Tecnologia della polpa di legno relativa alla tecnologia delle costruzioni">
 						</node>
-						<node label="Tecnologia dei sensori / multisensori, strumentazione relativa alle tecnologia delle costruzioni">
+						<node id="VR126108" label="Tecnologia dei sensori / multisensori, strumentazione relativa alle tecnologia delle costruzioni">
 						</node>
-						<node label="Simulazioni, ingegneria delle simulazioni">
+						<node id="VR126109" label="Simulazioni, ingegneria delle simulazioni">
 						</node>
-						<node label="Isolamento acustico">
+						<node id="VR126110" label="Isolamento acustico">
 						</node>
-						<node label="Vuoto / tecnologia del vuoto spinto">
+						<node id="VR126111" label="Vuoto / tecnologia del vuoto spinto">
 						</node>
-						<node label="Sicurezza del gas">
+						<node id="VR126112" label="Sicurezza del gas">
 						</node>
-						<node label="Sicurezza">
+						<node id="VR126113" label="Sicurezza">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Tecnologia dei materiali">
+				<node id="EEN127" label="Tecnologia dei materiali">
 					<isComposedBy>
-						<node label="Adesivi">
+						<node id="VR127101" label="Adesivi">
 						</node>
-						<node label="Materiali da costruzione">
+						<node id="VR127102" label="Materiali da costruzione">
 						</node>
-						<node label="Materiali ceramici e polveri">
+						<node id="VR127103" label="Materiali ceramici e polveri">
 						</node>
-						<node label="Colori e vernici">
+						<node id="VR127104" label="Colori e vernici">
 						</node>
-						<node label="Materiali compositi">
+						<node id="VR127105" label="Materiali compositi">
 						</node>
-						<node label="Prodotti chimici, coloranti e inchiostri">
+						<node id="VR127106" label="Prodotti chimici, coloranti e inchiostri">
 						</node>
-						<node label="Vetro">
+						<node id="VR127107" label="Vetro">
 						</node>
-						<node label="Ferro e acciaio, acciaierie">
+						<node id="VR127108" label="Ferro e acciaio, acciaierie">
 						</node>
-						<node label="Tecnologia del trasporto dei materiali (solidi, fluidi, gas)">
+						<node id="VR127109" label="Tecnologia del trasporto dei materiali (solidi, fluidi, gas)">
 						</node>
-						<node label="Metalli e leghe">
+						<node id="VR127110" label="Metalli e leghe">
 						</node>
-						<node label="Metalli non ferrosi">
+						<node id="VR127111" label="Metalli non ferrosi">
 						</node>
-						<node label="Materiali ottici">
+						<node id="VR127112" label="Materiali ottici">
 						</node>
-						<node label="Tecnologia della carta">
+						<node id="VR127113" label="Tecnologia della carta">
 						</node>
-						<node label="Plastiche, polimeri">
+						<node id="VR127114" label="Plastiche, polimeri">
 						</node>
-						<node label="Proprietàdei materiali, corrosione / degradazione">
+						<node id="VR127115" label="Proprietàdei materiali, corrosione / degradazione">
 						</node>
-						<node label="Gomma">
+						<node id="VR127116" label="Gomma">
 						</node>
-						<node label="Pietra">
+						<node id="VR127117" label="Pietra">
 						</node>
-						<node label="Materiali tessili avanzati">
+						<node id="VR127118" label="Materiali tessili avanzati">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Infrastrutture di trasporto">
+				<node id="EEN128" label="Infrastrutture di trasporto">
 					<isComposedBy>
-						<node label="Trasporto aereo">
+						<node id="VR128101" label="Trasporto aereo">
 						</node>
-						<node label="Trasporto intermodale">
+						<node id="VR128102" label="Trasporto intermodale">
 						</node>
-						<node label="Logistica">
+						<node id="VR128103" label="Logistica">
 						</node>
-						<node label="Trasporto ferroviario">
+						<node id="VR128104" label="Trasporto ferroviario">
 						</node>
-						<node label="Trasporto su strada">
+						<node id="VR128105" label="Trasporto su strada">
 						</node>
-						<node label="Ingegneria del traffico / sistemi di controllo">
+						<node id="VR128106" label="Ingegneria del traffico / sistemi di controllo">
 						</node>
-						<node label="Sistemi di trasbordo">
+						<node id="VR128107" label="Sistemi di trasbordo">
 						</node>
-						<node label="Trasporto acquatico">
+						<node id="VR128108" label="Trasporto acquatico">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Tecnologie del trasporto e della navigazione">
+				<node id="EEN129" label="Tecnologie del trasporto e della navigazione">
 					<isComposedBy>
-						<node label="Progettazione di veicoli">
+						<node id="VR129101" label="Progettazione di veicoli">
 						</node>
-						<node label="Veicoli Ibridi e elettrici">
+						<node id="VR129102" label="Veicoli Ibridi e elettrici">
 						</node>
-						<node label="Veicoli ferroviari">
+						<node id="VR129103" label="Veicoli ferroviari">
 						</node>
-						<node label="Veicoli stradali">
+						<node id="VR129104" label="Veicoli stradali">
 						</node>
-						<node label="Costruzione navale">
+						<node id="VR129105" label="Costruzione navale">
 						</node>
-						<node label="Sistemi di Trazione / Propulsione">
+						<node id="VR129106" label="Sistemi di Trazione / Propulsione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Tecnologia aerospaziale ">
+				<node id="EEN130" label="Tecnologia aerospaziale ">
 					<isComposedBy>
-						<node label="Tecnologia aeronautica / avionica">
+						<node id="VR130101" label="Tecnologia aeronautica / avionica">
 						</node>
-						<node label="Velivoli">
+						<node id="VR130102" label="Velivoli">
 						</node>
-						<node label="Elicotteri">
+						<node id="VR130103" label="Elicotteri">
 						</node>
-						<node label="Sistemi di navigazione satellitare">
+						<node id="VR130104" label="Sistemi di navigazione satellitare">
 						</node>
-						<node label="Esplorazione e tecnologia dello spazio">
+						<node id="VR130105" label="Esplorazione e tecnologia dello spazio">
 						</node>
 					</isComposedBy>
 				</node>
@@ -369,105 +369,105 @@ EEN CORDIS
 		
 		<node id="EEN13" label="ALTRE TECNOLOGIE INDUSTRIALI ">
 			<isComposedBy>
-				<node  label="Altre tecnologie industriali ">
+				<node  id="EEN131" label="Altre tecnologie industriali ">
 					<isComposedBy>
-						<node label="Tecnologia della pulizia">
+						<node id="VR131101" label="Tecnologia della pulizia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Ingegneria degli impianti di processo">
+				<node  id="EEN132" label="Ingegneria degli impianti di processo">
 					<isComposedBy>
-						<node label="Ingegneria degli impianti di processo">
+						<node id="VR132101" label="Ingegneria degli impianti di processo">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Ingegneria delle apparecchiature">
+				<node  id="EEN133" label="Ingegneria delle apparecchiature">
 					<isComposedBy>
-						<node label="Ingegneria delle apparecchiature">
+						<node id="VR133101" label="Ingegneria delle apparecchiature">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Ingegneria e tecnologia chimica">
+				<node  id="EEN134" label="Ingegneria e tecnologia chimica">
 					<isComposedBy>
-						<node label="Prodotti chimici per l'agricoltura">
+						<node id="VR134101" label="Prodotti chimici per l'agricoltura">
 						</node>
-						<node label="Sostanze inorganiche">
+						<node id="VR134102" label="Sostanze inorganiche">
 						</node>
-						<node label="Colori, tinte nell'ambito dell'ingegneria e  della tecnologia chimica">
+						<node id="VR134103" label="Colori, tinte nell'ambito dell'ingegneria e  della tecnologia chimica">
 						</node>
-						<node label="Ingegneria e tecnologia elettrica  / apparecchiature elettriche">
+						<node id="VR134104" label="Ingegneria e tecnologia elettrica  / apparecchiature elettriche">
 						</node>
-						<node label="Fibre artificiali">
+						<node id="VR134105" label="Fibre artificiali">
 						</node>
-						<node label="Sostanze organiche">
+						<node id="VR134106" label="Sostanze organiche">
 						</node>
-						<node label="Prodotti farmaceutici">
+						<node id="VR134107" label="Prodotti farmaceutici">
 						</node>
-						<node label="Materie plastiche e gomma nell'ambito della tecnologia e ingegneria chimica">
+						<node id="VR134108" label="Materie plastiche e gomma nell'ambito della tecnologia e ingegneria chimica">
 						</node>
-						<node label="Saponi, detergenti">
+						<node id="VR134109" label="Saponi, detergenti">
 						</node>
-						<node label="Prodotti chimici speciali, prodotti intermedi">
+						<node id="VR134110" label="Prodotti chimici speciali, prodotti intermedi">
 						</node>
-						<node label="Cura, igiene, bellezza">
+						<node id="VR134111" label="Cura, igiene, bellezza">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Tecnologia Tessile ">
+				<node  id="EEN135" label="Tecnologia Tessile ">
 					<isComposedBy>
-						<node label="Componenti adesivi per il rinforzo della cucitura">
+						<node id="VR135101" label="Componenti adesivi per il rinforzo della cucitura">
 						</node>
-						<node label="Imbottitura a secco nell'ambito della Tecnologia Tessile">
+						<node id="VR135102" label="Imbottitura a secco nell'ambito della Tecnologia Tessile">
 						</node>
-						<node label="Tintura in riferimento alla tecnologia tessile">
+						<node id="VR135103" label="Tintura in riferimento alla tecnologia tessile">
 						</node>
-						<node label="Finitura relativa alla tecnologia tessile">
+						<node id="VR135104" label="Finitura relativa alla tecnologia tessile">
 						</node>
-						<node label="Tessuto non tessuto con riferimento alla Tecnologia Tessile">
+						<node id="VR135105" label="Tessuto non tessuto con riferimento alla Tecnologia Tessile">
 						</node>
-						<node label="Colle a base solvente per il rafforzamento dei bordi e cucitura">
+						<node id="VR135106" label="Colle a base solvente per il rafforzamento dei bordi e cucitura">
 						</node>
-						<node label="Fibre tessili termoplastiche">
+						<node id="VR135107" label="Fibre tessili termoplastiche">
 						</node>
-						<node label="Attività di tessitura relativa alla tecnologia tessile">
+						<node id="VR135108" label="Attivitàdi tessitura relativa alla tecnologia tessile">
 						</node>
-						<node label="Prodotti tecnici tessuti per applicazioni industriali">
+						<node id="VR135109" label="Prodotti tecnici tessuti per applicazioni industriali">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Tecnologia delle calzature e del cuoio">
+				<node  id="EEN136" label="Tecnologia delle calzature e del cuoio">
 					<isComposedBy>
-						<node label="Imbottitura a secco riferita alla Tecnologia delle calzature e del cuoio">
+						<node id="VR136101" label="Imbottitura a secco riferita alla Tecnologia delle calzature e del cuoio">
 						</node>
-						<node label="Coloranti relativi alla tecnologia delle calzature e del cuoio">
+						<node id="VR136102" label="Coloranti relativi alla tecnologia delle calzature e del cuoio">
 						</node>
-						<node label="Conciatura delle pelli in riferimento alla tecnologia delle calzature e del cuoio">
+						<node id="VR136103" label="Conciatura delle pelli in riferimento alla tecnologia delle calzature e del cuoio">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Ingegneria e  tecnologia del suono">
+				<node  id="EEN137" label="Ingegneria e  tecnologia del suono">
 					<isComposedBy>
-						<node label="Ingegneria e  tecnologia del suono">
+						<node id="VR137101" label="Ingegneria e  tecnologia del suono">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Tecnologie minerarie">
+				<node  id="EEN138" label="Tecnologie minerarie">
 					<isComposedBy>
-						<node label="Tecnologie minerarie">
+						<node id="VR138101" label="Tecnologie minerarie">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Stampa">
+				<node  id="EEN139" label="Stampa">
 					<isComposedBy>
-						<node label="Flessografia">
+						<node id="VR139101" label="Flessografia">
 						</node>
-						<node label="Bobine di materiale stampato">
+						<node id="VR139102" label="Bobine di materiale stampato">
 						</node>
 					</isComposedBy>
 				</node>
-				<node  label="Elettrodomestici e beni per la casa">
+				<node  id="EEN140" label="Elettrodomestici e beni per la casa">
 					<isComposedBy>
-						<node label="Elettrodomestici e beni per la casa">
+						<node id="VR140101" label="Elettrodomestici e beni per la casa">
 						</node>
 					</isComposedBy>
 				</node>
@@ -476,101 +476,101 @@ EEN CORDIS
 			
 		<node id="EEN14" label="ENERGIA">
 			<isComposedBy>
-				<node label="Stoccaggio e trasporto di energia">
+				<node id="EEN141" label="Stoccaggio e trasporto di energia">
 					<isComposedBy>
-						<node label="Immagazzinamento del calore">
+						<node id="VR141101" label="Immagazzinamento del calore">
 						</node>
-						<node label="Fornitura e trasporto di calore, teleriscaldamento">
+						<node id="VR141102" label="Fornitura e trasporto di calore, teleriscaldamento">
 						</node>
-						<node label="Stoccaggio di energia elettrica, batterie">
+						<node id="VR141103" label="Stoccaggio di energia elettrica, batterie">
 						</node>
-						<node label="Trasmissione di elettricità">
+						<node id="VR141104" label="Trasmissione di elettricità">
 						</node>
-						<node label="Trasporto e stoccaggio di gas e combustibili liquidi">
+						<node id="VR141105" label="Trasporto e stoccaggio di gas e combustibili liquidi">
 						</node>
-						<node label="Trasporto e stoccaggio di idrogeno">
+						<node id="VR141106" label="Trasporto e stoccaggio di idrogeno">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Produzione, trasmissione e conversione di energia">
+				<node id="EEN142" label="Produzione, trasmissione e conversione di energia">
 					<isComposedBy>
-						<node label="Celle combustibili, produzione di idrogeno">
+						<node id="VR142101" label="Celle combustibili, produzione di idrogeno">
 						</node>
-						<node label="Liquefazione del combustibile, gassificazione">
+						<node id="VR142102" label="Liquefazione del combustibile, gassificazione">
 						</node>
-						<node label="Tecnologia dei forni, costruzione di caldaie per riscaldamento">
+						<node id="VR142103" label="Tecnologia dei forni, costruzione di caldaie per riscaldamento">
 						</node>
-						<node label="Generatori, motori elettrici e convertitori di potenza">
+						<node id="VR142104" label="Generatori, motori elettrici e convertitori di potenza">
 						</node>
-						<node label="Scambiatori di calore">
+						<node id="VR142105" label="Scambiatori di calore">
 						</node>
-						<node label="Pompe di calore, tecnologie di raffreddamento">
+						<node id="VR142106" label="Pompe di calore, tecnologie di raffreddamento">
 						</node>
-						<node label="Riscaldamento, ventilazione">
+						<node id="VR142107" label="Riscaldamento, ventilazione">
 						</node>
-						<node label="Turbine, macchine a fluido, motori alternativi, produzione combinata di calore e di energia elettrica">
+						<node id="VR142108" label="Turbine, macchine a fluido, motori alternativi, produzione combinata di calore e di energia elettrica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Fonti energetiche fossili">
+				<node id="EEN143" label="Fonti energetiche fossili">
 					<isComposedBy>
-						<node label="Carbone e idrocarburi">
+						<node id="VR143101" label="Carbone e idrocarburi">
 						</node>
-						<node label="Combustibili fossili gassosi">
+						<node id="VR143102" label="Combustibili fossili gassosi">
 						</node>
-						<node label="Combustibili fossili solidi">
+						<node id="VR143103" label="Combustibili fossili solidi">
 						</node>
-						<node label="Combustibili fossili liquidi">
+						<node id="VR143104" label="Combustibili fossili liquidi">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Fissione nucleare / fusione nucleare">
+				<node id="EEN144" label="Fissione nucleare / fusione nucleare">
 					<isComposedBy>
-						<node label="Fissione nucleare / fusione nucleare">
+						<node id="VR144101" label="Fissione nucleare / fusione nucleare">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Energia da fonti rinnovabili">
+				<node id="EEN145" label="Energia da fonti rinnovabili">
 					<isComposedBy>
-						<node label="Biomassa gassosa">
+						<node id="VR145101" label="Biomassa gassosa">
 						</node>
-						<node label="Energia geotermica">
+						<node id="VR145102" label="Energia geotermica">
 						</node>
-						<node label="Potenza idraulica">
+						<node id="VR145103" label="Potenza idraulica">
 						</node>
-						<node label="Biomassa liquida">
+						<node id="VR145104" label="Biomassa liquida">
 						</node>
-						<node label="Fotovoltaico">
+						<node id="VR145105" label="Fotovoltaico">
 						</node>
-						<node label="Energia solare/termica">
+						<node id="VR145106" label="Energia solare/termica">
 						</node>
-						<node label="Biomassa solida">
+						<node id="VR145107" label="Biomassa solida">
 						</node>
-						<node label="Energie non convenzionali e alternative">
+						<node id="VR145108" label="Energie non convenzionali e alternative">
 						</node>
-						<node label="Incenerimento dei rifiuti">
+						<node id="VR145109" label="Incenerimento dei rifiuti">
 						</node>
-						<node label="Energia eolica">
+						<node id="VR145110" label="Energia eolica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Uso razionale dell'energia">
+				<node id="EEN146" label="Uso razionale dell'energia">
 					<isComposedBy>
-						<node label="Gestione dell'energia">
+						<node id="VR146101" label="Gestione dell'energia">
 						</node>
-						<node label="Illuminazione, proiezione luci">
+						<node id="VR146102" label="Illuminazione, proiezione luci">
 						</node>
-						<node label="Ottimizzazione dei processi, utilizzo del calore residuo">
+						<node id="VR146103" label="Ottimizzazione dei processi, utilizzo del calore residuo">
 						</node>
-						<node label="Isolamento termico,efficienza energetica negli edifici">
+						<node id="VR146104" label="Isolamento termico,efficienza energetica negli edifici">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Altri temi di energia">
+				<node id="EEN147" label="Altri temi di energia">
 					<isComposedBy>
-						<node label="Combustione, fiamme">
+						<node id="VR147101" label="Combustione, fiamme">
 						</node>
-						<node label="Tecnologia del combustibile">
+						<node id="VR147102" label="Tecnologia del combustibile">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -579,111 +579,111 @@ EEN CORDIS
 		
 		<node id="EEN15" label="FISICA E SCIENZE ESATTE">
 			<isComposedBy>
-				<node label="Astronomia">
+				<node id="EEN150" label="Astronomia">
 					<isComposedBy>
-						<node label="Astronomia">
+						<node id="VR150101" label="Astronomia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Chimica">
+				<node id="EEN151" label="Chimica">
 					<isComposedBy>
-						<node label="Chimica analitica">
+						<node id="VR151101" label="Chimica analitica">
 						</node>
-						<node label="Chimica computazionale e modellazione">
+						<node id="VR151102" label="Chimica computazionale e modellazione">
 						</node>
-						<node label="Chimica inorganica">
+						<node id="VR151103" label="Chimica inorganica">
 						</node>
-						<node label="Chimica organica">
+						<node id="VR151104" label="Chimica organica">
 						</node>
-						<node label="Petrolchimica, ingegneria del petrolio">
+						<node id="VR151105" label="Petrolchimica, ingegneria del petrolio">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze della terra ">
+				<node id="EEN152" label="Scienze della terra ">
 					<isComposedBy>
-						<node label="Geologia, ingegneria geologica, geotecnica">
+						<node id="VR152101" label="Geologia, ingegneria geologica, geotecnica">
 						</node>
-						<node label="Oceanografia">
+						<node id="VR152102" label="Oceanografia">
 						</node>
-						<node label="Tettonica, sismologia">
+						<node id="VR152103" label="Tettonica, sismologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Matematica, statistica">
+				<node id="EEN153" label="Matematica, statistica">
 					<isComposedBy>
-						<node label="Algoritmi e complessità">
+						<node id="VR153101" label="Algoritmi e complessità">
 						</node>
-						<node label="Modellazione matematica">
+						<node id="VR153102" label="Modellazione matematica">
 						</node>
-						<node label="Analisi statistica">
+						<node id="VR153103" label="Analisi statistica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Meteorologia / climatologia">
+				<node id="EEN154" label="Meteorologia / climatologia">
 					<isComposedBy>
-						<node label="Biosensori">
+						<node id="VR154101" label="Biosensori">
 						</node>
-						<node label="Sensori di umidità">
+						<node id="VR154102" label="Sensori di umidità">
 						</node>
-						<node label="Controllo della temperatura">
+						<node id="VR154103" label="Controllo della temperatura">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Fisica">
+				<node id="EEN155" label="Fisica">
 					<isComposedBy>
-						<node label="Acustica">
+						<node id="VR155101" label="Acustica">
 						</node>
-						<node label="Astrofisica / cosmologia">
+						<node id="VR155102" label="Astrofisica / cosmologia">
 						</node>
-						<node label="Tecnologia laser">
+						<node id="VR155103" label="Tecnologia laser">
 						</node>
-						<node label="Fisica nucleare">
+						<node id="VR155104" label="Fisica nucleare">
 						</node>
-						<node label="Fisica dei fluidi">
+						<node id="VR155105" label="Fisica dei fluidi">
 						</node>
-						<node label="Tecnologia dei sensori / multisensori, strumentazione">
+						<node id="VR155106" label="Tecnologia dei sensori / multisensori, strumentazione">
 						</node>
-						<node label="Fisica dello stato solido">
+						<node id="VR155107" label="Fisica dello stato solido">
 						</node>
-						<node label="Termodinamica">
+						<node id="VR155108" label="Termodinamica">
 						</node>
-						<node label="Ingegneria acustica e delle vibrazioni">
+						<node id="VR155109" label="Ingegneria acustica e delle vibrazioni">
 						</node>
-						<node label="Ottica">
+						<node id="VR155110" label="Ottica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Ingegneria meccanica ">
+				<node id="EEN156" label="Ingegneria meccanica ">
 					<isComposedBy>
-						<node label="Micromeccanica">
+						<node id="VR156101" label="Micromeccanica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Idraulica">
+				<node id="EEN157" label="Idraulica">
 					<isComposedBy>
-						<node label="Idraulica">
+						<node id="VR157101" label="Idraulica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Tecnologie di separazione ">
+				<node id="EEN158" label="Tecnologie di separazione ">
 					<isComposedBy>
-						<node label="Filtrazione e processi a membrana">
+						<node id="VR158101" label="Filtrazione e processi a membrana">
 						</node>
-						<node label="Estrazione">
+						<node id="VR158102" label="Estrazione">
 						</node>
-						<node label="Adsorbimento">
+						<node id="VR158103" label="Adsorbimento">
 						</node>
-						<node label="Distillazione">
+						<node id="VR158104" label="Distillazione">
 						</node>				
-						<node label="Sublimazione">
+						<node id="VR158105" label="Sublimazione">
 						</node>
-						<node label="Altri processi">
+						<node id="VR158106" label="Altri processi">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+				<node id="EEN159" label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
 					<isComposedBy>
-						<node label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+						<node id="VR159101" label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
 						</node>
 					</isComposedBy>
 				</node>
@@ -692,95 +692,95 @@ EEN CORDIS
 		
 		<node id="EEN16" label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
-				<node label="Medicina, salute ">
+				<node id="EEN161" label="Medicina, salute ">
 					<isComposedBy>
-						<node label="Biostatistica, Epidemiologia">
+						<node id="VR161101" label="Biostatistica, Epidemiologia">
 						</node>
-						<node label="Cura e servizi sanitari">
+						<node id="VR161102" label="Cura e servizi sanitari">
 						</node>
-						<node label="Ricerca clinica, esperimenti">
+						<node id="VR161103" label="Ricerca clinica, esperimenti">
 						</node>
-						<node label="Citologia, cancerologia, oncologia">
+						<node id="VR161104" label="Citologia, cancerologia, oncologia">
 						</node>
-						<node label="Odontoiatria / odontologia, stomatologia">
+						<node id="VR161105" label="Odontoiatria / odontologia, stomatologia">
 						</node>
-						<node label="Diagnostica, diagnosi">
+						<node id="VR161106" label="Diagnostica, diagnosi">
 						</node>
-						<node label="Malattie">
+						<node id="VR161107" label="Malattie">
 						</node>
-						<node label="Medicina ambientale, medicina sociale, medicina dello sport">
+						<node id="VR161108" label="Medicina ambientale, medicina sociale, medicina dello sport">
 						</node>
-						<node label="Terapia genica">
+						<node id="VR161109" label="Terapia genica">
 						</node>
-						<node label="Gerontologia e geriatria">
+						<node id="VR161110" label="Gerontologia e geriatria">
 						</node>
-						<node label="Malattie del cuore e della circolazione sanguigna">
+						<node id="VR161111" label="Malattie del cuore e della circolazione sanguigna">
 						</node>
-						<node label="Apparecchiature medicali ed elettromedicali">
+						<node id="VR161112" label="Apparecchiature medicali ed elettromedicali">
 						</node>
-						<node label="Ricerca medica">
+						<node id="VR161113" label="Ricerca medica">
 						</node>
-						<node label="Tecnologia medica / ingegneria biomedica">
+						<node id="VR161114" label="Tecnologia medica / ingegneria biomedica">
 						</node>
-						<node label="Neurologia, ricerca sul cervello">
+						<node id="VR161115" label="Neurologia, ricerca sul cervello">
 						</node>
-						<node label="Prodotti farmaceutici / droghe">
+						<node id="VR161116" label="Prodotti farmaceutici / droghe">
 						</node>
-						<node label="Fisiologia">
+						<node id="VR161117" label="Fisiologia">
 						</node>
-						<node label="Chirurgia">
+						<node id="VR161118" label="Chirurgia">
 						</node>
-						<node label="Virus, virologia / antiobiotici / batteriologia">
+						<node id="VR161119" label="Virus, virologia / antiobiotici / batteriologia">
 						</node>
-						<node label="Attrezzatura da laboratorio">
+						<node id="VR161120" label="Attrezzatura da laboratorio">
 						</node>
-						<node label="Equipaggiamenti di salvataggio e di emergenza">
+						<node id="VR161121" label="Equipaggiamenti di salvataggio e di emergenza">
 						</node>
-						<node label="Fisioterapia,  tecnologia ortopedica">
+						<node id="VR161122" label="Fisioterapia,  tecnologia ortopedica">
 						</node>
-						<node label="Prodotti monouso e beni di consumo">
+						<node id="VR161123" label="Prodotti monouso e beni di consumo">
 						</node>
-						<node label="Tessuti medicali">
+						<node id="VR161124" label="Tessuti medicali">
 						</node>
-						<node label="Arredi sanitari">
+						<node id="VR161125" label="Arredi sanitari">
 						</node>
-						<node label="Biomateriali medicali">
+						<node id="VR161126" label="Biomateriali medicali">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Biologia / biotecnologia ">
+				<node id="EEN162" label="Biologia / biotecnologia ">
 					<isComposedBy>
-						<node label="Biochimica / biofisica">
+						<node id="VR162101" label="Biochimica / biofisica">
 						</node>
-						<node label="Biologia cellulare e molecolare">
+						<node id="VR162102" label="Biologia cellulare e molecolare">
 						</node>
-						<node label="Enzimologia / ingegneria delle proteine / fermentazione">
+						<node id="VR162103" label="Enzimologia / ingegneria delle proteine / fermentazione">
 						</node>
-						<node label="Ingegneria genetica">
+						<node id="VR162104" label="Ingegneria genetica">
 						</node>
-						<node label="Test in vitro, prove">
+						<node id="VR162105" label="Test in vitro, prove">
 						</node>
-						<node label="Microbiologia">
+						<node id="VR162106" label="Microbiologia">
 						</node>
-						<node label="Progettazione Molecolare">
+						<node id="VR162107" label="Progettazione Molecolare">
 						</node>
-						<node label="Tossicologia">
+						<node id="VR162108" label="Tossicologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Ricerca sul genoma ">
+				<node id="EEN163" label="Ricerca sul genoma ">
 					<isComposedBy>
-						<node label="Bioinformatica">
+						<node id="VR163101" label="Bioinformatica">
 						</node>
-						<node label="Espressione genica, ricerca proteomica">
+						<node id="VR163102" label="Espressione genica, ricerca proteomica">
 						</node>
-						<node label="Genetica delle popolazioni">
+						<node id="VR163103" label="Genetica delle popolazioni">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Micro e nanotecnologie per le scienze biologiche ">
+				<node id="EEN164" label="Micro e nanotecnologie per le scienze biologiche ">
 					<isComposedBy>
-						<node label="Micro e nanotecnologie per le scienze biologiche">
+						<node id="VR164101" label="Micro e nanotecnologie per le scienze biologiche">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -789,49 +789,49 @@ EEN CORDIS
 			
 		<node id="EEN17" label="AGRICOLTURA E RISORSE MARINE">
 			<isComposedBy>
-				<node label="Agricoltura">
+				<node id="EEN171" label="Agricoltura">
 					<isComposedBy>
-						<node label="Macchinari e tecnologia per l'agricoltura">
+						<node id="VR171101" label="Macchinari e tecnologia per l'agricoltura">
 						</node>
-						<node label="Produzione animale / allevamento">
+						<node id="VR171102" label="Produzione animale / allevamento">
 						</node>
-						<node label="Controllo biologico">
+						<node id="VR171103" label="Controllo biologico">
 						</node>
-						<node label="Produzione agricola">
+						<node id="VR171104" label="Produzione agricola">
 						</node>
-						<node label="Orticoltura">
+						<node id="VR171105" label="Orticoltura">
 						</node>
-						<node label="Pesticidi">
+						<node id="VR171106" label="Pesticidi">
 						</node>
-						<node label="Agricoltura di precisione">
+						<node id="VR171107" label="Agricoltura di precisione">
 						</node>
-						<node label="Rivestimento delle sementi">
+						<node id="VR171108" label="Rivestimento delle sementi">
 						</node>
-						<node label="Medicina veterinaria">
+						<node id="VR171109" label="Medicina veterinaria">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Silvicoltura, tecnologia forestale">
+				<node id="EEN172" label="Silvicoltura, tecnologia forestale">
 					<isComposedBy>
-						<node label="Tecnologia forestale">
+						<node id="VR172101" label="Tecnologia forestale">
 						</node>
-						<node label="Tecnologia della carta">
+						<node id="VR172102" label="Tecnologia della carta">
 						</node>
-						<node label="Cartotecnica">
+						<node id="VR172103" label="Cartotecnica">
 						</node>
-						<node label="Silvicultura">
+						<node id="VR172104" label="Silvicultura">
 						</node>
-						<node label="Prodotti del legno">
+						<node id="VR172105" label="Prodotti del legno">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Risorse del mare, della pesca ">
+				<node id="EEN173" label="Risorse del mare, della pesca ">
 					<isComposedBy>
-						<node label="Acquacoltura">
+						<node id="VR173101" label="Acquacoltura">
 						</node>
-						<node label="Pesci / pesca / tecnologia della pesca">
+						<node id="VR173102" label="Pesci / pesca / tecnologia della pesca">
 						</node>
-						<node label="Scienze marine">
+						<node id="VR173103" label="Scienze marine">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -840,35 +840,35 @@ EEN CORDIS
 		
 		<node id="EEN18" label="INDUSTRIA AGROALIMENTARE">
 			<isComposedBy>
-				<node label="Tecnologie per l'industria alimentare ">
+				<node id="EEN181" label="Tecnologie per l'industria alimentare ">
 					<isComposedBy>
-						<node label="Tecnologia delle bevande">
+						<node id="VR181101" label="Tecnologia delle bevande">
 						</node>
-						<node label="Additivi alimentari / ingredienti / integratori">
+						<node id="VR181102" label="Additivi alimentari / ingredienti / integratori">
 						</node>
-						<node label="Confezionamento alimentare / trattamento">
+						<node id="VR181103" label="Confezionamento alimentare / trattamento">
 						</node>
-						<node label="Trasformazione dei prodotti alimentari">
+						<node id="VR181104" label="Trasformazione dei prodotti alimentari">
 						</node>
-						<node label="Tecnologia alimentare">
+						<node id="VR181105" label="Tecnologia alimentare">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Qualità sicurezza alimentare">
+				<node id="EEN182" label="Qualità sicurezza alimentare">
 					<isComposedBy>
-						<node label="Controllo e metodi di analisi">
+						<node id="VR182101" label="Controllo e metodi di analisi">
 						</node>
-						<node label="Microbiologia alimentare / tossicologia / controllo di qualità">
+						<node id="VR182102" label="Microbiologia alimentare / tossicologia / controllo di qualità">
 						</node>
-						<node label="Metodi di produzione sana">
+						<node id="VR182103" label="Metodi di produzione sana">
 						</node>
-						<node label="Tracciabilità dei prodotti alimentari">
+						<node id="VR182104" label="Tracciabilità dei prodotti alimentari">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Nutrizione e salute">
+				<node id="EEN183" label="Nutrizione e salute">
 					<isComposedBy>
-						<node label="Nutrizione e salute">
+						<node id="VR183101" label="Nutrizione e salute">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -877,59 +877,59 @@ EEN CORDIS
 		
 		<node id="EEN19" label="MISURAZIONI E STANDARD ">
 			<isComposedBy>
-				<node label="Strumenti di misurazione ">
+				<node id="EEN191" label="Strumenti di misurazione ">
 					<isComposedBy>
-						<node label="Tecnologia acustica riferita alle misurazioni">
+						<node id="VR191101" label="Tecnologia acustica riferita alle misurazioni">
 						</node>
-						<node label="Attrezzature e metodi per test / analisi">
+						<node id="VR191102" label="Attrezzature e metodi per test / analisi">
 						</node>
-						<node label="Test chimici su materiali">
+						<node id="VR191103" label="Test chimici su materiali">
 						</node>
-						<node label="Tecnologia elettrica riferita alle misurazioni">
+						<node id="VR191104" label="Tecnologia elettrica riferita alle misurazioni">
 						</node>
-						<node label="Tecnologia meccanica riferita alle misurazioni">
+						<node id="VR191105" label="Tecnologia meccanica riferita alle misurazioni">
 						</node>
-						<node label="Test ottici sui materiali">
+						<node id="VR191106" label="Test ottici sui materiali">
 						</node>
-						<node label="Tecnologia ottica riferita alle misurazioni">
+						<node id="VR191107" label="Tecnologia ottica riferita alle misurazioni">
 						</node>
-						<node label="Altri controlli non distruttivi">
+						<node id="VR191108" label="Altri controlli non distruttivi">
 						</node>
-						<node label="Tecnologia dei sensori riferita alle misure">
+						<node id="VR191109" label="Tecnologia dei sensori riferita alle misure">
 						</node>
-						<node label="Test termici su materiali">
+						<node id="VR191110" label="Test termici su materiali">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Amplificatore, A / D trasduttore">
+				<node id="EEN192" label="Amplificatore, A / D trasduttore">
 					<isComposedBy>
-						<node label="Amplificatore, A / D trasduttore">
+						<node id="VR192101" label="Amplificatore, A / D trasduttore">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Sistemi di misurazione elettronica">
+				<node id="EEN193" label="Sistemi di misurazione elettronica">
 					<isComposedBy>
-						<node label="Sistemi di misurazione elettronica">
+						<node id="VR193101" label="Sistemi di misurazione elettronica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Dispositivi di registrazione">
+				<node id="EEN194" label="Dispositivi di registrazione">
 					<isComposedBy>
-						<node label="Dispositivi di registrazione">
+						<node id="VR194101" label="Dispositivi di registrazione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Materiali di riferimento">
+				<node id="EEN195" label="Materiali di riferimento">
 					<isComposedBy>
-						<node label="Materiali di riferimento">
+						<node id="VR195101" label="Materiali di riferimento">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Standards">
+				<node id="EEN196" label="Standards">
 					<isComposedBy>
-						<node label="Standard di qualità">
+						<node id="VR196101" label="Standard di qualità">
 						</node>
-						<node label="Norme tecniche">
+						<node id="VR196102" label="Norme tecniche">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -938,53 +938,53 @@ EEN CORDIS
 		
 		<node id="EEN20" label="PROTEZIONE DELL'UOMO E DELL'AMBIENTE ">
 			<isComposedBy>
-				<node label="Sicurezza">
+				<node id="EEN201" label="Sicurezza">
 					<isComposedBy>
-						<node label="Sicurezza acustica">
+						<node id="VR201101" label="Sicurezza acustica">
 						</node>
-						<node label="Valutazione del rischio">
+						<node id="VR201102" label="Valutazione del rischio">
 						</node>
-						<node label="Tecnologia della sicurezza antincendio">
+						<node id="VR201103" label="Tecnologia della sicurezza antincendio">
 						</node>
-						<node label="Materiali pericolosi">
+						<node id="VR201104" label="Materiali pericolosi">
 						</node>
-						<node label="Radioprotezione">
+						<node id="VR201105" label="Radioprotezione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Ambiente">
+				<node id="EEN202" label="Ambiente">
 					<isComposedBy>
-						<node label="Trattamento dell'inquinamento">
+						<node id="VR202101" label="Trattamento dell'inquinamento">
 						</node>
-						<node label="Biodiversità">
+						<node id="VR202102" label="Biodiversità">
 						</node>
-						<node label="Ecologia">
+						<node id="VR202103" label="Ecologia">
 						</node>
-						<node label="Tecnologia ed Ingegneria ambientale">
+						<node id="VR202104" label="Tecnologia ed Ingegneria ambientale">
 						</node>
-						<node label="Misurazione e rilevamento dell'inquinamento">
+						<node id="VR202105" label="Misurazione e rilevamento dell'inquinamento">
 						</node>
-						<node label="Calamità naturali">
+						<node id="VR202106" label="Calamità naturali">
 						</node>
-						<node label="Tecnologia del telerilevamento">
+						<node id="VR202107" label="Tecnologia del telerilevamento">
 						</node>
-						<node label="Inquinamento del suolo">
+						<node id="VR202108" label="Inquinamento del suolo">
 						</node>
-						<node label="Inquinamento delle acque / trattamento">
+						<node id="VR202109" label="Inquinamento delle acque / trattamento">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Gestione dei rifiuti">
+				<node id="EEN203" label="Gestione dei rifiuti">
 					<isComposedBy>
-						<node label="Biotrattamenti / compostaggio / bioconversione">
+						<node id="VR203101" label="Biotrattamenti / compostaggio / bioconversione">
 						</node>
-						<node label="Incenerimento e pirolisi">
+						<node id="VR203102" label="Incenerimento e pirolisi">
 						</node>
-						<node label="Smaltimento dei rifiuti del suolo e delle acque">
+						<node id="VR203103" label="Smaltimento dei rifiuti del suolo e delle acque">
 						</node>
-						<node label="Riciclaggio, recupero">
+						<node id="VR203104" label="Riciclaggio, recupero">
 						</node>
-						<node label="Rifiuti radioattivi">
+						<node id="VR203105" label="Rifiuti radioattivi">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -993,51 +993,51 @@ EEN CORDIS
 			
 		<node id="EEN21" label="QUESTIONI SOCIALI ED ECONOMICHE">
 			<isComposedBy>
-				<node label="Modelli di sviluppo socioeconomico, aspetti economici">
+				<node id="EEN211" label="Modelli di sviluppo socioeconomico, aspetti economici">
 					<isComposedBy>
-						<node label="Modelli di sviluppo socioeconomico, aspetti economici">
+						<node id="VR211101" label="Modelli di sviluppo socioeconomico, aspetti economici">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Istruzione e formazione">
+				<node id="EEN212" label="Istruzione e formazione">
 					<isComposedBy>
-						<node label="Istruzione e formazione">
+						<node id="VR212101" label="Istruzione e formazione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Informazione e mezzi di comunicazione, società">
+				<node id="EEN213" label="Informazione e mezzi di comunicazione, società">
 					<isComposedBy>
-						<node label="Informazione e mezzi di comunicazione, società">
+						<node id="VR213101" label="Informazione e mezzi di comunicazione, società">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Tecnologia, società e occupazione">
+				<node id="EEN214" label="Tecnologia, società e occupazione">
 					<isComposedBy>
-						<node label="Tecnologia, società e occupazione">
+						<node id="VR214101" label="Tecnologia, società e occupazione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Infrastrutture per le scienze sociali e umanistiche">
+				<node id="EEN215" label="Infrastrutture per le scienze sociali e umanistiche">
 					<isComposedBy>
-						<node label="Infrastrutture per le scienze sociali e umanistiche">
+						<node id="VR215101" label="Infrastrutture per le scienze sociali e umanistiche">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Partecipazione dei cittadini">
+				<node id="EEN216" label="Partecipazione dei cittadini">
 					<isComposedBy>
-						<node label="Partecipazione dei cittadini">
+						<node id="VR216101" label="Partecipazione dei cittadini">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Strumenti di previsione">
+				<node id="EEN217" label="Strumenti di previsione">
 					<isComposedBy>
-						<node label="Strumenti di previsione">
+						<node id="VR217101" label="Strumenti di previsione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Sport e tempo libero">
+				<node id="EEN218" label="Sport e tempo libero">
 					<isComposedBy>
-						<node label="Sport e tempo libero">
+						<node id="VR218101" label="Sport e tempo libero">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -1046,163 +1046,163 @@ EEN CORDIS
 		
 		<node id="EEN22" label="SCIENZE UMANE">
 			<isComposedBy>
-				<node label="Arti">
+				<node id="EEN221" label="Arti">
 					<isComposedBy>
-						<node label="Gestione delle arti">
+						<node id="VR221101" label="Gestione delle arti">
 						</node>
-						<node label="Studi sulla moda">
+						<node id="VR221102" label="Studi sulla moda">
 						</node>
-						<node label="Belle arti">
+						<node id="VR221103" label="Belle arti">
 						</node>
-						<node label="Artigianato">
+						<node id="VR221104" label="Artigianato">
 						</node>
-						<node label="Arti dello spettacolo">
+						<node id="VR221105" label="Arti dello spettacolo">
 						</node>
-						<node label="Arti visive">
+						<node id="VR221106" label="Arti visive">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Storia">
+				<node id="EEN222" label="Storia">
 					<isComposedBy>
-						<node label="Storia antica">
+						<node id="VR222101" label="Storia antica">
 						</node>
-						<node label="Archeologia">
+						<node id="VR222102" label="Archeologia">
 						</node>
-						<node label="Storia dell'arte">
+						<node id="VR222103" label="Storia dell'arte">
 						</node>
-						<node label="Storia della Chiesa">
+						<node id="VR222104" label="Storia della Chiesa">
 						</node>
-						<node label="Storia contemporanea">
+						<node id="VR222105" label="Storia contemporanea">
 						</node>
-						<node label="Storia economica">
+						<node id="VR222106" label="Storia economica">
 						</node>
-						<node label="Genealogia">
+						<node id="VR222107" label="Genealogia">
 						</node>
-						<node label="Araldica">
+						<node id="VR222108" label="Araldica">
 						</node>
-						<node label="Storia dell'agricoltura">
+						<node id="VR222109" label="Storia dell'agricoltura">
 						</node>
-						<node label="Storia del design">
+						<node id="VR222110" label="Storia del design">
 						</node>
-						<node label="Storia del diritto">
+						<node id="VR222111" label="Storia del diritto">
 						</node>
-						<node label="Storia delle arti dello spettacolo">
+						<node id="VR222112" label="Storia delle arti dello spettacolo">
 						</node>
-						<node label="Storia della filosofia">
+						<node id="VR222113" label="Storia della filosofia">
 						</node>
-						<node label="Storia delle religioni">
+						<node id="VR222114" label="Storia delle religioni">
 						</node>
-						<node label="Storia della scienza">
+						<node id="VR222115" label="Storia della scienza">
 						</node>
-						<node label="Storia delle scienze sociali">
+						<node id="VR222116" label="Storia delle scienze sociali">
 						</node>
-						<node label="Storia locale">
+						<node id="VR222117" label="Storia locale">
 						</node>
-						<node label="Storia medievale">
+						<node id="VR222118" label="Storia medievale">
 						</node>
-						<node label="Storia moderna">
+						<node id="VR222119" label="Storia moderna">
 						</node>
-						<node label="Storia della musica">
+						<node id="VR222120" label="Storia della musica">
 						</node>
-						<node label="Numismatica">
+						<node id="VR222121" label="Numismatica">
 						</node>
-						<node label="Paleografia">
+						<node id="VR222122" label="Paleografia">
 						</node>
-						<node label="Storia politica">
+						<node id="VR222123" label="Storia politica">
 						</node>
-						<node label="Preistoria">
+						<node id="VR222124" label="Preistoria">
 						</node>
-						<node label="Sigillografia">
+						<node id="VR222125" label="Sigillografia">
 						</node>
-						<node label="Storia sociale">
+						<node id="VR222126" label="Storia sociale">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienza delle informazioni">
+				<node id="EEN223" label="Scienza delle informazioni">
 					<isComposedBy>
-						<node label="Archivistica">
+						<node id="VR223101" label="Archivistica">
 						</node>
-						<node label="Diplomatica">
+						<node id="VR223102" label="Diplomatica">
 						</node>
-						<node label="Documentazione">
+						<node id="VR223103" label="Documentazione">
 						</node>
-						<node label="Gestione delle informazioni">
+						<node id="VR223104" label="Gestione delle informazioni">
 						</node>
-						<node label="Biblioteconomia">
+						<node id="VR223105" label="Biblioteconomia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze del linguaggio">
+				<node id="EEN224" label="Scienze del linguaggio">
 					<isComposedBy>
-						<node label="Lingue">
+						<node id="VR224101" label="Lingue">
 						</node>
-						<node label="Linguistica">
+						<node id="VR224102" label="Linguistica">
 						</node>
-						<node label="Filologia">
+						<node id="VR224103" label="Filologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Letteratura">
+				<node id="EEN225" label="Letteratura">
 					<isComposedBy>
-						<node label="Letteratura africana">
+						<node id="VR225101" label="Letteratura africana">
 						</node>
-						<node label="Letteratura americana">
+						<node id="VR225102" label="Letteratura americana">
 						</node>
-						<node label="Letteratura asiatica">
+						<node id="VR225103" label="Letteratura asiatica">
 						</node>
-						<node label="Letteratura austronesiana">
+						<node id="VR225104" label="Letteratura austronesiana">
 						</node>
-						<node label="Letteratura comparata">
+						<node id="VR225105" label="Letteratura comparata">
 						</node>
-						<node label="Letteratura europea">
+						<node id="VR225106" label="Letteratura europea">
 						</node>
-						<node label="Letteratura greca">
+						<node id="VR225107" label="Letteratura greca">
 						</node>
-						<node label="Letteratura camito-semitica">
+						<node id="VR225108" label="Letteratura camito-semitica">
 						</node>
-						<node label="Critica letteraria">
+						<node id="VR225109" label="Critica letteraria">
 						</node>
-						<node label="Scrittura">
+						<node id="VR225110" label="Scrittura">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Filosofia">
+				<node id="EEN226" label="Filosofia">
 					<isComposedBy>
-						<node label="Estetica">
+						<node id="VR226101" label="Estetica">
 						</node>
-						<node label="Epistemologia">
+						<node id="VR226102" label="Epistemologia">
 						</node>
-						<node label="Etica">
+						<node id="VR226103" label="Etica">
 						</node>
-						<node label="Logica">
+						<node id="VR226104" label="Logica">
 						</node>
-						<node label="Metafisica">
+						<node id="VR226105" label="Metafisica">
 						</node>
-						<node label="Fenomenologia">
+						<node id="VR226106" label="Fenomenologia">
 						</node>
-						<node label="Antropologia filosofica">
+						<node id="VR226107" label="Antropologia filosofica">
 						</node>
-						<node label="Filosofia del diritto">
+						<node id="VR226108" label="Filosofia del diritto">
 						</node>
-						<node label="Filosofia della scienza">
+						<node id="VR226109" label="Filosofia della scienza">
 						</node>
-						<node label="Semiotica">
+						<node id="VR226110" label="Semiotica">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze religiose">
+				<node id="EEN227" label="Scienze religiose">
 					<isComposedBy>
-						<node label="Studi biblici">
+						<node id="VR227101" label="Studi biblici">
 						</node>
-						<node label="Studi sulla Chiesa">
+						<node id="VR227102" label="Studi sulla Chiesa">
 						</node>
-						<node label="Religione comparata">
+						<node id="VR227103" label="Religione comparata">
 						</node>
-						<node label="Religioni pagane">
+						<node id="VR227104" label="Religioni pagane">
 						</node>
-						<node label="Studi pastoral">
+						<node id="VR227105" label="Studi pastoral">
 						</node>
-						<node label="Teologia">
+						<node id="VR227106" label="Teologia">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -1211,317 +1211,317 @@ EEN CORDIS
 		
 		<node id="EEN23" label="SCIENZE SOCIALI">
 			<isComposedBy>
-				<node label="Antropologia">
+				<node id="EEN230" label="Antropologia">
 					<isComposedBy>
-						<node label="Antropologia della comunicazione">
+						<node id="VR230101" label="Antropologia della comunicazione">
 						</node>
-						<node label="Antropologia Culturale">
+						<node id="VR230102" label="Antropologia Culturale">
 						</node>
-						<node label="Etnologia">
+						<node id="VR230103" label="Etnologia">
 						</node>
-						<node label="Antropologia medica">
+						<node id="VR230104" label="Antropologia medica">
 						</node>
-						<node label="Antropologia fisica">
+						<node id="VR230105" label="Antropologia fisica">
 						</node>
-						<node label="Antropologia sociale">
+						<node id="VR230106" label="Antropologia sociale">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze della comunicazione">
+				<node id="EEN231" label="Scienze della comunicazione">
 					<isComposedBy>
-						<node label="Comunicazione audiovisiva">
+						<node id="VR231101" label="Comunicazione audiovisiva">
 						</node>
-						<node label="Comunicazione d'impresa">
+						<node id="VR231102" label="Comunicazione d'impresa">
 						</node>
-						<node label="Editing">
+						<node id="VR231103" label="Editing">
 						</node>
-						<node label="Comunicazione grafica">
+						<node id="VR231104" label="Comunicazione grafica">
 						</node>
-						<node label="Giornalismo">
+						<node id="VR231105" label="Giornalismo">
 						</node>
-						<node label="Studi sui media">
+						<node id="VR231106" label="Studi sui media">
 						</node>
-						<node label="Servizi di informazione on-line">
+						<node id="VR231107" label="Servizi di informazione on-line">
 						</node>
-						<node label="Relazioni pubbliche">
+						<node id="VR231108" label="Relazioni pubbliche">
 						</node>
-						<node label="Editoria">
+						<node id="VR231109" label="Editoria">
 						</node>
-						<node label="Scienze della comunicazione">
+						<node id="VR231110" label="Scienze della comunicazione">
 						</node>
-						<node label="Comunicazione verbale">
+						<node id="VR231111" label="Comunicazione verbale">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Criminologia">
+				<node id="EEN232" label="Criminologia">
 					<isComposedBy>
-						<node label="Criminologia">
+						<node id="VR232101" label="Criminologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Studi culturali ">
+				<node id="EEN233" label="Studi culturali ">
 					<isComposedBy>
-						<node label="Studi africani">
+						<node id="VR233101" label="Studi africani">
 						</node>
-						<node label="Studi americani">
+						<node id="VR233102" label="Studi americani">
 						</node>
-						<node label="Studi sull'antichità">
+						<node id="VR233103" label="Studi sull'antichità">
 						</node>
-						<node label="Studi anglosassoni">
+						<node id="VR233104" label="Studi anglosassoni">
 						</node>
-						<node label="Studi arabi">
+						<node id="VR233105" label="Studi arabi">
 						</node>
-						<node label="Studi asiatici">
+						<node id="VR233106" label="Studi asiatici">
 						</node>
-						<node label="Studi bizantini">
+						<node id="VR233107" label="Studi bizantini">
 						</node>
-						<node label="Studi copti">
+						<node id="VR233108" label="Studi copti">
 						</node>
-						<node label="Studi sugli esquimesi">
+						<node id="VR233109" label="Studi sugli esquimesi">
 						</node>
-						<node label="Studi europei">
+						<node id="VR233110" label="Studi europei">
 						</node>
-						<node label="Studi islamici">
+						<node id="VR233111" label="Studi islamici">
 						</node>
-						<node label="Studi ebraici">
+						<node id="VR233112" label="Studi ebraici">
 						</node>
-						<node label="Studi medioevali">
+						<node id="VR233113" label="Studi medioevali">
 						</node>
-						<node label="Studi mediorientali">
+						<node id="VR233114" label="Studi mediorientali">
 						</node>
-						<node label="Studi orientali">
+						<node id="VR233115" label="Studi orientali">
 						</node>
-						<node label="Studi regionali">
+						<node id="VR233116" label="Studi regionali">
 						</node>
-						<node label="Studi sul Rinascimento">
+						<node id="VR233117" label="Studi sul Rinascimento">
 						</node>
-						<node label="Studi russi">
+						<node id="VR233118" label="Studi russi">
 						</node>
-						<node label="Studi sul Terzo Mondo">
+						<node id="VR233119" label="Studi sul Terzo Mondo">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Demografia">
+				<node id="EEN234" label="Demografia">
 					<isComposedBy>
-						<node label="Demografia">
+						<node id="VR234101" label="Demografia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Economia">
+				<node id="EEN235" label="Economia">
 					<isComposedBy>
-						<node label="Scienze amministrative">
+						<node id="VR235101" label="Scienze amministrative">
 						</node>
-						<node label="Economia agraria">
+						<node id="VR235102" label="Economia agraria">
 						</node>
-						<node label="Economia applicata">
+						<node id="VR235103" label="Economia applicata">
 						</node>
-						<node label="Attivitࡢancaria">
+						<node id="VR235104" label="Attivitàbancaria">
 						</node>
-						<node label="Economia aziendale">
+						<node id="VR235105" label="Economia aziendale">
 						</node>
-						<node label="Rilievi catastali">
+						<node id="VR235106" label="Rilievi catastali">
 						</node>
-						<node label="Economia e commercio">
+						<node id="VR235107" label="Economia e commercio">
 						</node>
-						<node label="Economia delle costruzioni">
+						<node id="VR235108" label="Economia delle costruzioni">
 						</node>
-						<node label="Economia dei consumatori">
+						<node id="VR235109" label="Economia dei consumatori">
 						</node>
-						<node label="Economia dei cicli">
+						<node id="VR235110" label="Economia dei cicli">
 						</node>
-						<node label="Econometria">
+						<node id="VR235111" label="Econometria">
 						</node>
-						<node label="Politica economica">
+						<node id="VR235112" label="Politica economica">
 						</node>
-						<node label="Sistemi economici">
+						<node id="VR235113" label="Sistemi economici">
 						</node>
-						<node label="Teoria economica">
+						<node id="VR235114" label="Teoria economica">
 						</node>
-						<node label="Economia dello sviluppo">
+						<node id="VR235115" label="Economia dello sviluppo">
 						</node>
-						<node label="Economia ambientale">
+						<node id="VR235116" label="Economia ambientale">
 						</node>
-						<node label="Scienze delle finanze">
+						<node id="VR235117" label="Scienze delle finanze">
 						</node>
-						<node label="Economia della pesca">
+						<node id="VR235118" label="Economia della pesca">
 						</node>
-						<node label="Economia agroalimentare">
+						<node id="VR235119" label="Economia agroalimentare">
 						</node>
-						<node label="Economia sanitaria">
+						<node id="VR235120" label="Economia sanitaria">
 						</node>
-						<node label="Economia domestica">
+						<node id="VR235121" label="Economia domestica">
 						</node>
-						<node label="Economia industriale">
+						<node id="VR235122" label="Economia industriale">
 						</node>
-						<node label="Economia della conoscenza">
+						<node id="VR235123" label="Economia della conoscenza">
 						</node>
-						<node label="Economia del lavoro">
+						<node id="VR235124" label="Economia del lavoro">
 						</node>
-						<node label="Economia del mercato del lavoro">
+						<node id="VR235125" label="Economia del mercato del lavoro">
 						</node>
-						<node label="Economia del territorio">
+						<node id="VR235126" label="Economia del territorio">
 						</node>
-						<node label="Economia dei locali pubblici">
+						<node id="VR235127" label="Economia dei locali pubblici">
 						</node>
-						<node label="Macroeconomia">
+						<node id="VR235128" label="Macroeconomia">
 						</node>
-						<node label="Studi sulla gestione d'impresa">
+						<node id="VR235129" label="Studi sulla gestione d'impresa">
 						</node>
-						<node label="Marketing">
+						<node id="VR235130" label="Marketing">
 						</node>
-						<node label="Microeconomia">
+						<node id="VR235131" label="Microeconomia">
 						</node>
-						<node label="Economia politica">
+						<node id="VR235132" label="Economia politica">
 						</node>
-						<node label="Economia della produzione">
+						<node id="VR235133" label="Economia della produzione">
 						</node>
-						<node label="Economia sociale">
+						<node id="VR235134" label="Economia sociale">
 						</node>
-						<node label="Studi sul turismo">
+						<node id="VR235135" label="Studi sul turismo">
 						</node>
-						<node label="Economia dei trasporti">
+						<node id="VR235136" label="Economia dei trasporti">
 						</node>
-						<node label="Valutazione">
+						<node id="VR235137" label="Valutazione">
 						</node>
-						<node label="Economia veterinaria">
+						<node id="VR235138" label="Economia veterinaria">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze dell'educazione">
+				<node id="EEN236" label="Scienze dell'educazione">
 					<isComposedBy>
-						<node label="Istruzione">
+						<node id="VR236101" label="Istruzione">
 						</node>
-						<node label="Studi sull'apprendimento">
+						<node id="VR236102" label="Studi sull'apprendimento">
 						</node>
-						<node label="Metodologia della ricerca">
+						<node id="VR236103" label="Metodologia della ricerca">
 						</node>
-						<node label="Metodi di insegnamento">
+						<node id="VR236104" label="Metodi di insegnamento">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Etica nelle scienze sociali">
+				<node id="EEN237" label="Etica nelle scienze sociali">
 					<isComposedBy>
-						<node label="Etica nelle scienze sociali">
+						<node id="VR237101" label="Etica nelle scienze sociali">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Geografia">
+				<node id="EEN238" label="Geografia">
 					<isComposedBy>
-						<node label="Cartografia">
+						<node id="VR238101" label="Cartografia">
 						</node>
-						<node label="Geografia economica">
+						<node id="VR238102" label="Geografia economica">
 						</node>
-						<node label="Geopolitica">
+						<node id="VR238103" label="Geopolitica">
 						</node>
-						<node label="Geografia storica">
+						<node id="VR238104" label="Geografia storica">
 						</node>
-						<node label="Geografia umana">
+						<node id="VR238105" label="Geografia umana">
 						</node>
-						<node label="Geografia regionale">
+						<node id="VR238106" label="Geografia regionale">
 						</node>
-						<node label="Geografia sociale">
+						<node id="VR238107" label="Geografia sociale">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze giuridiche">
+				<node id="EEN239" label="Scienze giuridiche">
 					<isComposedBy>
-						<node label="Diritto agrario">
+						<node id="VR239101" label="Diritto agrario">
 						</node>
-						<node label="Diritto canonico">
+						<node id="VR239102" label="Diritto canonico">
 						</node>
-						<node label="Diritto comparato">
+						<node id="VR239103" label="Diritto comparato">
 						</node>
-						<node label="Diritto penale">
+						<node id="VR239104" label="Diritto penale">
 						</node>
-						<node label="Diritto ambientale">
+						<node id="VR239105" label="Diritto ambientale">
 						</node>
-						<node label="Diritto europeo">
+						<node id="VR239106" label="Diritto europeo">
 						</node>
-						<node label="Diritto finanziario">
+						<node id="VR239107" label="Diritto finanziario">
 						</node>
-						<node label="Diritto tributario">
+						<node id="VR239108" label="Diritto tributario">
 						</node>
-						<node label="Diritto della salute">
+						<node id="VR239109" label="Diritto della salute">
 						</node>
-						<node label="Diritto informatico">
+						<node id="VR239110" label="Diritto informatico">
 						</node>
-						<node label="Diritto internazionale">
+						<node id="VR239111" label="Diritto internazionale">
 						</node>
-						<node label="Diritto marittimo">
+						<node id="VR239112" label="Diritto marittimo">
 						</node>
-						<node label="Diritto aerospaziale">
+						<node id="VR239113" label="Diritto aerospaziale">
 						</node>
-						<node label="Diritto giudiziario">
+						<node id="VR239114" label="Diritto giudiziario">
 						</node>
-						<node label="Diritto minorile">
+						<node id="VR239115" label="Diritto minorile">
 						</node>
-						<node label="Diritto del lavoro">
+						<node id="VR239116" label="Diritto del lavoro">
 						</node>
-						<node label="Diritto dei media">
+						<node id="VR239117" label="Diritto dei media">
 						</node>
-						<node label="Diritto medico">
+						<node id="VR239118" label="Diritto medico">
 						</node>
-						<node label="Diritto privato">
+						<node id="VR239119" label="Diritto privato">
 						</node>
-						<node label="Diritto pubblico">
+						<node id="VR239120" label="Diritto pubblico">
 						</node>
-						<node label="Diritto romano">
+						<node id="VR239121" label="Diritto romano">
 						</node>
-						<node label="Diritto sociale">
+						<node id="VR239122" label="Diritto sociale">
 						</node>
-						<node label="Diritto dei trasporti">
+						<node id="VR239123" label="Diritto dei trasporti">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze politiche">
+				<node id="EEN23901" label="Scienze politiche">
 					<isComposedBy>
-						<node label="Governance">
+						<node id="VR23901101" label="Governance">
 						</node>
-						<node label="Studi politici">
+						<node id="VR23901102" label="Studi politici">
 						</node>
-						<node label="Percezione della scienza nel dominio pubblico">
+						<node id="VR23901103" label="Percezione della scienza nel dominio pubblico">
 						</node>
-						<node label="Politica pubblica">
+						<node id="VR23901104" label="Politica pubblica">
 						</node>
-						<node label="Scienza e società">
+						<node id="VR23901105" label="Scienza e società">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Scienze Psicologiche">
+				<node id="EEN23902" label="Scienze Psicologiche">
 					<isComposedBy>
-						<node label="Scienze comportamentali">
+						<node id="VR23902101" label="Scienze comportamentali">
 						</node>
-						<node label="Scienze cognitive">
+						<node id="VR23902102" label="Scienze cognitive">
 						</node>
-						<node label="Studi psicoanalitici">
+						<node id="VR23902103" label="Studi psicoanalitici">
 						</node>
-						<node label="Psicologia">
+						<node id="VR23902104" label="Psicologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Sociologia">
+				<node id="EEN23903" label="Sociologia">
 					<isComposedBy>
-						<node label="Sociologia dell'educazione">
+						<node id="VR23903101" label="Sociologia dell'educazione">
 						</node>
-						<node label="Macrosociologia">
+						<node id="VR23903102" label="Macrosociologia">
 						</node>
-						<node label="Sociologia rurale">
+						<node id="VR23903103" label="Sociologia rurale">
 						</node>
-						<node label="Sociologia del mutamento">
+						<node id="VR23903104" label="Sociologia del mutamento">
 						</node>
-						<node label="Sociologia della tecnica">
+						<node id="VR23903105" label="Sociologia della tecnica">
 						</node>
-						<node label="Teoria della scelta sociale">
+						<node id="VR23903106" label="Teoria della scelta sociale">
 						</node>
-						<node label="Ricerca socio-economica">
+						<node id="VR23903107" label="Ricerca socio-economica">
 						</node>
-						<node label="Sociologia dell'impresa">
+						<node id="VR23903108" label="Sociologia dell'impresa">
 						</node>
-						<node label="Sociologia del lavoro">
+						<node id="VR23903109" label="Sociologia del lavoro">
 						</node>
-						<node label="Sociologia della religione">
+						<node id="VR23903110" label="Sociologia della religione">
 						</node>
-						<node label="Sociologia urbana">
+						<node id="VR23903111" label="Sociologia urbana">
 						</node>
 					</isComposedBy>
 				</node>
@@ -1530,97 +1530,97 @@ EEN CORDIS
 		
 		<node id="EEN24" label="TEMATICHE ORIZZONTALI SULLA RICERCA E LO SVILUPPO TECNOLOGICO">
 			<isComposedBy>
-				<node label="Politiche">
+				<node id="EEN240" label="Politiche">
 					<isComposedBy>
-						<node label="Formulazione, valutazione o applicazione di politiche, strategie politiche o piani d'azione per la ricerca e lo sviluppo nella scienza e nella tecnologia">
+						<node id="VR240101" label="Formulazione, valutazione o applicazione di politiche, strategie politiche o piani d'azione per la ricerca e lo sviluppo nella scienza e nella tecnologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Legislazione, regolamentazione">
+				<node id="EEN241" label="Legislazione, regolamentazione">
 					<isComposedBy>
-						<node label="Formulazione, valutazione o applicazione di leggi e regolamenti, provvedimenti amministrativi, codici di condotta, decisioni, direttive o accordi per la ricerca e lo sviluppo nella scienza e nella tecnologia">
+						<node id="VR241101" label="Formulazione, valutazione o applicazione di leggi e regolamenti, provvedimenti amministrativi, codici di condotta, decisioni, direttive o accordi per la ricerca e lo sviluppo nella scienza e nella tecnologia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Previsioni">
+				<node id="EEN242" label="Previsioni">
 					<isComposedBy>
-						<node label="Individuazione di futuri sviluppi nella ricerca e nello sviluppo tecnologico e di opzioni strategiche a lungo termine">
+						<node id="VR242101" label="Individuazione di futuri sviluppi nella ricerca e nello sviluppo tecnologico e di opzioni strategiche a lungo termine">
 						</node>
-						<node label="Contributi alle politiche in materia di ricerca e sviluppo tecnologico">
+						<node id="VR242102" label="Contributi alle politiche in materia di ricerca e sviluppo tecnologico">
 						</node>
-						<node label="Metodologie di previsione">
+						<node id="VR242103" label="Metodologie di previsione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Valutazione">
+				<node id="EEN243" label="Valutazione">
 					<isComposedBy>
-						<node label="Valutazione dei programmi comunitari in materia di ricerca e sviluppo tecnologico">
+						<node id="VR243101" label="Valutazione dei programmi comunitari in materia di ricerca e sviluppo tecnologico">
 						</node>
-						<node label="Metodologie di valutazione">
+						<node id="VR243102" label="Metodologie di valutazione">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Innovazione, trasferimento di tecnologie">
+				<node id="EEN244" label="Innovazione, trasferimento di tecnologie">
 					<isComposedBy>
-						<node label="Sviluppo di meccanismi volti a promuovere l'innovazione e il trasferimento tecnologico, utilizzo dei risultati della ricerca, diritti di proprietà e brevetti">
+						<node id="VR244101" label="Sviluppo di meccanismi volti a promuovere l'innovazione e il trasferimento tecnologico, utilizzo dei risultati della ricerca, diritti di proprietà e brevetti">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Coordinamento, cooperazione">
+				<node id="EEN245" label="Coordinamento, cooperazione">
 					<isComposedBy>
-						<node label="Promozione di azioni congiunte, scambio di informazioni, mobilitì condivisione di risorse per la ricerca, esercizi di confronto">
+						<node id="VR245101" label="Promozione di azioni congiunte, scambio di informazioni, mobilità condivisione di risorse per la ricerca, esercizi di confronto">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Ricerca scientifica">
+				<node id="EEN246" label="Ricerca scientifica">
 					<isComposedBy>
-						<node label="Ricerca scientifica e industriale generale, o attività di ricerca non incluse altrove">
+						<node id="VR246101" label="Ricerca scientifica e industriale generale, o attività di ricerca non incluse altrove">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Aspetti imprenditoriali">
+				<node id="EEN247" label="Aspetti imprenditoriali">
 					<isComposedBy>
-						<node label="PMI orientate sulla ricerca">
+						<node id="VR247101" label="PMI orientate sulla ricerca">
 						</node>
-						<node label="PMI ad alta tecnologia">
+						<node id="VR247102" label="PMI ad alta tecnologia">
 						</node>
-						<node label="Organizzazioni di ricerca finanziate privatamente">
+						<node id="VR247103" label="Organizzazioni di ricerca finanziate privatamente">
 						</node>
-						<node label="Competitività in R&amp;S">
+						<node id="VR247104" label="Competitività in R&amp;S">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Etica della ricerca">
+				<node id="EEN248" label="Etica della ricerca">
 					<isComposedBy>
-						<node label="Sperimentazioni cliniche">
+						<node id="VR248101" label="Sperimentazioni cliniche">
 						</node>
-						<node label="Sperimentazione animale">
+						<node id="VR248102" label="Sperimentazione animale">
 						</node>
-						<node label="Cellule staminali">
+						<node id="VR248103" label="Cellule staminali">
 						</node>
-						<node label="Clonazione">
+						<node id="VR248104" label="Clonazione">
 						</node>
-						<node label="Temi di ricerca controversi">
+						<node id="VR248105" label="Temi di ricerca controversi">
 						</node>
-						<node label="Sistemi di supervisione etica">
+						<node id="VR248106" label="Sistemi di supervisione etica">
 						</node>
-						<node label="Consigli etici di ricerca">
+						<node id="VR248107" label="Consigli etici di ricerca">
 						</node>
 					</isComposedBy>
 				</node>
-				<node label="Diritti di proprietà intellettuale">
+				<node id="EEN249" label="Diritti di proprietà intellettuale">
 					<isComposedBy>
-						<node label="Brevetti">
+						<node id="VR249101" label="Brevetti">
 						</node>
-						<node label="Diritti d'Autore">
+						<node id="VR249102" label="Diritti d'Autore">
 						</node>
-						<node label="Appoggio DPI">
+						<node id="VR249103" label="Appoggio DPI">
 						</node>
-						<node label="Gestione dei diritti digitali">
+						<node id="VR249104" label="Gestione dei diritti digitali">
 						</node>
-						<node label="Questioni commerciali">
+						<node id="VR249105" label="Questioni commerciali">
 						</node>
-						<node label="Farmaci generici">
+						<node id="VR249106" label="Farmaci generici">
 						</node>
 					</isComposedBy>
 				</node>				
