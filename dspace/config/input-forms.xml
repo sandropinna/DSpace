@@ -2494,7 +2494,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Autore</label>
-         <type-bind>manuale,catalogo</type-bind>
+         <type-bind>Manuale,Catalogo</type-bind>
          <input-type>name</input-type>
          <hint>Inserisci nome e cognome dell'autore o degli autori</hint>
          <required></required>
@@ -2507,7 +2507,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>other</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Ente Autore</label>
-         <type-bind>manuale</type-bind>
+         <type-bind>Manuale</type-bind>
          <input-type>onebox</input-type>
          <hint>Inserisci il nome dell'ente autore</hint>
          <required></required>
@@ -2520,7 +2520,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Titolo</label>
-         <type-bind>catalogo</type-bind>
+         <type-bind>Catalogo</type-bind>
          <input-type>onebox</input-type>
          <hint>Inserisci il titolo del documento</hint>
          <required>Il titolo del documento è obbligatorio</required>
