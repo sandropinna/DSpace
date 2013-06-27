@@ -4073,6 +4073,10 @@ it, please enter the types and the actual numbers or codes below.</hint>
      <pair>
        <displayed-value>Manuale</displayed-value>
        <stored-value>Manuale</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Catalogo</displayed-value>
+       <stored-value>Catalogo</stored-value>
      </pair>     
    </value-pairs>
    
@@ -4112,6 +4116,34 @@ it, please enter the types and the actual numbers or codes below.</hint>
    </value-pairs>
    
    <value-pairs value-pairs-name="common_types_altro" dc-term="type">
+     <pair>
+       <displayed-value>Dataset</displayed-value>
+       <stored-value>Dataset</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Immagine</displayed-value>
+       <stored-value>Immagine</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Video</displayed-value>
+       <stored-value>Video</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Audio</displayed-value>
+       <stored-value>Audio</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Esperimento</displayed-value>
+       <stored-value>Esperimento</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Mostra</displayed-value>
+       <stored-value>Mostra</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Rivista</displayed-value>
+       <stored-value>Rivista</stored-value>
+     </pair>
      <pair>
        <displayed-value>Altro</displayed-value>
        <stored-value>Altro</stored-value>
