@@ -310,6 +310,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
      </page>
+     
      <page number="2">
        <field>
          <dc-schema>dc</dc-schema>
@@ -376,10 +377,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>date</input-type>
          <hint>Inserisci la data in cui il documento è stato redatto</hint>
          <required>Devi inserire almeno l'anno</required>
-       </field>
-
-	  
-       
+      </field>      
      
      <field>
          <dc-schema>dc</dc-schema>
@@ -390,18 +388,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Inserisci la tipologia di supporto che consente l'accesso al contenuto (CD ROM, DVD, ...)</hint>
          <required></required>
-       </field>      
- 
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>type</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Tipologia del documento</label>
-         <input-type value-pairs-name="common_types_altro">dropdown</input-type>
-         <hint></hint>
-         <required></required>
-       </field>
+      </field>       
 
        <field>
          <dc-schema>dc</dc-schema>
