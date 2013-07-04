@@ -1047,13 +1047,28 @@ it, please enter the types and the actual numbers or codes below.</hint>
    </form>
    
    <form name="brevetto">
-     <page number="1">
+   	 <page number="1">
+   	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>type</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Tipologia del documento</label>
+         <input-type value-pairs-name="common_types_brevetto">dropdown</input-type>
+         <hint></hint>
+         <required></required>
+       </field>
+   	 </page>
+   	 
+     <page number="2">
+     <!-- Brevetto -->
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>inventorperson</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Inventore (Persona fisica)</label>
+         <type-bind>Brevetto</type-bind>
          <input-type>name</input-type>
          <hint>Inserisci nome e cognome dell'inventore o degli inventori</hint>
          <required></required>
@@ -1065,6 +1080,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>inventororganisation</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Inventore (Organizzazione)</label>
+         <type-bind>Brevetto</type-bind>
          <input-type>onebox</input-type>
          <hint>Inserisci il nome dell'organizzazione inventore del brevetto</hint>
          <required></required>
@@ -1077,6 +1093,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Titolare (Persona fisica)</label>
+         <type-bind>Brevetto</type-bind>
          <input-type>name</input-type>
          <hint>Se il titolare (Persona fisica) del brevetto coincide con l'inventore ripeterne il nome e il cognome</hint>
          <required></required>
@@ -1088,6 +1105,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>other</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Titolare (Organizzazione)</label>
+         <type-bind>Brevetto</type-bind>
          <input-type>onebox</input-type>
          <hint>Se il titolare (Organizzazione) del brevetto coincide con l'inventore ripeterne il nome</hint>
          <required></required>
@@ -1099,8 +1117,630 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Titolo</label>
+         <type-bind>Brevetto</type-bind>
          <input-type>onebox</input-type>
          <hint>Inserisci il titolo del documento</hint>
+         <required>Il titolo del documento è obbligatorio</required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier>alternative</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Altro titolo</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Istituzione</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type value-pairs-name="istituzioni">dropdown</input-type>
+         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <required></required>
+     </field>
+     
+     
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>submitted</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data di deposito del brevetto</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>date</input-type>
+         <hint>Inserisci la data in cui il brevetto è stato presentato all'Ufficio Brevetti</hint>
+         <required>Devi inserire almeno l'anno</required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data di pubblicazione del brevetto</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>date</input-type>
+         <hint>Inserisci la data in cui il brevetto è stato pubblicato</hint>
+         <required>Devi inserire almeno l'anno</required>
+       </field>
+
+
+	  <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>patentnumber</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Numero di pubblicazione</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserire il numero di pubblicazione assegnato dall'Ufficio Brevetti</hint>
+         <required></required>
+       </field>     
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Lingua</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
+         <required></required>
+       </field> 
+        
+       <!-- Marchio Registrato -->
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Titolo</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la descrizione del marchio</hint>
+         <required>Il titolo del documento è obbligatorio</required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier>alternative</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Altro titolo</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci l'indicazione dei beni e/o servizi secondo la classificazione di Nizza e se si tratta di marchio collettivo o individuale</hint>
+         <required></required>
+       </field>
+       
+        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+        <!--  <vocabulary>srsc</vocabulary>  -->
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Istituzione</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type value-pairs-name="istituzioni">dropdown</input-type>
+         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <required></required>
+       </field>     
+                    
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Persona fisica)</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>name</input-type>
+         <hint>Inserisci il titolare del marchio non il mandatario</hint>
+         <required></required>
+       </field>   
+      
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Organizzazione)</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolare del marchio non il mandatario</hint>
+         <required></required>
+       </field>    
+       
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>date</input-type>
+         <hint>Inserisci la data in cui il marchio è stato pubblicato</hint>
+         <required>Devi inserire almeno l'anno</required>
+       </field>
+
+
+	  <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Numero di pubblicazione</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserire il numero di pubblicazione assegnato dall'Ufficio Brevetti</hint>
+         <required></required>
+       </field>
+       
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Lingua</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
+         <required></required>
+       </field>
+       
+       <!-- Design registrato -->  
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Titolo</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la descrizione del campo n. 54 - Indicazione del(dei) prodotto(i)</hint>
+         <required>Il titolo del documento è obbligatorio</required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier>alternative</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Altro titolo</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci l'indicazione di prodotto secondo la classificazione di Locarno</hint>
+         <required></required>
+       </field>
+       
+        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+         <!-- <vocabulary>srsc</vocabulary>  -->
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Istituzione</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type value-pairs-name="istituzioni">dropdown</input-type>
+         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <required></required>
+       </field>     
+           
+                
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>inventorperson</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Autore (Persona fisica)</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>name</input-type>
+         <hint>Inserisci il nome(i) dell'(degli) autore(i) (disegnatore o progettista) ovvero campo n. 72</hint>
+         <required></required>
+       </field>   
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>inventororganisation</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Autore (Organizzazione)</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il collettivo di autori ovvero campo n. 72</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Persona fisica)</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>name</input-type>
+         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
+         <required></required>
+       </field>  
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Organizzazione)</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
+         <required></required>
+       </field>           
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>date</input-type>
+         <hint>Inserisci la data in cui il design è stato pubblicato, ovvero campo n. 45</hint>
+         <required>Devi inserire almeno l'anno</required>
+       </field>
+
+
+	  <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Numero di pubblicazione</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserire il numero di pubblicazione</hint>
+         <required></required>
+       </field>
+                 
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Lingua</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
+         <required></required>
+       </field> 
+     </page>
+     
+
+     <page number="3">
+       <!-- Brevetto -->
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+         <!--  <vocabulary>srsc</vocabulary>   -->
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci una breve descrizione del contenuto del documento</hint>
+         <required></required>
+       </field>
+	
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>progetti</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Progetti</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Selezionare il progetto </hint>
+         <required></required>
+         <vocabulary closed = "false">progetti</vocabulary>
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>een-cordis</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>EEN-CORDIS</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <required></required>
+         <vocabulary closed = "false">een-cordis</vocabulary>
+       </field>   
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>sponsorship</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sponsors</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
+         <required></required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Informazioni aggiuntive</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>embargoend</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data Fine Embargo</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>embargo</dc-element>
+         <dc-qualifier>description</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Motivazione Embargo</label>
+         <type-bind>Brevetto</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci le motivazioni dell'embargo</hint>
+         <required></required>
+       </field>
+       
+       <!-- Marchio registrato -->
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>progetti</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Progetti</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Selezionare il progetto </hint>
+         <required></required>
+         <vocabulary closed = "false">progetti</vocabulary>
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>een-cordis</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>EEN-CORDIS</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <required></required>
+         <vocabulary closed = "false">een-cordis</vocabulary>
+       </field>   
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>sponsorship</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sponsors</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
+         <required></required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Informazioni aggiuntive</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>embargoend</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data Fine Embargo</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>embargo</dc-element>
+         <dc-qualifier>description</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Motivazione Embargo</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci le motivazioni dell'embargo</hint>
+         <required></required>
+       </field>
+       
+       <!-- Design registrato -->
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>progetti</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Progetti</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Selezionare il progetto </hint>
+         <required></required>
+         <vocabulary closed = "false">progetti</vocabulary>
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>een-cordis</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>EEN-CORDIS</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <required></required>
+         <vocabulary closed = "false">een-cordis</vocabulary>
+       </field>   
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>sponsorship</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sponsors</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
+         <required></required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Informazioni aggiuntive</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>embargoend</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data Fine Embargo</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>embargo</dc-element>
+         <dc-qualifier>description</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Motivazione Embargo</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci le motivazioni dell'embargo</hint>
+         <required></required>
+       </field>
+       
+     </page>
+   </form>
+   
+   <form name="marchio_registrato">
+     <page number="1">
+     
+        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Titolo</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la descrizione del marchio</hint>
          <required>Il titolo del documento è obbligatorio</required>
        </field>
 
@@ -1117,6 +1757,30 @@ it, please enter the types and the actual numbers or codes below.</hint>
        
        <field>
          <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <input-type>textarea</input-type>
+         <hint>Inserisci l'indicazione dei beni e/o servizi secondo la classificazione di Nizza e se si tratta di marchio collettivo o individuale</hint>
+         <required></required>
+       </field>
+       
+        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+        <!--  <vocabulary>srsc</vocabulary>  -->
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
@@ -1124,28 +1788,39 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type value-pairs-name="istituzioni">dropdown</input-type>
          <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
-     </field>
-     
-     
+       </field>     
+                    
        <field>
          <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>submitted</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data di deposito del brevetto</label>
-         <input-type>date</input-type>
-         <hint>Inserisci la data in cui il brevetto è stato presentato all'Ufficio Brevetti</hint>
-         <required>Devi inserire almeno l'anno</required>
-       </field>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Persona fisica)</label>
+         <input-type>name</input-type>
+         <hint>Inserisci il titolare del marchio non il mandatario</hint>
+         <required></required>
+       </field>   
+      
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Organizzazione)</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolare del marchio non il mandatario</hint>
+         <required></required>
+       </field>    
+       
        
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>date</dc-element>
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Data di pubblicazione del brevetto</label>
+         <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il brevetto è stato pubblicato</hint>
+         <hint>Inserisci la data in cui il marchio è stato pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -1153,7 +1828,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
 	  <field>
          <dc-schema>dc</dc-schema>
          <dc-element>identifier</dc-element>
-         <dc-qualifier>patentnumber</dc-qualifier>
+         <dc-qualifier>other</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Numero di pubblicazione</label>
          <input-type>onebox</input-type>
@@ -1169,7 +1844,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Tipologia del documento</label>
-         <input-type value-pairs-name="common_types_brevetto">dropdown</input-type>
+         <input-type value-pairs-name="common_types_marchio_registrato">dropdown</input-type>
          <hint></hint>
          <required></required>
        </field>
@@ -1183,37 +1858,11 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
          <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
          <required></required>
-       </field>  
-     
-         
-     </page>
-     
+       </field>     
+             
+     </page>     
 
      <page number="2">
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <!-- An input-type of twobox MUST be marked as repeatable -->
-         <repeatable>true</repeatable>
-         <label>Keywords</label>
-         <input-type>twobox</input-type>
-         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
-         <required></required>
-         <!--  <vocabulary>srsc</vocabulary>   -->
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Abstract</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci una breve descrizione del contenuto del documento</hint>
-         <required></required>
-       </field>
-	
        
        <field>
          <dc-schema>dc</dc-schema>
@@ -1284,7 +1933,232 @@ it, please enter the types and the actual numbers or codes below.</hint>
        </field>
        
      </page>
-   </form>
+   </form> 
+   
+   <form name="design_registrato">
+     <page number="1">
+     
+        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Titolo</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la descrizione del campo n. 54 - Indicazione del(dei) prodotto(i)</hint>
+         <required>Il titolo del documento è obbligatorio</required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier>alternative</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Altro titolo</label>
+         <input-type>onebox</input-type>
+         <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <input-type>textarea</input-type>
+         <hint>Inserisci l'indicazione di prodotto secondo la classificazione di Locarno</hint>
+         <required></required>
+       </field>
+       
+        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+         <!-- <vocabulary>srsc</vocabulary>  -->
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Istituzione</label>
+         <input-type value-pairs-name="istituzioni">dropdown</input-type>
+         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <required></required>
+       </field>     
+           
+                
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>inventorperson</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Autore (Persona fisica)</label>
+         <input-type>name</input-type>
+         <hint>Inserisci il nome(i) dell'(degli) autore(i) (disegnatore o progettista) ovvero campo n. 72</hint>
+         <required></required>
+       </field>   
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>inventororganisation</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Autore (Organizzazione)</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il collettivo di autori ovvero campo n. 72</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Persona fisica)</label>
+         <input-type>name</input-type>
+         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
+         <required></required>
+       </field>  
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Titolare (Organizzazione)</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
+         <required></required>
+       </field>           
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data</label>
+         <input-type>date</input-type>
+         <hint>Inserisci la data in cui il design è stato pubblicato, ovvero campo n. 45</hint>
+         <required>Devi inserire almeno l'anno</required>
+       </field>
+
+
+	  <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>other</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Numero di pubblicazione</label>
+         <input-type>onebox</input-type>
+         <hint>Inserire il numero di pubblicazione</hint>
+         <required></required>
+       </field>
+                 
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>type</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Tipologia del documento</label>
+         <input-type value-pairs-name="common_types_design_registrato">dropdown</input-type>
+         <hint></hint>
+         <required></required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Lingua</label>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
+         <required></required>
+       </field>     
+             
+     </page>     
+
+     <page number="2">
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>progetti</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Progetti</label>
+         <input-type>onebox</input-type>
+         <hint>Selezionare il progetto </hint>
+         <required></required>
+         <vocabulary closed = "false">progetti</vocabulary>
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>een-cordis</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>EEN-CORDIS</label>
+         <input-type>onebox</input-type>
+         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <required></required>
+         <vocabulary closed = "false">een-cordis</vocabulary>
+       </field>   
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>sponsorship</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sponsors</label>
+         <input-type>textarea</input-type>
+         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
+         <required></required>
+       </field>
+
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Informazioni aggiuntive</label>
+         <input-type>textarea</input-type>
+         <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>embargoend</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data Fine Embargo</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>embargo</dc-element>
+         <dc-qualifier>description</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Motivazione Embargo</label>
+         <input-type>textarea</input-type>
+         <hint>Inserisci le motivazioni dell'embargo</hint>
+         <required></required>
+       </field>
+     </page>
+   </form> 
    
    <form name="catalogo">
      <page number="1">
@@ -1709,230 +2583,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
    
    
    
-   <form name="design_registrato">
-     <page number="1">
-     
-        <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>title</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Titolo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la descrizione del campo n. 54 - Indicazione del(dei) prodotto(i)</hint>
-         <required>Il titolo del documento è obbligatorio</required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>title</dc-element>
-         <dc-qualifier>alternative</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Altro titolo</label>
-         <input-type>onebox</input-type>
-         <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Abstract</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci l'indicazione di prodotto secondo la classificazione di Locarno</hint>
-         <required></required>
-       </field>
-       
-        <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <!-- An input-type of twobox MUST be marked as repeatable -->
-         <repeatable>true</repeatable>
-         <label>Keywords</label>
-         <input-type>twobox</input-type>
-         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
-         <required></required>
-         <!-- <vocabulary>srsc</vocabulary>  -->
-       </field> 
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
-         <required></required>
-       </field>     
-           
-                
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>inventorperson</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Autore (Persona fisica)</label>
-         <input-type>name</input-type>
-         <hint>Inserisci il nome(i) dell'(degli) autore(i) (disegnatore o progettista) ovvero campo n. 72</hint>
-         <required></required>
-       </field>   
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>inventororganisation</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Autore (Organizzazione)</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci il collettivo di autori ovvero campo n. 72</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>author</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Titolare (Persona fisica)</label>
-         <input-type>name</input-type>
-         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
-         <required></required>
-       </field>  
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>other</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Titolare (Organizzazione)</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci il titolare del design, ovvero campo n. 73</hint>
-         <required></required>
-       </field>           
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>issued</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data</label>
-         <input-type>date</input-type>
-         <hint>Inserisci la data in cui il design è stato pubblicato, ovvero campo n. 45</hint>
-         <required>Devi inserire almeno l'anno</required>
-       </field>
-
-
-	  <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>identifier</dc-element>
-         <dc-qualifier>other</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Numero di pubblicazione</label>
-         <input-type>onebox</input-type>
-         <hint>Inserire il numero di pubblicazione</hint>
-         <required></required>
-       </field>
-                 
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>type</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Tipologia del documento</label>
-         <input-type value-pairs-name="common_types_design_registrato">dropdown</input-type>
-         <hint></hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>language</dc-element>
-         <dc-qualifier>iso</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Lingua</label>
-         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
-         <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
-         <required></required>
-       </field>     
-             
-     </page>     
-
-     <page number="2">
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier>progetti</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Progetti</label>
-         <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
-         <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
-       </field> 
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier>een-cordis</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>EEN-CORDIS</label>
-         <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
-         <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
-       </field>   
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>sponsorship</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Sponsors</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Informazioni aggiuntive</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
-     </page>
-   </form> 
+   
    
    <form name="libro">
      <page number="1"> 
@@ -2794,210 +3445,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
      </page>
    </form>
    
-   <form name="marchio_registrato">
-     <page number="1">
-     
-        <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>title</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Titolo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la descrizione del marchio</hint>
-         <required>Il titolo del documento è obbligatorio</required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>title</dc-element>
-         <dc-qualifier>alternative</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Altro titolo</label>
-         <input-type>onebox</input-type>
-         <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Abstract</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci l'indicazione dei beni e/o servizi secondo la classificazione di Nizza e se si tratta di marchio collettivo o individuale</hint>
-         <required></required>
-       </field>
-       
-        <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <!-- An input-type of twobox MUST be marked as repeatable -->
-         <repeatable>true</repeatable>
-         <label>Keywords</label>
-         <input-type>twobox</input-type>
-         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
-         <required></required>
-        <!--  <vocabulary>srsc</vocabulary>  -->
-       </field> 
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
-         <required></required>
-       </field>     
-                    
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>author</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Titolare (Persona fisica)</label>
-         <input-type>name</input-type>
-         <hint>Inserisci il titolare del marchio non il mandatario</hint>
-         <required></required>
-       </field>   
-      
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>other</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Titolare (Organizzazione)</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci il titolare del marchio non il mandatario</hint>
-         <required></required>
-       </field>    
-       
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>issued</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data</label>
-         <input-type>date</input-type>
-         <hint>Inserisci la data in cui il marchio è stato pubblicato</hint>
-         <required>Devi inserire almeno l'anno</required>
-       </field>
-
-
-	  <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>identifier</dc-element>
-         <dc-qualifier>other</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Numero di pubblicazione</label>
-         <input-type>onebox</input-type>
-         <hint>Inserire il numero di pubblicazione assegnato dall'Ufficio Brevetti</hint>
-         <required></required>
-       </field>
-       
-             
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>type</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Tipologia del documento</label>
-         <input-type value-pairs-name="common_types_marchio_registrato">dropdown</input-type>
-         <hint></hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>language</dc-element>
-         <dc-qualifier>iso</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Lingua</label>
-         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
-         <hint>Selezionare la lingua principale del documento. Se la lingua non è presente nella lista, selezionare 'Other'. Se il contenuto non ha nessuna lingua (per esempio, se è un dataset o un'immagine) selezionare 'N/A'.</hint>
-         <required></required>
-       </field>     
-             
-     </page>     
-
-     <page number="2">
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier>progetti</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Progetti</label>
-         <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
-         <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
-       </field> 
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier>een-cordis</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>EEN-CORDIS</label>
-         <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
-         <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
-       </field>   
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>sponsorship</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Sponsors</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Informazioni aggiuntive</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci ulteriori informazioni sul documento, utili a specificarne le caratteristiche ma che non possano essere inserite altrove</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
-       
-     </page>
-   </form> 
+   
    
    <form name="report">
      <page number="1">
@@ -4279,7 +4727,15 @@ it, please enter the types and the actual numbers or codes below.</hint>
      <pair>
        <displayed-value>Brevetto</displayed-value>
        <stored-value>Brevetto</stored-value>
-     </pair>     
+     </pair>   
+     <pair>
+       <displayed-value>Marchio registrato</displayed-value>
+       <stored-value>Marchio registrato</stored-value>
+     </pair>   
+     <pair>
+       <displayed-value>Design registrato</displayed-value>
+       <stored-value>Design registrato</stored-value>
+     </pair> 
    </value-pairs>
    
    <value-pairs value-pairs-name="common_types_marchio_registrato" dc-term="type">
