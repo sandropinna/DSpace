@@ -301,7 +301,8 @@
     				<h4>
       					<xsl:value-of select="dim:field[@element='embargo'][@qualifier='description'][1]/node()"/>
      					<br />
-      					<i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-embargoMsg</i18n:text>
+      					<!--  <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-embargoMsg</i18n:text> -->
+      					Questo item è sotto embargo fino al: 
       					xsl:copy-of select="substring(dim:field[@element='date'][@qualifier='embargoEnd'][1]/node(),1,10)"/>
     				</h4>
   				</div>
