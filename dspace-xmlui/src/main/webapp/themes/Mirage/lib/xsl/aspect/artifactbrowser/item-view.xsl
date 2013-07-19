@@ -290,12 +290,28 @@
                       <i18n:text>xmlui.ArtifactBrowser.ItemViewer.show_full</i18n:text>
                   </a>
               </p>
+              <xsl:call-template name="itemSummaryView-DIM-fields">
+                <xsl:with-param name="clause" select="($clause + 1)"/>
+                <xsl:with-param name="phase" select="$otherPhase"/>
+              </xsl:call-template>
           </xsl:when>
+          
+          <xsl:when test="$clause = 8 and (dim:field[@element='date'][@qualifier='embargoEnd'])">
+  				<div class="simple-item-view-other">
+    				<h4>
+      					<xsl:value-of select="dim:field[@element='embargo'][@qualifier='description'][1]/node()"/>
+     					<br />
+      					<i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-embargoMsg</i18n:text>
+      					xsl:copy-of select="substring(dim:field[@element='date'][@qualifier='embargoEnd'][1]/node(),1,10)"/>
+    				</h4>
+  				</div>
+  		
+		</xsl:when>
 
           <!-- recurse without changing phase if we didn't output anything -->
           <xsl:otherwise>
             <!-- IMPORTANT: This test should be updated if clauses are added! -->
-            <xsl:if test="$clause &lt; 8">
+            <xsl:if test="$clause &lt; 9">
               <xsl:call-template name="itemSummaryView-DIM-fields">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$phase"/>
