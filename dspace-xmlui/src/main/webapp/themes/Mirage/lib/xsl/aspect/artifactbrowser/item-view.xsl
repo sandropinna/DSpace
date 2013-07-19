@@ -303,11 +303,10 @@
      					<br />
       					<!--  <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-embargoMsg</i18n:text> -->
       					Questo item è sotto embargo fino al: 
-      					xsl:copy-of select="substring(dim:field[@element='date'][@qualifier='embargoend'][1]/node(),1,10)"/>
+      					<xsl:copy-of select="substring(dim:field[@element='date'][@qualifier='embargoend'][1]/node(),1,10)"/>
     				</h4>
-  				</div>
-  		
-		</xsl:when>
+  				</div>  		
+		  </xsl:when>
 
           <!-- recurse without changing phase if we didn't output anything -->
           <xsl:otherwise>
