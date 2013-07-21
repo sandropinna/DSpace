@@ -82,7 +82,7 @@
     <xsl:template match="dim:dim" mode="itemSummaryView-DIM">
         <div class="item-summary-view-metadata">
         	<xsl:choose>
-        		<xsl:when test="dim:field[@element='type'][not(@qualifier)]">
+        		<xsl:when test="dim:field[@element='type'][not(@qualifier)] = 'Articolo'">
         			<xsl:call-template name="itemSummaryView-DIM-fields-Articolo"/>
         		</xsl:when>
         		<xsl:otherwise>
