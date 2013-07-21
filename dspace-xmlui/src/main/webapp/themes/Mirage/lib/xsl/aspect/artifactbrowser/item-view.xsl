@@ -435,12 +435,10 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Istituzione:</span>
 	                	<span>
-	                		<xsl:for-each select="dim:field[@element='contributor']">
-		                    	<xsl:copy-of select="./node()"/>
-		                    	<xsl:if test="count(following-sibling::dim:field[@element='contributor']) != 0">
-		                    		<br/>
-		                    	</xsl:if>
-	                    	</xsl:for-each>
+	                		<xsl:value-of select="dim:field[@element='contributor'][1]/node()"/>
+	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor']) != 0">
+		                    	<br/>
+		                    </xsl:if>	                    
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields">
