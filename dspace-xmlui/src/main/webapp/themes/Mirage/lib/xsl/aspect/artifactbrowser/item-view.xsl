@@ -78,10 +78,10 @@
 
     </xsl:template>
 
-
+	<xsl:param name="type" select="dim:field[@element='type'][1]/node()"/>
     <xsl:template match="dim:dim" mode="itemSummaryView-DIM">
         <div class="item-summary-view-metadata">
-        	<xsl:param name="type" select="dim:field[@element='type'][1]/node()"/>
+        	
         	<xsl:choose>
         		<xsl:when test="$type = 'Articolo'">
         			<xsl:call-template name="itemSummaryView-DIM-fields-Articolo"/>
