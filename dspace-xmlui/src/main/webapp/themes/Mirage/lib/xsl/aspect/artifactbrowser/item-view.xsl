@@ -437,7 +437,7 @@
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor']">
 		                    	<xsl:copy-of select="./node()"/>
-		                    	<xsl:if test="count(following-sibling::dim:field[@element='identifier' and @qualifier='uri']) != 0">
+		                    	<xsl:if test="count(following-sibling::dim:field[@element='contributor']) != 0">
 		                    		<br/>
 		                    	</xsl:if>
 	                    	</xsl:for-each>
