@@ -380,7 +380,7 @@
                       </h1>
                   </xsl:otherwise>
               </xsl:choose>
-            <xsl:call-template name="itemSummaryView-DIM-fields">
+            <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
               <xsl:with-param name="clause" select="($clause + 1)"/>
               <xsl:with-param name="phase" select="$otherPhase"/>
             </xsl:call-template>
