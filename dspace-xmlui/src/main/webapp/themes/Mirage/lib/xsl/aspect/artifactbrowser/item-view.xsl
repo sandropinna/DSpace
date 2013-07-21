@@ -430,8 +430,27 @@
               </xsl:call-template>
           </xsl:when>
 
-          <!-- identifier.uri row -->
-          <xsl:when test="$clause = 3 and (dim:field[@element='identifier' and @qualifier='uri'])">
+          <!-- contributor row -->
+          <xsl:when test="$clause = 3 and (dim:field[@element='contributor'])">
+                    <div class="simple-item-view-other">
+	                	<span class="bold">Istituzione:</span>
+	                	<span>
+	                		<xsl:for-each select="dim:field[@element='contributor']">
+		                    	<xsl:copy-of select="./node()"/>
+		                    	<xsl:if test="count(following-sibling::dim:field[@element='identifier' and @qualifier='uri']) != 0">
+		                    		<br/>
+		                    	</xsl:if>
+	                    	</xsl:for-each>
+	                	</span>
+	            	</div>
+              		<xsl:call-template name="itemSummaryView-DIM-fields">
+                		<xsl:with-param name="clause" select="($clause + 1)"/>
+                		<xsl:with-param name="phase" select="$otherPhase"/>
+              		</xsl:call-template>
+          </xsl:when>
+          
+           <!-- identifier.uri row -->
+          <xsl:when test="$clause = 4 and (dim:field[@element='identifier' and @qualifier='uri'])">
                     <div class="simple-item-view-other">
 	                <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-uri</i18n:text>:</span>
 	                <span>
@@ -455,7 +474,7 @@
           </xsl:when>
 
           <!-- date.issued row -->
-          <xsl:when test="$clause = 4 and (dim:field[@element='date' and @qualifier='issued'])">
+          <xsl:when test="$clause = 5 and (dim:field[@element='date' and @qualifier='issued'])">
                     <div class="simple-item-view-other">
 	                <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-date</i18n:text>:</span>
 	                <span>
@@ -474,7 +493,7 @@
           </xsl:when>
 
           <!-- Abstract row -->
-          <xsl:when test="$clause = 5 and (dim:field[@element='description' and @qualifier='abstract' and descendant::text()])">
+          <xsl:when test="$clause = 6 and (dim:field[@element='description' and @qualifier='abstract' and descendant::text()])">
                     <div class="simple-item-view-description">
 	                <h3><i18n:text>xmlui.dri2xhtml.METS-1.0.item-abstract</i18n:text>:</h3>
 	                <div>
@@ -506,7 +525,7 @@
           </xsl:when>
 
           <!-- Description row -->
-          <xsl:when test="$clause = 6 and (dim:field[@element='description' and not(@qualifier)])">
+          <xsl:when test="$clause = 7 and (dim:field[@element='description' and not(@qualifier)])">
                 <div class="simple-item-view-description">
 	                <h3 class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-description</i18n:text>:</h3>
 	                <div>
@@ -530,7 +549,7 @@
               </xsl:call-template>
           </xsl:when>
 
-          <xsl:when test="$clause = 7 and $ds_item_view_toggle_url != ''">
+          <xsl:when test="$clause = 8 and $ds_item_view_toggle_url != ''">
               <p class="ds-paragraph item-view-toggle item-view-toggle-bottom">
                   <a>
                       <xsl:attribute name="href"><xsl:value-of select="$ds_item_view_toggle_url"/></xsl:attribute>
@@ -543,7 +562,7 @@
               </xsl:call-template>
           </xsl:when>
           
-          <xsl:when test="$clause = 8 and (dim:field[@element='date'][@qualifier='embargoend'])">
+          <xsl:when test="$clause = 9 and (dim:field[@element='date'][@qualifier='embargoend'])">
   				<div class="simple-item-view-other">
     				<h4>
       					<xsl:value-of select="dim:field[@element='embargo'][@qualifier='description'][1]/node()"/>
@@ -558,7 +577,7 @@
           <!-- recurse without changing phase if we didn't output anything -->
           <xsl:otherwise>
             <!-- IMPORTANT: This test should be updated if clauses are added! -->
-            <xsl:if test="$clause &lt; 9">
+            <xsl:if test="$clause &lt; 10">
               <xsl:call-template name="itemSummaryView-DIM-fields">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$phase"/>
