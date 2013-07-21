@@ -354,8 +354,7 @@
                   <xsl:when test="count(dim:field[@element='title'][not(@qualifier)]) &gt; 1">
                       <!-- display first title as h1 -->
                       <h1>
-                      UUUUUHHH Sono il titolo di un articolo
-                      	  <xsl:value-of select="dim:field[@element='title'][not(@qualifier)][1]/node()"/>
+                       	  <xsl:value-of select="dim:field[@element='title'][not(@qualifier)][1]/node()"/>
                       </h1>
                       <div class="simple-item-view-other">
                           <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-title</i18n:text>:</span>
@@ -372,6 +371,7 @@
                   </xsl:when>
                   <xsl:when test="count(dim:field[@element='title'][not(@qualifier)]) = 1">
                       <h1>
+                      UUUUUHHH Sono il titolo di un articolo
                           <xsl:value-of select="dim:field[@element='title'][not(@qualifier)][1]/node()"/>
                       </h1>
                   </xsl:when>
