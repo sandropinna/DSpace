@@ -457,15 +457,17 @@
                                 <xsl:text>&#160;</xsl:text>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="count(following-sibling::dim:field[@element='description' and @qualifier='abstract']) != 0">
+                        <!--  <xsl:if test="count(following-sibling::dim:field[@element='description' and @qualifier='abstract']) != 0">
+                        -->
                             <div class="spacer">&#160;</div>
-	                    </xsl:if>
+	                   <!--  </xsl:if> 
+	                   -->
 	              	</xsl:for-each>
 	              	<xsl:if test="count(dim:field[@element='description' and @qualifier='abstract']) &gt; 1">
-                          <div class="spacer">&#160;</div>
+                          <div class="spacer">&#160;</div>                          
 	                </xsl:if>
 	                </div>
-	            </div>
+	                </div>
               <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
