@@ -441,13 +441,30 @@
 		                    </xsl:if>	                    
 	                	</span>
 	            	</div>
-              		<xsl:call-template name="itemSummaryView-DIM-fields">
+              		<xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 		<xsl:with-param name="clause" select="($clause + 1)"/>
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
           </xsl:when>
           
-           <!-- identifier.uri row -->
+          <!-- page number row -->
+          <xsl:when test="$clause = 3 and (dim:field[@element='description' and @qualifier='pagenumber'])">
+                    <div class="simple-item-view-other">
+	                	<span class="bold">Da pagina a pagina:</span>
+	                	<span>
+	                		<xsl:value-of select="dim:field[@element='description' and @qualifier='pagenumber'][1]/node()"/>
+	                		<xsl:if test="count(following-sibling::dim:field[@element='description' and @qualifier='pagenumber']) != 0">
+		                    	<br/>
+		                    </xsl:if>	                    
+	                	</span>
+	            	</div>
+              		<xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
+                		<xsl:with-param name="clause" select="($clause + 1)"/>
+                		<xsl:with-param name="phase" select="$otherPhase"/>
+              		</xsl:call-template>
+          </xsl:when>
+          
+          <!-- identifier.uri row -->
           <xsl:when test="$clause = 4 and (dim:field[@element='identifier' and @qualifier='uri'])">
                     <div class="simple-item-view-other">
 	                <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-uri</i18n:text>:</span>
@@ -465,7 +482,7 @@
 	                    </xsl:for-each>
 	                </span>
 	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -484,7 +501,7 @@
 		                </xsl:for-each>
 	                </span>
 	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -516,7 +533,7 @@
 	                </xsl:if>
 	                </div>
 	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -541,7 +558,7 @@
 	                </xsl:if>
 	                </div>
 	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -554,7 +571,7 @@
                       <i18n:text>xmlui.ArtifactBrowser.ItemViewer.show_full</i18n:text>
                   </a>
               </p>
-              <xsl:call-template name="itemSummaryView-DIM-fields">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -576,7 +593,7 @@
           <xsl:otherwise>
             <!-- IMPORTANT: This test should be updated if clauses are added! -->
             <xsl:if test="$clause &lt; 10">
-              <xsl:call-template name="itemSummaryView-DIM-fields">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$phase"/>
               </xsl:call-template>
