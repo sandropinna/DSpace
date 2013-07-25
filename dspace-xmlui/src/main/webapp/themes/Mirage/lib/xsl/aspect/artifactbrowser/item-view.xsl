@@ -672,7 +672,7 @@
 	                <span class="bold">EEN-CORDIS:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='een-cordis']">
-		                    <xsl:copy-of select="./node()"/>
+		                    <xsl:copy-of select="substring-after(./node(),'EEN CORDIS::')"/>
 		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='een-cordis']) != 0">
 		                        	<xsl:text>; </xsl:text>
 		                    		<br/>
