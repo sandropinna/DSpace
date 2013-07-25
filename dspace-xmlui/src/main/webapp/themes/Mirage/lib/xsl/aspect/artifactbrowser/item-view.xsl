@@ -591,7 +591,7 @@
 	                	<xsl:for-each select="dim:field[@element='identifier' and @qualifier='doi']">
 		                    <a>
 		                        <xsl:attribute name="href">
-		                            <xsl:copy-of select="./node()"/>
+		                            http://dx.doi.org/<xsl:copy-of select="./node()"/>
 		                        </xsl:attribute>
 		                        <xsl:copy-of select="./node()"/>
 		                    </a>
@@ -624,7 +624,9 @@
               		</xsl:call-template>
           </xsl:when>
           
+           
           <!-- subject row -->
+          <!-- 
           <xsl:when test="$clause = 13 and (dim:field[@element='subject'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Keyword:</span>
@@ -640,8 +642,30 @@
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
           </xsl:when>
+          -->
+          
+          <!-- subject row -->
+          <xsl:when test="$clause = 13 and (dim:field[@element='subject'])">
+                    <div class="simple-item-view-other">
+	                <span class="bold">Keyword:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='subject']">
+		                    <xsl:copy-of select="./node()"/>
+		                        <xsl:if test="count(following-sibling::dim:field[@element='subject']) != 0">
+		                    	<br/>
+		                    </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
+                <xsl:with-param name="clause" select="($clause + 1)"/>
+                <xsl:with-param name="phase" select="$otherPhase"/>
+              </xsl:call-template>
+          </xsl:when>      
+          
           
           <!-- subject.een-cordis row -->
+          <!--  
           <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='een-cordis'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">EEN-CORDIS:</span>
@@ -657,6 +681,31 @@
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
           </xsl:when>
+          
+          -->
+          
+          <!-- subject.een-cordis row  -->
+          <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='een-cordis'])">
+                    <div class="simple-item-view-other">
+	                <span class="bold">EEN-CORDIS:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='een-cordis']">
+		                    <xsl:copy-of select="./node()"/>
+		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='een-cordis']) != 0">
+		                    	<br/>
+		                    </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
+                <xsl:with-param name="clause" select="($clause + 1)"/>
+                <xsl:with-param name="phase" select="$otherPhase"/>
+              </xsl:call-template>
+          </xsl:when>
+          
+          
+          
+          
           
           <!-- description.sponsorship row -->
           <xsl:when test="$clause = 15 and (dim:field[@element='description' and @qualifier='sponsorship'])">
