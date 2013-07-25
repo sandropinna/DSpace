@@ -645,13 +645,13 @@
           -->
           
           <!-- subject row -->
-          <xsl:when test="$clause = 13 and (dim:field[@element='subject'])">
+          <xsl:when test="$clause = 13 and (dim:field[@element='subject' and not(@qualifier)])">
                     <div class="simple-item-view-other">
 	                <span class="bold">Keyword:</span>
 	                <span>
-	                	<xsl:for-each select="dim:field[@element='subject']">
+	                	<xsl:for-each select="dim:field[@element='subject' and not(@qualifier)]">
 		                    <xsl:copy-of select="./node()"/>
-		                        <xsl:if test="count(following-sibling::dim:field[@element='subject']) != 0">
+		                      <xsl:if test="count(following-sibling::dim:field[@element='subject' and not(@qualifier)]) != 0">
 		                    	<br/>
 		                    </xsl:if>
 	                    </xsl:for-each>
@@ -661,7 +661,26 @@
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
-          </xsl:when>      
+          </xsl:when>    
+          
+          <!-- subject.een-cordis row  -->
+          <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='een-cordis'])">
+                    <div class="simple-item-view-other">
+	                <span class="bold">EEN-CORDIS:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='een-cordis']">
+		                    <xsl:copy-of select="./node()"/>
+		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='een-cordis']) != 0">
+		                    		<br/>
+		                        </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
+                <xsl:with-param name="clause" select="($clause + 1)"/>
+                <xsl:with-param name="phase" select="$otherPhase"/>
+              </xsl:call-template>
+          </xsl:when>  
           
           
           <!-- subject.een-cordis row -->
@@ -683,29 +702,7 @@
           </xsl:when>
           
           -->
-          
-          <!-- subject.een-cordis row  -->
-          <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='een-cordis'])">
-                    <div class="simple-item-view-other">
-	                <span class="bold">EEN-CORDIS:</span>
-	                <span>
-	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='een-cordis']">
-		                    <xsl:copy-of select="./node()"/>
-		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='een-cordis']) != 0">
-		                    	<br/>
-		                    </xsl:if>
-	                    </xsl:for-each>
-	                </span>
-	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
-                <xsl:with-param name="clause" select="($clause + 1)"/>
-                <xsl:with-param name="phase" select="$otherPhase"/>
-              </xsl:call-template>
-          </xsl:when>
-          
-          
-          
-          
+                    
           
           <!-- description.sponsorship row -->
           <xsl:when test="$clause = 15 and (dim:field[@element='description' and @qualifier='sponsorship'])">
