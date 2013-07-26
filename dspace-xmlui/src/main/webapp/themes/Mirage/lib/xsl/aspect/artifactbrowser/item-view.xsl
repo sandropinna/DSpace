@@ -87,7 +87,7 @@
         			<xsl:call-template name="itemSummaryView-DIM-fields-Articolo"/>
         		</xsl:when>
         		<xsl:when test="$type = 'Atti di convegno'">
-        			<xsl:call-template name="itemSummaryView-DIM-fields-Atti di convegno"/>
+        			<xsl:call-template name="itemSummaryView-DIM-fields-Atti-di-convegno"/>
         		</xsl:when>
         		<xsl:otherwise>
         			<xsl:call-template name="itemSummaryView-DIM-fields"/>        		
@@ -818,7 +818,7 @@
 	<!-- Articolo end -->
 	
 	<!--  Atti di convegno start-->
-	<xsl:template name="itemSummaryView-DIM-fields-Atti di convegno">
+	<xsl:template name="itemSummaryView-DIM-fields-Atti-di-convegno">
       <xsl:param name="clause" select="'1'"/>
       <xsl:param name="phase" select="'even'"/>
       <xsl:variable name="otherPhase">
