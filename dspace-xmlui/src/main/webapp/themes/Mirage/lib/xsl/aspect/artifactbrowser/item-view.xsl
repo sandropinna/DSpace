@@ -3376,19 +3376,22 @@
           <!-- description.finanziamenti row -->
           <xsl:when test="$clause = 8 and (dim:field[@element='description' and @qualifier='finanziamenti'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Finanziamenti:</span>
-	                	<span>
-	                		<xsl:value-of select="substring-after(./node(),'Finanziamenti::')"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='description' and @qualifier='finanziamenti']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
-	                	</span>
-	            	</div>
-              		<xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto">
-                		<xsl:with-param name="clause" select="($clause + 1)"/>
-                		<xsl:with-param name="phase" select="$otherPhase"/>
-              		</xsl:call-template>
-          </xsl:when>
+	                <span class="bold">Finanziamenti:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='description' and @qualifier='finanziamenti']">
+		                    <xsl:copy-of select="substring-after(./node(),'Finanziamenti::')"/>
+		                        <xsl:if test="count(following-sibling::dim:field[@element='description' and @qualifier='finanziamenti']) != 0">
+		                        	<xsl:text>; </xsl:text>
+		                    		<br/>
+		                        </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>
+              <xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto">
+                <xsl:with-param name="clause" select="($clause + 1)"/>
+                <xsl:with-param name="phase" select="$otherPhase"/>
+              </xsl:call-template>
+          </xsl:when>  
                     
           <!-- contributor.other row -->
           <xsl:when test="$clause = 9 and (dim:field[@element='contributor' and @qualifier='other'])">
