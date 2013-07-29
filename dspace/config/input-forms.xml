@@ -1306,7 +1306,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Numero di pubblicazione</label>
          <type-bind>Marchio registrato</type-bind>
          <input-type>onebox</input-type>
-         <hint>Inserire il numero di pubblicazione assegnato dall'Ufficio Brevetti</hint>
+         <hint>Inserire il numero di pubblicazione</hint>
          <required></required>
        </field>
        
