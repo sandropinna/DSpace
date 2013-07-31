@@ -3927,7 +3927,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Soggetto attuatore</label>
+         <label>Soggetti attuatori</label>
          <input-type>onebox</input-type>
          <hint>Istituzione, società o professionista che  è responsabile operativo del progetto</hint>
          <required></required>
