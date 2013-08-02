@@ -1623,7 +1623,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-abstract">Abstract</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-description">Descrizione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-uri">URI</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-date">Data</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-date">Data di pubblicazione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Editore</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Soggetto</message>
 	
