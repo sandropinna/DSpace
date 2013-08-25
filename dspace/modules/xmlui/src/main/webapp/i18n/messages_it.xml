@@ -185,8 +185,8 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Lista degli Archivi</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Lista degli Archivi</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Archivi in DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Selezionare una sotto-comunità per visualizzare le sue collezioni.</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Archivi in P-arch</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Selezionare un archivio per visualizzare le sue collezioni.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Ambito della ricerca</message>
