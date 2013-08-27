@@ -217,7 +217,17 @@ public class CollectionViewer extends AbstractDSpaceTransformer implements Cache
         {
             home.setHead(name);
         }
-
+        
+        // + FAS
+                // Add the reference
+                {
+                	Division viewer = home.addDivision("collection-view","secondary");
+                    ReferenceSet mainInclude = viewer.addReferenceSet("collection-view",
+                            ReferenceSet.TYPE_DETAIL_VIEW);
+                    mainInclude.addReference(collection);
+                }
+        // FAS
+        
         // The search / browse box.
         {
 //            TODO: move browse stuff out of here
@@ -225,7 +235,7 @@ public class CollectionViewer extends AbstractDSpaceTransformer implements Cache
                     "secondary search-browse");
 
             // Browse by list
-            Division browseDiv = search.addDivision("collection-browse","secondary browse");
+            /* FAS Division browseDiv = search.addDivision("collection-browse","secondary browse");
             List browse = browseDiv.addList("collection-browse", List.TYPE_SIMPLE,
                     "collection-browse");
             browse.setHead(T_head_browse);
@@ -253,15 +263,16 @@ public class CollectionViewer extends AbstractDSpaceTransformer implements Cache
                 browse.addItemXref(url + "/browse?type=author",T_browse_authors);
                 browse.addItemXref(url + "/browse?type=dateissued",T_browse_dates);
             }
+            */
         }
 
         // Add the reference
-        {
-        	Division viewer = home.addDivision("collection-view","secondary");
-            ReferenceSet mainInclude = viewer.addReferenceSet("collection-view",
-                    ReferenceSet.TYPE_DETAIL_VIEW);
-            mainInclude.addReference(collection);
-        }
+        // FAS        {
+        //        	Division viewer = home.addDivision("collection-view","secondary");
+        //            ReferenceSet mainInclude = viewer.addReferenceSet("collection-view",
+        //                    ReferenceSet.TYPE_DETAIL_VIEW);
+        //            mainInclude.addReference(collection);
+        //        }
 
     }
     
