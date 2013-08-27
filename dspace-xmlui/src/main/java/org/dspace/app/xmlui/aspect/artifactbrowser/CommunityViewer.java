@@ -260,6 +260,13 @@ public class CommunityViewer extends AbstractDSpaceTransformer implements Cachea
         {
             home.setHead(name);
         }
+        // FAS
+                	Division viewer = home.addDivision("community-view","secondary");
+                	
+                    ReferenceSet referenceSet = viewer.addReferenceSet("community-view",
+                            ReferenceSet.TYPE_DETAIL_VIEW);
+                    Reference communityInclude = referenceSet.addReference(community);
+        // FAS
 
         // The search / browse box.
         {
@@ -268,7 +275,7 @@ public class CommunityViewer extends AbstractDSpaceTransformer implements Cachea
 
 
 //            TODO: move browse stuff out of here
-            // Browse by list
+   /* FAS         // Browse by list
             Division browseDiv = search.addDivision("community-browse","secondary browse");
             List browse = browseDiv.addList("community-browse", List.TYPE_SIMPLE,
                     "community-browse");
@@ -297,15 +304,16 @@ public class CommunityViewer extends AbstractDSpaceTransformer implements Cachea
                 browse.addItemXref(url + "/browse?type=author",T_browse_authors);
                 browse.addItemXref(url + "/browse?type=dateissued",T_browse_dates);
             }
+     */
         }
 
         // Add main reference:
         {
-        	Division viewer = home.addDivision("community-view","secondary");
+        //	Division viewer = home.addDivision("community-view","secondary");
         	
-            ReferenceSet referenceSet = viewer.addReferenceSet("community-view",
-                    ReferenceSet.TYPE_DETAIL_VIEW);
-            Reference communityInclude = referenceSet.addReference(community);
+        //    ReferenceSet referenceSet = viewer.addReferenceSet("community-view",
+        //            ReferenceSet.TYPE_DETAIL_VIEW);
+        //    Reference communityInclude = referenceSet.addReference(community);
 
             // If the community has any children communities also reference them.
             if (subCommunities != null && subCommunities.length > 0)
