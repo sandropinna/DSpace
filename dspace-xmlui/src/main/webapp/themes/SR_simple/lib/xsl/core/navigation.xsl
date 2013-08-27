@@ -85,6 +85,7 @@
                                     </xsl:text>
                                     </xsl:attribute>
                                 </input>
+<!--
                                 <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='focus'][@qualifier='container']">
                                     <label>
                                         <input id="ds-search-form-scope-all" type="radio" name="scope" value=""
@@ -111,6 +112,7 @@
                                         </xsl:choose>
                                     </label>
                                 </xsl:if>
+-->
                             </fieldset>
                         </form>
                         <!--Only add if the advanced search url is different from the simple search-->
@@ -130,7 +132,7 @@
                 <!-- Once the search box is built, the other parts of the options are added -->
                 <xsl:apply-templates/>
 
-                <!-- DS-984 Add RSS Links to Options Box -->
+                <!-- DS-984 Add RSS Links to Options Box 
                 <xsl:if test="count(/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='feed']) != 0">
                     <h1 id="ds-feed-option-head" class="ds-option-set-head">
                         <i18n:text>xmlui.feed.header</i18n:text>
@@ -141,7 +143,7 @@
                         </ul>
                     </div>
                 </xsl:if>
-
+                FAS  -->
 
             </div>
         </div>

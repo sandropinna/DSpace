@@ -324,7 +324,7 @@
                         <xsl:text>/</xsl:text>
                     </xsl:attribute>
                     <span id="ds-header-logo">&#160;</span>
-                    <span id="ds-header-logo-text">mirage</span>
+                    <span id="ds-header-logo-text">SR_simple</span>
                 </a>
                 <h1 class="pagetitle visuallyhidden">
                     <xsl:choose>
@@ -578,7 +578,7 @@
                 <xsl:when test="starts-with($request-uri, 'page/about')">
                     <div>
                         <h1>About This Repository</h1>
-                        <p>To add your own content to this page, edit webapps/xmlui/themes/Mirage/lib/xsl/core/page-structure.xsl and
+                        <p>To add your own content to this page, edit webapps/xmlui/themes/SR_simple/lib/xsl/core/page-structure.xsl and
                             add your own content to the title, trail, and body. If you wish to add additional pages, you
                             will need to create an additional xsl:when block and match the request-uri to whatever page
                             you are adding. Currently, static pages created through altering XSL are only available

@@ -28,8 +28,8 @@
 		-->
 		<map:component-configurations>
 			<global-variables>
-				<theme-path>Mirage</theme-path>
-				<theme-name>Mirage</theme-name>
+				<theme-path>SR_simple</theme-path>
+				<theme-name>SR_simple</theme-name>
 			</global-variables>
         </map:component-configurations>
 
@@ -151,7 +151,7 @@
 
 				<!-- Step 3: Transform to XHTML -->
 				<map:transform src="{global:theme-name}.xsl"/>
-			    <!-- <map:transform src="Mirage.xsl"/> -->
+			    <!-- <map:transform src="SR_simple.xsl"/> -->
 
 				<!-- Step 4: Localize the page -->
 				<map:act type="locale">
