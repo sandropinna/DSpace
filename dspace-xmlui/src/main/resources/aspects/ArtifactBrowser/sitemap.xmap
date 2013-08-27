@@ -93,11 +93,12 @@ and searching the repository.
                                 <map:parameter name="dspace.dir" value="dspace.dir" />
                                 <map:transform type="Include" src="file://{dspace.dir}/config/news-xmlui.xml" />
                             </map:act>
-
+<!-- FAS
                             <map:transform type="FrontPageSearch"/>
                             <map:transform type="CommunityBrowser">
                                 <map:parameter name="depth" value="1"/>
                             </map:transform>
+-->                            
                             <map:serialize type="xml"/>
                         </map:match>
                         
