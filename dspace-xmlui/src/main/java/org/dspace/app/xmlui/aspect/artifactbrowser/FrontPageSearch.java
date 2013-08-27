@@ -100,15 +100,15 @@ public class FrontPageSearch extends AbstractDSpaceTransformer implements Cachea
     public void addBody(Body body) throws SAXException, WingException,
             UIException, SQLException, IOException, AuthorizeException
     {
-        Division search = 
-        	body.addInteractiveDivision("front-page-search",contextPath+"/search",Division.METHOD_GET,"primary");
-        
-        search.setHead(T_head);
-        
-        search.addPara(T_para1);
-        
-        Para fields = search.addPara();
-        fields.addText("query");
-        fields.addButton("submit").setValue(T_go);
+        // FAS        Division search = 
+        //        	body.addInteractiveDivision("front-page-search",contextPath+"/search",Division.METHOD_GET,"primary");
+        //        
+        //        search.setHead(T_head);
+        //        
+        //        search.addPara(T_para1);
+        //       
+        //        Para fields = search.addPara();
+        //        fields.addText("query");
+        //        fields.addButton("submit").setValue(T_go);
     }
 }
