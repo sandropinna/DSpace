@@ -3936,7 +3936,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>date</dc-element>
-         <dc-qualifier>datainizio</dc-qualifier>
+         <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Data inizio progetto</label>
          <input-type>date</input-type>

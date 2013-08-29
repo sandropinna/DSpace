@@ -1117,7 +1117,7 @@
           <!-- relation.ispartofseries row -->
           <xsl:when test="$clause = 9 and (dim:field[@element='relation' and @qualifier='ispartofseries'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Volume/Numero:</span>
+	                	<span class="bold">Volume/Numero del fascicolo:</span>
 	                	<span>
 	                		<xsl:value-of select="dim:field[@element='relation' and @qualifier='ispartofseries'][1]/node()"/>
 	                		<xsl:if test="count(following-sibling::dim:field[@element='relation' and @qualifier='ispartofseries']) != 0">
@@ -3453,13 +3453,13 @@
               </xsl:call-template>
           </xsl:when>
           
-          <!-- date.datainizio row -->
-          <xsl:when test="$clause = 6 and (dim:field[@element='date' and @qualifier='datainizio'])">
+          <!-- date.issued row -->
+          <xsl:when test="$clause = 6 and (dim:field[@element='date' and @qualifier='issued'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Data inizio:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='date' and @qualifier='datainizio'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='date' and @qualifier='datainizio']) != 0">
+	                		<xsl:value-of select="dim:field[@element='date' and @qualifier='issued'][1]/node()"/>
+	                		<xsl:if test="count(following-sibling::dim:field[@element='date' and @qualifier='issued']) != 0">
 		                    	<br/>
 		                    </xsl:if>	                    
 	                	</span>
