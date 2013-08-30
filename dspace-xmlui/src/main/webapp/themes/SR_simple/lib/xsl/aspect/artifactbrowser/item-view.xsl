@@ -5035,7 +5035,7 @@
            <!-- contributor.inventororganisation row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and @qualifier='inventororganisation'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Inventore-Organizzazione:</span>
+	                	<span class="bold">Inventore:</span>
 	                	<span>
 	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='inventororganisation'][1]/node()"/>
 	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventororganisation']) != 0">
@@ -5052,7 +5052,7 @@
           <!-- contributor.author row -->
           <xsl:when test="$clause = 6 and (dim:field[@element='contributor' and @qualifier='author'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Titolare-Persona fisica:</span>
+	                	<span class="bold">Titolare:</span>
 	                	<span>
 	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='author'][1]/node()"/>
 	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
@@ -5069,7 +5069,7 @@
           <!-- contributor.other row -->
           <xsl:when test="$clause = 7 and (dim:field[@element='contributor' and @qualifier='other'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Titolare-Organizzazione:</span>
+	                	<span class="bold">Titolare:</span>
 	                	<span>
 	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='other'][1]/node()"/>
 	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
