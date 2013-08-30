@@ -435,7 +435,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -447,7 +447,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -719,7 +719,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -731,7 +731,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -981,7 +981,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -993,7 +993,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -1511,7 +1511,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Progetti</label>
          <type-bind>Brevetto</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -1524,7 +1524,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>EEN-CORDIS</label>
          <type-bind>Brevetto</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -1586,7 +1586,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Progetti</label>
          <type-bind>Marchio registrato</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -1599,7 +1599,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>EEN-CORDIS</label>
          <type-bind>Marchio registrato</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -1661,7 +1661,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Progetti</label>
          <type-bind>Design registrato</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -1674,7 +1674,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>EEN-CORDIS</label>
          <type-bind>Design registrato</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -1872,7 +1872,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -1884,7 +1884,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -2098,7 +2098,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -2110,7 +2110,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -2292,7 +2292,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -2304,7 +2304,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -2519,7 +2519,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -2531,7 +2531,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -3015,7 +3015,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Progetti</label>
          <type-bind>Libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -3028,7 +3028,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>EEN-CORDIS</label>
          <type-bind>Libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -3117,7 +3117,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Progetti</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -3130,7 +3130,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>EEN-CORDIS</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -3417,7 +3417,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -3429,7 +3429,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -3622,7 +3622,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Progetti</label>
          <type-bind>Manuale,Catalogo</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -3635,7 +3635,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>EEN-CORDIS</label>
          <type-bind>Manuale,Catalogo</type-bind>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -3824,7 +3824,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -3836,7 +3836,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -4038,7 +4038,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -4050,7 +4050,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -4232,7 +4232,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -4244,7 +4244,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -4437,7 +4437,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -4449,7 +4449,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
@@ -4641,7 +4641,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Progetti</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare il progetto </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">progetti</vocabulary>
        </field> 
@@ -4653,7 +4653,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>EEN-CORDIS</label>
          <input-type>onebox</input-type>
-         <hint>Selezionare la classificazione EEN-CORDIS </hint>
+         <hint></hint>
          <required></required>
          <vocabulary closed = "false">een-cordis</vocabulary>
        </field>   
