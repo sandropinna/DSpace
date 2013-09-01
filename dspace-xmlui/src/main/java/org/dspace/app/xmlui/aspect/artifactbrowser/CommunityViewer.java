@@ -341,7 +341,7 @@ public class CommunityViewer extends AbstractDSpaceTransformer implements Cachea
                 for (Collection collection : collections)
                 {
                 	Collection altro = null;
-                	if(collection.getName().endsWith("Altro")){
+                	if(collection.getName().toLowerCase().endsWith("altro")){
                 		altro = collection;
                 	}else {
                 		communityReferenceSet.addReference(collection);
