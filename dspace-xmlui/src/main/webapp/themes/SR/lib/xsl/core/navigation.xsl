@@ -41,9 +41,15 @@
         from metadata available under pageMeta.
     -->
     <!-- TODO: figure out why i18n tags break the go button -->
-    <xsl:template match="dri:options">
+<!--    <xsl:template match="dri:options" name="buildOptions"> -->
+    <xsl:template match="dri:options" name="buildOptions">
         <div id="ds-options-wrapper">
             <div id="ds-options">
+
+                <a href="http://www.sardegnaricerche.it/" title="SardegnaRicerche">
+                    <span id="sr-logo">&#160;</span>
+                </a>
+
                 <xsl:if test="not(contains(/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='request'][@qualifier='URI'], 'discover'))">
                     <h1 id="ds-search-option-head" class="ds-option-set-head">
                         <i18n:text>xmlui.dri2xhtml.structural.search</i18n:text>
@@ -129,6 +135,11 @@
                     </div>
 
                 </xsl:if>
+                <!-- Collections -->
+                <h1 xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ds-option-set-head"><i18n:text>xmlui.general.home.communities</i18n:text></h1>
+                <xsl:call-template name="my_communitySummaryList-DIM"/>    
+
+
                 <!-- Once the search box is built, the other parts of the options are added -->
                 <xsl:apply-templates/>
 
@@ -148,6 +159,47 @@
             </div>
         </div>
     </xsl:template>
+<!--
+...........
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+    <ul class="ds-options-list">
+        <li>
+            <ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+                <li>
+                    <a href="/handle/11050/4">CNR - IFT</a>
+                </li>
+                <li>
+                    <a href="/handle/11050/2">CRS4</a>
+                </li>
+                <li>
+                    <a href="/handle/11050/3">Porto Conte Ricerche</a>
+                </li>
+                <li>
+                    <a href="/handle/11050/1">Sardegna Ricerche</a>
+                </li>
+            </ul>
+
+-->
+    <!-- A community rendered in the summaryList pattern -->
+    <xsl:template name="my_communitySummaryList-DIM">
+        <div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+            <ul class="ds-options-list">
+                <li>
+                    <a href="/handle/11050/4">CNR - IFT</a>
+                </li>
+                <li>
+                    <a href="/handle/11050/2">CRS4</a>
+                </li>
+                <li>
+                    <a href="/handle/11050/3">Porto Conte Ricerche</a>
+                </li>
+                <li>
+                    <a href="/handle/11050/1">Sardegna Ricerche</a>
+                </li>
+            </ul>
+        </div>
+    </xsl:template>
+
 
     <!-- Add each RSS feed from meta to a list -->
     <xsl:template name="addRSSLinks">

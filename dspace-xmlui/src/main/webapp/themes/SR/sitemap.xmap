@@ -28,8 +28,8 @@
 		-->
 		<map:component-configurations>
 			<global-variables>
-				<theme-path>SR_simple</theme-path>
-				<theme-name>SR_simple</theme-name>
+				<theme-path>SR</theme-path>
+				<theme-name>SR</theme-name>
 			</global-variables>
         </map:component-configurations>
 
@@ -151,7 +151,7 @@
 
 				<!-- Step 3: Transform to XHTML -->
 				<map:transform src="{global:theme-name}.xsl"/>
-			    <!-- <map:transform src="SR_simple.xsl"/> -->
+			    <!-- <map:transform src="SR.xsl"/> -->
 
 				<!-- Step 4: Localize the page -->
 				<map:act type="locale">

@@ -55,7 +55,7 @@
                     </span>
                 </a>
                 <!--Display community strengths (item counts) if they exist-->
-                <xsl:if test="string-length($data/dim:field[@element='format'][@qualifier='extent'][1]) &gt; 0">
+                <xsl:if test="(string-length($data/dim:field[@element='format'][@qualifier='extent'][1]) &gt; 0) and ($data/dim:field[@element='format'][@qualifier='extent'][1] != 0)">
                     <xsl:text> [</xsl:text>
                     <xsl:value-of select="$data/dim:field[@element='format'][@qualifier='extent'][1]"/>
                     <xsl:text>]</xsl:text>
@@ -87,7 +87,7 @@
             </xsl:choose>
         </a>
 		<!--Display collection strengths (item counts) if they exist-->
-		<xsl:if test="string-length($data/dim:field[@element='format'][@qualifier='extent'][1]) &gt; 0">
+		<xsl:if test="(string-length($data/dim:field[@element='format'][@qualifier='extent'][1]) &gt; 0) and ($data/dim:field[@element='format'][@qualifier='extent'][1] != 0)">
             <xsl:text> [</xsl:text>
             <xsl:value-of select="$data/dim:field[@element='format'][@qualifier='extent'][1]"/>
             <xsl:text>]</xsl:text>

@@ -75,7 +75,16 @@
                 <xsl:apply-templates select="dri:body/*"/>
               </xsl:when>
                   <xsl:otherwise>
-                    <div id="ds-main">
+                    <div id="allContent">
+                     <div id="ds-main">
+                      <div id="ds-left">
+                        <xsl:apply-templates select="dri:options"/>
+                        <div class="footer_sx">
+                            <a href="http://www.sardegnaricerche.it/" target="_blank"><i18n:text>xmlui.general.home.contacts</i18n:text></a> | 
+                            <a href="http://www.sardegnaricerche.it/" target="_blank"><i18n:text>xmlui.general.home.legalnotes</i18n:text></a>
+                        </div>
+                      </div>
+		              <div id="ds-right">
                         <!--The header div, complete with title, subtitle and other junk-->
                         <xsl:call-template name="buildHeader"/>
 
@@ -91,7 +100,6 @@
                             </div>
                         </div>
 
-
                         <!--ds-content is a groups ds-body and the navigation together and used to put the clearfix on, center, etc.
                             ds-content-wrapper is necessary for IE6 to allow it to center the page content-->
                         <div id="ds-content-wrapper">
@@ -102,17 +110,17 @@
                                the ds-options div that contains the navigation and action options available to the
                                user. The meta element is ignored since its contents are not processed directly, but
                                instead referenced from the different points in the document. -->
-                                <xsl:apply-templates/>
+                                <!-- <xsl:apply-templates/> -->
+                                <xsl:apply-templates select="dri:body"/>
+                                <xsl:apply-templates select="dri:meta"/>
                             </div>
                         </div>
-
-
-                        <!--
-                            The footer div, dropping whatever extra information is needed on the page. It will
-                            most likely be something similar in structure to the currently given example. -->
-                        <xsl:call-template name="buildFooter"/>
-
-                    </div>
+                        <div class="footer_dx">
+                             <xsl:call-template name="buildFooter"/>
+                        </div>
+		              </div><!-- ds-right -->
+                     </div> <!-- ds-main -->
+                    </div> <!-- allContent -->
 
                 </xsl:otherwise>
             </xsl:choose>
@@ -324,7 +332,7 @@
                         <xsl:text>/</xsl:text>
                     </xsl:attribute>
                     <span id="ds-header-logo">&#160;</span>
-                    <span id="ds-header-logo-text">SR_simple</span>
+                    <span id="ds-header-logo-text">&#160;</span>
                 </a>
                 <h1 class="pagetitle visuallyhidden">
                     <xsl:choose>
@@ -510,16 +518,20 @@
     <xsl:template name="buildFooter">
         <div id="ds-footer-wrapper">
             <div id="ds-footer">
+
                 <div id="ds-footer-left">
-                    <a href="http://www.dspace.org/" target="_blank">DSpace software</a> copyright&#160;&#169;&#160;2002-2012&#160; <a href="http://www.duraspace.org/" target="_blank">Duraspace</a>
+                    <i18n:text>xmlui.general.home.copyright</i18n:text>
+                    <a href="http://www.sardegnaricerche.it/" target="_blank">SardegnaRicerche</a> <br/>
+                    email: <a href="mailto:p-arch@sardegnaricerche.it" target="_blank">p-arch@sardegnaricerche.it</a>
                 </div>
+
                 <div id="ds-footer-right">
-                    <span class="theme-by">Theme by&#160;</span>
-                    <a title="@mire NV" target="_blank" href="http://atmire.com" id="ds-footer-logo-link">
-                    <span id="ds-footer-logo">&#160;</span>
+                    <a href="http://www.sardegnaricerche.it/" target="_blank" id="ds-footer-logo-link">
+                        <span id="ds-footer-logo">&#160;</span>
                     </a>
                 </div>
-                <div id="ds-footer-links">
+<!--
+             <div id="ds-footer-links">
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of
@@ -538,6 +550,8 @@
                         <i18n:text>xmlui.dri2xhtml.structural.feedback-link</i18n:text>
                     </a>
                 </div>
+-->
+   
                 <!--Invisible link to HTML sitemap (for search engines) -->
                 <a class="hidden">
                     <xsl:attribute name="href">
@@ -563,7 +577,7 @@
         The template to handle the dri:body element. It simply creates the ds-body div and applies
         templates of the body's child elements (which consists entirely of dri:div tags).
     -->
-    <xsl:template match="dri:body">
+    <xsl:template match="dri:body" name="buildBody">
         <div id="ds-body">
             <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='alert'][@qualifier='message']">
                 <div id="ds-system-wide-alert">
@@ -578,7 +592,7 @@
                 <xsl:when test="starts-with($request-uri, 'page/about')">
                     <div>
                         <h1>About This Repository</h1>
-                        <p>To add your own content to this page, edit webapps/xmlui/themes/SR_simple/lib/xsl/core/page-structure.xsl and
+                        <p>To add your own content to this page, edit webapps/xmlui/themes/SR/lib/xsl/core/page-structure.xsl and
                             add your own content to the title, trail, and body. If you wish to add additional pages, you
                             will need to create an additional xsl:when block and match the request-uri to whatever page
                             you are adding. Currently, static pages created through altering XSL are only available
@@ -597,7 +611,7 @@
 
     <!-- Currently the dri:meta element is not parsed directly. Instead, parts of it are referenced from inside
         other elements (like reference). The blank template below ends the execution of the meta branch -->
-    <xsl:template match="dri:meta">
+    <xsl:template match="dri:meta" name="buildMeta">
     </xsl:template>
 
     <!-- Meta's children: userMeta, pageMeta, objectMeta and repositoryMeta may or may not have templates of
