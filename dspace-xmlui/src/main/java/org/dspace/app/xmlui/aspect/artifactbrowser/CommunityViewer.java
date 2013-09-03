@@ -346,6 +346,7 @@ public class CommunityViewer extends AbstractDSpaceTransformer implements Cachea
                 	}else {
                 		communityReferenceSet.addReference(collection);
 					}
+                	
                 	if(altro!=null){
                 		communityReferenceSet.addReference(altro);
                 	}
