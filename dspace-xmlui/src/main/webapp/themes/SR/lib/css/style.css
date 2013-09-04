@@ -61,8 +61,7 @@ select.multiple {
 }
 
 #ds-main {
-    background-image:url('../../images/colSx.png');
-
+    background-image:url('../../images/background.png');
     background-repeat:repeat-y;
     float: left;
     width: 100%;
@@ -71,7 +70,7 @@ select.multiple {
 #ds-left {
     float: left;
     width: 240px;
-          background-color: #f18e00; 
+         /* background-color: #f18e00; */
     min-height: 1000px ;
 }
 #ds-right {
@@ -108,7 +107,7 @@ ul.alphabet li, ul.alphabet a{
 .footer_sx {
     background-color: #f18e00;
     width: 240px;
-    height: 30px;
+    height: 36px;
     bottom: 0px;
     position: fixed;
     padding-top: 6px;
@@ -132,9 +131,10 @@ ul.alphabet li, ul.alphabet a{
     background-color: white;
     width: 590px;
     height: 29px;
-    bottom: 5px;
+    bottom: 0px;
     position: fixed;
     padding-top: 6px;
+    padding-bottom: 6px;
     text-align:center;
     border-top: 1px solid #f18e00;
 }
@@ -159,6 +159,10 @@ ul.alphabet li, ul.alphabet a{
     background-color: transparent;
 }
 
+#ds-header-logo-below {
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
 
 #ds-header-logo-link {
     text-decoration: none;
@@ -166,14 +170,14 @@ ul.alphabet li, ul.alphabet a{
 }
 
 #ds-header-logo {
-    float:left;
+  /*  float:left;
     width: 468px;
-    height: 70px;
+    height: 70px; */
     margin-top: 10px;
-    background: url('../../images/parch-logo.png');
+ /*   background: url('../../images/parch-logo.png');
     background-repeat: no-repeat;
     background-color: transparent;
-    margin-right: 15px;
+    margin-right: 15px;  */
 }
 
 #ds-header-logo-text {
@@ -188,7 +192,7 @@ ul.alphabet li, ul.alphabet a{
 
 #ds-user-box {
     right: 0;
-    top: 6px;
+    top: -4px;
     right: 38px;
     position: absolute;
     color: #5d710d;

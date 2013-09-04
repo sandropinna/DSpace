@@ -325,15 +325,31 @@
     <xsl:template name="buildHeader">
         <div id="ds-header-wrapper">
             <div id="ds-header" class="clearfix">
-                <a id="ds-header-logo-link">
-                    <xsl:attribute name="href">
-                        <xsl:value-of
-                                select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
-                        <xsl:text>/</xsl:text>
-                    </xsl:attribute>
-                    <span id="ds-header-logo">&#160;</span>
-                    <span id="ds-header-logo-text">&#160;</span>
-                </a>
+                <div id="ds-header-logo">
+                    <a id="ds-header-logo-link">
+                        <xsl:attribute name="href">
+                            <xsl:value-of
+                                    select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
+                            <xsl:text>/</xsl:text>
+                        </xsl:attribute>
+                        <img height="70" src="/themes/SR/images/parch-logo.png"/>
+                    </a>
+                </div>
+                <div id="ds-header-logo-below">
+                    <span><img height="35" src="/themes/SR/images/SardegnaCresceEuropa_logo.png"/></span>&#160;
+                    <span><img height="35" src="/themes/SR/images/RAS_Logo.jpg"/></span>&#160;
+                    <span><img height="35" src="/themes/SR/images/SR_logo_rosso.png"/></span>
+                </div>
+
+<!--
+                <xsl:attribute name="href">
+                    <xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
+                    <xsl:text>/themes/</xsl:text>
+                    <xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='theme'][@qualifier='path']"/>
+                    <xsl:text>/images/apple-touch-icon.png</xsl:text>
+                </xsl:attribute>
+-->
+                <!-- <span id="ds-header-logo-text">&#160;</span>   -->
                 <h1 class="pagetitle visuallyhidden">
                     <xsl:choose>
                         <!-- protection against an empty page title -->
@@ -527,7 +543,8 @@
 
                 <div id="ds-footer-right">
                     <a href="http://www.sardegnaricerche.it/" target="_blank" id="ds-footer-logo-link">
-                        <span id="ds-footer-logo">&#160;</span>
+                        <img height="28" src="/themes/SR/images/SR_logo_bianco.gif"/>                        
+                        <!-- <span id="ds-footer-logo">&#160;</span> -->
                     </a>
                 </div>
 <!--

@@ -185,16 +185,16 @@
         <div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
             <ul class="ds-options-list">
                 <li>
-                    <a href="/handle/11050/4">CNR - IFT</a>
+                    <a href="/xmlui/handle/11050/4">CNR - IFT</a>
                 </li>
                 <li>
-                    <a href="/handle/11050/2">CRS4</a>
+                    <a href="/xmlui/handle/11050/2">CRS4</a>
                 </li>
                 <li>
-                    <a href="/handle/11050/3">Porto Conte Ricerche</a>
+                    <a href="/xmlui/handle/11050/3">Porto Conte Ricerche</a>
                 </li>
                 <li>
-                    <a href="/handle/11050/1">Sardegna Ricerche</a>
+                    <a href="/xmlui/handle/11050/1">Sardegna Ricerche</a>
                 </li>
             </ul>
         </div>
