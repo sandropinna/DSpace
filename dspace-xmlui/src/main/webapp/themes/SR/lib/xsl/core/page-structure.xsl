@@ -332,13 +332,13 @@
                                     select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
                             <xsl:text>/</xsl:text>
                         </xsl:attribute>
-                        <img height="70" src="/themes/SR/images/parch-logo.png"/>
+                        <img height="70" src="/xmlui/themes/SR/images/parch-logo.png"/>
                     </a>
                 </div>
                 <div id="ds-header-logo-below">
-                    <span><img height="35" src="/themes/SR/images/SardegnaCresceEuropa_logo.png"/></span>&#160;
-                    <span><img height="35" src="/themes/SR/images/RAS_Logo.jpg"/></span>&#160;
-                    <span><img height="35" src="/themes/SR/images/SR_logo_rosso.png"/></span>
+                    <span><img height="35" src="/xmlui/themes/SR/images/SardegnaCresceEuropa_logo.png"/></span>&#160;
+                    <span><img height="35" src="/xmlui/themes/SR/images/RAS_Logo.jpg"/></span>&#160;
+                    <span><img height="35" src="/xmlui/themes/SR/images/SR_logo_rosso.png"/></span>
                 </div>
 
 <!--
@@ -543,7 +543,7 @@
 
                 <div id="ds-footer-right">
                     <a href="http://www.sardegnaricerche.it/" target="_blank" id="ds-footer-logo-link">
-                        <img height="28" src="/themes/SR/images/SR_logo_bianco.gif"/>                        
+                        <img height="28" src="/xmlui/themes/SR/images/SR_logo_bianco.gif"/>                        
                         <!-- <span id="ds-footer-logo">&#160;</span> -->
                     </a>
                 </div>
