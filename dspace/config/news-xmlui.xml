@@ -4,7 +4,7 @@
 <div id="file.news.div.news" n="news" rend="primary">
 <head><i18n:text>xmlui.general.home.title</i18n:text></head>
 <p><i18n:text>xmlui.general.home.description1line</i18n:text></p>
-<p><i18n:text>xmlui.general.home.description2line</i18n:text></p>
+<!--  <p><i18n:text>xmlui.general.home.description2line</i18n:text></p> -->
 </div>
 </body>
 
