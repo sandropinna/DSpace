@@ -325,7 +325,7 @@
     <xsl:template name="buildHeader">
         <div id="ds-header-wrapper">
             <div id="ds-header" class="clearfix">
-            <!--  
+              
                 <div id="ds-header-logo">
                     <a id="ds-header-logo-link">
                         <xsl:attribute name="href">
@@ -336,7 +336,7 @@
                         <img height="70" src="/xmlui/themes/SR/images/parch-logo.png"/>
                     </a>
                 </div>
-             -->
+            
                 <div id="ds-header-logo-below">
                     <span><img height="35" src="/xmlui/themes/SR/images/SardegnaCresceEuropa_logo.png"/></span>&#160;
                     <span><img height="35" src="/xmlui/themes/SR/images/RAS_Logo.jpg"/></span>&#160;
@@ -398,6 +398,7 @@
                         </div>
                     </xsl:when>
                     <xsl:otherwise>
+                    <!--  
                         <div id="ds-user-box">
                             <p>
                                 <a>
@@ -409,6 +410,7 @@
                                 </a>
                             </p>
                         </div>
+                     -->
                     </xsl:otherwise>
                 </xsl:choose>
 
