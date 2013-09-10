@@ -65,13 +65,13 @@ select.multiple {
     background-repeat:repeat-y;
     float: left;
     width: 100%;
-    min-height:100% ;
+    min-height: 100%;
 }
 #ds-left {
     float: left;
     width: 240px;
          /* background-color: #f18e00; */
-    min-height: 1000px ;
+    min-height: 1000px;
 }
 #ds-right {
     width: 590px;
@@ -107,13 +107,18 @@ ul.alphabet li, ul.alphabet a{
 .footer_sx {
     background-color: #f18e00;
     width: 240px;
-    height: 36px;
+    height: 81px;
     bottom: 0px;
     position: fixed;
     padding-top: 6px;
     font-size: 116%;
     text-align:center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: white;
+
+}
+.footer_sx_box {
+    margin-top: 32px;
 }
 
 .footer_sx a {
@@ -121,22 +126,34 @@ ul.alphabet li, ul.alphabet a{
     /* text-decoration: none; */
     text-decoration: underline;
     color: white;
+    font-size: 116%;
 }
 .footer_sx a:hover, a:active {
     /* text-decoration: underline; */
     color: #008ac9;
 }
 
+.footer_sx_small, .footer_sx_small a {
+    padding-top: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
 .footer_dx {
     background-color: white;
     width: 590px;
-    height: 29px;
+    height: 74px;
     bottom: 0px;
     position: fixed;
     padding-top: 6px;
     padding-bottom: 6px;
     text-align:center;
     border-top: 1px solid #f18e00;
+    vertical-align:bottom;
+}
+
+span.codesample {
+    background-color: #b6c8d9;
 }
 
 #ds-option,#ds-search-form input.ds-button-field {
@@ -221,7 +238,7 @@ ul.alphabet li, ul.alphabet a{
 #ds-content {
     padding-left: 38px;
     padding-right: 38px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     margin: auto;
     position: relative;
 }
@@ -264,10 +281,16 @@ ul.alphabet li, ul.alphabet a{
 
 #ds-footer-left {
     float: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 120%;
+    vertical-align: top;
+    font-style: italic;
 }
 
 #ds-footer-right {
     float:right;
+    vertical-align: bottom;
+    padding-top: 60px;
 }
 
 #ds-footer-right span.theme-by{
@@ -316,6 +339,7 @@ ul.alphabet li, ul.alphabet a{
     padding-top: 36px;
     padding-left: 18px;
     padding-right: 18px;
+    padding-bottom: 80px;
 
 }
 

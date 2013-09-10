@@ -42,5 +42,7 @@
     <xsl:import href="lib/xsl/aspect/artifactbrowser/collection-list.xsl"/>
     <xsl:output indent="yes"/>
     
+    <xsl:variable name="sr_contacts" select="document('static/contacts.html')" />
+    <xsl:variable name="sr_legalnotes" select="document('static/legalnotes.html')" />
 
 </xsl:stylesheet>
