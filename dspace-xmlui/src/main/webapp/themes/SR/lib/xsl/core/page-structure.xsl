@@ -81,8 +81,8 @@
                         <xsl:apply-templates select="dri:options"/>
                         <div class="footer_sx">
                           <div class="footer_sx_box">
-                            <a href="/page/sr_contacts"><i18n:text>xmlui.general.home.contacts</i18n:text></a> | 
-                            <a href="/page/sr_legalnotes"><i18n:text>xmlui.general.home.legalnotes</i18n:text></a>
+                            <a href="/xmlui/page/sr_contacts"><i18n:text>xmlui.general.home.contacts</i18n:text></a> | 
+                            <a href="/xmlui/page/sr_legalnotes"><i18n:text>xmlui.general.home.legalnotes</i18n:text></a>
                             <br/><span class="footer_sx_small">Email: <a href="mailto:p-arch@sardegnaricerche.it" target="_blank">p-arch@sardegnaricerche.it</a></span>
                           </div>
                         </div>
