@@ -134,7 +134,7 @@ public class CommunityRecentSubmissions extends AbstractDSpaceTransformer implem
         {
             return;
         }
-        
+       /* FAS
         Division lastSubmittedDiv = home
                 .addDivision("community-recent-submission","secondary recent-submission");
         lastSubmittedDiv.setHead(T_head_recent_submissions);
@@ -145,7 +145,7 @@ public class CommunityRecentSubmissions extends AbstractDSpaceTransformer implem
         {
             lastSubmitted.addReference(item);
         }
-
+*/
     }
 
     /**
