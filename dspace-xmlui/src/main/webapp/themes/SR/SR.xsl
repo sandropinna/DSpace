@@ -44,5 +44,6 @@
     
     <xsl:variable name="sr_contacts" select="document('static/contacts.html')" />
     <xsl:variable name="sr_legalnotes" select="document('static/legalnotes.html')" />
+    <xsl:variable name="sr_usefulinformation" select="document('static/usefulinformation.html')" />
 
 </xsl:stylesheet>

@@ -191,6 +191,7 @@ public class Navigation extends AbstractDSpaceTransformer implements CacheablePr
             {
                 account.addItemXref(contextPath + "/register", T_register);
             }
+            account.addItemXref(contextPath+"/sr_usefulinformation", "Informazioni utili");
         }
     }
 
