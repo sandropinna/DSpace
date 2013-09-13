@@ -613,6 +613,9 @@
                 <xsl:when test="starts-with($request-uri, 'page/sr_legalnotes')">
                     <xsl:copy-of select="$sr_legalnotes" />
                 </xsl:when>
+                <xsl:when test="starts-with($request-uri, 'page/sr_usefulinformation')">
+                    <xsl:copy-of select="$sr_usefulinformation" />
+                </xsl:when>
                 <xsl:when test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='alert'][@qualifier='message']">
                     <div id="ds-system-wide-alert">
                         <p>

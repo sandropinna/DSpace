@@ -77,5 +77,6 @@ public class Navigation extends AbstractDSpaceTransformer implements CacheablePr
 //    	}
     	
     	account.addItemXref(contextPath+"/submissions",T_submissions);
+    	
     }
 }
