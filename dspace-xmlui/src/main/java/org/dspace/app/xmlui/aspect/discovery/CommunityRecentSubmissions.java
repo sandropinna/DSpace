@@ -46,7 +46,8 @@ public class CommunityRecentSubmissions extends AbstractRecentSubmissionTransfor
         {
             return;
         }
-
+        
+        /*
         // Build the community viewer division.
         Division home = body.addDivision("community-home", "primary repository community");
 
@@ -73,6 +74,6 @@ public class CommunityRecentSubmissions extends AbstractRecentSubmissionTransfor
                     lastSubmitted.addReference(resultObject);
                 }
             }
-        }
+        }*/
     }
 }
