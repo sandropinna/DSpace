@@ -113,7 +113,7 @@
                                the ds-options div that contains the navigation and action options available to the
                                user. The meta element is ignored since its contents are not processed directly, but
                                instead referenced from the different points in the document. -->
-                                <xsl:apply-templates/>
+                              <!--    <xsl:apply-templates/> -->
                                 <xsl:apply-templates select="dri:body"/>
                                 <xsl:apply-templates select="dri:meta"/>
                             </div>
