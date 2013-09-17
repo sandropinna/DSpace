@@ -38,6 +38,11 @@
 	<message key="xmlui.general.home.title">Benvenuti su P-arch</message>
 	<message key="xmlui.general.home.description1line">P-arch è l'archivio istituzionale ad accesso aperto di Sardegna Ricerche. Contiene la documentazione scientifica prodotta dalla ricerca finanziata con fondi pubblici, ossia articoli scientifici, la digitalizzazione di programmi e di progetti pilota e sperimentali, nonché di tutti i documenti ad essi collegati come report, brevetti, contributi a convegni, marchi e design registrati, manuali, cataloghi e tutto quanto venga realizzato all'interno del Parco scientifico e tecnologico della Sardegna. </message>
 	<message key="xmlui.general.home.description2line">L'adeguamento della documentazione presente nell'archivio di P-arch agli standard internazionali (OAI-PMH), ne esalta la visibilità e garantisce al contempo un severo processo di controllo da parte della comunità scientifica internazionale e di conseguenza una adeguata validazione ed autorevolezza. Gli autori, previa registrazione, depositano direttamente i propri documenti nell'archivio. L'accesso alle informazioni ed ai documenti è libero. </message>
+    <message key="xmlui.general.home.contacts">Contatti</message>
+    <message key="xmlui.general.home.legalnotes">Note legali</message>
+    <message key="xmlui.general.home.copyright">2013 Sardegna Ricerche</message>
+	<message key="xmlui.general.home.communities">Archivi</message>
+	<message key="xmlui.general.home.project">Un progetto di </message>
 
 	<!-- 
 		Page not found keys 

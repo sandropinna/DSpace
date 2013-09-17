@@ -8,14 +8,11 @@
 </div>
 </body>
 
-<!-- 
-
 <options/>
 <meta>
-<userMeta/>
-<pageMeta/>
-<repositoryMeta/>
+    <userMeta/>
+    <pageMeta/>
+    <repositoryMeta/>
 </meta>
 
- -->
 </document>

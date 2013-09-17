@@ -80,8 +80,11 @@
                       <div id="ds-left">
                         <xsl:apply-templates select="dri:options"/>
                         <div class="footer_sx">
-                            <a href="http://www.sardegnaricerche.it/" target="_blank"><i18n:text>xmlui.general.home.contacts</i18n:text></a> | 
-                            <a href="http://www.sardegnaricerche.it/" target="_blank"><i18n:text>xmlui.general.home.legalnotes</i18n:text></a>
+                          <div class="footer_sx_box">
+                            <a href="/xmlui/page/sr_contacts"><i18n:text>xmlui.general.home.contacts</i18n:text></a> | 
+                            <a href="/xmlui/page/sr_legalnotes"><i18n:text>xmlui.general.home.legalnotes</i18n:text></a>
+                            <br/><span class="footer_sx_small">Email: <a href="mailto:p-arch@sardegnaricerche.it" target="_blank">p-arch@sardegnaricerche.it</a></span>
+                          </div>
                         </div>
                       </div>
 		              <div id="ds-right">
@@ -337,11 +340,7 @@
                     </a>
                 </div>
             
-                <div id="ds-header-logo-below">
-                    <span><img height="35" src="/xmlui/themes/SR/images/SardegnaCresceEuropa_logo.png"/></span>&#160;
-                    <span><img height="35" src="/xmlui/themes/SR/images/RAS_Logo.jpg"/></span>&#160;
-                    <span><img height="35" src="/xmlui/themes/SR/images/SR_logo_rosso.png"/></span>
-                </div>
+                <div id="ds-header-logo-below">&#160;</div>
 
 <!--
                 <xsl:attribute name="href">
@@ -540,17 +539,23 @@
             <div id="ds-footer">
 
                 <div id="ds-footer-left">
-                    <i18n:text>xmlui.general.home.copyright</i18n:text>
-                    <a href="http://www.sardegnaricerche.it/" target="_blank">SardegnaRicerche</a> <br/>
-                    email: <a href="mailto:p-arch@sardegnaricerche.it" target="_blank">p-arch@sardegnaricerche.it</a>
+                    <i18n:text>xmlui.general.home.project</i18n:text>&#160;
+                    <a href="http://www.sardegnaricerche.it/" target="_blank" id="ds-footer-logo-link">
+                        <img height="26" src="/xmlui/themes/SR/images/SR_logo_bianco.gif"/>                        
+                    </a>
+                    <br/>   
+                    <span><img height="35" src="/xmlui/themes/SR/images/SardegnaCresceEuropa_logo.png"/></span>&#160;
+                    <span><img height="35" src="/xmlui/themes/SR/images/emblemahd.jpg"/></span>&#160;
+                    <span><img height="35" src="/xmlui/themes/SR/images/RAS_Logo.jpg"/></span>&#160;
+                    <span><img height="35" src="/xmlui/themes/SR/images/SR_logo_rosso.png"/></span>
                 </div>
 
                 <div id="ds-footer-right">
-                    <a href="http://www.sardegnaricerche.it/" target="_blank" id="ds-footer-logo-link">
-                        <img height="28" src="/xmlui/themes/SR/images/SR_logo_bianco.gif"/>                        
                         <!-- <span id="ds-footer-logo">&#160;</span> -->
-                    </a>
+                        <img height="14" src="/xmlui/themes/SR/images/cc.png"/>&#160;<i18n:text>xmlui.general.home.copyright</i18n:text>            
                 </div>
+
+
 <!--
              <div id="ds-footer-links">
                     <a>
@@ -600,24 +605,22 @@
     -->
     <xsl:template match="dri:body" name="buildBody">
         <div id="ds-body">
-            <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='alert'][@qualifier='message']">
-                <div id="ds-system-wide-alert">
-                    <p>
-                        <xsl:copy-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='alert'][@qualifier='message']/node()"/>
-                    </p>
-                </div>
-            </xsl:if>
-
             <!-- Check for the custom pages -->
             <xsl:choose>
-                <xsl:when test="starts-with($request-uri, 'page/about')">
-                    <div>
-                        <h1>About This Repository</h1>
-                        <p>To add your own content to this page, edit webapps/xmlui/themes/SR/lib/xsl/core/page-structure.xsl and
-                            add your own content to the title, trail, and body. If you wish to add additional pages, you
-                            will need to create an additional xsl:when block and match the request-uri to whatever page
-                            you are adding. Currently, static pages created through altering XSL are only available
-                            under the URI prefix of page/.</p>
+                <xsl:when test="starts-with($request-uri, 'page/sr_contacts')">
+                    <xsl:copy-of select="$sr_contacts" />
+                </xsl:when>
+                <xsl:when test="starts-with($request-uri, 'page/sr_legalnotes')">
+                    <xsl:copy-of select="$sr_legalnotes" />
+                </xsl:when>
+                <xsl:when test="starts-with($request-uri, 'page/sr_usefulinformation')">
+                    <xsl:copy-of select="$sr_usefulinformation" />
+                </xsl:when>
+                <xsl:when test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='alert'][@qualifier='message']">
+                    <div id="ds-system-wide-alert">
+                        <p>
+                            <xsl:copy-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='alert'][@qualifier='message']/node()"/>
+                        </p>
                     </div>
                 </xsl:when>
                 <!-- Otherwise use default handling of body -->
