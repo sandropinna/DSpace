@@ -102,6 +102,7 @@ public class SiteViewer extends AbstractDSpaceTransformer implements CacheablePr
     public void addBody(Body body) throws SAXException, WingException,
             UIException, SQLException, IOException, AuthorizeException
     {
+    	/* SP
         Division search =
         	body.addInteractiveDivision("front-page-search",contextPath+"/discover",Division.METHOD_GET,"primary");
 
@@ -112,5 +113,7 @@ public class SiteViewer extends AbstractDSpaceTransformer implements CacheablePr
         Para fields = search.addPara();
         fields.addText("query");
         fields.addButton("submit").setValue(T_go);
+        */
     }
+    
 }
