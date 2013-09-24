@@ -155,7 +155,7 @@
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">Titolo</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">Data di pubblicazione</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">Data di immissione</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">Data di inserimento</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.asc">crescente</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.desc">decrescente</message>
@@ -175,8 +175,8 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Sfoglia {0} per Data di Pubblicazione {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Sfoglia {0} per Data di Pubblicazione</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Sfoglia {0} per Data di Immissione {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Sfoglia {0} per Data di Immissione</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Sfoglia {0} per Data di inserimento {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Sfoglia {0} per Data di inserimento</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
@@ -188,18 +188,18 @@
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Autori</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">Date</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Ricerca avanzata</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Immissioni Recenti</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Ultimi inserimenti</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Lista degli Archivi</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Lista degli Archivi</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Archivi in P-arch</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Selezionare un archivio per visualizzare le sue collezioni.</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Seleziona un archivio per visualizzare le sue collezioni.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Ambito della ricerca</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Tutto P-arch</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Ricerca in questo archivio e nelle sue collezioni:</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Ricerca in questo archivio:</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Sfoglia per</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Titoli</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Autori</message>
@@ -207,7 +207,7 @@
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Ricerca avanzata</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">sotto-comunità all'interno di questo archivio</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Collezioni in questo archivio</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Immissioni Recenti</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Ultimi inserimenti</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
@@ -253,9 +253,9 @@
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Autori</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Soggetti</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Data di pubblicazione</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Data di immissione</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Data di inserimento</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Questa Collezione</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Questa comunità</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Questo archivio</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Cerca</message>

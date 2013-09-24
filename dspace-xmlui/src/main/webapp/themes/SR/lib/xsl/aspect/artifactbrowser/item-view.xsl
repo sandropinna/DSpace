@@ -3840,7 +3840,7 @@
           <!-- Istituzione partner row -->
           <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and @qualifier='partner'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Reference:</span>
+	                	<span class="bold">Istituzione partner:</span>
 	                	<span>
 	                		<xsl:value-of select="(dim:field[@element='contributor' and @qualifier='partner'])[1]/node()"/>
 	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='partner']) != 0">
@@ -3983,7 +3983,7 @@
 	                <span class="bold">Unità organizzativa:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='program']">
-		                    <xsl:copy-of select="substring-after(./node(),'Alberocrs4::')"/>
+		                    <xsl:copy-of select="substring-after(./node(),'Program::')"/>
 		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='program']) != 0">
 		                        	<xsl:text>; </xsl:text>
 		                    		<br/>

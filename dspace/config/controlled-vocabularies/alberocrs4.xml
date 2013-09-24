@@ -3,7 +3,7 @@
 CRS4 PROGRAM
 -->
 
-<node id="CRS4 PROGRAM" label="PROGRAM">
+<node id="CRS4 PROGRAM" label="Program">
 	<isComposedBy>
 		<node id="000" label="Biomedicine">
 			<isComposedBy>				
