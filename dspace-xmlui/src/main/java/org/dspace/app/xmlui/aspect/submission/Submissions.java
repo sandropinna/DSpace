@@ -122,6 +122,7 @@ public class Submissions extends AbstractDSpaceTransformer
     public void addBody(Body body) throws SAXException, WingException,
             UIException, SQLException, IOException, AuthorizeException
     {
+    	   	    	
         Request request = ObjectModelHelper.getRequest(objectModel);
         boolean displayAll = false;
         //This param decides whether we display all of the user's previous
@@ -133,11 +134,28 @@ public class Submissions extends AbstractDSpaceTransformer
 
         Division div = body.addInteractiveDivision("submissions", contextPath+"/submissions", Division.METHOD_POST,"primary");
         div.setHead(T_head);
+        
+        //SR
+        Collection[] collections = Collection.findAuthorized(context, null, Constants.ADD);
 
-//        this.addWorkflowTasksDiv(div);
-        this.addUnfinishedSubmissions(div);
-//        this.addSubmissionsInWorkflowDiv(div);
-        this.addPreviousSubmissions(div, displayAll);
+        if (collections.length > 0)
+        {
+//          this.addWorkflowTasksDiv(div);
+            this.addUnfinishedSubmissions(div);
+//            this.addSubmissionsInWorkflowDiv(div);
+            this.addPreviousSubmissions(div, displayAll);
+        	
+        }else{
+        	Division unfinished = div.addDivision("unfinished-submisions");
+        	//unfinished.setHead(T_s_head2);
+        	unfinished.setHead("Non sei autorizzato a sottomettere");
+        	Para p = unfinished.addPara();
+        	p.addContent("Devia attendere l'autorizzazione dell'amministratore");
+        	//p.addHighlight("bold").addXref(contextPath+"/submit",T_s_info2b);
+        	//p.addContent(T_s_info2c);
+        	
+        }
+
     }
 
     /**
@@ -165,7 +183,7 @@ public class Submissions extends AbstractDSpaceTransformer
      */
     private void addUnfinishedSubmissions(Division division) throws SQLException, WingException
     {
-
+    	
         // User's WorkflowItems
     	WorkspaceItem[] unfinishedItems = WorkspaceItem.findByEPerson(context,context.getCurrentUser());
     	SupervisedItem[] supervisedItems = SupervisedItem.findbyEPerson(context, context.getCurrentUser());
