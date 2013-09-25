@@ -138,7 +138,7 @@ public class Submissions extends AbstractDSpaceTransformer
         //SR
         Collection[] collections = Collection.findAuthorized(context, null, Constants.ADD);
 
-        if (collections.length > 0)
+        if (collections.length > 1)
         {
 //          this.addWorkflowTasksDiv(div);
             this.addUnfinishedSubmissions(div);
