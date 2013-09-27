@@ -148,9 +148,9 @@ public class Submissions extends AbstractDSpaceTransformer
         }else{
         	Division unfinished = div.addDivision("unfinished-submisions");
         	//unfinished.setHead(T_s_head2);
-        	unfinished.setHead("Non sei autorizzato a sottomettere");
+        	unfinished.setHead("Non sei ancora autorizzato a fare nuovi inserimenti");
         	Para p = unfinished.addPara();
-        	p.addContent("Devia attendere l'autorizzazione dell'amministratore");
+        	p.addContent("Devi attendere l'autorizzazione dell'amministratore");
         	//p.addHighlight("bold").addXref(contextPath+"/submit",T_s_info2b);
         	//p.addContent(T_s_info2c);
         	
