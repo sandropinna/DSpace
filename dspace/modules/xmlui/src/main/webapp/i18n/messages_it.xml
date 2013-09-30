@@ -451,11 +451,11 @@
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 	<message key="xmlui.EPerson.StartForgotPassword.title">Password dimenticata</message>
 	<message key="xmlui.EPerson.StartForgotPassword.head">Password dimenticata</message>
-	<message key="xmlui.EPerson.StartForgotPassword.para1">Inserisci l'indirizzo email utilizzato per la registrazione a P-arch. Verra' inviata una mail a questo indirizzo di posta con le indicazioni utili.</message>
+	<message key="xmlui.EPerson.StartForgotPassword.para1">Inserisci l'indirizzo email utilizzato per la registrazione e riceverai le indicazioni utili per reimpostare una nuova password.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address">Indirizzo email</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Inserisci l'indirizzo di posta elettronica utilizzato per la registrazione.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Indirizzo email non trovato.</message>
-	<message key="xmlui.EPerson.StartForgotPassword.submit">Invia informazioni</message>
+	<message key="xmlui.EPerson.StartForgotPassword.submit">Invia</message>
 
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">Nuova registrazione</message>
@@ -466,7 +466,7 @@
 	<message key="xmlui.EPerson.StartRegistration.head2">Nuova registrazione</message>
 	<message key="xmlui.EPerson.StartRegistration.para2">Per inserire nuovi documenti e poter usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale.</message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">Indirizzo Email</message>
-	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email sara' verificato per poi poter essere utilizzato in fase di login.</message>
+	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email verra' verificato e potra' essere utilizzato nella fase di login</message>
 	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Impossile mandare una email a questo indirizzo di posta elettronica.</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_register">Registra</message>
 
