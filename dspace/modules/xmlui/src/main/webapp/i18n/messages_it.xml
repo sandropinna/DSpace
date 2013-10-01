@@ -539,11 +539,11 @@
 	<message key="xmlui.Submission.Submissions.workflow_info3">Non ci sono incarichi</message>
 	<!-- Same transformer, submissions section -->
 	<message key="xmlui.Submission.Submissions.submit_head1">Inserimenti</message>
-	<message key="xmlui.Submission.Submissions.submit_info1a">Tu puoi </message>
+	<message key="xmlui.Submission.Submissions.submit_info1a">Puoi </message>
 	<message key="xmlui.Submission.Submissions.submit_info1b">iniziare un nuovo inserimento.</message>
 	<message key="xmlui.Submission.Submissions.submit_info1c">Il processo di inserimento include la descrizione dell'item e il caricamento del file(s). Ogni comunità o Collezione puo' stabilire una sua politica di inserimento.</message>
 	<message key="xmlui.Submission.Submissions.submit_head2">Inserimenti non terminati</message>
-	<message key="xmlui.Submission.Submissions.submit_info2a">Questi sono gli inserimenti incompleti. Potete anche </message>
+	<message key="xmlui.Submission.Submissions.submit_info2a">Questi sono gli inserimenti incompleti. Puoi anche </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">iniziare un nuovo inserimento</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
 	<message key="xmlui.Submission.Submissions.submit_column1"></message>
