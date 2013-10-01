@@ -754,7 +754,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 16 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -1242,7 +1242,7 @@
           <!-- subject.progetti row  -->
           <xsl:when test="$clause = 15 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -1622,7 +1622,7 @@
           <!-- subject.progetti row  -->
           <xsl:when test="$clause = 9 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -2069,7 +2069,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 12 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -2634,7 +2634,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 19 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -3143,7 +3143,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 16 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -3576,7 +3576,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 12 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -3841,11 +3841,16 @@
           <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and @qualifier='partner'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Istituzione partner:</span>
-	                	<span>
-	                		<xsl:value-of select="(dim:field[@element='contributor' and @qualifier='partner'])[1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='partner']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                	<span>	                    
+		                    <xsl:for-each select="dim:field[@element='contributor' and @qualifier='partner']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='partner']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>
+		                    
+		                                        
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto-CRS4">
@@ -3853,6 +3858,7 @@
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
           </xsl:when>
+                 
           
           <!-- Abstract row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='description' and @qualifier='abstract' and descendant::text()])">
@@ -3963,18 +3969,21 @@
           <xsl:when test="$clause = 10 and (dim:field[@element='contributor' and @qualifier='other'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Referenti:</span>
-	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='other'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+	                	<span>	                		
+		                    <xsl:for-each select="dim:field[@element='contributor' and @qualifier='other']">
+		                    <xsl:copy-of select="./node()"/>
+		                      <xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+		                      	<xsl:text>; </xsl:text>
 		                    	<br/>
-		                    </xsl:if>	                    
+		                    </xsl:if>
+	                    	</xsl:for-each>		                    		                                       
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto-CRS4">
                 		<xsl:with-param name="clause" select="($clause + 1)"/>
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
-          </xsl:when>
+          </xsl:when>         
           
           
            <!-- subject.program row -->
@@ -4046,7 +4055,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -4427,7 +4436,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 10 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -4828,7 +4837,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 10 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -5246,7 +5255,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 11 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -5696,7 +5705,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -6074,7 +6083,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 11 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
@@ -6510,7 +6519,7 @@
          <!-- subject.progetti row  -->
           <xsl:when test="$clause = 13 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
-	                <span class="bold">Progetti:</span>
+	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
 		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>

@@ -433,7 +433,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
@@ -717,7 +717,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -979,7 +979,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
@@ -1508,7 +1508,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <type-bind>Brevetto</type-bind>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
@@ -1583,7 +1583,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <type-bind>Marchio registrato</type-bind>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
@@ -1658,7 +1658,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <type-bind>Design registrato</type-bind>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
@@ -1870,7 +1870,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -2096,7 +2096,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -2290,7 +2290,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -2517,7 +2517,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -3012,7 +3012,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <type-bind>Libro</type-bind>
          <input-type>onebox</input-type>
          <hint></hint>
@@ -3114,7 +3114,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
@@ -3415,7 +3415,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -3619,7 +3619,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <type-bind>Manuale,Catalogo</type-bind>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
@@ -3822,7 +3822,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -4036,7 +4036,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -4273,7 +4273,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -4479,7 +4479,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -4684,7 +4684,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
@@ -4888,7 +4888,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Progetti</label>
+         <label>Progetto</label>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
