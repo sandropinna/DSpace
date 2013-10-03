@@ -4128,6 +4128,17 @@ it, please enter the types and the actual numbers or codes below.</hint>
        
        <field>
          <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>callreference</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Call Reference</label>
+         <input-type>onebox</input-type>
+         <hint>Inserisci il codice alfanumerico della Call Reference</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>partner</dc-qualifier>
          <repeatable>true</repeatable>
@@ -4175,9 +4186,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier>contributionbudget</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Contributo</label>
+         <label>Contributo (EUR)</label>
          <input-type>onebox</input-type>
-         <hint>Inserisci il contributo del progetto (Eur) </hint>
+         <hint>Inserisci il contributo del progetto (in Euro) </hint>
          <required></required>
      </field>
      
@@ -4186,9 +4197,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier>contributionbudgetCRS4</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Contributo del CRS4</label>
+         <label>Contributo del CRS4 (EUR)</label>
          <input-type>onebox</input-type>
-         <hint>Inserisci il contributo a carico del CRS4 (Eur) </hint>
+         <hint>Inserisci il contributo a carico del CRS4 (in Euro) </hint>
          <required></required>
      </field>       
         
