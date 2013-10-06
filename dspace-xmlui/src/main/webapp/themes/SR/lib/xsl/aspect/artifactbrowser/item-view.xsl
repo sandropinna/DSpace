@@ -429,7 +429,7 @@
 	                    </xsl:for-each>
 	                </span>
 	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto-CRS4">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
