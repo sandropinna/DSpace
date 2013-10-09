@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CRS4 PROGETTI -->
+<node label="PROGETTI" id="CRS4 PROGETTI">
+	<isComposedBy>
+		<node id="PRO11" label="Bando competitivo/Grant">
+			<isComposedBy>
+				<node id="PRO110" label="Finanziamento europeo/internazionale">
+					<isComposedBy>
+						<node id="PRO1101" label="FP7, FP6, FP5">
+							<isComposedBy>
+								<node id="VR110101" label="ELIXIR - European Life-science Infrastructure for Biological Information">
+							      </node>
+								<node id="VR110102" label="PREDICT - Computational Prediction of Drug Cardiac Toxicity"> 
+								</node>
+								<node id="VR110103" label="COHERENT VVR - Sistema olografico per imaging medico"> 
+								</node>
+								<node id="VR110104" label="DIVA - Data Intensive Visualization and Analysis"> 
+								</node>
+								<node id="VR110105" label="3DANATOMICALHUMAN - 3D anatomical functional models for the human musculoskeletal system"> 
+								</node>
+								<node id="VR110106" label="INDIGO - Innovative training and decision support for emergency situations"> 
+								</node>
+								<node id="VR110107" label="CDT - Central Design Team"> 
+								</node>
+								<node id="VR110108" label="CLIMB - Climate Induced on the Hydrology of Mediterranean Basins"> 
+								</node>
+								<node id="VR110109" label="DEGREE - Dissemination and Exploitation of Grids in Earth Science"> 
+								</node>
+								<node id="VR110110" label="ENVIROGRIDS - Building capacity for a Black Dea Basin Observation and Assessment System supporting Sustainable Development"> 
+								</node>
+								<node id="VR110111" label="MAXSIMA - Methodology, Analysis and experiments for the Safety In MYRRHA Assessment"> 
+								</node>
+								<node id="VR110112" label="SEARCH - Safe Exploitation releted Chemistry for Hlm Reactors"> 
+								</node>
+								<node id="VR110113" label="SWIMED - Sustainible water management in mediterranean aquifers"> 
+								</node>
+								<node id="VR110114" label="THINS - Thermal hydraulics of innovative nuclear system"> 
+								</node>
+								<node id="VR110115" label="CITYSCRIPTS - Internet of things experiment for SmartSantander"> 
+								</node>
+								<node id="VR110116" label="VOICES - VOIce based Community cEntric mobile"> 
+								</node>
+								<node id="VR110117" label="EUA 4X - European Atelier for Engineering and Computational Sciences"> 
+								</node>
+								<node id="VR110118" label="CRIMSON - Crisi Management, Simulation, Training, Operational Preparedness"> 
+								</node>
+								<node id="VR110119" label="IERAPSI - An Integrated Environment for Rehearsal"> 
+								</node>
+								<node id="VR110120" label="V-CITY - Virtual City explorer"> 
+								</node>
+								<node id="VR110121" label="EUROTRANS - European Research Programme for the Transmutation of High Level Nuclear Waste in an Accelerator Driven System"> 
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1102" label="EC CIP">
+						</node>
+						<node id="PRO1103" label="EC LIFE">
+							<isComposedBy>
+								<node id="VR110301" label="LIFE PROSIL - Promoting the use of in silico methods in industry">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1104" label="Grant internazionale">
+							<isComposedBy>
+								<node id="VR110401" label="WT 2011 - Ome Wellcome Trust Strategic Award"> 
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1105" label="Altro (specificare)">
+							<isComposedBy>
+								<node id="VR110501" label="TOURRENIA - Turismo Reti Nicchie Accessibili (EU, Programma di cooperazione transfrontaliera Italia Francia marittimo 2007 2013)"> 
+								</node>
+							</isComposedBy>
+						</node>
+					</isComposedBy>
+				</node>
+				<node id="PRO111" label="Finanziamento nazionale/regionale">
+					<isComposedBy>
+						<node id="PRO1111" label="Ministero Istruzione, Universita' e Ricerca - MIUR (D.Lgs 297/99)">
+							<isComposedBy>
+								<node id="VR111101" label="ESTATE FORMAZIONE -  Parte dedicata alla formazione relativa al Laboratorio Solare Termodinamico">
+								</node>
+								<node id="VR111102" label="GRIDA3 ING - Gestore di risorse condivise per analisi di dati e applicazioni ambientali">
+								</node>
+								<node id="VR111103" label="RT SIM GEMS - Modelli e metodologie innovative per il controllo la diagnostica la gestione di impianti termolelettrici combinati gas vapore">
+								</node>
+								<node id="VR111104" label="VENTO DI SARDEGNA - Vento di sardegna">
+								</node>
+								<node id="VR111105" label="CPS ESTATE - Laboratorio pubblico-privato per lo sviluppo di tecnologie per l'energia solare termica ad alta temperatura">
+								</node>
+								<node id="VR111106" label="FLUGEN - Metodologie computazionali ibride per l'analisi statistica del flusso genico in grandi dataset">
+								</node>
+								<node id="VR111107" label="LABORATORIO 5 BIO - Sviluppo di metodologie per la modellizzazione e lo studio di farmaci e biofarmaci">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1112" label="Ministero Istruzione, Universita' e Ricerca - MIUR (PON)">
+							<isComposedBy>
+								<node id="VR111201" label="SITI RICERCA  Nuove tecnologie per la bonifica e il ripristino ambientale dei siti contaminati">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1113" label="Ministero Sviluppo Economico  MISE (Industria 2015)">
+							<isComposedBy>
+								<node id="VR111301" label="INDUSTRIA 2015 PEC">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1114" label="POR Sardegna 2007-2013, POR Sardegna 2000-2006">
+							<isComposedBy>
+								<node id="VR111401" label="MOSKA - Mobile Organized Scientific Knowledge Access">
+								</node>
+								<node id="VR111402" label="SOCIAL EHR - Modelli collaborativi di patient empowerment">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1115" label="L.R. 7/2007 (Regione Sardegna, ricerca scientifica)">
+							<isComposedBy>
+								<node id="VR111501" label="FORWARD GENOMICS">
+								</node>
+								<node id="VR111502" label="BIO STAR COBIK - Ricerca su metodologie computazioni di informatica nel settore biomedico">
+								</node>
+								<node id="VR111503" label="POTENZIAMENTO RISORSE DI CALCOLO - Potenziamento e consolidamento delle risorse di calcolo del CRS4">
+								</node>
+								<node id="VR111504" label="FARMAEQUI - Realizzazione di una piattaforma per studi di equivalenza farmaceutica e bioequivalenza mediante modello bioinformatico di correlazione in vitro-vivo">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1116" label="L.R. 19/96 (Regione Sardegna, cooperazione internazionale)">
+							<isComposedBy>
+								<node id="VR111601" label="CLIMI ARIDI - Tecnologie innovative per la gestione di risorse idriche alternative in climi aridi">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1117" label="Altro (specificare)">
+							<isComposedBy>
+								<node id="VR111701" label="FISS 2006 - Finanziamento Istituti Scientifici Speciali (MIUR, DM 8/10/1996 n. 623">
+								</node>
+								<node id="VR111702" label="FISS 2007 - Finanziamento Istituti Scientifici Speciali (MIUR, DM 8/10/1996 n. 623">
+								</node>
+								<node id="VR111703" label="CYBERSAR - Cyberinfrastructure per la ricerca scientifica e tecnologica in	Sardegna (MIUR POR 2000/2006 Mis. II.2)">
+								</node>
+								<node id="VR111704" label="FIRB XP - Metodologie agili per la produzione di software (MIUR FIRB Art. 8 DM 199)">
+								</node>
+								<node id="VR111705" label="MOT RIC NDA - Architettura distribuita per la ricerca semantica e la fruizione personalizzata dei contenuti (MIUR DM. 593/2000 art. 5)">
+								</node>
+								<node id="VR111706" label="CALQUA GEMS - Piattaforma HW/SW per il Quantum Computing (MIUR DM. 593/2000 art. 5)">
+								</node>
+							</isComposedBy>
+						</node>
+					</isComposedBy>
+				</node>
+			</isComposedBy>
+		</node>
+		<node id="PRO12" label="Commessa esterna/Esternal service"></node>
+		<node id="PRO13" label="Commessa interna/Internan service"></node>
+	</isComposedBy>
+</node>						
+					
+						
+
+								
+
+
+							
+
+						
+						
+
+
+
+
+											
+			

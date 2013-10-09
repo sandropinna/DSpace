@@ -6193,7 +6193,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "false">progetticrs4</vocabulary>
        </field> 
        
        <field>
