@@ -150,7 +150,7 @@ public class Submissions extends AbstractDSpaceTransformer
         	//unfinished.setHead(T_s_head2);
         	unfinished.setHead("Non sei ancora autorizzato a fare nuovi inserimenti");
         	Para p = unfinished.addPara();
-        	p.addContent("L'amministratore dell'archivio verificherà i dati inseriti nel profilo e comunicherà via email su quali collezioni sei autorizzato ad inserire nuovi documenti");
+        	p.addContent("Il tuo profilo deve essere validato dall’amministratore di P-arch.  Attendi via email la conferma di autorizzazione");
         	//p.addHighlight("bold").addXref(contextPath+"/submit",T_s_info2b);
         	//p.addContent(T_s_info2c);
         	

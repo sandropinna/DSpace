@@ -36,7 +36,7 @@
 	<message key="xmlui.general.next">Avanti</message>
 	<message key="xmlui.general.untitled">Senza Titolo</message>
 	<message key="xmlui.general.home.title">Benvenuti su P-arch</message>
-	<message key="xmlui.general.home.description1line">P-arch è l'archivio istituzionale ad accesso aperto di Sardegna Ricerche. Contiene la documentazione scientifica prodotta dalla ricerca finanziata con fondi pubblici, ossia articoli scientifici, la digitalizzazione di programmi e di progetti pilota e sperimentali, nonché di tutti i documenti ad essi collegati come report, brevetti, contributi a convegni, marchi e design registrati, manuali, cataloghi e tutto quanto venga realizzato all'interno del Parco scientifico e tecnologico della Sardegna. </message>
+	<message key="xmlui.general.home.description1line">P-arch è l'archivio istituzionale ad accesso aperto del Parco Scientifico e Tecnologico della Sardegna. Contiene la documentazione scientifica prodotta dalla ricerca finanziata con fondi pubblici, ossia articoli scientifici, la digitalizzazione di programmi e di progetti pilota e sperimentali, nonché di tutti i documenti ad essi collegati come report, brevetti, contributi a convegni, marchi e design registrati, manuali, cataloghi e tutto quanto venga realizzato all'interno del Parco. </message>
 	<message key="xmlui.general.home.description2line">L'adeguamento della documentazione presente nell'archivio di P-arch agli standard internazionali (OAI-PMH), ne esalta la visibilità e garantisce al contempo un severo processo di controllo da parte della comunità scientifica internazionale e di conseguenza una adeguata validazione ed autorevolezza. Gli autori, previa registrazione, depositano direttamente i propri documenti nell'archivio. L'accesso alle informazioni ed ai documenti è libero. </message>
     <message key="xmlui.general.home.contacts">Contatti</message>
     <message key="xmlui.general.home.legalnotes">Note legali</message>
@@ -360,9 +360,9 @@
 	<message key="xmlui.EPerson.EPersonUtils.forgot_finished">Operazione conclusa</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ForgotPasswordFinished.java -->
-	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Password cancellata</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Password cancellata</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">La password e'stata cancellata.</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Password modificata</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Password modificata</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">La password e'stata modificata.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
 	<message key="xmlui.EPerson.InvalidToken.title">Inserimento non valido</message>
@@ -444,7 +444,7 @@
 	<message key="xmlui.EPerson.ResetPassword.email_address">Indirizzo email</message>
 	<message key="xmlui.EPerson.ResetPassword.new_password">Nuova password</message>
 	<message key="xmlui.EPerson.ResetPassword.confirm_password">Ridigita per confermare</message>
-	<message key="xmlui.EPerson.ResetPassword.submit">Password cancellata</message>
+	<message key="xmlui.EPerson.ResetPassword.submit">Modifica</message>
 	<message key="xmlui.EPerson.ResetPassword.error_invalid_password">Scegliere una password di almeno sei caratteri</message>
 	<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">Inserire nuovamente la password per confermare</message>
 
@@ -473,7 +473,7 @@
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
 	<message key="xmlui.EPerson.VerifyEmail.title">Verifica invio email</message>
 	<message key="xmlui.EPerson.VerifyEmail.head">Verifica invio email</message>
-	<message key="xmlui.EPerson.VerifyEmail.para">Una email e' stata inviata a{0} contenente un URL speciale e ulteriori istruzioni.</message>
+	<message key="xmlui.EPerson.VerifyEmail.para">Una email e' stata inviata a {0} contenente un URL speciale e ulteriori istruzioni.</message>
 
 
 
