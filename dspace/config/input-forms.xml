@@ -390,7 +390,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
       </field>      
      
@@ -605,7 +605,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
       </field>      
      
@@ -794,7 +794,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Stato</label>
          <input-type value-pairs-name="status_pubblicazione">dropdown</input-type>
-         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai depositando</hint>
+         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai inserendo</hint>
          <required></required>
        </field> 
 
@@ -805,7 +805,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -865,7 +865,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Da pagina a pagina</label>
          <!-- <input-type>pagenumber</input-type> -->
          <input-type>onebox</input-type>
-         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento </hint>
+         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento usando il trattino come separatore (Es: 23-32) </hint>
          <required></required>
        </field> 
        
@@ -1092,7 +1092,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Stato</label>
          <input-type value-pairs-name="status_pubblicazione">dropdown</input-type>
-         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai depositando</hint>
+         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai inserendo</hint>
          <required></required>
        </field> 
 
@@ -1103,7 +1103,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -1163,7 +1163,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Da pagina a pagina</label>
          <!-- <input-type>pagenumber</input-type> -->
          <input-type>onebox</input-type>
-         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento </hint>
+         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento usando il trattino come separatore (Es: 23-32) </hint>
          <required></required>
        </field> 
        
@@ -1378,7 +1378,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
        
@@ -1651,7 +1651,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
        
@@ -3324,7 +3324,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
      </field>
          
@@ -3563,7 +3563,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
      </field>
          
@@ -3812,7 +3812,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data</label>
          <type-bind>Libro</type-bind>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
        
@@ -3987,7 +3987,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
       </field>
       
@@ -4000,7 +4000,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <!-- <input-type>pagenumber</input-type> -->
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento </hint>
+         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento usando il trattino come separatore (Es: 23-32) </hint>
          <required></required>
        </field>
       
@@ -4010,10 +4010,10 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>relation</dc-element>
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Titolo della pubblicazione</label>
+         <label>Titolo del libro</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Inserire il titolo della pubblicazione</hint>
+         <hint>Inserire il titolo del libro</hint>
          <required></required>
        </field>
        
@@ -4427,7 +4427,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data</label>
          <type-bind>Libro</type-bind>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
        
@@ -4615,7 +4615,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
       </field>
       
@@ -4628,7 +4628,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <!-- <input-type>pagenumber</input-type> -->
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento </hint>
+         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento usando il trattino come separatore (Es: 23-32) </hint>
          <required></required>
        </field>
       
@@ -4638,10 +4638,10 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>relation</dc-element>
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Titolo della pubblicazione</label>
+         <label>Titolo del libro</label>
          <type-bind>Contributo in un libro</type-bind>
          <input-type>onebox</input-type>
-         <hint>Inserire il titolo della pubblicazione</hint>
+         <hint>Inserire il titolo del libro</hint>
          <required></required>
        </field>
        
@@ -5042,7 +5042,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data</label>
          <type-bind>Manuale,Catalogo</type-bind>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>      
 
@@ -5267,7 +5267,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Data</label>
          <type-bind>Manuale,Catalogo</type-bind>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>      
 
@@ -5458,7 +5458,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -5663,7 +5663,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -6319,7 +6319,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Stato</label>
          <input-type value-pairs-name="status_pubblicazione_3">dropdown</input-type>
-         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai depositando</hint>
+         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai inserendo</hint>
          <required></required>
      </field> 
 
@@ -6330,7 +6330,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -6535,7 +6535,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Stato</label>
          <input-type value-pairs-name="status_pubblicazione_3">dropdown</input-type>
-         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai depositando</hint>
+         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai inserendo</hint>
          <required></required>
      </field> 
 
@@ -6546,7 +6546,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -6739,7 +6739,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Stato</label>
          <input-type value-pairs-name="status_pubblicazione_3">dropdown</input-type>
-         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai depositando</hint>
+         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai inserendo</hint>
          <required></required>
      </field> 
 
@@ -6750,7 +6750,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -6955,7 +6955,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Stato</label>
          <input-type value-pairs-name="status_pubblicazione_3">dropdown</input-type>
-         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai depositando</hint>
+         <hint>Selezionare la voce corrispondente allo stato attuale del documento che stai inserendo</hint>
          <required></required>
      </field> 
 
@@ -6966,7 +6966,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -7162,7 +7162,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
@@ -7355,7 +7355,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
       </field>
       
@@ -7367,7 +7367,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>Da pagina a pagina</label>
          <!-- <input-type>pagenumber</input-type> -->
          <input-type>onebox</input-type>
-         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento </hint>
+         <hint>Inserisci gli estremi delle pagine iniziali e finali del documento usando il trattino come separatore (Es: 23-32) </hint>
          <required></required>
        </field>
       
@@ -7377,9 +7377,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>relation</dc-element>
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Titolo della pubblicazione</label>
+         <label>Titolo del libro</label>
          <input-type>onebox</input-type>
-         <hint>Inserire il titolo della pubblicazione</hint>
+         <hint>Inserire il titolo del libro</hint>
          <required></required>
        </field>
        
@@ -8079,7 +8079,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data</label>
          <input-type>date</input-type>
-         <hint>Inserisci la data in cui il documento è stato redatto</hint>
+         <hint>Inserisci la data in cui il documento è stato redatto o pubblicato</hint>
          <required>Devi inserire almeno l'anno</required>
        </field>
 
