@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CNR-IFT PROGETTI -->
+<node label="PROGETTI" id="CNR-IFT PROGETTI">
+	<isComposedBy>
+		<node id="100" label="Progetto A">
+		</node>
+		<node id="200" label="Progetto B">
+		</node>
+		<node id="300" label="Progetto C">
+		</node>
+	</isComposedBy>
+</node>						
+					
+						
+
+								
+
+
+							
+
+						
+						
+
+
+
+
+											
+			

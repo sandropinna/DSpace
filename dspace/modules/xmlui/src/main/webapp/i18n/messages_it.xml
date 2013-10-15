@@ -362,7 +362,7 @@
 	<!-- org.dspace.app.xmlui.eperson.ForgotPasswordFinished.java -->
 	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Password modificata</message>
 	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Password modificata</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">La password e'stata modificata.</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">La password e' stata modificata.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
 	<message key="xmlui.EPerson.InvalidToken.title">Inserimento non valido</message>

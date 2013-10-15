@@ -413,30 +413,10 @@
             </xsl:choose>
       </xsl:variable>
 
-      <xsl:choose>
-      
-      	  <!-- subject.program row  Unità organizzativa-->
-          <xsl:when test="$clause = 1 and (dim:field[@element='subject' and @qualifier='program'])">
-                    <div class="simple-item-view-other">
-	                <span class="bold">Unità organizzativa:</span>
-	                <span>
-	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='program']">
-		                    <xsl:copy-of select="substring-after(./node(),'Program::')"/>
-		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='program']) != 0">
-		                        	<xsl:text>; </xsl:text>
-		                    		<br/>
-		                        </xsl:if>
-	                    </xsl:for-each>
-	                </span>
-	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
-                <xsl:with-param name="clause" select="($clause + 1)"/>
-                <xsl:with-param name="phase" select="$otherPhase"/>
-              </xsl:call-template>
-          </xsl:when> 
+      <xsl:choose>     	  
       	  
           <!-- Title row -->
-          <xsl:when test="$clause = 2">
+          <xsl:when test="$clause = 1">
 
               <xsl:choose>
                   <xsl:when test="count(dim:field[@element='title'][not(@qualifier)]) &gt; 1">
@@ -475,7 +455,7 @@
           </xsl:when>
 
           <!-- title.alternative row -->
-          <xsl:when test="$clause = 3 and (dim:field[@element='title' and @qualifier='alternative'])">
+          <xsl:when test="$clause = 2 and (dim:field[@element='title' and @qualifier='alternative'])">
                     <div class="simple-item-view-other">
 	                <span>
 	                  <h1>
@@ -497,7 +477,7 @@
           
           
           <!-- Author(s) row -->
-          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'][@qualifier='author'] or dim:field[@element='creator'] )">
+          <xsl:when test="$clause = 3 and (dim:field[@element='contributor'][@qualifier='author'] or dim:field[@element='creator'] )">
                     <div class="simple-item-view-authors">
 	                    <xsl:choose>
 	                        <xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
@@ -534,7 +514,7 @@
           
           
           <!-- contributor row -->
-          <xsl:when test="$clause = 5 and (dim:field[@element='contributor'])">
+          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Istituzione:</span>
 	                	<span>
@@ -549,6 +529,26 @@
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
           </xsl:when>
+          
+          <!-- subject.program row  Unità organizzativa-->
+          <xsl:when test="$clause = 5 and (dim:field[@element='subject' and @qualifier='program'])">
+                    <div class="simple-item-view-other">
+	                <span class="bold">Unità organizzativa:</span>
+	                <span>
+	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='program']">
+		                    <xsl:copy-of select="substring-after(./node(),'Program::')"/>
+		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='program']) != 0">
+		                        	<xsl:text>; </xsl:text>
+		                    		<br/>
+		                        </xsl:if>
+	                    </xsl:for-each>
+	                </span>
+	            </div>
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
+                <xsl:with-param name="clause" select="($clause + 1)"/>
+                <xsl:with-param name="phase" select="$otherPhase"/>
+              </xsl:call-template>
+          </xsl:when> 
           
            <!-- Abstract row -->
           <xsl:when test="$clause = 6 and (dim:field[@element='description' and @qualifier='abstract' and descendant::text()])">
