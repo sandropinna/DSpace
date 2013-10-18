@@ -687,7 +687,7 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
 	<message key="xmlui.Submission.submit.CCLicenseStep.head">Licenza Creative Commons</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.info1">E' possibile aggiungere  una <a href="http://creativecommons.org/">Creative Commons</a> Licenza all'item. <strong>Le licenza Creative Commons definiscono i diritti di accesso degli utenti sull'item pubblicato.</strong> Se si vuole selezionare una licenza Creative Commons cliccare il tasto sottostante. E' possibile accedere al sito web Creative Common, in cui sono presenti diverse tipologie di licenze. Dopo aver selezionato una licenza, e' possibile tornare a questa pagina.</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.info1">E' possibile scegliere se si desidera o no distribuire il proprio lavoro con  una licenza <a href="http://creativecommons.org/">Creative Commons</a>, che ne consente la libera circolazione. <strong>La licenza Creative Commons può essere usata solo se non è stato firmato un contratto in cui i diritti del lavoro sono stati ceduti a terzi.</strong> L'uso della licenza Creative Commons è comunque del tutto volontario. Se si desidera usare la licenza, selezionare le opzioni relative alla licenza prescelta. Se non si intende o non si può utilizzare una licenza Creative Commons, selezionare in basso il pulsante 'Avanti'.</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Accedere al sito web Creative Commons per selezionare una licenza</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.license">Licenza</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_remove">Rimuovere questa licenza Creative Commons </message>
@@ -739,7 +739,32 @@
 	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_cancel">Cancella</message>
 
 
-
+	<!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
+    <message key="xmlui.Submission.submit.AccessStep.head">Access Settings</message>
+    <message key="xmlui.Submission.submit.AccessStep.access_settings">Visible to a group of selected users (no selection needed for Anonymous)</message>
+    <message key="xmlui.Submission.submit.AccessStep.open_access">Item will be visible once accepted into archive</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo">Data di fine embargo</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Visible/Embargoed</message>
+    <message key="xmlui.Submission.submit.AccessStep.name">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.description">Description</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason">Reason</message>
+    <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirm Policy &amp; add another</message>
+    <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Groups</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_format_date">Error format date</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_missing_date">When Embargo selected, date is required</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">An identical policy for this group and this action is already in place.</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_policies">Policies List</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings">Private Item</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings_help">If selected, the item won't be searchable</message>
+    <message key="xmlui.Submission.submit.AccessStep.column0">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.column1">Action</message>
+    <message key="xmlui.Submission.submit.AccessStep.column2">Group</message>
+    <message key="xmlui.Submission.submit.AccessStep.column3">Start Date</message>
+    <message key="xmlui.Submission.submit.AccessStep.column4">End Date</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Edit</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Remove</message>
+    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Inserire la data esatta di scadenza dell'embargo nella forma aaaa-mm-dd. A partire da tale data il documento sarà reso accessibile a tutti (per restringere l’accesso per sempre inserire 'forever')</message>
+	
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		
