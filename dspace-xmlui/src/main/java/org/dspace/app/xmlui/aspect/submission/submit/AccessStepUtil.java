@@ -61,7 +61,7 @@ public class AccessStepUtil extends AbstractDSpaceTransformer {
     public static final int RADIO_OPEN_ACCESS_ITEM_VISIBLE=0;
     public static final int RADIO_OPEN_ACCESS_ITEM_EMBARGOED=1;
 
-    public static final int CB_EMBARGOED=10;
+    //public static final int CB_EMBARGOED=10;
     private String globalReason = null;
 
     private boolean isAdvancedFormEnabled=false;
@@ -187,14 +187,14 @@ public class AccessStepUtil extends AbstractDSpaceTransformer {
                 globalReason = rp.getRpDescription();
             }
         }
-        CheckBox privateCheckbox = form.addItem().addCheckBox("emabrgo_option");
-        privateCheckbox.setLabel(T_item_embargoed);
-        if(date!=null){
-            privateCheckbox.addOption(true, CB_EMBARGOED, "");
-        }
-        else{
-            privateCheckbox.addOption(false, CB_EMBARGOED, "");
-        }
+       // CheckBox privateCheckbox = form.addItem().addCheckBox("emabrgo_option");
+       // privateCheckbox.setLabel(T_item_embargoed);
+       // if(date!=null){
+       //     privateCheckbox.addOption(true, CB_EMBARGOED, "");
+       // }
+       // else{
+       //     privateCheckbox.addOption(false, CB_EMBARGOED, "");
+       // }
 
         // Date
         Text startDate = form.addItem().addText("embargo_until_date");
