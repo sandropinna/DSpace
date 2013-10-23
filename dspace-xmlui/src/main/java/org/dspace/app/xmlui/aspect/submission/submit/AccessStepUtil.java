@@ -197,7 +197,7 @@ public class AccessStepUtil extends AbstractDSpaceTransformer {
 //        }
 
         // Date
-        Text startDate = form.addItem().addText("embargo_until_date");
+        Text startDate = form.addItem().addText("embargo_until_date_no_javascript");
         startDate.setLabel(T_item_embargoed);
         if (errorFlag == org.dspace.submit.step.AccessStep.STATUS_ERROR_FORMAT_DATE){
             startDate.addError(T_error_date_format);
