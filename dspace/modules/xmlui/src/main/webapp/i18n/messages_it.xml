@@ -652,7 +652,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.unsupported">(Non supportato)</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_edit">modifica</message>
 	<message key="xmlui.Submission.submit.UploadStep.checksum">Revisione File:</message>
-	<message key="xmlui.Submission.submit.UploadStep.submit_remove">Rimuovi i files selezionati</message>
+	<message key="xmlui.Submission.submit.UploadStep.submit_remove">Rimuovi i file selezionati</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
 	<message key="xmlui.Submission.submit.EditFileStep.head">Modifica File</message>
@@ -677,7 +677,7 @@
 	<message key="xmlui.Submission.submit.ReviewStep.submit_jump_files">Aggiungere o rimuovere un file</message>
 	<message key="xmlui.Submission.submit.ReviewStep.head1">Domande iniziali</message>
 	<message key="xmlui.Submission.submit.ReviewStep.head2">Pagina di descrizione {0}</message>
-	<message key="xmlui.Submission.submit.ReviewStep.head3">Files Caricati</message>
+	<message key="xmlui.Submission.submit.ReviewStep.head3">File Caricati</message>
 	<message key="xmlui.Submission.submit.ReviewStep.multiple_titles">Titoli multipli</message>
 	<message key="xmlui.Submission.submit.ReviewStep.published_before">Gia' pubblicato</message>
 	<message key="xmlui.Submission.submit.ReviewStep.no_metadata">-</message>
@@ -709,7 +709,7 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
 	<message key="xmlui.Submission.submit.CompletedStep.head">Inserimento completo</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.info1">L'inserimento e' stato inserito nel processo di revisione di questa collezione. Riceverai una email di notifica non appena il tuo inserimento verra' inserito nella collezione, o se si verificheranno problemi. E' possibile verificare lo stato di revisione dell'item accedendo alla pagina degli inserimenti.</message>	
+	<message key="xmlui.Submission.submit.CompletedStep.info1">Il documento e' stato inserito nel processo di revisione di questa collezione. Riceverai una email di notifica non appena il tuo inserimento farà parte della collezione prescelta, o se si verificheranno problemi. E' possibile controllare lo stato di revisione dell'item accedendo alla pagina degli inserimenti.</message>	
 	<message key="xmlui.Submission.submit.CompletedStep.go_submission">Ritornare alla pagina di inserimento</message>	
 	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Inserisci un nuovo item</message>		
 
@@ -764,6 +764,35 @@
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Edit</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Remove</message>
     <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Inserire la data esatta di scadenza dell'embargo nella forma aaaa-mm-dd. A partire da tale data il documento sarà reso accessibile a tutti (per restringere l’accesso per sempre inserire la data 10000-01-01)</message>
+	
+	
+	<message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Upload File(s)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">File</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Per trasferire un documento in questo archivio, clicca sul pulsante "Scegli file" per selezionare il file e su quello "apri" per copiarlo nell'archivio. Potresti inoltre utilizzare gli strumenti su SHERPA RoMEO per verificare in anticipo le politiche sui depositi seguite dai vari editori scientifici. Potrai inoltre aggiungere dei file addizionali al documento principale cliccando su "upload file &amp; add another".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">The item must contain at least one file.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">There was a problem uploading your file. Either the filename you entered was incorrect, there was a network problem which prevented the file from reaching us correctly, or you have attempted to upload a file format marked for internal system use only. Please try again.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">The file has not been uploaded as it appears to contain a virus. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">A technical problem was encountered whilst attempting to scan the file for viruses. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">File Description</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Puoi fornire una breve descrizione del file, per esempio "Articolo principale", o "Paper".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Upload file &amp; add another</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Files Uploaded</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primary</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column1">  </message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column2">File</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Size</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Description</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Unknown</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">unknown format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Supported)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.known">(Known)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(Unsupported)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Edit</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">File checksum:</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Remove selected files</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Policies</message>
 	
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -843,10 +872,10 @@
 	<message key="xmlui.administrative.ItemExport.item.not.found">L'item richiesto non è stato trovato.</message>
 	<message key="xmlui.administrative.ItemExport.collection.not.found">La collezione richiesta non è stata trovata.</message>
 	<message key="xmlui.administrative.ItemExport.community.not.found">La comunità richiesta non è stata trovata.</message>
-	<message key="xmlui.administrative.ItemExport.item.success">L'item è stato esportato con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei files di esportazioni già disponibili.</message>
-	<message key="xmlui.administrative.ItemExport.collection.success">La collezione è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei files di esportazioni già disponibili.</message>
-	<message key="xmlui.administrative.ItemExport.community.success">La comunità è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei files di esportazioni già disponibili.</message>
-	<message key="xmlui.administrative.ItemExport.available.head">Files di esportazione disponibili per il download:</message>
+	<message key="xmlui.administrative.ItemExport.item.success">L'item è stato esportato con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei file di esportazioni già disponibili.</message>
+	<message key="xmlui.administrative.ItemExport.collection.success">La collezione è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei file di esportazioni già disponibili.</message>
+	<message key="xmlui.administrative.ItemExport.community.success">La comunità è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei file di esportazioni già disponibili.</message>
+	<message key="xmlui.administrative.ItemExport.available.head">File di esportazione disponibili per il download:</message>
 
 
 	<!-- org.dspace.app.xmlui.administrative.eperson.ManageEPeopleMain -->
@@ -1049,8 +1078,8 @@
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_2">Supportato</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.internal">Interno</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.internal_help">I formati marcati come interni sono nascosti all'utente, e utilizzati per scopi amministrativi.</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions">Estensioni files</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions_help">Le estensioni sono estensioni di files utilizzate per identificare automaticamente il formato dei files caricati. E' possibile aggiungere diverse estensioni per ogni formato.</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions">Estensioni file</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions_help">Le estensioni sono estensioni di file utilizzate per identificare automaticamente il formato dei file caricati. E' possibile aggiungere diverse estensioni per ogni formato.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.EditMetadataSchema.java -->
 	<message key="xmlui.administrative.registries.EditMetadataSchema.title">Schema metadata</message>
@@ -1660,13 +1689,13 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Editore</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Soggetto</message>
 
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Files in questo item</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Files</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">File in questo item</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">File</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Dimensione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Formato</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Mostra</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Mostra/<wbr/>Apri</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Nessun files in questo item.</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Nessun file in questo item.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-kilobytes">Kb</message>
