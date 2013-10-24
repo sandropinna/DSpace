@@ -763,7 +763,7 @@
     <message key="xmlui.Submission.submit.AccessStep.column4">End Date</message>
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Edit</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Remove</message>
-    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Inserire la data esatta di scadenza dell'embargo nella forma aaaa-mm-dd. A partire da tale data il documento sarà reso accessibile a tutti (per restringere l’accesso per sempre inserire 'forever')</message>
+    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Inserire la data esatta di scadenza dell'embargo nella forma aaaa-mm-dd. A partire da tale data il documento sarà reso accessibile a tutti (per restringere l’accesso per sempre inserire la data 10000-01-01)</message>
 	
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

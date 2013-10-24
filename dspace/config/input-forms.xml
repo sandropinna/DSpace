@@ -489,27 +489,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -704,27 +684,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -989,27 +949,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
        </field>
        
          
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        
      </page>
@@ -1287,27 +1227,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
        </field>
        
          
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        
      </page>
@@ -1548,27 +1468,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        
      </page>
@@ -1821,27 +1721,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        
      </page>
@@ -2359,29 +2239,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Brevetto</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Brevetto</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        <!-- Marchio registrato -->
        <field>
@@ -2434,29 +2292,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Marchio registrato</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Marchio registrato</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        <!-- Design registrato -->
        <field>
@@ -2509,29 +2345,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Design registrato</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Design registrato</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
+      
        
      </page>
    </form>
@@ -3083,29 +2897,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Brevetto</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Brevetto</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        <!-- Marchio registrato -->
        <field>
@@ -3158,29 +2950,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Marchio registrato</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Marchio registrato</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        <!-- Design registrato -->
        <field>
@@ -3233,29 +3003,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Design registrato</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Design registrato</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -3462,27 +3210,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -3701,27 +3429,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -4199,29 +3907,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Libro</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Libro</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        <!-- Contributo in un libro -->
        <field>
@@ -4301,29 +3987,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Contributo in un libro</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Contributo in un libro</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -4827,29 +4491,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Libro</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Libro</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        <!-- Contributo in un libro -->
        <field>
@@ -4929,29 +4571,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Contributo in un libro</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Contributo in un libro</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
      </page>
    </form>
@@ -5140,29 +4760,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Manuale,Catalogo</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Manuale,Catalogo</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        
      </page>
@@ -5365,29 +4963,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <type-bind>Manuale,Catalogo</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <type-bind>Manuale,Catalogo</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
        
        
      </page>
@@ -5562,27 +5138,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
      </page>
    </form>
    
@@ -5767,27 +5323,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
+      
      </page>
    </form>
    
@@ -5971,27 +5507,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
+      
      </page>
    </form>
    
@@ -6230,27 +5746,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
      </page>
    </form>
          
@@ -6434,27 +5930,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
      </page>
    </form>
    
@@ -6650,27 +6126,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
      </page>
    </form>
       
@@ -6854,27 +6310,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
      </page>
    </form>    
    
@@ -7070,27 +6506,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>embargoend</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data Fine Embargo</label>
-         <input-type>onebox</input-type>
-         <hint>Inserisci la data di fine embargo (yyyy-mm-dd)</hint>
-         <required></required>
-       </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>embargo</dc-element>
-         <dc-qualifier>description</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Motivazione Embargo</label>
-         <input-type>textarea</input-type>
-         <hint>Inserisci le motivazioni dell'embargo</hint>
-         <required></required>
-       </field>
      </page>
    </form>    
      
