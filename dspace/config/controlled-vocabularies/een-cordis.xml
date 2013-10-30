@@ -692,7 +692,7 @@ EEN CORDIS
 		
 		<node id="EEN16" label="SCIENZE BIOLOGICHE ">
 			<isComposedBy>
-				<node id="EEN161" label="Medicina, salute ">
+				<node id="EEN161" label="Medicina, salute umana">
 					<isComposedBy>
 						<node id="VR161101" label="Biostatistica, Epidemiologia">
 						</node>
@@ -724,7 +724,7 @@ EEN CORDIS
 						</node>
 						<node id="VR161115" label="Neurologia, ricerca sul cervello">
 						</node>
-						<node id="VR161116" label="Prodotti farmaceutici / droghe">
+						<node id="VR161116" label="Prodotti farmaceutici / farmaci">
 						</node>
 						<node id="VR161117" label="Fisiologia">
 						</node>
