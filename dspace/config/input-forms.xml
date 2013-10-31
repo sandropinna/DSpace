@@ -1905,33 +1905,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Se il documento ha un titolo alternativo, inseriscilo qui</hint>
          <required></required>
-       </field>
-       
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Abstract</label>
-         <type-bind>Marchio registrato</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci l'indicazione dei beni e/o servizi secondo la classificazione di Nizza e se si tratta di marchio collettivo o individuale</hint>
-         <required></required>
-       </field>
-       
-        <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <!-- An input-type of twobox MUST be marked as repeatable -->
-         <repeatable>true</repeatable>
-         <label>Keywords</label>
-         <type-bind>Marchio registrato</type-bind>
-         <input-type>twobox</input-type>
-         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
-         <required></required>
-        <!--  <vocabulary>srsc</vocabulary>  -->
-       </field> 
+       </field>      
+        
        
        <field>
          <dc-schema>dc</dc-schema>
@@ -2034,32 +2009,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Abstract</label>
-         <type-bind>Design registrato</type-bind>
-         <input-type>textarea</input-type>
-         <hint>Inserisci l'indicazione di prodotto secondo la classificazione di Locarno</hint>
-         <required></required>
-       </field>
-       
-        <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <!-- An input-type of twobox MUST be marked as repeatable -->
-         <repeatable>true</repeatable>
-         <label>Keywords</label>
-         <type-bind>Design registrato</type-bind>
-         <input-type>twobox</input-type>
-         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
-         <required></required>
-         <!-- <vocabulary>srsc</vocabulary>  -->
-       </field> 
-       
+             
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
@@ -2245,6 +2195,32 @@ it, please enter the types and the actual numbers or codes below.</hint>
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+        <!--  <vocabulary>srsc</vocabulary>  -->
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <type-bind>Marchio registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci l'indicazione dei beni e/o servizi secondo la classificazione di Nizza e se si tratta di marchio collettivo o individuale</hint>
+         <required></required>
+       </field>       
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
          <dc-qualifier>progetti</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Progetto</label>
@@ -2295,6 +2271,32 @@ it, please enter the types and the actual numbers or codes below.</hint>
        
        
        <!-- Design registrato -->
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Keywords</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>twobox</input-type>
+         <hint>Inserisci dei termini specifici che descrivano il contenuto del documento</hint>
+         <required></required>
+         <!-- <vocabulary>srsc</vocabulary>  -->
+       </field> 
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Abstract</label>
+         <type-bind>Design registrato</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Inserisci l'indicazione di prodotto secondo la classificazione di Locarno</hint>
+         <required></required>
+       </field>
+       
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>subject</dc-element>
