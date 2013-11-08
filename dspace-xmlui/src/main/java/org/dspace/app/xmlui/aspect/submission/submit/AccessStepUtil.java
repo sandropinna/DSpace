@@ -57,6 +57,8 @@ public class AccessStepUtil extends AbstractDSpaceTransformer {
 
     private static final Message T_label_date_help =
             message("xmlui.administrative.authorization.AccessStep.label_date_help");
+    private static final Message T_label_reason_help =
+            message("xmlui.administrative.authorization.AccessStep.label_reason_help");
 
     public static final int RADIO_OPEN_ACCESS_ITEM_VISIBLE=0;
     public static final int RADIO_OPEN_ACCESS_ITEM_EMBARGOED=1;
@@ -84,6 +86,7 @@ public class AccessStepUtil extends AbstractDSpaceTransformer {
     public void addReason(String reason_, List form, int errorFlag) throws WingException {
         TextArea reason = form.addItem("reason", null).addTextArea("reason");
         reason.setLabel(T_reason);
+        reason.setHelp(T_label_reason_help);
 
         if(!isAdvancedFormEnabled){
             if(globalReason!=null)

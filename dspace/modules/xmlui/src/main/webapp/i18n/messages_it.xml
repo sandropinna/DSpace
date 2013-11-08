@@ -747,7 +747,7 @@
     <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Visible/Embargoed</message>
     <message key="xmlui.Submission.submit.AccessStep.name">Name</message>
     <message key="xmlui.Submission.submit.AccessStep.description">Description</message>
-    <message key="xmlui.Submission.submit.AccessStep.reason">Reason</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason">Motivazione embargo</message>
     <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirm Policy &amp; add another</message>
     <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Groups</message>
     <message key="xmlui.Submission.submit.AccessStep.error_format_date">Error format date</message>
@@ -764,7 +764,7 @@
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Edit</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Remove</message>
     <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Inserire la data esatta di scadenza dell'embargo nella forma aaaa-mm-dd.<br></br> A partire da tale data il documento sarà reso accessibile a tutti (per restringere l’accesso per sempre inserire la data 10000-01-01)</message>
-	
+	<message key="xmlui.administrative.authorization.AccessStep.label_reason_help">Puoi inserire la motivazione dell'embargo</message>
 	
 	<message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Upload File(s)</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">File</message>
