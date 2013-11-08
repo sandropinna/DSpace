@@ -78,7 +78,7 @@
 				</node>
 				<node id="PRO111" label="Finanziamento nazionale/regionale">
 					<isComposedBy>
-						<node id="PRO1111" label="Ministero Istruzione, Universit� e Ricerca - MIUR">
+						<node id="PRO1111" label="Ministero Istruzione, Università e Ricerca - MIUR">
 							<isComposedBy>
 								<node id="VR111101" label="CAGLIARI 2020">
 								</node>
@@ -156,7 +156,7 @@
 								</node>
 								<node id="VR111502" label="CLIMI ARIDI - Tecnologie innovative per la gestione di risorse idriche alternative in climi aridi (L.R. 19/96)">
 								</node>
-								<node id="VR111503" label="EVA � Sviluppo di una piattaforma SW che abilita su uno smartphone/tablet le funzioni di assistente vocale tramite un avatar 3D antropomorfo con sembianze adatte ai vari campi e situazioni di utilizzo (L.R. 37/98)">
+								<node id="VR111503" label="EVA - Sviluppo di una piattaforma SW che abilita su uno smartphone/tablet le funzioni di assistente vocale tramite un avatar 3D antropomorfo con sembianze adatte ai vari campi e situazioni di utilizzo (L.R. 37/98)">
 								</node>
 							</isComposedBy>
 						</node>
@@ -172,7 +172,7 @@
 		</node>
 		<node id="PRO12" label="Commessa esterna/Esternal service (committente: specificare un ente pubblico/privato diverso da RAS/SR/CRS4)">
 			<isComposedBy>
-				<node id="VR121101" label="ADVISE - Analisi di processi e tracciabilita' in campo clinico (Inpeco)">
+				<node id="VR121101" label="ADVISE - Analisi di processi e tracciabilità in campo clinico (Inpeco)">
 				</node>
 				<node id="VR121102" label="AGIP 4 - Codici paralleli di elaborazione geofisica">
 				</node>
@@ -238,7 +238,7 @@
 				</node>
 				<node id="VR121133" label="EXO - Simulatore bruciatore ad idrogeno (Exo New Energy e Fluent Italia)">
 				</node>
-				<node id="VR121134" label="EXTREME - Attivita' modellistica per la quantificazione della pericolosita' di propagazione degli incendi boschivi in condizioni metereologiche estreme (CNR)">
+				<node id="VR121134" label="EXTREME - Attività modellistica per la quantificazione della pericolosità di propagazione degli incendi boschivi in condizioni metereologiche estreme (CNR)">
 				</node>	
 				<node id="VR121135" label="EYESIM (Dies srl)">
 				</node>
