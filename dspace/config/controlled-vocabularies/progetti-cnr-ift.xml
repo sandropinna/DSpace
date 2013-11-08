@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- CNR-IFT PROGETTI -->
-<node label="PROGETTI" id="CNR-IFT PROGETTI">
+<node label="Progetti" id="Progetti">
 	<isComposedBy>
 		<node id="100" label="Progetto A">
 		</node>

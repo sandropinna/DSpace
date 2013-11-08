@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Istituzioni -->
+<node label="Istituzioni" id="Istituzioni">
+	<isComposedBy>
+		<node id="100" label="Sardegna Ricerche">
+		</node>
+		<node id="200" label="CRS4">
+		</node>
+		<node id="300" label="Porto Conte Ricerche">
+		</node>
+		<node id="400" label="CNR">
+		</node>
+	</isComposedBy>
+</node>						
+					
+						
+
+								
+
+
+							
+
+						
+						
+
+
+
+
+											
+			
