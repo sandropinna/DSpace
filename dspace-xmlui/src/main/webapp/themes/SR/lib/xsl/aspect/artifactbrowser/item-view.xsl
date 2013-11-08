@@ -917,7 +917,7 @@
           </xsl:otherwise>
         </xsl:choose>
 
-         <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
+        <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
     </xsl:template>
 	<!-- Articolo end -->
@@ -5740,10 +5740,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Inventore:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='inventorperson'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventorperson']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='inventorperson']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventorperson']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                   
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Brevetto">
@@ -5752,15 +5755,19 @@
               		</xsl:call-template>
           </xsl:when>
           
+                   
            <!-- contributor.inventororganisation row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and @qualifier='inventororganisation'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Inventore:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='inventororganisation'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventororganisation']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='inventororganisation']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventororganisation']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                       
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Brevetto">
@@ -5774,10 +5781,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolare:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='author'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='author']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                       
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Brevetto">
@@ -5791,10 +5801,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolare:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='other'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='other']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each> 	                    
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Brevetto">
@@ -6187,10 +6200,14 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolare:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='author'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		
+		                    <xsl:for-each select="dim:field[@element='contributor' and @qualifier='author']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                      
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Marchio-registrato">
@@ -6204,10 +6221,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolare-Organizzazione:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='other'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='other']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>  	                    
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Marchio-registrato">
@@ -6608,10 +6628,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Autore:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='inventorperson'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventorperson']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='inventorperson']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventorperson']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                      
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Design-registrato">
@@ -6625,10 +6648,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Autore-Organizzazione:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='inventororganisation'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventororganisation']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='inventororganisation']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='inventororganisation']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                     
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Design-registrato">
@@ -6642,10 +6668,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolare:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='author'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='author']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='author']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>  	                    
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Design-registrato">
@@ -6659,10 +6688,13 @@
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolare-Organizzazione:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='other'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
-		                    	<br/>
-		                    </xsl:if>	                    
+	                		<xsl:for-each select="dim:field[@element='contributor' and @qualifier='other']">
+		                    	<xsl:copy-of select="./node()"/>
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+		                      			<xsl:text>; </xsl:text>
+		                    			<br/>
+		                    		</xsl:if>
+	                    	</xsl:for-each>                      
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Design-registrato">

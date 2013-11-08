@@ -811,7 +811,7 @@ EEN CORDIS
 						</node>
 					</isComposedBy>
 				</node>
-				<node id="EEN172" label="Silvicoltura, tecnologia forestale">
+				<node id="EEN172" label="Silvicoltura, scienze e tecnologie forestali">
 					<isComposedBy>
 						<node id="VR172101" label="Tecnologia forestale">
 						</node>
@@ -819,7 +819,7 @@ EEN CORDIS
 						</node>
 						<node id="VR172103" label="Cartotecnica">
 						</node>
-						<node id="VR172104" label="Silvicultura">
+						<node id="VR172104" label="Silvicoltura, scienze forestali">
 						</node>
 						<node id="VR172105" label="Prodotti del legno">
 						</node>
