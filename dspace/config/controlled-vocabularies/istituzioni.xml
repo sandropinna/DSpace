@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Istituzioni -->
-<node label="Istituzioni" id="Istituzioni">
+<node label="" id="Istituzioni">
 	<isComposedBy>
 		<node id="100" label="Sardegna Ricerche">
 		</node>
