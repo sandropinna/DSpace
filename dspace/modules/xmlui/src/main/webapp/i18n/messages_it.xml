@@ -692,6 +692,8 @@
 	<message key="xmlui.Submission.submit.CCLicenseStep.license">Licenza</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_remove">Rimuovere questa licenza Creative Commons </message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.no_license">Nessuna licenza Creative Commons selezionata</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Seleziona o modifica la tua licenza ...</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Devi cliccare Avanti per salvare le modifiche</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Licenza di distribuzione</message>
@@ -791,7 +793,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(Unsupported)</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Edit</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">File checksum:</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Remove selected files</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Rimuovi i file selezionati</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Policies</message>
 	
 
