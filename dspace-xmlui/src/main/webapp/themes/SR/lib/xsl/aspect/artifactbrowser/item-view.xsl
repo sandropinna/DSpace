@@ -3659,22 +3659,29 @@
               </xsl:call-template>
           </xsl:when>  
                     
+                    
           <!-- contributor.other row -->
           <xsl:when test="$clause = 9 and (dim:field[@element='contributor' and @qualifier='other'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Referente del progetto:</span>
-	                	<span>
-	                		<xsl:value-of select="dim:field[@element='contributor' and @qualifier='other'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+	                	<span class="bold">Referenti:</span>
+	                	<span>	                		
+		                    <xsl:for-each select="dim:field[@element='contributor' and @qualifier='other']">
+		                    <xsl:copy-of select="./node()"/>
+		                      <xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='other']) != 0">
+		                      	<xsl:text>; </xsl:text>
 		                    	<br/>
-		                    </xsl:if>	                    
+		                    </xsl:if>
+	                    	</xsl:for-each>		                    		                                       
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto">
                 		<xsl:with-param name="clause" select="($clause + 1)"/>
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
-          </xsl:when>
+          </xsl:when>  
+          
+          
+          
           
           <!-- identifier.uri row -->
           <xsl:when test="$clause = 10 and (dim:field[@element='identifier' and @qualifier='uri'])">
