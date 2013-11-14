@@ -99,10 +99,14 @@
                 </xsl:attribute>
                 &#xFEFF; <!-- non-breaking space to force separating the end tag -->
             </span>
+            <!--  
             <span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.author</i18n:text><xsl:text>:</xsl:text></span>
             <span class="content" style="width: {$metadataWidth - 110}px;">
+            -->
                 <xsl:choose>
                     <xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
+                    <span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.author</i18n:text><xsl:text>:</xsl:text></span>
+           			<span class="content" style="width: {$metadataWidth - 110}px;">
                         <xsl:for-each select="dim:field[@element='contributor'][@qualifier='author']">
                             <span>
                                 <xsl:if test="@authority">
@@ -116,6 +120,7 @@
                                 <xsl:text>; </xsl:text>
                             </xsl:if>
                         </xsl:for-each>
+                    </span>
                     </xsl:when>
                     <!-- 
                     <xsl:when test="dim:field[@element='creator']">
@@ -134,12 +139,13 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:when>
-                    -->
+                    
                     <xsl:otherwise>
                         <i18n:text>xmlui.dri2xhtml.METS-1.0.no-author</i18n:text>
                     </xsl:otherwise>
+                    -->
                 </xsl:choose>
-            </span>
+         <!--     </span> -->
             <xsl:if test="dim:field[@element='date' and @qualifier='issued'] or dim:field[@element='publisher']">
                 <span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.date</i18n:text><xsl:text>:</xsl:text></span>
                 <span class="content" style="width: {$metadataWidth - 110}px;">
