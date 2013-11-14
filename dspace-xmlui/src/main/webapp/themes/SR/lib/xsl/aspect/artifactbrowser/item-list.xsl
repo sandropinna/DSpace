@@ -117,6 +117,7 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:when>
+                    <!-- 
                     <xsl:when test="dim:field[@element='creator']">
                         <xsl:for-each select="dim:field[@element='creator']">
                             <xsl:copy-of select="node()"/>
@@ -133,6 +134,7 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:when>
+                    -->
                     <xsl:otherwise>
                         <i18n:text>xmlui.dri2xhtml.METS-1.0.no-author</i18n:text>
                     </xsl:otherwise>
