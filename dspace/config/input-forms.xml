@@ -8194,7 +8194,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>true</repeatable>
          <label>Istituzione partner</label>
          <input-type>onebox</input-type>
-         <hint>Inserisci l'istituzione/i partner nella realizzazione del progetto, la nazione e il suo ruolo (coordinator, contractor, subcontractor). Es: CS-France-coordinator </hint>
+         <hint>Inserisci l'istituzione/i partner nella realizzazione del progetto, la nazione e il suo ruolo (coordinator, contractor, subcontractor, client). Es: CS-France-coordinator </hint>
          <required></required>
      </field>
             
