@@ -6993,7 +6993,9 @@
         </xsl:choose>
 
          <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
+        <!--  
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
+        -->
     </xsl:template>
 	<!-- Design registrato end -->
 	
