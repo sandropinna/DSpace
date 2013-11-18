@@ -170,7 +170,7 @@
 				</node>
 			</isComposedBy>
 		</node>
-		<node id="PRO12" label="Commessa esterna/Esternal service (committente: specificare un ente pubblico/privato diverso da RAS/SR/CRS4)">
+		<node id="PRO12" label="Commessa esterna/Esternal service">
 			<isComposedBy>
 				<node id="VR121101" label="ADVISE - Analisi di processi e tracciabilità in campo clinico (Inpeco)">
 				</node>
@@ -322,7 +322,7 @@
 				</node>			
 			</isComposedBy>
 		</node>
-		<node id="PRO13" label="Commessa interna/Internal service (committente: Regione Autonoma della Sardegna/Sardegna Ricerche/CRS4)">
+		<node id="PRO13" label="Commessa interna/Internal service">
 			<isComposedBy>
 				<node id="VR131101" label="CSR - Centro Servizi Regionali (RAS, Assto. Affari Generali)">
 				</node>
