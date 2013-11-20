@@ -204,13 +204,13 @@
 				</node>	
 				<node id="VR121116" label="Centro Ricerche Fiat-99    Modellazione di fuel cell a metanolo diretto">
 				</node>	
-				<node id="VR121117" label="CFR ZEOLITI - Studi molecolari della selettivit� di contaminanti presenti in miscele nel trattamento con zeoliti di acque contaminate (Consorzio Ferrara Ricerche)">
+				<node id="VR121117" label="CFR ZEOLITI - Studi molecolari della selettività di contaminanti presenti in miscele nel trattamento con zeoliti di acque contaminate (Consorzio Ferrara Ricerche)">
 				</node>	
 				<node id="VR121118" label="CHISS - Chimica per lo sviluppo sostenibile">
 				</node>
 				<node id="VR121119" label="CINSA - Software di simulazione di bioreattori">
 				</node>
-				<node id="VR121120" label="CNR-HYDRO - Idroelasticit�">
+				<node id="VR121120" label="CNR-HYDRO - Idroelasticità">
 				</node>	
 				<node id="VR121121" label="COCRYS - Consultation and modelling of cocrystals and prediction of the likeliness of their stability (SOLID CHEM GmbH)">
 				</node>					
@@ -220,7 +220,7 @@
 				</node>
 				<node id="VR121124" label="EA SOLAR - Servizio di calcolo ingegneristico (ENEA)">
 				</node>
-				<node id="VR121125" label="EIE - Studio dell�azione aerodinamica del vento (European Industrial Engineering srl)">
+				<node id="VR121125" label="EIE - Studio dell'azione aerodinamica del vento (European Industrial Engineering srl)">
 				</node>	
 				<node id="VR121126" label="ELIOS LAB - Sviluppo ed applicazione di modelli matematici finalizzati all'analisi di sistemi di tipo pebble-bed per l'accumulo termico ad alta temperatura (ENEA)">
 				</node>			
