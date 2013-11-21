@@ -377,8 +377,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -452,7 +452,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -464,7 +464,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -559,8 +559,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -634,7 +634,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -646,7 +646,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -754,8 +754,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -829,7 +829,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -841,7 +841,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -923,8 +923,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -1093,7 +1093,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -1105,7 +1105,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -1189,10 +1189,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
          <label>Istituzione</label>
-        <input-type>onebox</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
-         <required></required>
-         <vocabulary closed = "false">istituzioni</vocabulary>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
+         <required></required>         
      </field>
      
          
@@ -1360,7 +1359,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -1372,7 +1371,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -1468,8 +1467,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -1638,7 +1637,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -1650,7 +1649,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -1734,8 +1733,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -1880,7 +1879,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -1892,7 +1891,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -1975,8 +1974,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -2121,7 +2120,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -2133,7 +2132,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -2228,8 +2227,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -2374,7 +2373,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -2386,7 +2385,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -2513,8 +2512,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Brevetto</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -2605,8 +2604,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Marchio registrato</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
        </field>     
                     
@@ -2707,8 +2706,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Design registrato</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
        </field>     
            
@@ -2839,7 +2838,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -2852,7 +2851,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -2918,7 +2917,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -2931,7 +2930,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -2997,7 +2996,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -3010,7 +3009,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -3138,8 +3137,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Brevetto</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -3230,8 +3229,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Marchio registrato</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
        </field>     
                     
@@ -3332,8 +3331,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Design registrato</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
        </field>     
            
@@ -3464,7 +3463,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -3477,7 +3476,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -3543,7 +3542,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -3556,7 +3555,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -3622,7 +3621,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -3635,7 +3634,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -3776,8 +3775,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Brevetto</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -3903,8 +3902,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Marchio registrato</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
        </field>     
                     
@@ -4042,8 +4041,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Design registrato</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
        </field>     
            
@@ -4174,7 +4173,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -4187,7 +4186,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -4227,7 +4226,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -4240,7 +4239,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -4280,7 +4279,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -4293,7 +4292,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -4377,8 +4376,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -4490,7 +4489,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -4502,7 +4501,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -4584,8 +4583,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -4697,7 +4696,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -4709,7 +4708,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -4803,8 +4802,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -4916,7 +4915,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -4928,7 +4927,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -5030,8 +5029,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Libro</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -5206,8 +5205,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Contributo in un libro</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -5391,7 +5390,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -5404,7 +5403,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -5471,7 +5470,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -5484,7 +5483,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -5588,8 +5587,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Libro</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -5764,8 +5763,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Contributo in un libro</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -5949,7 +5948,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -5962,7 +5961,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -6029,7 +6028,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -6042,7 +6041,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -6159,8 +6158,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Libro</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -6348,8 +6347,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Contributo in un libro</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -6533,7 +6532,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -6546,7 +6545,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint></hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -6613,7 +6612,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -6626,7 +6625,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -6730,8 +6729,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Manuale,Catalogo</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -6802,7 +6801,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -6815,7 +6814,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -6920,8 +6919,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Manuale,Catalogo</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -6992,7 +6991,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -7005,7 +7004,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -7123,8 +7122,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
          <type-bind>Manuale,Catalogo</type-bind>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -7195,7 +7194,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -7208,7 +7207,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -7293,8 +7292,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -7373,7 +7372,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -7385,7 +7384,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -7466,8 +7465,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -7546,7 +7545,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -7558,7 +7557,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -7651,8 +7650,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -7731,7 +7730,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -7743,7 +7742,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -7802,8 +7801,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -7849,7 +7848,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Scegliere il finanziamento </hint>
          <required></required>
-         <vocabulary closed = "false">finanziamenti</vocabulary>
+         <vocabulary closed = "true">finanziamenti</vocabulary>
        </field>       
         
       
@@ -7925,7 +7924,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -7937,7 +7936,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
       
@@ -7986,8 +7985,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -8033,7 +8032,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Scegliere il finanziamento </hint>
          <required></required>
-         <vocabulary closed = "false">finanziamenti</vocabulary>
+         <vocabulary closed = "true">finanziamenti</vocabulary>
        </field>       
         
       
@@ -8109,7 +8108,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -8121,7 +8120,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
       
@@ -8338,7 +8337,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -8350,7 +8349,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -8431,8 +8430,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -8522,7 +8521,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -8534,7 +8533,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -8615,8 +8614,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -8706,7 +8705,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -8718,7 +8717,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -8811,8 +8810,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -8902,7 +8901,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -8914,7 +8913,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -8995,8 +8994,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -9086,7 +9085,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti</vocabulary>
+         <vocabulary closed = "true">progetti</vocabulary>
        </field> 
        
        <field>
@@ -9098,7 +9097,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -9179,8 +9178,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -9270,7 +9269,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-cnr-ift</vocabulary>
+         <vocabulary closed = "true">progetti-cnr-ift</vocabulary>
        </field> 
        
        <field>
@@ -9282,7 +9281,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
@@ -9375,8 +9374,8 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Istituzione</label>
-         <input-type value-pairs-name="istituzioni">dropdown</input-type>
-         <hint>Selezionare l'istituzione partner nella realizzazione del documento</hint>
+         <input-type>onebox</input-type>
+         <hint>Puoi inserire l'istituzione partner nella realizzazione del documento</hint>
          <required></required>
      </field>
      
@@ -9466,7 +9465,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare il progetto </hint>
          <required></required>
-         <vocabulary closed = "false">progetti-crs4</vocabulary>
+         <vocabulary closed = "true">progetti-crs4</vocabulary>
        </field> 
        
        <field>
@@ -9478,7 +9477,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <input-type>onebox</input-type>
          <hint>Selezionare la classificazione EEN-CORDIS </hint>
          <required></required>
-         <vocabulary closed = "false">een-cordis</vocabulary>
+         <vocabulary closed = "true">een-cordis</vocabulary>
        </field>   
        
        <field>
