@@ -514,13 +514,13 @@
           
           
           <!-- contributor row -->
-          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'])">
+          <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Istituzione:</span>
 	                	<span>
-	                		<xsl:for-each select="dim:field[@element='contributor']">
+	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
-		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor']) != 0">
+		                      		<xsl:if test="count(following-sibling::dim:field[@element='contributor' and not(@qualifier)]) != 0">
 		                      			<xsl:text>; </xsl:text>
 		                    			<br/>
 		                    		</xsl:if>
