@@ -336,13 +336,13 @@
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefono</message>
 	 <message key="xmlui.EPerson.EditProfile.Language">Lingua</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Sottoscrizione aggiornamenti</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile scegliere quali aggiornamenti desideri ricevere via email selezionando le collezioni di tuo interesse. E' possibile anche sottoscriversi a tutte le collezioni.</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile scegliere quali aggiornamenti desideri ricevere via email selezionando le collezioni di tuo interesse. E' possibile anche sottoscriverti a più collezioni.</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Scegli le collezioni</message>
 	<message key="xmlui.EPerson.EditProfile.select_collection">(Seleziona)</message>
-	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Se desideri aggiornare la password puoi inserire una nuova password all'interno del box sottostante e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
-	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Inserire una password all'interno del box sottostante e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
+	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Puoi aggiornare la password. La password deve essere almeno di sei caratteri.</message>
+	<message key="xmlui.EPerson.EditProfile.create_password_instructions">La password deve essere almeno di sei caratteri.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Password</message>
-	<message key="xmlui.EPerson.EditProfile.confirm_password">Reinserire la password per confermare</message>
+	<message key="xmlui.EPerson.EditProfile.confirm_password">Conferma password</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Completa la registrazione</message>
 	<message key="xmlui.EPerson.EditProfile.submit_create">Aggiorna Profilo</message>
 	<message key="xmlui.EPerson.EditProfile.error_required">Questo campo e' obbligatorio</message>
