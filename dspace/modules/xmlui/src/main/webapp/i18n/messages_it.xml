@@ -334,12 +334,13 @@
 	<message key="xmlui.EPerson.EditProfile.first_name">Nome</message>
 	<message key="xmlui.EPerson.EditProfile.last_name">Cognome</message>
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefono</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions">Iscrizione</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile iscriversi ad una collezione per ricevere email aggiornate sui nuovi items immessi. E' possibile iscriversi a tutte le collezioni. Un'altra alternativa per ricevere eventuali aggiornamenti e' utilizzare l'RSS disponibile per ogni collezione.</message>
-	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Iscrizione Email</message>
-	<message key="xmlui.EPerson.EditProfile.select_collection">( Scegli le collezioni)</message>
-	<message key="xmlui.EPerson.EditProfile.update_password_instructions">In opzione, e' possibile inserire una nuova password all'interno del box sottostante , e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
-	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Inserire una nuova password all'interno del box sottostante , e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
+	 <message key="xmlui.EPerson.EditProfile.Language">Lingua</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions">Sottoscrizione aggiornamenti</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile scegliere quali aggiornamenti desideri ricevere via email selezionando le collezioni di tuo interesse. E' possibile anche sottoscriversi a tutte le collezioni.</message>
+	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Scegli le collezioni</message>
+	<message key="xmlui.EPerson.EditProfile.select_collection">(Seleziona)</message>
+	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Se desideri aggiornare la password puoi inserire una nuova password all'interno del box sottostante e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
+	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Inserire una password all'interno del box sottostante e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Password</message>
 	<message key="xmlui.EPerson.EditProfile.confirm_password">Reinserire la password per confermare</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Completa la registrazione</message>
@@ -348,8 +349,8 @@
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Scegli una password di almeno 6 caratteri</message>
 	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Reinserire la password per confermare</message>
 	<message key="xmlui.EPerson.EditProfile.head_auth">Gruppi di appartenenza autorizzati</message>
-	<message key="xmlui.EPerson.EditProfile.head_identify">Identify</message>
-	<message key="xmlui.EPerson.EditProfile.head_security">Security</message>
+	<message key="xmlui.EPerson.EditProfile.head_identify"></message>
+	<message key="xmlui.EPerson.EditProfile.head_security">Impostazioni di sicurezza</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
 	<message key="xmlui.EPerson.EPersonUtils.register_verify_email">Verifica Email</message>
@@ -389,7 +390,7 @@
 	<message key="xmlui.EPerson.PasswordLogin.forgot_link"> Hai dimenticato la password?</message>
 	<message key="xmlui.EPerson.PasswordLogin.submit">Login</message>
 	<message key="xmlui.EPerson.PasswordLogin.head2">Non sei ancora registrato?</message>
-	<message key="xmlui.EPerson.PasswordLogin.para1">Registra un account per sottoscriverti ad una collezione, ricevere email sugli aggiornamenti, ed inserire nuovi documenti in P-arch.</message>
+	<message key="xmlui.EPerson.PasswordLogin.para1">Per inserire i tuoi lavori su P-arch e poter usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Clicca qui per registrarti.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
@@ -435,7 +436,7 @@
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
 	<message key="xmlui.EPerson.RegistrationFinished.title">Registrazione terminata</message>
 	<message key="xmlui.EPerson.RegistrationFinished.head">Registrazione terminata</message>
-	<message key="xmlui.EPerson.RegistrationFinished.para1">Sei registrato su P-arch come utente con diritto di lettura. Dalla pagina del tuo profilo è possibile iscriversi alle collezioni per ricevere via email gli aggiornamenti sui nuovi inserimenti. </message>
+	<message key="xmlui.EPerson.RegistrationFinished.para1">Sei registrato su P-arch come utente con diritto di lettura.<br></br> Dalla pagina del tuo profilo è possibile scegliere quali aggiornamenti desideri ricevere via email riguardo ai nuovi contenuti inseriti nell'archivio. <br></br>Per effettuare inserimenti il tuo profilo deve essere validato dall'amministratore di P-arch. </message>
 
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
 	<message key="xmlui.EPerson.ResetPassword.title">Password cancellata</message>
@@ -464,16 +465,16 @@
 	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Cancella password</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_reset">Cancella password</message>
 	<message key="xmlui.EPerson.StartRegistration.head2">Nuova registrazione</message>
-	<message key="xmlui.EPerson.StartRegistration.para2">Per inserire nuovi documenti e poter usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale. La registrazione e l'utilizzo dei servizi di P-arch non implicano alcun costo. </message>
+	<message key="xmlui.EPerson.StartRegistration.para2">Per inserire nuovi documenti e poter usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale. <br></br> La registrazione e l'utilizzo dei servizi di P-arch non implicano alcun costo. </message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">Indirizzo Email</message>
 	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email verra' verificato e potra' essere utilizzato nella fase di login</message>
 	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Impossile mandare una email a questo indirizzo di posta elettronica.</message>
-	<message key="xmlui.EPerson.StartRegistration.submit_register">Registra</message>
+	<message key="xmlui.EPerson.StartRegistration.submit_register">Invia</message>
 
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
 	<message key="xmlui.EPerson.VerifyEmail.title">Verifica invio email</message>
 	<message key="xmlui.EPerson.VerifyEmail.head">Verifica invio email</message>
-	<message key="xmlui.EPerson.VerifyEmail.para">Una email e' stata inviata a {0} contenente un URL speciale e ulteriori istruzioni.</message>
+	<message key="xmlui.EPerson.VerifyEmail.para">E' stata inviata una email a {0} contenente ulteriori istruzioni.</message>
 
 
 
@@ -1691,7 +1692,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Editore</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Soggetto</message>
 
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">File in questo item</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">File allegati</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">File</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Dimensione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Formato</message>
