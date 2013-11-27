@@ -496,23 +496,23 @@
 	<!-- general submission aspect messages -->
 	<message key="xmlui.Submission.general.mydspace_home">MyDSpace Home</message>
 	<message key="xmlui.Submission.general.go_mydspace">Vai a MyDSpace Home</message>
-	<message key="xmlui.Submission.general.submission.title">Inserimento Item</message>
-	<message key="xmlui.Submission.general.submission.trail">Inserimento Item</message>
-	<message key="xmlui.Submission.general.submission.head">Inserimento Item</message>	
+	<message key="xmlui.Submission.general.submission.title">Inserimento</message>
+	<message key="xmlui.Submission.general.submission.trail">Inserimento</message>
+	<message key="xmlui.Submission.general.submission.head">Inserimento</message>	
 	<message key="xmlui.Submission.general.submission.previous">&lt; Precedente</message>
 	<message key="xmlui.Submission.general.submission.save">Salva / Annulla</message>
 	<message key="xmlui.Submission.general.submission.next">Avanti &gt;</message>
 	<message key="xmlui.Submission.general.submission.complete">Completa inserimento</message>
-	<message key="xmlui.Submission.general.workflow.title">Inserimento Item</message>
-	<message key="xmlui.Submission.general.workflow.trail">Inserimento Item</message>
-	<message key="xmlui.Submission.general.workflow.head">Inserimento Item</message>
+	<message key="xmlui.Submission.general.workflow.title">Inserimento</message>
+	<message key="xmlui.Submission.general.workflow.trail">Inserimento</message>
+	<message key="xmlui.Submission.general.workflow.head">Inserimento</message>
 	<message key="xmlui.Submission.general.showfull">Mostra il record completo dell'item</message>
 	<message key="xmlui.Submission.general.showsimple">Mostra il record semplice dell'item </message>
 	<message key="xmlui.Submission.general.default.title">Inserimento</message>
 	<message key="xmlui.Submission.general.default.trail">Inserimento</message>
   
 	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
-	<message key="xmlui.Submission.CollectionViewer.link1">Inserisci un nuovo item nella Collezione</message>
+	<message key="xmlui.Submission.CollectionViewer.link1">Nuovo inserimento</message>
 
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
 	<message key="xmlui.Submission.Navigation.submissions">Inserimenti</message>
