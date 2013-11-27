@@ -175,7 +175,7 @@
                     </xsl:call-template>
                     <xsl:if test="contains(dri:params/@operations,'delete') and (dri:instance or dri:field/dri:instance)">
                         <!-- Delete buttons should be named "submit_[field]_delete" so that we can ignore errors from required fields when simply removing values-->
-                        <input type="submit" value="Remove selected" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
+                        <input type="submit" value="Rimuovi selezione" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
                     </xsl:if>
                     <xsl:for-each select="dri:field">
                         <xsl:apply-templates select="dri:instance" mode="hiddenInterpreter"/>
@@ -223,7 +223,7 @@
                     removing one or more values stored for this field. -->
                 <xsl:if test="contains(dri:params/@operations,'delete') and dri:instance">
                     <!-- Delete buttons should be named "submit_[field]_delete" so that we can ignore errors from required fields when simply removing values-->
-                    <input type="submit" value="Remove selected" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
+                    <input type="submit" value="Rimuovi selezione" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
                 </xsl:if>
                 <!-- Behind the scenes, add hidden fields for every instance set. This is to make sure that
                     the form still submits the information in those instances, even though they are no
@@ -297,7 +297,7 @@
                     removing one or more values stored for this field. -->
                 <xsl:if test="contains(dri:params/@operations,'delete') and dri:instance">
                     <!-- Delete buttons should be named "submit_[field]_delete" so that we can ignore errors from required fields when simply removing values-->
-                    <input type="submit" value="Remove selected" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
+                    <input type="submit" value="Rimuovi selezione" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
                 </xsl:if>
                 <!-- Behind the scenes, add hidden fields for every instance set. This is to make sure that
                     the form still submits the information in those instances, even though they are no
