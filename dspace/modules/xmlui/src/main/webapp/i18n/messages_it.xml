@@ -542,7 +542,7 @@
 	<message key="xmlui.Submission.Submissions.submit_head1">Inserimenti</message>
 	<message key="xmlui.Submission.Submissions.submit_info1a">Puoi </message>
 	<message key="xmlui.Submission.Submissions.submit_info1b">iniziare un nuovo inserimento.</message>
-	<message key="xmlui.Submission.Submissions.submit_info1c">Il processo di inserimento include la descrizione dell'item e il caricamento del file(s). Ogni comunità o Collezione puo' stabilire una sua politica di inserimento.</message>
+	<message key="xmlui.Submission.Submissions.submit_info1c">Il processo di inserimento include la descrizione e il caricamento del file(s). Ogni comunità o Collezione puo' stabilire una sua politica di inserimento.</message>
 	<message key="xmlui.Submission.Submissions.submit_head2">Inserimenti non terminati</message>
 	<message key="xmlui.Submission.Submissions.submit_info2a">Questi sono gli inserimenti incompleti. Puoi anche </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">iniziare un nuovo inserimento</message>
@@ -588,7 +588,7 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.SelectCollection -->
 	<message key="xmlui.Submission.submit.SelectCollection.head">Scegli una collezione</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection">Collezione</message>
-	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Scegli la collezione nella quale vuoi inserire l'item.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Scegli la collezione nella quale vuoi effettuare il nuovo inserimento.</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection_default">Scegli una collezione...</message>
 	<message key="xmlui.Submission.submit.SelectCollection.submit">Avanti</message>
 
@@ -618,7 +618,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.publisher">Editore</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.DescribeStep -->
-	<message key="xmlui.Submission.submit.DescribeStep.head">Descrizione Item</message>
+	<message key="xmlui.Submission.submit.DescribeStep.head">Descrizione</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Errore: Campo sconosciuto</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">Questo campo e' obbligatorio</message>
 	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Cognome, <i>e.s. Rossi</i></message>
