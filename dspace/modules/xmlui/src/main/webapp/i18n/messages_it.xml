@@ -595,7 +595,7 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.SaveOrRemoveStep -->
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.head">Salva o annulla il tuo inserimento?</message>
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.info1">Vuoi rimuovere l'inserimento, o vuoi continuare piu' tardi?  Puoi tornare al processo di inserimento se hai premuto il tasto Annulla per errore.</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_back">Oops, continua con l'inserimento</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_back">Continua con l'inserimento</message>
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_save">Salva, continuero' il lavoro piu' tardi</message>
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_remove">Rimuovi l'inserimento</message>
 
