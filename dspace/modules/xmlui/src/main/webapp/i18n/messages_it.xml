@@ -538,6 +538,16 @@
 	<message key="xmlui.Submission.Submissions.workflow_head3">Incarichi completi</message>
 	<message key="xmlui.Submission.Submissions.workflow_submit_take">Accetta gli incarichi selezionati</message>
 	<message key="xmlui.Submission.Submissions.workflow_info3">Non ci sono incarichi</message>
+	
+	 <!-- Same transformer, completed submissions section -->
+     <message key="xmlui.Submission.Submissions.completed.head">Inserimenti archiviati</message>
+     <message key="xmlui.Submission.Submissions.completed.info">Questi sono i tuoi inserimenti archiviati in P-arch.</message>
+     <message key="xmlui.Submission.Submissions.completed.column1">Data di accettazione</message>
+     <message key="xmlui.Submission.Submissions.completed.column2">Titolo</message>
+     <message key="xmlui.Submission.Submissions.completed.column3">Collezione</message>
+     <message key="xmlui.Submission.Submissions.completed.limit">We've only listed 50 of your archived submissions above. </message>
+     <message key="xmlui.Submission.Submissions.completed.displayall">Display all my archived submissions.</message>
+     
 	<!-- Same transformer, submissions section -->
 	<message key="xmlui.Submission.Submissions.submit_head1">Inserimenti</message>
 	<message key="xmlui.Submission.Submissions.submit_info1a">Puoi </message>
