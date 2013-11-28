@@ -240,10 +240,10 @@
 	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Inserisci un testo nel box sottostante per effettuare ricerche in P-arch.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
-	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Mostra Item</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Questo item appare nelle seguenti collezioni</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostra i principali dati dell'item</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostra tutti i dati dell'item</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Mostra</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Questo inserimento appare nelle seguenti collezioni</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostra i principali dati</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostra tutti i dati</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Naviga</message>
@@ -336,11 +336,11 @@
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefono</message>
 	 <message key="xmlui.EPerson.EditProfile.Language">Lingua</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Sottoscrizione aggiornamenti</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile scegliere quali aggiornamenti desideri ricevere via email selezionando le collezioni di tuo interesse. E' possibile anche sottoscriverti a più collezioni.</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile scegliere quali aggiornamenti desideri ricevere via email selezionando le collezioni di tuo interesse (puoi anche sottoscriverti a più collezioni).<br></br> Per sottoscrivere una collezione devi prima selezionarla dal menù a tendina e poi confermarla cliccando sul tasto aggiungi.</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Scegli le collezioni</message>
 	<message key="xmlui.EPerson.EditProfile.select_collection">(Seleziona)</message>
 	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Puoi aggiornare la password. La password deve essere almeno di sei caratteri.</message>
-	<message key="xmlui.EPerson.EditProfile.create_password_instructions">La password deve essere almeno di sei caratteri.</message>
+	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Devi inserire una password. La password deve essere almeno di sei caratteri.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Password</message>
 	<message key="xmlui.EPerson.EditProfile.confirm_password">Conferma password</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Completa la registrazione</message>
@@ -526,11 +526,11 @@
 	<message key="xmlui.Submission.Submissions.email">email: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Workflow</message>
-	<message key="xmlui.Submission.Submissions.workflow_info1">Di seguito gli items in attesa di approvazione . Vi sono due tipologie di incarichi, una per quelli che hai accettato e un'altra per quelli ancora non assegnati.</message>
+	<message key="xmlui.Submission.Submissions.workflow_info1">Di seguito gli inserimenti in attesa di approvazione . Vi sono due tipologie di incarichi, una per quelli che hai accettato e un'altra per quelli ancora non assegnati.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Tuoi incarichi</message>
 	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Incarichi</message>
-	<message key="xmlui.Submission.Submissions.workflow_column3">Item</message>
+	<message key="xmlui.Submission.Submissions.workflow_column3">Inserimento</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Collezioni</message>
 	<message key="xmlui.Submission.Submissions.workflow_column5">Utente</message>
 	<message key="xmlui.Submission.Submissions.workflow_submit_return">Rimanda gli incarichi selezionati tra quelli assegnati</message>
@@ -703,11 +703,11 @@
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Per domande relative a queste licenze contattare l'amministratore di sistema.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Licenza di distribuzione</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_checkbox">Accetta la licenza</message>
-	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Accettare la licenza per completare l'inserimento. La mancata accettazione della licenza permette comunque di salvare il proprio lavoro e riprenderlo in seguito o rimuovere l'item cliccando sul tasto 'Salva/Cancella'.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Accettare la licenza per completare l'inserimento. La mancata accettazione della licenza permette comunque di salvare il proprio lavoro e riprenderlo in seguito o rimuoverlo cliccando sul tasto 'Salva/Cancella'.</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
 	<message key="xmlui.Submission.submit.RemovedStep.head">Inserimento rimosso</message>
-	<message key="xmlui.Submission.submit.RemovedStep.info1">L' inserimento e' stato cancellato, e gli item incompleti rimossi dal sistema.</message>
+	<message key="xmlui.Submission.submit.RemovedStep.info1">L'inserimento e' stato cancellato.</message>
 	<message key="xmlui.Submission.submit.RemovedStep.go_submission">Ritornare alla pagina di inserimento</message>	
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
@@ -738,7 +738,7 @@
 	<message key="xmlui.Submission.workflow.RejectTaskStep.info1">Inserire le motivazioni che hanno portato al rifiuto dell'item nel box sottostante, indicando in che misura l'utente potra' apportare modifiche e ricaricare il file  .</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.reason">Motivazione</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">Il campo Motivazione e' obbligatorio</message>
-	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Rifiuta Item</message>
+	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Rifiuta</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_cancel">Cancella</message>
 
 
@@ -1265,7 +1265,7 @@
 	<message key="xmlui.administrative.item.general.option_status">Stato Item</message>
 	<message key="xmlui.administrative.item.general.option_bitstreams">Item Bitstreams</message>
 	<message key="xmlui.administrative.item.general.option_metadata">Item Metadati</message>
-	<message key="xmlui.administrative.item.general.option_view">Mostra Item</message>
+	<message key="xmlui.administrative.item.general.option_view">Mostra</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
 	<message key="xmlui.administrative.item.AddBitstreamForm.title">Carica Bitstream</message>
@@ -1698,14 +1698,14 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Formato</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Mostra</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Mostra/<wbr/>Apri</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Nessun file in questo item.</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Nessun file associato.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-kilobytes">Kb</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-megabytes">Mb</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
 
-	<message key="xmlui.dri2xhtml.METS-1.0.license-text">I seguenti file di Licenza sono associati a questo Item:</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.license-text">I seguenti file di Licenza sono associati a questo inserimento:</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		The summaryView of a collection is not currently used or implemented. This can be fixed 
