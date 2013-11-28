@@ -712,9 +712,9 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
 	<message key="xmlui.Submission.submit.CompletedStep.head">Inserimento completo</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.info1">Il documento e' stato inserito nel processo di revisione di questa collezione. <br></br>Riceverai una email di notifica non appena il tuo inserimento farà parte della collezione prescelta, o se si verificheranno problemi.<br></br> E' possibile controllare lo stato di revisione dell'item accedendo alla pagina degli inserimenti.</message>	
+	<message key="xmlui.Submission.submit.CompletedStep.info1">Il documento e' stato inserito nel processo di revisione di questa collezione. <br></br>Riceverai una email di notifica non appena il tuo inserimento farà parte della collezione prescelta, o se si verificheranno problemi.<br></br> E' possibile controllare lo stato di revisione del documento accedendo alla pagina degli inserimenti.</message>	
 	<message key="xmlui.Submission.submit.CompletedStep.go_submission">Ritornare alla pagina di inserimento</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Inserisci un nuovo item</message>		
+	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Nuovo inserimento</message>		
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
 	<message key="xmlui.Submission.workflow.PerformTaskStep.info1">Azioni che puoi portare a termine:</message>
