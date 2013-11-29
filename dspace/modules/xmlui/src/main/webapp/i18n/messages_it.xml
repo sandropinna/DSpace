@@ -336,7 +336,7 @@
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefono</message>
 	 <message key="xmlui.EPerson.EditProfile.Language">Lingua</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Sottoscrizione aggiornamenti</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile scegliere quali aggiornamenti desideri ricevere via email selezionando le collezioni di tuo interesse (puoi anche sottoscriverti a più collezioni).<br></br> Per sottoscrivere una collezione devi prima selezionarla dal menù a tendina e poi confermarla cliccando sul tasto aggiungi.</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Scegli le collezioni sulle quali vuoi essere aggiornato via email.<br></br> Seleziona la collezione dal menù a tendina e clicca sul tasto Aggiungi per confermarla (puoi scegliere anche più collezioni)</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Scegli le collezioni</message>
 	<message key="xmlui.EPerson.EditProfile.select_collection">(Seleziona)</message>
 	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Puoi aggiornare la password. La password deve essere almeno di sei caratteri.</message>
@@ -348,7 +348,7 @@
 	<message key="xmlui.EPerson.EditProfile.error_required">Questo campo e' obbligatorio</message>
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Scegli una password di almeno 6 caratteri</message>
 	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Reinserire la password per confermare</message>
-	<message key="xmlui.EPerson.EditProfile.head_auth">Gruppi di appartenenza autorizzati</message>
+	<message key="xmlui.EPerson.EditProfile.head_auth">Fai parte dei seguenti gruppi</message>
 	<message key="xmlui.EPerson.EditProfile.head_identify"></message>
 	<message key="xmlui.EPerson.EditProfile.head_security">Impostazioni di sicurezza</message>
 
