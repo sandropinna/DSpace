@@ -241,7 +241,7 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Mostra</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Questo inserimento appare nelle seguenti collezioni</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Questo inserimento fa parte delle seguenti collezioni</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostra i principali dati</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostra tutti i dati</message>
 
