@@ -7113,22 +7113,20 @@
             <xsl:choose>
                 <!-- If one exists and it's of text/html MIME type, only display the primary bitstream -->
                 <xsl:when test="mets:file[@ID=$primaryBitstream]/@MIMETYPE='text/html'">
-                <!-- SR Start 
-                    <xsl:apply-templates select="mets:file[@ID=$primaryBitstream]">
+                    <!-- <xsl:apply-templates select="mets:file[@ID=$primaryBitstream]">
                         <xsl:with-param name="context" select="$context"/>
-                    </xsl:apply-templates>
-                SR End -->
+                    </xsl:apply-templates> -->
                 </xsl:when>
                 <!-- Otherwise, iterate over and display all of them -->
                   
                 <xsl:otherwise>
                    <xsl:apply-templates select="mets:file">
-                       	Do not sort any more bitstream order can be changed
-                        <xsl:sort data-type="number" select="boolean(./@ID=$primaryBitstream)" order="descending" />
-                        <xsl:sort select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/>
+                       <!--	Do not sort any more bitstream order can be changed -->
+                     <!--     <xsl:sort data-type="number" select="boolean(./@ID=$primaryBitstream)" order="descending" /> -->
+                     <!--     <xsl:sort select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/> -->
                         <xsl:with-param name="context" select="$context"/>
                     </xsl:apply-templates>
-                </xsl:otherwise> 
+                </xsl:otherwise> -->
                 
                 
             </xsl:choose>
