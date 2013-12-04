@@ -7126,7 +7126,7 @@
                      <!--     <xsl:sort select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/> -->
                         <xsl:with-param name="context" select="$context"/>
                     </xsl:apply-templates>
-                </xsl:otherwise> -->
+                </xsl:otherwise> 
                 
                 
             </xsl:choose>
