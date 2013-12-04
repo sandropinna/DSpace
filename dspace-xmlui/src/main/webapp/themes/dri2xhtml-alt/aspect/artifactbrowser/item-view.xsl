@@ -560,6 +560,7 @@
 
     <!-- Generate the license information from the file section -->
     
+    <!-- 
     <xsl:template match="mets:fileGrp[@USE='CC-LICENSE' or @USE='LICENSE']">
         <div class="license-info">
             <p><i18n:text>xmlui.dri2xhtml.METS-1.0.license-text</i18n:text></p>
@@ -573,6 +574,6 @@
             </ul>
         </div>
     </xsl:template>
-	
+	 -->
 
 </xsl:stylesheet>
