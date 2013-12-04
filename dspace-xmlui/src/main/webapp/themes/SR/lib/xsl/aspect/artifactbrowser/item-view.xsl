@@ -7119,7 +7119,8 @@
                 </xsl:when>
                 <!-- Otherwise, iterate over and display all of them -->
                 <xsl:otherwise>
-                    <xsl:apply-templates select="mets:file">
+                  <!-- SR start   <xsl:apply-templates select="mets:file"> SR End -->
+                    <xsl:apply-templates select="mets:file[@ID=$primaryBitstream]">
                      	<!--Do not sort any more bitstream order can be changed-->
                         <!--<xsl:sort data-type="number" select="boolean(./@ID=$primaryBitstream)" order="descending" />-->
                         <!--<xsl:sort select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/>-->
