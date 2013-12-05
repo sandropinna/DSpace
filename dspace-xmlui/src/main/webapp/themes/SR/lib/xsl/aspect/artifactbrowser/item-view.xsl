@@ -6146,9 +6146,9 @@
         </xsl:choose>
 
          <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
-         <!-- 
+        
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
-         -->
+        
     </xsl:template>
 	<!-- Brevetto end -->
 	
@@ -6579,9 +6579,9 @@
         </xsl:choose>
 
          <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
-         <!-- 
+        
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
-         -->
+        
     </xsl:template>
 	<!-- Marchio registrato end -->
 	
@@ -7050,11 +7050,10 @@
           </xsl:otherwise>
         </xsl:choose>
 
-         <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
-        
-        <!--   
+         <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->        
+           
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
-        -->
+        
         
     </xsl:template>
 	<!-- Design registrato end -->
@@ -7115,6 +7114,7 @@
         <xsl:param name="primaryBitstream" select="-1"/>
 
         <h2><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-head</i18n:text></h2>
+       
         <div class="file-list">
             <xsl:choose>
                 <!-- If one exists and it's of text/html MIME type, only display the primary bitstream -->
@@ -7123,8 +7123,8 @@
                         <xsl:with-param name="context" select="$context"/>
                     </xsl:apply-templates> 
                 </xsl:when>
-                <!-- Otherwise, iterate over and display all of them -->
-                  
+                <!-- Otherwise, iterate over and display all of them -->   
+                               
                 <xsl:otherwise>
                    <xsl:apply-templates select="mets:file">
                        <!--	Do not sort any more bitstream order can be changed -->
@@ -7133,10 +7133,10 @@
                         <xsl:with-param name="context" select="$context"/>
                     </xsl:apply-templates>
                 </xsl:otherwise> 
-                
-                
+                                
             </xsl:choose>
         </div>
+        
     </xsl:template>
 
     <xsl:template match="mets:file">
