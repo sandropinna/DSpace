@@ -6146,7 +6146,9 @@
         </xsl:choose>
 
          <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
+         <!-- 
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
+         -->
     </xsl:template>
 	<!-- Brevetto end -->
 	
@@ -6577,7 +6579,9 @@
         </xsl:choose>
 
          <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
+         <!-- 
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
+         -->
     </xsl:template>
 	<!-- Marchio registrato end -->
 	
@@ -7047,8 +7051,10 @@
         </xsl:choose>
 
          <!-- Generate the Creative Commons license information from the file section (DSpace deposit license hidden by default) -->
-          
+        
+        <!--   
         <xsl:apply-templates select="mets:fileSec/mets:fileGrp[@USE='CC-LICENSE']"/>
+        -->
         
     </xsl:template>
 	<!-- Design registrato end -->
@@ -7113,9 +7119,9 @@
             <xsl:choose>
                 <!-- If one exists and it's of text/html MIME type, only display the primary bitstream -->
                 <xsl:when test="mets:file[@ID=$primaryBitstream]/@MIMETYPE='text/html'">
-                    <!-- <xsl:apply-templates select="mets:file[@ID=$primaryBitstream]">
+                    <xsl:apply-templates select="mets:file[@ID=$primaryBitstream]">
                         <xsl:with-param name="context" select="$context"/>
-                    </xsl:apply-templates> -->
+                    </xsl:apply-templates> 
                 </xsl:when>
                 <!-- Otherwise, iterate over and display all of them -->
                   
