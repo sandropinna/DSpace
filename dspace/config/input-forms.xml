@@ -4421,10 +4421,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data dell'evento</label>
          <input-type>date</input-type>
-         <hint>Inserisci le date in cui si è svolto l'evento (Conferenza, workshop, seminari, etc). 
-         Esempio: 13-15 Dec 2010 
-         Esempio: 31 Oct - 02 Nov 1999         
-         </hint>
+         <hint>Inserisci la data in cui si è svolto l'evento (Conferenza, workshop, seminari, etc).</hint>
          <required></required>
      </field>          
 
@@ -4628,10 +4625,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data dell'evento</label>
          <input-type>date</input-type>
-         <hint>Inserisci le date in cui si è svolto l'evento (Conferenza, workshop, seminari, etc). 
-         Esempio: 13-15 Dec 2010 
-         Esempio: 31 Oct - 02 Nov 1999         
-         </hint>
+         <hint>Inserisci la data in cui si è svolto l'evento (Conferenza, workshop, seminari, etc).</hint>
          <required></required>
      </field>          
 
@@ -4847,10 +4841,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <repeatable>false</repeatable>
          <label>Data dell'evento</label>
          <input-type>date</input-type>
-         <hint>Inserisci le date in cui si è svolto l'evento (Conferenza, workshop, seminari, etc). 
-         Esempio: 13-15 Dec 2010 
-         Esempio: 31 Oct - 02 Nov 1999         
-         </hint>
+         <hint>Inserisci la data in cui si è svolto l'evento (Conferenza, workshop, seminari, etc).</hint>
          <required></required>
      </field>          
 
