@@ -518,7 +518,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -1062,7 +1062,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -1598,7 +1598,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -2036,7 +2036,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -2510,7 +2510,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -3102,7 +3102,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -3614,7 +3614,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -4070,10 +4070,10 @@
               		</xsl:call-template>
           </xsl:when>
           
-          <!-- Istituzione partner row -->
+          <!-- Istituzioni partner row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and @qualifier='partner'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione partner:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>	                    
 		                    <xsl:for-each select="dim:field[@element='contributor' and @qualifier='partner']">
 		                    	<xsl:copy-of select="./node()"/>
@@ -4959,7 +4959,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 4 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -5443,7 +5443,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 7 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -5912,7 +5912,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 9 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -6338,7 +6338,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 7 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
@@ -6810,7 +6810,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 9 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzione:</span>
+	                	<span class="bold">Istituzioni partner:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>
