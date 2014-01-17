@@ -143,6 +143,11 @@ Progetti
 				<node id="607" label="Promozione settore lapideo (progetto interregionale)" />
 				<node id="608" label="Rete Regionale per l'Innovazione " />		
 			</isComposedBy>		
-		</node>		
+		</node>	
+		<node id="700" label="Programma di animazione">
+			<isComposedBy>		
+				<node id="701" label="Produzioni naturali e sostenibili in Sardegna" />
+			</isComposedBy>	
+		</node>			
 	</isComposedBy>
 </node>
