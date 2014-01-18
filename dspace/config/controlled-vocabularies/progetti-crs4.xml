@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CRS4 PROGETTI -->
+<node label="Progetti" id="Progetti">
+	<isComposedBy>
+		<node id="PRO11" label="Bando competitivo/Grant">
+			<isComposedBy>
+				<node id="PRO110" label="Finanziamento europeo/internazionale">
+					<isComposedBy>
+						<node id="PRO1101" label="EC FP7, FP6, FP5">
+							<isComposedBy>
+								<node id="VR110101" label="3DANATOMICALHUMAN - 3D anatomical functional models for the human musculoskeletal system"> 
+								</node>
+								<node id="VR110102" label="CDT - Central Design Team">
+								</node> 
+								<node id="VR110103" label="CITYSCRIPTS - Internet of things experiment for SmartSantander"> 
+								</node>
+								<node id="VR110104" label="CLIMB - Climate Induced on the Hydrology of Mediterranean Basins"> 
+								</node>
+								<node id="VR110105" label="COHERENT VVR - Sistema olografico per imaging medico"> 
+								</node>
+								<node id="VR110106" label="CRIMSON - Crisi Management, Simulation, Training, Operational Preparedness"> 
+								</node>
+								<node id="VR110107" label="DAUFIN - Data assimilation for river"> 
+								</node>
+								<node id="VR110108" label="DEGREE - Dissemination and Exploitation of Grids in Earth Science"> 
+								</node>
+								<node id="VR110109" label="DIVA - Data Intensive Visualization and Analysis"> 
+								</node>
+								<node id="VR110110" label="ELIXIR - European Life-science Infrastructure for Biological Information">
+							      </node>
+								<node id="VR110111" label="ENVIROGRIDS - Building capacity for a Black Dea Basin Observation and Assessment System supporting Sustainable Development"> 
+								</node>
+								<node id="VR110112" label="EUA 4X - European Atelier for Engineering and Computational Sciences"> 
+								</node>
+								<node id="VR110113" label="EUROTRANS - European Research Programme for the Transmutation of High Level Nuclear Waste in an Accelerator Driven System"> 
+								</node>
+								<node id="VR110114" label="IERAPSI - An Integrated Environment for Rehearsal"> 
+								</node>
+								<node id="VR110115" label="INDIGO - Innovative training and decision support for emergency situations"> 
+								</node>
+								<node id="VR110116" label="MAXSIMA - Methodology, Analysis and experiments for the Safety In MYRRHA Assessment"> 
+								</node>
+								<node id="VR110117" label="PREDICT - Computational Prediction of Drug Cardiac Toxicity"> 
+								</node>
+								<node id="VR110118" label="SEARCH - Safe Exploitation releted Chemistry for Hlm Reactors"> 
+								</node>
+								<node id="VR110119" label="SOCIOTAL - A reliable smart and secure Internet of Things for Smart Cities"> 
+								</node>	
+								<node id="VR1101120" label="SWIMED - Sustainible water management in mediterranean aquifers"> 
+								</node>
+								<node id="VR1101121" label="THINS - Thermal hydraulics of innovative nuclear system"> 
+								</node>
+								<node id="VR1101122" label="VASCO - a Virtual Studio for Security Concepts and Operations"> 
+								</node>
+								<node id="VR1101123" label="V-CITY - Virtual City explorer"> 
+								</node>
+								<node id="VR1101124" label="VOICES - VOIce based Community cEntric mobile"> 
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1102" label="EC LIFE, FESR ITALIA-FRANCIA MARITTIMO">
+							<isComposedBy>
+								<node id="VR110201" label="LIFE PROSIL - Promoting the use of in silico methods in industry">
+								</node>
+								<node id="VR110202" label="TOURRENIA - Turismo Reti Nicchie Accessibili (EU FESR, Programma di cooperazione transfrontaliera Italia Francia marittimo 2007-2013)">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1103" label="Grant internazionale (es. Wellcome Trust, NIH)">
+							<isComposedBy>
+								<node id="VR110301" label="WT 2011  Ome Wellcome Trust Strategic Award"> 
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1104" label="Altro (specificare)">
+						</node>
+					</isComposedBy>
+				</node>
+				<node id="PRO111" label="Finanziamento nazionale/regionale">
+					<isComposedBy>
+						<node id="PRO1111" label="Ministero Istruzione, Università e Ricerca - MIUR">
+							<isComposedBy>
+								<node id="VR111101" label="CAGLIARI 2020">
+								</node>
+								<node id="VR111102" label="CAGLIARI 2020 FORMAZIONE">
+								</node>
+								<node id="VR111103" label="CALQUA GEMS - Piattaforma HW/SW per il Quantum Computing (MIUR DM. 593/2000 art. 5)">
+								</node>
+								<node id="VR111104" label="CSP ESTATE - Laboratorio pubblico-privato per lo sviluppo di tecnologie per l'energia solare termica ad alta temperatura">
+								</node>
+								<node id="VR111105" label="CSP ESTATE - FORMAZIONE Parte dedicata alla formazione relativa al Laboratorio Solare Termodinamico (D.Lgs 297/99)">
+								</node>
+								<node id="VR111106" label="CYBERSAR - Cyberinfrastructure per la ricerca scientifica e tecnologica in Sardegna (MIUR POR 2000/2006 Mis. II.2)">
+								</node>
+								<node id="VR111107" label="FIRB XP - Metodologie agili per la produzione di software (MIUR FIRB Art. 8 DM 199)">
+								</node>
+								<node id="VR111108" label="FISR - Sistemi integrati di produzione di idrogeno e sua utilizzazione nella generazione distribuita">
+								</node>
+								<node id="VR111109" label="FISS 2006 - Finanziamento Istituti Scientifici Speciali (MIUR DM. 8/10/1996 n. 623">
+								</node>
+								<node id="VR111110" label="FISS 2007 - Finanziamento Istituti Scientifici Speciali (MIUR DM. 8/10/1996 n. 623">
+								</node>
+								<node id="VR111111" label="FLUGEN - Metodologie computazionali ibride per l'analisi statistica del flusso genico in grandi dataset">
+								</node>
+								<node id="VR111112" label="GRIDA3  - Gestore di risorse condivise per analisi di dati e applicazioni ambientali (D.Lgs 297/99)">
+								</node>
+								<node id="VR111113" label="LABORATORIO 5 BIO - Sviluppo di metodologie per la modellizzazione e lo studio di farmaci e biofarmaci">
+								</node>
+								<node id="VR111114" label="MOT RIC NDA - Architettura distribuita per la ricerca semantica e la fruizione personalizzata dei contenuti (MIUR DM. 593/2000 art. 5)">
+								</node>
+								<node id="VR111115" label="MURST 1.4 - Sviluppo di modelli numerici e codici di calcolo (MIUR)">
+								</node>
+								<node id="VR111116" label="RT SIM GEMS - Modelli e metodologie innovative per il controllo la diagnostica la gestione di impianti termolelettrici combinati gas vapore">
+								</node>
+								<node id="VR111117" label="SITI RICERCA - Nuove tecnologie per la bonifica e il ripristino ambientale dei siti contaminati (PON, DM. 593/2000 art. 12)">
+								</node>
+								<node id="VR111118" label="VENTO DI SARDEGNA - Vento di sardegna">
+								</node>																					
+							</isComposedBy>
+						</node>
+						<node id="PRO1112" label="Ministero Sviluppo Economico - MISE, Ministero del Lavoro e Politiche Sociali - LPS">
+							<isComposedBy>
+								<node id="VR111201" label="INDUSTRIA 2015 - Process Engineering  Combustion (MISE)">
+								</node>
+								<node id="VR111202" label="TRAMES - Trasferimento metodologie e-learning (LPS)">
+								</node>
+								<node id="VR111203" label="VISION - ADAPT-BIS Prog. Vision Asse 2 Regione Sardegna (LPS)">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1113" label="POR Sardegna 2007-2013, POR Sardegna 2000-2006">
+							<isComposedBy>
+								<node id="VR111301" label="COMUNIMATICA PIA - Comunimatica (Pacchetti Integrati di Agevolazione 2010">
+								</node>		
+								<node id="VR111302" label="MOSKA - Mobile Organized Scientific Knowledge Access">
+								</node>
+								<node id="VR111303" label="MOST - Moving research Outcomes to Standard Telemedicine practice">
+								</node>
+								<node id="VR111304" label="PIA - CLOUD (Pacchetti Integrati di Agevolazione 2010)">
+								</node>
+								<node id="VR111305" label="SOCIAL EHR - Modelli collaborativi di patient empowerment">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1114" label="L.R. 7/2007 Regione Sardegna">
+							<isComposedBy>
+								<node id="VR111401" label="BIO STAR COBIK - Ricerca su metodologie computazioni di informatica nel settore biomedico">
+								</node>
+								<node id="VR111402" label="FORWARD GENOMICS">
+								</node>				
+							</isComposedBy>
+						</node>
+						<node id="PRO1115" label="L.R. 19/96 (Regione Sardegna, cooperazione decentrata), L.R. 37/98 art. 4 Regione Sardegna">
+							<isComposedBy>
+								<node id="VR111501" label="ARGILLA - Sviluppo di tecnologie web per la messa in opera di sistemi informativi per l'ambiente e lo studio ciclo idrologico (L.R. 37/98">
+								</node>
+								<node id="VR111502" label="CLIMI ARIDI - Tecnologie innovative per la gestione di risorse idriche alternative in climi aridi (L.R. 19/96)">
+								</node>
+								<node id="VR111503" label="EVA - Sviluppo di una piattaforma SW che abilita su uno smartphone/tablet le funzioni di assistente vocale tramite un avatar 3D antropomorfo con sembianze adatte ai vari campi e situazioni di utilizzo (L.R. 37/98)">
+								</node>
+							</isComposedBy>
+						</node>
+						<node id="PRO1116" label="Altro (specificare)">							
+							<isComposedBy>
+								<node id="VR111601" label="TELETHON BCL11A   Post GWAS functional characterization of BCL11A locus toward the development of a treatment for B-thalassemia (Fondazione Telethon)">
+								</node>
+							</isComposedBy>
+						</node>
+					</isComposedBy>
+				</node>
+			</isComposedBy>
+		</node>
+		<node id="PRO12" label="Commessa esterna/Esternal service">
+			<isComposedBy>
+				<node id="VR121101" label="ADVISE - Analisi di processi e tracciabilità in campo clinico (Inpeco)">
+				</node>
+				<node id="VR121102" label="AGIP 4 - Codici paralleli di elaborazione geofisica">
+				</node>
+				<node id="VR121103" label="AGIP 5 - Codici paralleli di elaborazione geofisica">
+				</node>
+				<node id="VR121104" label="AGIP-CRS - Sviluppo di software industriale per il metodo Common Reflection Surface">
+				</node>
+				<node id="VR121105" label="AGIP-CRS II - Sviluppo di software industriale per il metodo Common Reflection Surface (II)">
+				</node>
+				<node id="VR121106" label="AGIP MULTIPLA - Realizzazione di software per il Depht Imaging">
+				</node>
+				<node id="VR121107" label="ALMA - Parabolic antenna CFD simulation (European Industrial Engineering srl)">
+				</node>
+				<node id="VR121108" label="ANEURISMI (CNR)">
+				</node>
+				<node id="VR121109" label="ARC NET - Sequenziamento di campioni di DNA e processamento dei dati informatici">
+				</node>
+				<node id="VR121110" label="ARPAS FORMAZIONE - Addestramento del personale Arpas">
+				</node>
+				<node id="VR121111" label="ARPAS SERVIZI - Installazione e configurazione del Cluster di calcolo e affiancamento on the job">
+				</node>				
+				<node id="VR121112" label="ASI 242 - Sviluppo dei Codici di Simulazione per il Trasporto dei Frammenti di Fissione e per il Computo degli Effetti Radiativi (CFD, SISTEMA, NEUTRONICA)">
+				</node>
+				<node id="VR121113" label="ASI 2001 - Sviluppo dei Codici di Simulazione per il Trasporto dei Frammenti di Fissione e per il Computo degli Effetti Radiativi (II parte)">
+				</node>
+				<node id="VR121114" label="ASI ENVISAT - Analisi dati ASAR Idrologia">
+				</node>
+				<node id="VR121115" label="BLUE STREAM">
+				</node>	
+				<node id="VR121116" label="Centro Ricerche Fiat-99    Modellazione di fuel cell a metanolo diretto">
+				</node>	
+				<node id="VR121117" label="CFR ZEOLITI - Studi molecolari della selettività di contaminanti presenti in miscele nel trattamento con zeoliti di acque contaminate (Consorzio Ferrara Ricerche)">
+				</node>	
+				<node id="VR121118" label="CHISS - Chimica per lo sviluppo sostenibile">
+				</node>
+				<node id="VR121119" label="CINSA - Software di simulazione di bioreattori">
+				</node>
+				<node id="VR121120" label="CNR-HYDRO - Idroelasticità">
+				</node>	
+				<node id="VR121121" label="COCRYS - Consultation and modelling of cocrystals and prediction of the likeliness of their stability (SOLID CHEM GmbH)">
+				</node>					
+				<node id="VR121122" label="DEPRIN - Studio e modellazione di un set di metadati per il progetto DEPRIN (GE Gestioni Elettroniche SpA)">
+				</node>
+				<node id="VR121123" label="DIES - Sviluppo componente per un simulatore vascolare (Dies srl)">				
+				</node>
+				<node id="VR121124" label="EA SOLAR - Servizio di calcolo ingegneristico (ENEA)">
+				</node>
+				<node id="VR121125" label="EIE - Studio dell'azione aerodinamica del vento (European Industrial Engineering srl)">
+				</node>	
+				<node id="VR121126" label="ELIOS LAB - Sviluppo ed applicazione di modelli matematici finalizzati all'analisi di sistemi di tipo pebble-bed per l'accumulo termico ad alta temperatura (ENEA)">
+				</node>			
+				<node id="VR121127" label="ENI 6 Imaging sismico">
+				</node>
+				<node id="VR121128" label="ENI 7 Imaging 3D">
+				</node>
+				<node id="VR121129" label="ENNOVABOX - Sviluppo componenti software per una piattaforma televisiva in alta definizione basata su protocollo IP e di un box multimediale (Ennova Research srl)">
+				</node>
+				<node id="VR121130" label="ESA II - Combustion synthetic microgravity (Extension Contract)">
+				</node>
+				<node id="VR121131" label="ESA III - Topical Team Combustion Synth">
+				</node>
+				<node id="VR121132" label="EUMEDGRID - (GARR)">
+				</node>
+				<node id="VR121133" label="EXO - Simulatore bruciatore ad idrogeno (Exo New Energy e Fluent Italia)">
+				</node>
+				<node id="VR121134" label="EXTREME - Attività modellistica per la quantificazione della pericolosità di propagazione degli incendi boschivi in condizioni metereologiche estreme (CNR)">
+				</node>	
+				<node id="VR121135" label="EYESIM (Dies srl)">
+				</node>
+				<node id="VR121136" label="FARMAEQUI - Realizzazione di una piattaforma per studi di equivalenza farmaceutica e bioequivalenza mediante modello bioinformatico di correlazione in vitro�vivo (CNR)">
+				</node>
+				<node id="VR121137" label="FC SO -  Fuell Cell a ossidi solidi (CNR)">
+				</node>
+				<node id="VR121138" label="FLOSSLAB -  Interazione del sistema di teleconsulto per ecografia (FlossLab srl)">
+				</node>
+				<node id="VR121139" label="GENP - Simulazione di camera di combustione per turbine a gas (Nuovo Pignone)">
+				</node>
+				<node id="VR121140" label="HFSP Mirror Neurons and the observation/execution (HFSP)">
+				</node>
+				<node id="VR121141" label="HUMANITAS FICARA - Analisi bioinformatica dati di espressione di miRNA (Humanitas Mirasole SpA)">
+				</node>
+				<node id="VR121142" label="IDI 45 - Potenziale rigenerativo della citochina proinfiammatoria IL22 (Istituto Dermopatico Immacolata)">
+				</node>
+				<node id="VR121143" label="IM - Sviluppo ed ottimizzazione della tecnologia SPS per la produzione di materiali nanostrutturali densi (Innovative Materials Srl)">
+				</node>
+				<node id="VR121144" label="IRAD I - Simulation for planetary surface robotics development international supplement (Johns Hopkins Applied Physics Labs)">
+				</node>
+				<node id="VR121145" label="IRAD II - Virtual Terrain Simulation for Small-Body Low-Gravity Surface Mobility (Johns Hopkins Applied Physics Labs)">
+				</node>				
+				<node id="VR121146" label="IZS - Servizio di Bioinformatica e analisi dati (Istituto Zooprofilatico Sperimentale Teramo)">
+				</node>
+				<node id="VR121147" label="KA TURISMO - Piano Sviluppo Turismo Sostenibile (Kassiopea Group)">
+				</node>
+				<node id="VR121148" label="LAORE - Scouting tecnologico su soluzioni aperte per la PA (01/01/2010-31/01/2010)">
+				</node>			
+				<node id="VR121149" label="LHC - Thermal and Mechanical Analyses of the LHC experiment (CERN)">
+				</node>
+				<node id="VR121150" label="LIBANO - Studio di fattibilita per la realizzazione di un dissalatore (?, APRI AMBIENTE)">
+				</node>
+				<node id="VR121151" label="MEGAPIE - Termal Hydraulics Calculation (ENEA)">
+				</node>
+				<node id="VR121152" label="MEGAPIE 2  Termal Hydraulics Analysis (PSI Paul Scherrer Institut)">
+				</node>
+				<node id="VR121153" label="MONTIPRAMA  Acquisizione e visualizzazione per beni culturali (Sopraintendenza Beni Archeologici Cagliari Oristano)">
+				</node>
+				<node id="VR121154" label="MPCMV - Sviluppo di tecniche per la colorazione di point cloud massicce non strutturate a partire da fotografie allineate e per la loro visualizzazione real-time con metodi out-of-core (Gexcel)">
+				</node>
+				<node id="VR121155" label="NANO - Nanotecnologie attivit� modellistica di supporto allo sviluppo di processi di sintesi SHS e SPS (INSTM)">
+				</node>
+				<node id="VR121156" label="NUVOLA - Sviluppo di un modello di acque superficiali utilizzabile in ambiente web (Nice Srl)">
+				</node>	
+				<node id="VR121157" label="OMMC - Operatore museale multimediale (Museo di Carbonia)">
+				</node>	
+				<node id="VR121158" label="PAPCAD - Studio, sviluppo e verifica di algoritmi ottimizzati di image processing specifici per l'utilizzazione nella pipeline computazionale del sistema PapCAD 2.0 (IBM)">
+				</node>
+				<node id="VR121159" label="PG  Consultation and modelling/simulation of crystal of hydrogenated castor oil with and without modifiers (PROCTER  GAMBLE)">
+				</node>
+				<node id="VR121160" label="RATMAN  Rapdly adaptive terrain models available on the net Support reuse (Sardegna IT)">
+				</node>
+				<node id="VR121161" label="SENTIERISTICA  Realizzazione del laboratorio di innovazione tecnologica per il Progetto Co.R.E.M. (Ente Foreste della Sardegna)">
+				</node>				
+				<node id="VR121162" label="SHS - Sviluppo di un codice di calcolo per processi di sintesi autopropagante ad alta temperatura (COREM)">
+				</node>
+				<node id="VR121163" label="SHS MODELING (PROMEA)">
+				</node>
+				<node id="VR121164" label="SINTERCOMB  Simulazione modellistica dei processi SPS per la sinterizzazione di materiali innovativi per celle a combustibile (CNR)">
+				</node>
+				<node id="VR121165" label="SITAI  Portale per il marketing territoriale e industriale (Osservatorio Industriale della Sardegna)">
+				</node>
+				<node id="VR121166" label="SORGENIA  Preimpianto 50 e analisi DNI a Macchiareddu (Sorgenia SpA)">
+				</node>				
+				<node id="VR121167" label="SRT  Elaborazione dati FEM per radiotelescopio SRT (CNR)">
+				</node>
+				<node id="VR121168" label="STGFX 2D - Graphics Libraires for ST Omega Family (ST MICROELECTRONIC)">
+				</node>
+				<node id="VR121169" label="SVIFASTA - Analisi dati Sviluppo algoritmo statistico e di interfaccia web user friendly (CNR ITB)">
+				</node>
+				<node id="VR121170" label="SWD - Sismic while drilling e Endoscopia geofisica (01/08/2003  31/12/2005)">
+				</node>
+				<node id="VR121171" label="TAIC - Tecnologie avanzate per informatica clinica (Azienda Ospedaliera Brotzu) 2006-2009">
+				</node>
+				<node id="VR121172" label="T HUB - Programma di ricerca e sviluppo con annessa formazione denominato HUB Demonstrator (Inpeco TIH)">
+				</node>
+				<node id="VR121173" label="VENETO - Supporto tecnico uso framework mediadart per la realizzazione di una digital library (Regione Veneto)">
+				</node>
+				<node id="VR121174" label="VIENNA - Developement of a database system combined with a web interface for storing and accessing drug protein (CeMM-Center for Molecular Medicine of the Austrian Academy of Sciences, Vienna)">
+				</node>			
+			</isComposedBy>
+		</node>
+		<node id="PRO13" label="Commessa interna/Internal service">
+			<isComposedBy>
+				<node id="VR131101" label="CSR - Centro Servizi Regionali (RAS, Assto. Affari Generali)">
+				</node>
+				<node id="VR131102" label="DISTRICT LAB - Gestione della struttura tecnico-scientifica dei 9 laboratori del DistrICT (Sardegna Ricerche)">
+				</node>
+				<node id="VR131103" label="UOMO - Man simulator e Bioinformatica applicata (Sardegna Ricerche, delibera RAS 31/13 del 27/05/2008)">
+				</node>
+			</isComposedBy>
+		</node>
+	</isComposedBy>
+</node>						
+					
+						
+
+								
+
+
+							
+
+						
+						
+
+
+
+
+											
+			
