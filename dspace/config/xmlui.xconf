@@ -187,12 +187,14 @@
         <!-- <theme name="Default Reference Theme" regex=".*" path="Reference/" /> -->
 
         <!-- Classic theme, inspired by the JSP UI -->
+        <!--
          <theme name="Classic" regex=".*" path="Classic/" />
+        -->
 
         <!-- The Kubrick theme -->
-        <!--
+        
         <theme name="Kubrick" regex=".*" path="Kubrick/" />
-         -->
+         
 
         <!--
              For information on configuring the mobile theme, see:
