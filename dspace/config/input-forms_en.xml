@@ -838,9 +838,9 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Autore</label>
+         <label>Author</label>
          <input-type>name</input-type>
-         <hint>Inserisci nome e cognome dell'autore o degli autori</hint>
+         <hint>Please insert author's firstname and lastname</hint>
          <required></required>
        </field>
        
