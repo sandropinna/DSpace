@@ -1665,7 +1665,7 @@
 	<message key="xmlui.dri2xhtml.structural.contact-link">Contattaci</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Manda Feedback</message>
 	
-	<message key="xmlui.dri2xhtml.structural.head-subtitle">P-arch - Digital Repository di Sardegna Ricerche</message>
+	<message key="xmlui.dri2xhtml.structural.head-subtitle">P-arch - Digital Repository</message>
 
 	<message key="xmlui.dri2xhtml.structural.profile">Profilo: </message>
 	<message key="xmlui.dri2xhtml.structural.logout">Logout</message>
