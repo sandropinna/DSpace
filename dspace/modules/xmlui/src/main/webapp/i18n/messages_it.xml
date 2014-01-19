@@ -24,18 +24,26 @@
 		--> 
 	
 	<!-- General keys -->
-	<message key="xmlui.general.dspace_home">DSpace Home</message>
+	<message key="xmlui.general.dspace_home">Home</message>
 	<message key="xmlui.general.search">Ricerca</message>
 	<message key="xmlui.general.go">Vai</message>
-	<message key="xmlui.general.go_home">Vai a DSpace home</message>
+	<message key="xmlui.general.go_home">Vai a P-arch home</message>
 	<message key="xmlui.general.save">Salva</message>
 	<message key="xmlui.general.cancel">Annulla</message>
 	<message key="xmlui.general.return">Torna Indietro</message>
 	<message key="xmlui.general.update">Aggiorna</message>
 	<message key="xmlui.general.delete">Cancella</message>
-	<message key="xmlui.general.next">Prossimo</message>
+	<message key="xmlui.general.next">Avanti</message>
 	<message key="xmlui.general.untitled">Senza Titolo</message>
-	
+	<message key="xmlui.general.home.title">Benvenuti su P-arch</message>
+	<message key="xmlui.general.home.description1line">P-arch è l'archivio istituzionale ad accesso aperto del Parco Scientifico e Tecnologico della Sardegna. Contiene la documentazione scientifica prodotta dalla ricerca finanziata con fondi pubblici, ossia articoli scientifici, la digitalizzazione di programmi e di progetti pilota e sperimentali, nonché di tutti i documenti ad essi collegati come report, brevetti, contributi a convegni, marchi e design registrati, manuali, cataloghi e tutto quanto venga realizzato all'interno del Parco. </message>
+	<message key="xmlui.general.home.description2line">L'adeguamento della documentazione presente nell'archivio di P-arch agli standard internazionali (OAI-PMH), ne esalta la visibilità e garantisce al contempo un severo processo di controllo da parte della comunità scientifica internazionale e di conseguenza una adeguata validazione ed autorevolezza. Gli autori, previa registrazione, depositano direttamente i propri documenti nell'archivio. L'accesso alle informazioni ed ai documenti è libero. </message>
+    <message key="xmlui.general.home.contacts">Contatti</message>
+    <message key="xmlui.general.home.legalnotes">Note legali</message>
+    <message key="xmlui.general.home.copyright">2013 Sardegna Ricerche</message>
+	<message key="xmlui.general.home.communities">Archivi</message>
+	<message key="xmlui.general.home.project">Un progetto di </message>
+
 	<!-- 
 		Page not found keys 
 		
@@ -50,7 +58,7 @@
 	<!--
 		This section is for feed syndications (RSS, atom, etc)  
 	-->
-	<message key="xmlui.feed.general_description"> DSpace digital repository cattura, immagazzina, indicizza, preserva, e distribuisce i materiali di ricerca digitali.</message>
+	<message key="xmlui.feed.general_description"> P-arch digital repository cattura, immagazzina, indicizza, preserva, e distribuisce i materiali di ricerca digitali.</message>
 	<message key="xmlui.feed.logo_title">The Channel Image</message>
 	<message key="xmlui.feed.untitled">Senza titolo</message>
 	
@@ -81,7 +89,7 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Archivi o collezioni corrispondenti alla vostra ricerca</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Item corrispondenti alla vostra richiesta</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">La ricerca non ha prodotto risultati.</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Tutto DSpace</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Tutto P-arch</message>
 
     <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">Titolo</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">Data di pubblicazione</message>
@@ -147,7 +155,7 @@
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">Titolo</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">Data di pubblicazione</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">Data di immissione</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">Data di inserimento</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.asc">crescente</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.desc">decrescente</message>
@@ -167,41 +175,42 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Sfoglia {0} per Data di Pubblicazione {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Sfoglia {0} per Data di Pubblicazione</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Sfoglia {0} per Data di Immissione {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Sfoglia {0} per Data di Immissione</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Sfoglia {0} per Data di inserimento {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Sfoglia {0} per Data di inserimento</message>
+
 
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Ambito della Ricerca</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Tutto DSpace</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Tutto P-arch</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Ricerca in questa collezione:</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Sfoglia per</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Titoli</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Autori</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">Date</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Ricerca avanzata</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Immissioni Recenti</message>
-	
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Ultimi inserimenti</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Lista degli Archivi</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Lista degli Archivi</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Archivi in DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Selezionare una sotto-comunità per visualizzare le sue collezioni.</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Archivi in P-arch</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Seleziona un archivio per visualizzare le sue collezioni.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Ambito della ricerca</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Tutto DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Ricerca in questa comunità e le sue collezioni:</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Tutto P-arch</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Ricerca in questo archivio:</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Sfoglia per</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Titoli</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Autori</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Date</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Ricerca avanzata</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">sotto-comunità all'interno di questa comunità</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Collezioni in questa sotto-comunità</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Immissioni Recenti</message>
-	
-	
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">sotto-comunità all'interno di questo archivio</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Collezioni in questo archivio</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Ultimi inserimenti</message>
+
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
 	<message key="xmlui.ArtifactBrowser.Contact.title">Contattaci</message>
 	<message key="xmlui.ArtifactBrowser.Contact.trail">Contattaci</message>
@@ -215,7 +224,7 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Esprimi la tua opinione</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Esprimi la tua opinione</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Esprimi la tua opinione</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Grazie per aver espresso la tua opinione riguardo a DSpace. I tuoi suggerimenti sono molto apprezzati!</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Grazie per aver espresso la tua opinione riguardo a P-arch. I tuoi suggerimenti sono molto apprezzati!</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.email">La tua email</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Questo indirizzo sara' utilizzato per inoltrare la tua opinione.</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Commenti</message>
@@ -228,27 +237,27 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">I tuoi suggerimenti sono stati ricevuti.</message>
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Ricerca in DSpace</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Inserisci un testo nel box sottostante per effettuare ricerche in DSpace.</message>
-	
+	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Ricerca in P-arch</message>
+	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Inserisci un testo nel box sottostante per effettuare ricerche in P-arch.</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
-	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Mostra Item</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Questo item appare nelle seguenti collezioni</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostra i principali dati dell'item</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostra tutti i dati dell'item</message>
-	
+	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Mostra</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Questo inserimento fa parte delle seguenti collezioni</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostra i principali dati</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostra tutti i dati</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
-	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Ricerca</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Tutto DSpace</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Archivi &amp; Collezioni</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Naviga</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Tutto P-arch</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Archivi e Collezioni</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Titoli</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Autori</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Soggetti</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Data di pubblicazione</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Data di immissione</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Data di inserimento</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Questa Collezione</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Questa comunità</message>
-	
+	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Questo archivio</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Cerca</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.trail">Cerca</message>
@@ -315,7 +324,7 @@
 	<message key="xmlui.EPerson.CannotRegister.title">Registrazione non valida</message>
 	<message key="xmlui.EPerson.CannotRegister.head">Registrazione non valida</message>
 	<message key="xmlui.EPerson.CannotRegister.para1">La configurazione di questa comunità digitale non permette la registrazione in questo contesto. Contattare<a href="../contact">l'amministratore</a> per domande o commenti.</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">Aggiorna Profilo</message>
 	<message key="xmlui.EPerson.EditProfile.title_create">Crea Profilo</message>
@@ -326,23 +335,24 @@
 	<message key="xmlui.EPerson.EditProfile.first_name">Nome</message>
 	<message key="xmlui.EPerson.EditProfile.last_name">Cognome</message>
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefono</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions">Iscrizione</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">E' possibile iscriversi ad una collezione per ricevere email aggiornate sui nuovi items immessi. E' possibile iscriversi a tutte le collezioni. Un'altra alternativa per ricevere eventuali aggiornamenti e' utilizzare l'RSS disponibile per ogni collezione.</message>
-	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Iscrizione Email</message>
-	<message key="xmlui.EPerson.EditProfile.select_collection">( Scegli le collezioni)</message>
-	<message key="xmlui.EPerson.EditProfile.update_password_instructions">In opzione, e' possibile inserire una nuova password all'interno del box sottostante , e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
-	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Inserire una nuova password all'interno del box sottostante , e confermarla inserendola nuovamente nel box successivo. La password deve essere almeno di sei caratteri.</message>
+	 <message key="xmlui.EPerson.EditProfile.Language">Lingua</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions">Sottoscrizione aggiornamenti</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Scegli le collezioni sulle quali vuoi essere aggiornato via email.<br></br> Seleziona la collezione dal menù a tendina e clicca sul tasto Aggiungi per confermarla (puoi scegliere anche più collezioni)</message>
+	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Scegli le collezioni</message>
+	<message key="xmlui.EPerson.EditProfile.select_collection">(Seleziona)</message>
+	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Puoi aggiornare la password. La password deve essere almeno di sei caratteri.</message>
+	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Devi inserire una password. La password deve essere almeno di sei caratteri.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Password</message>
-	<message key="xmlui.EPerson.EditProfile.confirm_password">Reinserire la password per confermare</message>
+	<message key="xmlui.EPerson.EditProfile.confirm_password">Conferma password</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Completa la registrazione</message>
 	<message key="xmlui.EPerson.EditProfile.submit_create">Aggiorna Profilo</message>
 	<message key="xmlui.EPerson.EditProfile.error_required">Questo campo e' obbligatorio</message>
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Scegli una password di almeno 6 caratteri</message>
 	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Reinserire la password per confermare</message>
-	<message key="xmlui.EPerson.EditProfile.head_auth">Gruppi di appartenenza autorizzati</message>
-	<message key="xmlui.EPerson.EditProfile.head_identify">Identify</message>
-	<message key="xmlui.EPerson.EditProfile.head_security">Security</message>
-	
+	<message key="xmlui.EPerson.EditProfile.head_auth">Fai parte dei seguenti gruppi</message>
+	<message key="xmlui.EPerson.EditProfile.head_identify"></message>
+	<message key="xmlui.EPerson.EditProfile.head_security">Impostazioni di sicurezza</message>
+
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
 	<message key="xmlui.EPerson.EPersonUtils.register_verify_email">Verifica Email</message>
 	<message key="xmlui.EPerson.EPersonUtils.register_create_profile">Crea Profilo</message>
@@ -352,10 +362,10 @@
 	<message key="xmlui.EPerson.EPersonUtils.forgot_finished">Operazione conclusa</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ForgotPasswordFinished.java -->
-	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Password cancellata</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Password cancellata</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">La password e'stata cancellata.</message>
-	
+	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Password modificata</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Password modificata</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">La password e' stata modificata.</message>
+
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
 	<message key="xmlui.EPerson.InvalidToken.title">Inserimento non valido</message>
 	<message key="xmlui.EPerson.InvalidToken.trail">Inserimento non valido</message>
@@ -364,30 +374,30 @@
 	<message key="xmlui.EPerson.InvalidToken.para2">Se cosi' fosse, copiate ed incollate l'intera URL nella barra degli indirizzi del vostro browser, invece che semplicemente cliccare sul collegamento. La barra degli indirizzi dovrebbe dunque contenere qualcosa come:</message>
 	
 	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
-	<message key="xmlui.EPerson.Navigation.my_account">My Account</message>
+	<message key="xmlui.EPerson.Navigation.my_account">Area Utenti</message>
 	<message key="xmlui.EPerson.Navigation.profile">Profilo</message>
 	<message key="xmlui.EPerson.Navigation.logout">Logout</message>
 	<message key="xmlui.EPerson.Navigation.login">Login</message>
 	<message key="xmlui.EPerson.Navigation.register">Registrazione</message>
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
-	<message key="xmlui.EPerson.PasswordLogin.title">Registrati</message>
-	<message key="xmlui.EPerson.PasswordLogin.trail">Registrati</message>
-	<message key="xmlui.EPerson.PasswordLogin.head1">Registrati su DSpace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Registrati</message>
+	<message key="xmlui.EPerson.PasswordLogin.title">Login</message>
+	<message key="xmlui.EPerson.PasswordLogin.trail">Login</message>
+	<message key="xmlui.EPerson.PasswordLogin.head1">Accedi a P-arch</message>
+	<message key="xmlui.EPerson.PasswordLogin.title">Login</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Indirizzo E-Mail</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">L'indirizzo email e/o la password fornita sono errati.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Password</message>
 	<message key="xmlui.EPerson.PasswordLogin.forgot_link"> Hai dimenticato la password?</message>
-	<message key="xmlui.EPerson.PasswordLogin.submit">Registrati</message>
-	<message key="xmlui.EPerson.PasswordLogin.head2">Registra nuovo utente</message>
-	<message key="xmlui.EPerson.PasswordLogin.para1">Registra un account per sottoscriverti ad una collezione, ricevere email sugli aggiornamenti, ed inserire nuovi elementi in DSpace.</message>
+	<message key="xmlui.EPerson.PasswordLogin.submit">Login</message>
+	<message key="xmlui.EPerson.PasswordLogin.head2">Non sei ancora registrato?</message>
+	<message key="xmlui.EPerson.PasswordLogin.para1">Per inserire i tuoi lavori su P-arch e poter usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Clicca qui per registrarti.</message>
 	
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">Registrati</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Registrati</message>
-	<message key="xmlui.EPerson.LDAPLogin.head1">Registrati in DSpace</message>
+	<message key="xmlui.EPerson.LDAPLogin.head1">Registrati in P-arch</message>
 	<message key="xmlui.EPerson.LDAPLogin.title">Registrati</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Nome Utente</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Il nome utente e/o la password non sono validi.</message>
@@ -411,7 +421,7 @@
 	<message key="xmlui.EPerson.FailedAuthentication.title">Autenticazione fallita</message>
     <message key="xmlui.EPerson.FailedAuthentication.trail">Autenticazione fallita</message>
     <message key="xmlui.EPerson.FailedAuthentication.h1">Autenticazione fallita</message>
-	
+
 	<!-- Login xml files -->
 	<message key="xmlui.eperson.noAuthMethod.head">Modalita' di autenticazione non trovata</message>
 	<message key="xmlui.eperson.noAuthMethod.p1">Modalita' di autenticazione non trovata.Contattare l'amministratore.</message>
@@ -427,8 +437,8 @@
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
 	<message key="xmlui.EPerson.RegistrationFinished.title">Registrazione terminata</message>
 	<message key="xmlui.EPerson.RegistrationFinished.head">Registrazione terminata</message>
-	<message key="xmlui.EPerson.RegistrationFinished.para1">Sei abilitato ad utilizzare DSpace. E' possibile iscriversi alle collezioni per ricevere via email gli aggiornamenti sulle nuove immissioni.</message>
-	
+	<message key="xmlui.EPerson.RegistrationFinished.para1">Sei registrato su P-arch come utente con diritto di lettura.<br></br> Dalla pagina del tuo profilo è possibile scegliere quali aggiornamenti desideri ricevere via email riguardo ai nuovi contenuti inseriti nell'archivio. <br></br>Per effettuare inserimenti il tuo profilo deve essere validato dall'amministratore di P-arch. </message>
+
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
 	<message key="xmlui.EPerson.ResetPassword.title">Password cancellata</message>
 	<message key="xmlui.EPerson.ResetPassword.head">Password cancellata</message>
@@ -436,19 +446,19 @@
 	<message key="xmlui.EPerson.ResetPassword.email_address">Indirizzo email</message>
 	<message key="xmlui.EPerson.ResetPassword.new_password">Nuova password</message>
 	<message key="xmlui.EPerson.ResetPassword.confirm_password">Ridigita per confermare</message>
-	<message key="xmlui.EPerson.ResetPassword.submit">Password cancellata</message>
+	<message key="xmlui.EPerson.ResetPassword.submit">Modifica</message>
 	<message key="xmlui.EPerson.ResetPassword.error_invalid_password">Scegliere una password di almeno sei caratteri</message>
 	<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">Inserire nuovamente la password per confermare</message>
 	
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 	<message key="xmlui.EPerson.StartForgotPassword.title">Password dimenticata</message>
 	<message key="xmlui.EPerson.StartForgotPassword.head">Password dimenticata</message>
-	<message key="xmlui.EPerson.StartForgotPassword.para1">Inserisci l'indirizzo email utilizzato per la registrazione a DSpace. Verra' inviata una mail a questo indirizzo di posta con le indicazioni utili.</message>
+	<message key="xmlui.EPerson.StartForgotPassword.para1">Inserisci l'indirizzo email utilizzato per la registrazione e riceverai le indicazioni utili per reimpostare una nuova password.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address">Indirizzo email</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Inserisci l'indirizzo di posta elettronica utilizzato per la registrazione.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Indirizzo email non trovato.</message>
-	<message key="xmlui.EPerson.StartForgotPassword.submit">Invia informazioni</message>
-	
+	<message key="xmlui.EPerson.StartForgotPassword.submit">Invia</message>
+
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">Nuova registrazione</message>
 	<message key="xmlui.EPerson.StartRegistration.head1">Email gia' utilizzata</message>
@@ -456,16 +466,16 @@
 	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Cancella password</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_reset">Cancella password</message>
 	<message key="xmlui.EPerson.StartRegistration.head2">Nuova registrazione</message>
-	<message key="xmlui.EPerson.StartRegistration.para2">Crea un account per ricevere gli aggiornamenti sulle collezioni via email e immettere nuovi item in Dspace.</message>
+	<message key="xmlui.EPerson.StartRegistration.para2">Per inserire nuovi documenti e poter usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale. <br></br> La registrazione e l'utilizzo dei servizi di P-arch non implicano alcun costo. </message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">Indirizzo Email</message>
-	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email verra' verificato e potra'essere utilizzato nella fase di login.</message>
+	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email verra' verificato e potra' essere utilizzato nella fase di login</message>
 	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Impossile mandare una email a questo indirizzo di posta elettronica.</message>
-	<message key="xmlui.EPerson.StartRegistration.submit_register">Registra</message>
-	
+	<message key="xmlui.EPerson.StartRegistration.submit_register">Invia</message>
+
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
 	<message key="xmlui.EPerson.VerifyEmail.title">Verifica invio email</message>
 	<message key="xmlui.EPerson.VerifyEmail.head">Verifica invio email</message>
-	<message key="xmlui.EPerson.VerifyEmail.para">Una email e' stata inviata a{0} contenente un URL speciale e ulteriori istruzioni.</message>
+	<message key="xmlui.EPerson.VerifyEmail.para">E' stata inviata una email a {0} contenente ulteriori istruzioni.</message>
 
 
 
@@ -487,41 +497,42 @@
 	<!-- general submission aspect messages -->
 	<message key="xmlui.Submission.general.mydspace_home">MyDSpace Home</message>
 	<message key="xmlui.Submission.general.go_mydspace">Vai a MyDSpace Home</message>
-	<message key="xmlui.Submission.general.submission.title">Immissione Item</message>
-	<message key="xmlui.Submission.general.submission.trail">Immissione Item</message>
-	<message key="xmlui.Submission.general.submission.head">Immissione Item</message>	
+	<message key="xmlui.Submission.general.submission.title">Inserimento</message>
+	<message key="xmlui.Submission.general.submission.trail">Inserimento</message>
+	<message key="xmlui.Submission.general.submission.head">Inserimento</message>	
 	<message key="xmlui.Submission.general.submission.previous">&lt; Precedente</message>
 	<message key="xmlui.Submission.general.submission.save">Salva / Annulla</message>
-	<message key="xmlui.Submission.general.submission.next">Prossimo &gt;</message>
-	<message key="xmlui.Submission.general.submission.complete">Completa immissione</message>
-	<message key="xmlui.Submission.general.workflow.title">Immissione Item</message>
-	<message key="xmlui.Submission.general.workflow.trail">Immissione Item</message>
-	<message key="xmlui.Submission.general.workflow.head">Immissione Item</message>
+	<message key="xmlui.Submission.general.submission.next">Avanti &gt;</message>
+	<message key="xmlui.Submission.general.submission.complete">Completa inserimento</message>
+	<message key="xmlui.Submission.general.workflow.title">Inserimento</message>
+	<message key="xmlui.Submission.general.workflow.trail">Inserimento</message>
+	<message key="xmlui.Submission.general.workflow.head">Inserimento</message>
 	<message key="xmlui.Submission.general.showfull">Mostra il record completo dell'item</message>
 	<message key="xmlui.Submission.general.showsimple">Mostra il record semplice dell'item </message>
-	<message key="xmlui.Submission.general.default.title">Immissione</message>
-	<message key="xmlui.Submission.general.default.trail">Immissione</message>
+	<message key="xmlui.Submission.general.default.title">Inserimento</message>
+	<message key="xmlui.Submission.general.default.trail">Inserimento</message>
   
 	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
-	<message key="xmlui.Submission.CollectionViewer.link1">Immetti un nuovo item nella Collezione</message>
-	
+	<message key="xmlui.Submission.CollectionViewer.link1">Nuovo inserimento</message>
+
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
-	<message key="xmlui.Submission.Navigation.submissions">Immissioni</message>
+	<message key="xmlui.Submission.Navigation.submissions">Inserimenti</message>
+
 
 	
 	<!-- org.dspace.app.xmlui.Submission.submissions -->
-	<message key="xmlui.Submission.Submissions.title">Immissioni &amp; Workflow</message>
-	<message key="xmlui.Submission.Submissions.trail">Immissioni</message>
-	<message key="xmlui.Submission.Submissions.head">Immissioni &amp; Workflow</message>
+	<message key="xmlui.Submission.Submissions.title">Inserimenti &amp; Workflow</message>
+	<message key="xmlui.Submission.Submissions.trail">Inserimenti</message>
+	<message key="xmlui.Submission.Submissions.head">Inserimenti &amp; Workflow</message>
 	<message key="xmlui.Submission.Submissions.untitled"><i>Senza titolo</i></message>
 	<message key="xmlui.Submission.Submissions.email">email: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Workflow</message>
-	<message key="xmlui.Submission.Submissions.workflow_info1">Di seguito gli items in attesa di approvazione . Vi sono due tipologie di incarichi, una per quelli che hai accettato e un'altra per quelli ancora non assegnati.</message>
+	<message key="xmlui.Submission.Submissions.workflow_info1">Di seguito gli inserimenti in attesa di approvazione . Vi sono due tipologie di incarichi, una per quelli che hai accettato e un'altra per quelli ancora non assegnati.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Tuoi incarichi</message>
 	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Incarichi</message>
-	<message key="xmlui.Submission.Submissions.workflow_column3">Item</message>
+	<message key="xmlui.Submission.Submissions.workflow_column3">Inserimento</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Collezioni</message>
 	<message key="xmlui.Submission.Submissions.workflow_column5">Utente</message>
 	<message key="xmlui.Submission.Submissions.workflow_submit_return">Rimanda gli incarichi selezionati tra quelli assegnati</message>
@@ -529,38 +540,48 @@
 	<message key="xmlui.Submission.Submissions.workflow_head3">Incarichi completi</message>
 	<message key="xmlui.Submission.Submissions.workflow_submit_take">Accetta gli incarichi selezionati</message>
 	<message key="xmlui.Submission.Submissions.workflow_info3">Non ci sono incarichi</message>
+	
+	 <!-- Same transformer, completed submissions section -->
+     <message key="xmlui.Submission.Submissions.completed.head">Inserimenti archiviati</message>
+     <message key="xmlui.Submission.Submissions.completed.info">Questi sono i tuoi inserimenti archiviati in P-arch.</message>
+     <message key="xmlui.Submission.Submissions.completed.column1">Data di accettazione</message>
+     <message key="xmlui.Submission.Submissions.completed.column2">Titolo</message>
+     <message key="xmlui.Submission.Submissions.completed.column3">Collezione</message>
+     <message key="xmlui.Submission.Submissions.completed.limit">We've only listed 50 of your archived submissions above. </message>
+     <message key="xmlui.Submission.Submissions.completed.displayall">Display all my archived submissions.</message>
+     
 	<!-- Same transformer, submissions section -->
-	<message key="xmlui.Submission.Submissions.submit_head1">Immissioni</message>
-	<message key="xmlui.Submission.Submissions.submit_info1a">Tu puoi </message>
-	<message key="xmlui.Submission.Submissions.submit_info1b">iniziare una nuova immissione.</message>
-	<message key="xmlui.Submission.Submissions.submit_info1c">Il processo di immissione include la descrizione dell'item e il caricamento del file(s). Ogni comunità o Collezione puo' stabilire una sua politica di immissione.</message>
-	<message key="xmlui.Submission.Submissions.submit_head2">Immissioni non terminate</message>
-	<message key="xmlui.Submission.Submissions.submit_info2a">Queste sono le immissioni incomplete. Potete anche </message>
-	<message key="xmlui.Submission.Submissions.submit_info2b">iniziare una nuova immissione</message>
+	<message key="xmlui.Submission.Submissions.submit_head1">Inserimenti</message>
+	<message key="xmlui.Submission.Submissions.submit_info1a">Puoi </message>
+	<message key="xmlui.Submission.Submissions.submit_info1b">iniziare un nuovo inserimento.</message>
+	<message key="xmlui.Submission.Submissions.submit_info1c">Il processo di inserimento include la descrizione e il caricamento del file(s). Ogni comunità o Collezione puo' stabilire una sua politica di inserimento.</message>
+	<message key="xmlui.Submission.Submissions.submit_head2">Inserimenti non terminati</message>
+	<message key="xmlui.Submission.Submissions.submit_info2a">Questi sono gli inserimenti incompleti. Puoi anche </message>
+	<message key="xmlui.Submission.Submissions.submit_info2b">iniziare un nuovo inserimento</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
 	<message key="xmlui.Submission.Submissions.submit_column1"></message>
 	<message key="xmlui.Submission.Submissions.submit_column2">Titolo</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">Collezione</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">Utente</message>
 	<message key="xmlui.Submission.Submissions.submit_head3">Autorizzazione:</message>
-	<message key="xmlui.Submission.Submissions.submit_info3">Nessuna immissione incompleta.</message>
+	<message key="xmlui.Submission.Submissions.submit_info3">Nessun inserimento incompleto.</message>
 	<message key="xmlui.Submission.Submissions.submit_head4">Supervisione:</message>
-	<message key="xmlui.Submission.Submissions.submit_submit_remove">Rimuovere le immissioni selezionate</message>
+	<message key="xmlui.Submission.Submissions.submit_submit_remove">Rimuovere gli inserimenti selezionati</message>
 	<!-- Same transformer, inprogress section -->
-	<message key="xmlui.Submission.Submissions.progress_head1">Immissioni in fase di revisione</message>
-	<message key="xmlui.Submission.Submissions.progress_info1">Queste sono le tue immissioni completate  attualmente  in fase di revisione da parte dei curatori della collezione.</message>
+	<message key="xmlui.Submission.Submissions.progress_head1">Inserimenti in fase di revisione</message>
+	<message key="xmlui.Submission.Submissions.progress_info1">Questi sono i tuoi inserimenti completati  attualmente  in fase di revisione da parte dei curatori della collezione.</message>
 	<message key="xmlui.Submission.Submissions.progress_column1">Titolo</message>
 	<message key="xmlui.Submission.Submissions.progress_column2">Collezione</message>
 	<message key="xmlui.Submission.Submissions.progress_column3">Stato</message>
 	<!-- Same transformer, workflow status -->
 	<message key="xmlui.Submission.Submissions.status_0">Immesso</message>
 	<message key="xmlui.Submission.Submissions.status_1">In attesa dell'attenzione del revisore</message>
-	<message key="xmlui.Submission.Submissions.status_2">Immissione in attesa di revisione</message>
+	<message key="xmlui.Submission.Submissions.status_2">Inserimento in attesa di revisione</message>
 	<message key="xmlui.Submission.Submissions.status_3">In attesa dell'attenzione dell'editore</message>
-	<message key="xmlui.Submission.Submissions.status_4">Immissione in attesa di modifica</message>
+	<message key="xmlui.Submission.Submissions.status_4">Inserimento in attesa di modifica</message>
 	<message key="xmlui.Submission.Submissions.status_5">In attesa dell'attenzione finale dell'editore</message>
-	<message key="xmlui.Submission.Submissions.status_6">Immissione in attesa di modifica</message>
-	<message key="xmlui.Submission.Submissions.status_7">Immissione archiviata</message>
+	<message key="xmlui.Submission.Submissions.status_6">Inserimento in attesa di modifica</message>
+	<message key="xmlui.Submission.Submissions.status_7">Inserimento archiviato</message>
 	<message key="xmlui.Submission.Submissions.status_unknown">Stato sconosciuto</message>
 
 	<!-- submission progress bar messages -->
@@ -579,16 +600,17 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.SelectCollection -->
 	<message key="xmlui.Submission.submit.SelectCollection.head">Scegli una collezione</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection">Collezione</message>
-	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Scegli la collezione nella quale vuoi inserire l'item.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Scegli la collezione nella quale vuoi effettuare il nuovo inserimento.</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection_default">Scegli una collezione...</message>
-	<message key="xmlui.Submission.submit.SelectCollection.submit">Prossimo</message>
+	<message key="xmlui.Submission.submit.SelectCollection.submit">Avanti</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.SaveOrRemoveStep -->
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.head">Salva o annulla la tua immissione?</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.info1">Vuoi rimuovere l'immissione, o vuoi continuare piu' tardi?  Puoi tornare al processo di immissione se hai premuto il tasto Annulla per errore.</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_back">Oops, continua con l'immissione</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.head">Salva o annulla il tuo inserimento?</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.info1">Vuoi rimuovere l'inserimento, o vuoi continuare piu' tardi?  Puoi tornare al processo di inserimento se hai premuto il tasto Annulla per errore.</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_back">Continua con l'inserimento</message>
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_save">Salva, continuero' il lavoro piu' tardi</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_remove">Rimuovi l'immissione</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_remove">Rimuovi l'inserimento</message>
+
 
 	
 	<!-- org.dpspace.app.xmlui.Submission.submit.InitialQuestionsStep -->
@@ -607,9 +629,9 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.date_issued">Data di pubblicazione</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.citation">Citazione</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.publisher">Editore</message>
-	
+
 	<!-- org.dspace.app.xmlui.Submission.submit.DescribeStep -->
-	<message key="xmlui.Submission.submit.DescribeStep.head">Descrizione Item</message>
+	<message key="xmlui.Submission.submit.DescribeStep.head">Descrizione</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Errore: Campo sconosciuto</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">Questo campo e' obbligatorio</message>
 	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Cognome, <i>e.s. Rossi</i></message>
@@ -617,8 +639,8 @@
 	<message key="xmlui.Submission.submit.DescribeStep.year">Anno</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">Mese</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">Giorno</message>
-	<message key="xmlui.Submission.submit.DescribeStep.series_name">Nome Serie</message>
-	<message key="xmlui.Submission.submit.DescribeStep.report_no">Numero del report o paper.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.series_name">Numero volume</message>
+	<message key="xmlui.Submission.submit.DescribeStep.report_no">Numero del fascicolo</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">Carica File</message>
@@ -644,8 +666,8 @@
 	<message key="xmlui.Submission.submit.UploadStep.unsupported">(Non supportato)</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_edit">modifica</message>
 	<message key="xmlui.Submission.submit.UploadStep.checksum">Revisione File:</message>
-	<message key="xmlui.Submission.submit.UploadStep.submit_remove">Rimuovi i files selezionati</message>
-	
+	<message key="xmlui.Submission.submit.UploadStep.submit_remove">Rimuovi i file selezionati</message>
+
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
 	<message key="xmlui.Submission.submit.EditFileStep.head">Modifica File</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">File</message>
@@ -662,14 +684,14 @@
 	<message key="xmlui.Submission.submit.EditFileStep.submit_cancel">Cancella</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
-	<message key="xmlui.Submission.submit.ReviewStep.head">Revisione Immissione</message>
+	<message key="xmlui.Submission.submit.ReviewStep.head">Revisione Inserimento</message>
 	<message key="xmlui.Submission.submit.ReviewStep.yes">Si'</message>
 	<message key="xmlui.Submission.submit.ReviewStep.no">No</message>
 	<message key="xmlui.Submission.submit.ReviewStep.submit_jump">Modificare una di queste voci</message>
 	<message key="xmlui.Submission.submit.ReviewStep.submit_jump_files">Aggiungere o rimuovere un file</message>
 	<message key="xmlui.Submission.submit.ReviewStep.head1">Domande iniziali</message>
 	<message key="xmlui.Submission.submit.ReviewStep.head2">Pagina di descrizione {0}</message>
-	<message key="xmlui.Submission.submit.ReviewStep.head3">Files Caricati</message>
+	<message key="xmlui.Submission.submit.ReviewStep.head3">File Caricati</message>
 	<message key="xmlui.Submission.submit.ReviewStep.multiple_titles">Titoli multipli</message>
 	<message key="xmlui.Submission.submit.ReviewStep.published_before">Gia' pubblicato</message>
 	<message key="xmlui.Submission.submit.ReviewStep.no_metadata">-</message>
@@ -679,31 +701,33 @@
 	
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
 	<message key="xmlui.Submission.submit.CCLicenseStep.head">Licenza Creative Commons</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.info1">E' possibile aggiungere  una <a href="http://creativecommons.org/">Creative Commons</a> Licenza all'item. <strong>Le licenza Creative Commons definiscono i diritti di accesso degli utenti sull'item pubblicato.</strong> Se si vuole selezionare una licenza Creative Commons cliccare il tasto sottostante. E' possibile accedere al sito web Creative Common, in cui sono presenti diverse tipologie di licenze. Dopo aver selezionato una licenza, e' possibile tornare a questa pagina.</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.info1">E' possibile scegliere se si desidera o no distribuire il proprio lavoro con  una licenza <a href="http://creativecommons.org/">Creative Commons</a>, che ne consente la libera circolazione.<br></br> <strong>La licenza Creative Commons può essere usata solo se non è stato firmato un contratto in cui i diritti del lavoro sono stati ceduti a terzi.</strong><br></br> L'uso della licenza Creative Commons è comunque del tutto volontario.<br></br> Se si desidera usare la licenza, selezionare le opzioni relative alla licenza prescelta.<br></br> Se non si intende o non si può utilizzare una licenza Creative Commons, selezionare in basso il pulsante 'Avanti'.</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Accedere al sito web Creative Commons per selezionare una licenza</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.license">Licenza</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_remove">Rimuovere questa licenza Creative Commons </message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.no_license">Nessuna licenza Creative Commons selezionata</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Seleziona o modifica la tua licenza ...</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Devi cliccare Avanti per salvare le modifiche</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Licenza di distribuzione</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Un ultimo passaggio:</strong> Per garantire la riproduzione, traduzione e distribuzione del materiale immesso, si devono accettare i seguenti termini.</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info2">Accetta la licenza di  distribuzione standard selezionando 'Accetta la licenza'; e poi clicca su  'Completa Immissione'.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info2">Accetta la licenza di  distribuzione standard selezionando 'Accetta la licenza'; e poi clicca su  'Completa Inserimento'.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Per domande relative a queste licenze contattare l'amministratore di sistema.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Licenza di distribuzione</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_checkbox">Accetta la licenza</message>
-	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Accettare la licenza per completare l'immissione. La mancata accettazione della licenza permette comunque di salvare il proprio lavoro e riprenderlo in seguito o rimuovere l'item cliccando sul tasto 'Salva/Cancella'.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Accettare la licenza per completare l'inserimento. La mancata accettazione della licenza permette comunque di salvare il proprio lavoro e riprenderlo in seguito o rimuoverlo cliccando sul tasto 'Salva/Cancella'.</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
-	<message key="xmlui.Submission.submit.RemovedStep.head">Immissione rimossa</message>
-	<message key="xmlui.Submission.submit.RemovedStep.info1">L' immissione e' stata cancellata, e gli item incompleti rimossi dal sistema.</message>
-	<message key="xmlui.Submission.submit.RemovedStep.go_submission">Ritornare alla pagina di immissione</message>	
+	<message key="xmlui.Submission.submit.RemovedStep.head">Inserimento rimosso</message>
+	<message key="xmlui.Submission.submit.RemovedStep.info1">L'inserimento e' stato cancellato.</message>
+	<message key="xmlui.Submission.submit.RemovedStep.go_submission">Ritornare alla pagina di inserimento</message>	
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
-	<message key="xmlui.Submission.submit.CompletedStep.head">Immissione completa</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.info1">L'immissione e' stata inserita nel processo di revisione di questa collezione. Riceverai una email di notifica non appena la tua immissione verra' inserita nella collezione, o se si verificheranno problemi. E' possibile verificare lo stato di revisione dell'item accedendo alla pagina delle immissioni.</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.go_submission">Ritornare alla pagina di immissione</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Immetti un nuovo item</message>		
+	<message key="xmlui.Submission.submit.CompletedStep.head">Inserimento completo</message>	
+	<message key="xmlui.Submission.submit.CompletedStep.info1">Il documento e' stato inserito nel processo di revisione di questa collezione. <br></br>Riceverai una email di notifica non appena il tuo inserimento farà parte della collezione prescelta, o se si verificheranno problemi.<br></br> E' possibile controllare lo stato di revisione del documento accedendo alla pagina degli inserimenti.</message>	
+	<message key="xmlui.Submission.submit.CompletedStep.go_submission">Ritornare alla pagina di inserimento</message>	
+	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Nuovo inserimento</message>		
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
 	<message key="xmlui.Submission.workflow.PerformTaskStep.info1">Azioni che puoi portare a termine:</message>
@@ -727,10 +751,64 @@
 	<message key="xmlui.Submission.workflow.RejectTaskStep.info1">Inserire le motivazioni che hanno portato al rifiuto dell'item nel box sottostante, indicando in che misura l'utente potra' apportare modifiche e ricaricare il file  .</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.reason">Motivazione</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">Il campo Motivazione e' obbligatorio</message>
-	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Rifiuta Item</message>
+	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Rifiuta</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_cancel">Cancella</message>
 
+
+	<!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
+    <message key="xmlui.Submission.submit.AccessStep.head">Access Settings</message>
+    <message key="xmlui.Submission.submit.AccessStep.access_settings">Visible to a group of selected users (no selection needed for Anonymous)</message>
+    <message key="xmlui.Submission.submit.AccessStep.open_access">Item will be visible once accepted into archive</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo">Data di fine embargo</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Visible/Embargoed</message>
+    <message key="xmlui.Submission.submit.AccessStep.name">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.description">Description</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason">Motivazione embargo</message>
+    <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirm Policy &amp; add another</message>
+    <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Groups</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_format_date">Error format date</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_missing_date">When Embargo selected, date is required</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">An identical policy for this group and this action is already in place.</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_policies">Policies List</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings">Private Item</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings_help">If selected, the item won't be searchable</message>
+    <message key="xmlui.Submission.submit.AccessStep.column0">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.column1">Action</message>
+    <message key="xmlui.Submission.submit.AccessStep.column2">Group</message>
+    <message key="xmlui.Submission.submit.AccessStep.column3">Start Date</message>
+    <message key="xmlui.Submission.submit.AccessStep.column4">End Date</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Edit</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Remove</message>
+    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Inserire la data esatta di scadenza dell'embargo nella forma aaaa-mm-dd.<br></br> A partire da tale data il documento sarà reso accessibile a tutti (per restringere l’accesso per sempre inserire la data 10000-01-01)</message>
+	<message key="xmlui.administrative.authorization.AccessStep.label_reason_help">Puoi inserire la motivazione dell'embargo</message>
 	
+	<message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Upload File(s)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">File</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Per trasferire un documento in questo archivio, clicca sul pulsante "Scegli file" per selezionare il file e su quello "apri" per copiarlo nell'archivio.<br></br> Potresti inoltre utilizzare gli strumenti su <a href="http://www.sherpa.ac.uk/romeo/" >Sherpa RoMEO</a> per verificare in anticipo le politiche sui depositi seguite dai vari editori scientifici.<br></br> Potrai inoltre aggiungere ulteriori file al documento principale cliccando su "Aggiungi altro file".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">The item must contain at least one file.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">There was a problem uploading your file. Either the filename you entered was incorrect, there was a network problem which prevented the file from reaching us correctly, or you have attempted to upload a file format marked for internal system use only. Please try again.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">The file has not been uploaded as it appears to contain a virus. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">A technical problem was encountered whilst attempting to scan the file for viruses. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Descrizione file</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Puoi fornire una breve descrizione del file, per esempio "Articolo principale", o "Paper".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Aggiungi altro file</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Files Uploaded</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primary</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column1">  </message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column2">File</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Size</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Description</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Unknown</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">unknown format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Supported)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.known">(Known)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(Unsupported)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Edit</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">File checksum:</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Rimuovi i file selezionati</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Policies</message>
 	
 	
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -810,12 +888,12 @@
 	<message key="xmlui.administrative.ItemExport.item.not.found">L'item richiesto non è stato trovato.</message>
 	<message key="xmlui.administrative.ItemExport.collection.not.found">La collezione richiesta non è stata trovata.</message>
 	<message key="xmlui.administrative.ItemExport.community.not.found">La comunità richiesta non è stata trovata.</message>
-	<message key="xmlui.administrative.ItemExport.item.success">L'item è stato esportato con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei files di esportazioni già disponibili.</message>
-	<message key="xmlui.administrative.ItemExport.collection.success">La collezione è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei files di esportazioni già disponibili.</message>
-	<message key="xmlui.administrative.ItemExport.community.success">La comunità è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei files di esportazioni già disponibili.</message>
-	<message key="xmlui.administrative.ItemExport.available.head">Files di esportazione disponibili per il download:</message>
-		
-		
+	<message key="xmlui.administrative.ItemExport.item.success">L'item è stato esportato con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei file di esportazioni già disponibili.</message>
+	<message key="xmlui.administrative.ItemExport.collection.success">La collezione è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei file di esportazioni già disponibili.</message>
+	<message key="xmlui.administrative.ItemExport.community.success">La comunità è stata esportata con successo. Riceverai una e-mail quando il file di esportazione sarà pronto per il download.  Puoi utilizzare anche il link 'Le mie esportazioni' per consultare la lista dei file di esportazioni già disponibili.</message>
+	<message key="xmlui.administrative.ItemExport.available.head">File di esportazione disponibili per il download:</message>
+
+
 	<!-- org.dspace.app.xmlui.administrative.eperson.ManageEPeopleMain -->
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.title">Amministra E-person</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.main_head">Amministrazione E-person</message>
@@ -870,7 +948,7 @@
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint">Questa e-person non puo' essere cancellata a causa dei seguenti vincoli:</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.last_conjunction">e</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.item">eperson ha immesso uno o piu' item</message>
-	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.workflowitem">eperson ha un workflow di immissione attivo</message>
+	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.workflowitem">eperson ha un workflow di inserimento attivo</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.tasklistitem">eperson ha un workflow task in attesa della loro attenzione</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.unknown">eperson ha un vincolo non identificato col sistema</message>
   
@@ -1016,8 +1094,8 @@
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_2">Supportato</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.internal">Interno</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.internal_help">I formati marcati come interni sono nascosti all'utente, e utilizzati per scopi amministrativi.</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions">Estensioni files</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions_help">Le estensioni sono estensioni di files utilizzate per identificare automaticamente il formato dei files caricati. E' possibile aggiungere diverse estensioni per ogni formato.</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions">Estensioni file</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions_help">Le estensioni sono estensioni di file utilizzate per identificare automaticamente il formato dei file caricati. E' possibile aggiungere diverse estensioni per ogni formato.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.EditMetadataSchema.java -->
 	<message key="xmlui.administrative.registries.EditMetadataSchema.title">Schema metadata</message>
@@ -1200,8 +1278,8 @@
 	<message key="xmlui.administrative.item.general.option_status">Stato Item</message>
 	<message key="xmlui.administrative.item.general.option_bitstreams">Item Bitstreams</message>
 	<message key="xmlui.administrative.item.general.option_metadata">Item Metadati</message>
-	<message key="xmlui.administrative.item.general.option_view">Mostra Item</message>
-	
+	<message key="xmlui.administrative.item.general.option_view">Mostra</message>
+
 	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
 	<message key="xmlui.administrative.item.AddBitstreamForm.title">Carica Bitstream</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.trail">Carica bitstream</message>
@@ -1373,10 +1451,10 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.create">Crea...</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.delete">Cancella</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.restrict">Limita...</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_admins">Gli amministratori della collezione decidono chi deve immettere items nella collezione, nascondere gli items, modificare i metadati (dopo l'immissione), e aggiungere (mappare) items esistenti da altre collezioni a questa collezione (previa autorizzazione).</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step1">I responsabili di questa fase possono accettare o rifiutare le immissioni. Tuttavia non possono modificare i metadati.</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step2">I responsabili di questa fase possono modificare i metadati associati alle immissioni, accettarli o rifiutarli.</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step3">I responsabili di questa fase possono modificare i metadati associati alle immissioni, ma non possono rifiutarli.</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_admins">Gli amministratori della collezione decidono chi deve immettere items nella collezione, nascondere gli items, modificare i metadati (dopo l'inserimento), e aggiungere (mappare) items esistenti da altre collezioni a questa collezione (previa autorizzazione).</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step1">I responsabili di questa fase possono accettare o rifiutare gli inserimenti. Tuttavia non possono modificare i metadati.</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step2">I responsabili di questa fase possono modificare i metadati associati agli inserimenti, accettarli o rifiutarli.</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step3">I responsabili di questa fase possono modificare i metadati associati agli inserimenti, ma non possono rifiutarli.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_submitters"> E-People e  Gruppi che hanno il permesso di immettere nuovi items in questa collezione.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_default_read">E-People e Gruppi che possono leggere gli items immessi in questa collezione. Cambiamenti in questi ruoli non sono retroattivi.  Gli items in questo sistema sono fruibili da coloro che posseggono l'accesso di SOLA LETTURA nel momento del loro inserimento.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.default_read_custom">Questa collezione utilizza le impostazioni di accesso di default. </message>
@@ -1398,7 +1476,7 @@
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.trail">Conferma</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.main_head">Conferma cancellazione per la collezione {0}</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.main_para">Si e' sicuri che la collezione {0} debba essere cancellata? Questa operazione cancellera':</message>
-	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item1">Tutti gli items e le immissioni incomplete in questa collezione non presenti in altre collezioni.</message>
+	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item1">Tutti gli items e gli inserimenti incompleti in questa collezione non presenti in altre collezioni.</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item2">I contenuti di tutti gli item.</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item3">Tutte le politiche di accesso associate.</message>
 	
@@ -1444,7 +1522,7 @@
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.main_head">Conferma la cancellazione della comunità {0}</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.main_para">Sicuro che la comunità {0} debba essere cancellata? Questa operazione cancellera':</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item1">tutte le collezioni della comunità che non siano contenute in altre Comunità</message>
-	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item2">tutti gli item e le immissioni incomplete in questa comunità che non siano contenute in altre Comunità</message>
+	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item2">tutti gli item e gli inserimenti incompleti in questa comunità che non siano contenuti in altre Comunità</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item3">I contenuti degli items</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item4">Tutte le politiche di accesso associate</message>
 	
@@ -1587,13 +1665,13 @@
 	<message key="xmlui.dri2xhtml.structural.contact-link">Contattaci</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Manda Feedback</message>
 	
-	<message key="xmlui.dri2xhtml.structural.head-subtitle">DSpace -  Digital Repository Unimib</message>
+	<message key="xmlui.dri2xhtml.structural.head-subtitle">P-arch - Digital Repository di Sardegna Ricerche</message>
 
 	<message key="xmlui.dri2xhtml.structural.profile">Profilo: </message>
 	<message key="xmlui.dri2xhtml.structural.logout">Logout</message>
 	<message key="xmlui.dri2xhtml.structural.login">Login</message>
 
-	<message key="xmlui.dri2xhtml.structural.search">Cerca in DSpace</message>
+	<message key="xmlui.dri2xhtml.structural.search">Cerca</message>
 	<message key="xmlui.dri2xhtml.structural.search-advanced">Ricerca Avanzata</message>
   <message key="xmlui.dri2xhtml.structural.search-in-community">Questa comunità</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-collection">Questa Collezione</message>
@@ -1623,25 +1701,25 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-abstract">Abstract</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-description">Descrizione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-uri">URI</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-date">Data</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-date">Data di pubblicazione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Editore</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Soggetto</message>
-	
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Files in questo item</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Files</message>
+
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">File allegati</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">File</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Dimensione</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Formato</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Mostra</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Mostra/<wbr/>Apri</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Nessun files in questo item.</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Nessun file associato.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-kilobytes">Kb</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-megabytes">Mb</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
-	
-	<message key="xmlui.dri2xhtml.METS-1.0.license-text">I seguenti file di Licenza sono associati a questo Item:</message>
-		
+
+	<message key="xmlui.dri2xhtml.METS-1.0.license-text">I seguenti file di Licenza sono associati a questo inserimento:</message>
+
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		The summaryView of a collection is not currently used or implemented. This can be fixed 
 		by overriding the dri2xhtml's template named collectionSummaryView.
