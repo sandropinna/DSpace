@@ -641,6 +641,9 @@
 	<message key="xmlui.Submission.submit.DescribeStep.day">Giorno</message>
 	<message key="xmlui.Submission.submit.DescribeStep.series_name">Numero volume</message>
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">Numero del fascicolo</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Seleziona...</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Seleziona...</message>
+	
 
 	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">Carica File</message>
