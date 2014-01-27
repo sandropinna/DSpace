@@ -130,7 +130,7 @@
             <xsl:if test="contains(dri:params/@operations,'add')">
                 <!-- Add buttons should be named "submit_[field]_add" so that we can ignore errors from required fields when simply adding new values-->
                <input type="submit" name="{concat('submit_',@n,'_add')}" class="ds-button-field ds-add-button">
-               	  <xsl:attribute name="value">Addddd</xsl:attribute>
+               	  <xsl:attribute name="value"> <i18n:text>xmlui.Submission.submit.DescribeStep.add</i18n:text> </xsl:attribute>
                   <!-- Make invisible if we have choice-lookup operation that provides its own Add. -->
                   <xsl:if test="dri:params/@choicesPresentation = 'lookup'">
                     <xsl:attribute name="style">
@@ -178,7 +178,7 @@
                         <!-- Delete buttons should be named "submit_[field]_delete" so that we can ignore errors from required fields when simply removing values-->
                        <!--  <input type="submit" value="Remove selected" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" /> -->
                        <input type="submit" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" >
-                       		<xsl:attribute name="value">Remoove selected</xsl:attribute>
+                       		<xsl:attribute name="value"> <i18n:text>xmlui.Submission.submit.DescribeStep.remove</i18n:text> </xsl:attribute>
                        </input>                       
                     </xsl:if>
                     <xsl:for-each select="dri:field">
@@ -205,7 +205,7 @@
         <xsl:if test="contains(dri:params/@operations,'add')">
             <!-- Add buttons should be named "submit_[field]_add" so that we can ignore errors from required fields when simply adding new values-->
             <input type="submit" name="{concat('submit_',@n,'_add')}" class="ds-button-field ds-add-button">
-                <xsl:attribute name="value">Addd</xsl:attribute>
+                <xsl:attribute name="value"> <i18n:text>xmlui.Submission.submit.DescribeStep.add</i18n:text> </xsl:attribute>
                 <!-- Make invisible if we have choice-lookup popup that provides its own Add. -->
                 <xsl:if test="dri:params/@choicesPresentation = 'lookup'">
                     <xsl:attribute name="style">
@@ -232,7 +232,7 @@
                     <input type="submit" value="Remove selected" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
                      -->
                     <input type="submit" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" >
-                       		<xsl:attribute name="value">Remooove selected</xsl:attribute>
+                       		<xsl:attribute name="value"> <i18n:text>xmlui.Submission.submit.DescribeStep.remove</i18n:text> </xsl:attribute>
                     </input> 
                 </xsl:if>
                 <!-- Behind the scenes, add hidden fields for every instance set. This is to make sure that
@@ -286,7 +286,7 @@
         <xsl:if test="contains(dri:params/@operations,'add')">
             <!-- Add buttons should be named "submit_[field]_add" so that we can ignore errors from required fields when simply adding new values-->
             <input type="submit" name="{concat('submit_',@n,'_add')}" class="ds-button-field ds-add-button">
-              <xsl:attribute name="value">Adddd</xsl:attribute>
+              <xsl:attribute name="value"> <i18n:text>xmlui.Submission.submit.DescribeStep.add</i18n:text> </xsl:attribute>
               <!-- Make invisible if we have choice-lookup popup that provides its own Add. -->
               <xsl:if test="dri:params/@choicesPresentation = 'lookup'">
                 <xsl:attribute name="style">
@@ -312,7 +312,7 @@
                     <input type="submit" value="Remove selected" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" />
                     -->
                     <input type="submit" name="{concat('submit_',@n,'_delete')}" class="ds-button-field ds-delete-button" >
-                       		<xsl:attribute name="value">Remoooove selected</xsl:attribute>
+                       		<xsl:attribute name="value"> <i18n:text>xmlui.Submission.submit.DescribeStep.remove</i18n:text> </xsl:attribute>
                     </input> 
                     
                 </xsl:if>

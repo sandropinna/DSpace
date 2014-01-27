@@ -643,6 +643,8 @@
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">Numero del fascicolo</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Seleziona...</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Seleziona...</message>
+	<message key="xmlui.Submission.submit.DescribeStep.add">Aggiungi</message>
+	<message key="xmlui.Submission.submit.DescribeStep.remove">Rimuovi selezione</message>
 	
 
 	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
