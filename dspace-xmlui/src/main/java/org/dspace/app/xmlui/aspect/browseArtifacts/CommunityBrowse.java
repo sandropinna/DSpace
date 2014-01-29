@@ -65,6 +65,7 @@ public class CommunityBrowse extends AbstractDSpaceTransformer {
                 "secondary search-browse");
 
         // Browse by list
+        /*SR
         Division browseDiv = search.addDivision("community-browse", "secondary browse");
         List browse = browseDiv.addList("community-browse", List.TYPE_SIMPLE,
                 "community-browse");
@@ -89,5 +90,6 @@ public class CommunityBrowse extends AbstractDSpaceTransformer {
             browse.addItemXref(url + "/browse?type=author", T_browse_authors);
             browse.addItemXref(url + "/browse?type=dateissued", T_browse_dates);
         }
+        */
     }
 }
