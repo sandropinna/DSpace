@@ -204,6 +204,7 @@ public class Navigation extends AbstractDSpaceTransformer implements CacheablePr
         pageMeta.addMetadata("search", "queryField").addContent("query");
         
         pageMeta.addMetadata("page","contactURL").addContent(contextPath + "/contact");
+        pageMeta.addMetadata("page","legalNotesURL").addContent(contextPath + "/legalnotes");
         pageMeta.addMetadata("page","feedbackURL").addContent(contextPath + "/feedback");
         
         DSpaceObject dso = HandleUtil.obtainHandle(objectModel);
