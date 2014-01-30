@@ -2069,6 +2069,7 @@
 		</p>
 	</message>
 	<message key="xmlui.dri2xhtml.structural.contact-link">Contact Us</message>
+	<message key="xmlui.dri2xhtml.structural.legalnotes-link">Legal Notes</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Send Feedback</message>
 
 	<message key="xmlui.dri2xhtml.structural.head-subtitle">DSpace Repository</message>

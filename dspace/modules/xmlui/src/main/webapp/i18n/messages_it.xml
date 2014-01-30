@@ -1668,6 +1668,7 @@
 		</p>
 	</message>
 	<message key="xmlui.dri2xhtml.structural.contact-link">Contattaci</message>
+	<message key="xmlui.dri2xhtml.structural.legalnotes-link">Note Legali</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Manda Feedback</message>
 	
 	<message key="xmlui.dri2xhtml.structural.head-subtitle">P-arch - Digital Repository</message>
