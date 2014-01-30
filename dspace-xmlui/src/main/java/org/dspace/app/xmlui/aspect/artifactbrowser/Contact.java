@@ -49,6 +49,10 @@ public class Contact extends AbstractDSpaceTransformer implements CacheableProce
     
     private static final Message T_para1 =
         message("xmlui.ArtifactBrowser.Contact.para1");
+    private static final Message T_para2 =
+            message("xmlui.ArtifactBrowser.Contact.para2");
+    private static final Message T_para3 =
+            message("xmlui.ArtifactBrowser.Contact.para3");
 
     private static final Message T_feedback_label =
         message("xmlui.ArtifactBrowser.Contact.feedback_label");
@@ -96,8 +100,9 @@ public class Contact extends AbstractDSpaceTransformer implements CacheableProce
      
         contact.setHead(T_head);
         
-        String name = ConfigurationManager.getProperty("dspace.name");
-        contact.addPara(T_para1.parameterize(name));
+       // String name = ConfigurationManager.getProperty("dspace.name");
+        //contact.addPara(T_para1.parameterize(name));
+        contact.addPara(T_para1);
         
         List list = contact.addList("contact");
         
@@ -107,5 +112,9 @@ public class Contact extends AbstractDSpaceTransformer implements CacheableProce
         list.addLabel(T_email);
         String email = ConfigurationManager.getProperty("feedback.recipient");
         list.addItem().addXref("mailto:"+email,email); 
+        
+        contact.addPara(T_para2);
+        contact.addPara(T_para3);
+        
     }
 }
