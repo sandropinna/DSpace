@@ -218,6 +218,8 @@
 	<message key="xmlui.ArtifactBrowser.Contact.trail">Contact us</message>
 	<message key="xmlui.ArtifactBrowser.Contact.head">Contact us</message>
 	<message key="xmlui.ArtifactBrowser.Contact.para1">{0} administrators may be contacted at:</message>
+	<message key="xmlui.ArtifactBrowser.Contact.para2"></message>
+	<message key="xmlui.ArtifactBrowser.Contact.para3"></message>
 	<message key="xmlui.ArtifactBrowser.Contact.feedback_label">On-line form</message>
 	<message key="xmlui.ArtifactBrowser.Contact.feedback_link">Feedback</message>
 	<message key="xmlui.ArtifactBrowser.Contact.email">Email</message>

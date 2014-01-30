@@ -216,8 +216,8 @@
 	<message key="xmlui.ArtifactBrowser.Contact.trail">Contattaci</message>
 	<message key="xmlui.ArtifactBrowser.Contact.head">Contattaci</message>
 	<message key="xmlui.ArtifactBrowser.Contact.para1">Questa pagina e' dedicata alle vostre comunicazioni. Se desiderate richiedere informazioni, fare proposte e segnalazioni, o semplicemente esprimere le vostre opinioni, potete contattarci nei seguenti modi:</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para2"><b>Referente</b></message>
-	<message key="xmlui.ArtifactBrowser.Contact.para3">Simonetta Porcu<br</br>Settore Trasferimento Tecnologico<br></br>Biblioteca<br></br>Telefono: 070 9243 2251<br></br>Fax: 070 9243 2254<br></br>Email: simonetta.porcu@sardegnaricerche.it </message>
+	<message key="xmlui.ArtifactBrowser.Contact.para2">Referente</message>
+	<message key="xmlui.ArtifactBrowser.Contact.para3">Simonetta Porcu<br></br>Settore Trasferimento Tecnologico<br></br>Biblioteca<br></br>Telefono: 070 9243 2251<br></br>Fax: 070 9243 2254<br></br>Email: simonetta.porcu@sardegnaricerche.it </message>
 	<message key="xmlui.ArtifactBrowser.Contact.feedback_label">Modulo On-line</message>
 	<message key="xmlui.ArtifactBrowser.Contact.feedback_link">Feedback</message>
 	<message key="xmlui.ArtifactBrowser.Contact.email">Email</message>

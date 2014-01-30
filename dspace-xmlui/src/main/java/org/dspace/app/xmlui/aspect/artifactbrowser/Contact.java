@@ -49,8 +49,10 @@ public class Contact extends AbstractDSpaceTransformer implements CacheableProce
     
     private static final Message T_para1 =
         message("xmlui.ArtifactBrowser.Contact.para1");
+    
     private static final Message T_para2 =
             message("xmlui.ArtifactBrowser.Contact.para2");
+    
     private static final Message T_para3 =
             message("xmlui.ArtifactBrowser.Contact.para3");
 
