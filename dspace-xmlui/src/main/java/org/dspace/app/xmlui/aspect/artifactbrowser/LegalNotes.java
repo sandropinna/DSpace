@@ -36,19 +36,23 @@ public class LegalNotes extends AbstractDSpaceTransformer implements CacheablePr
 {
     /** language strings */
     private static final Message T_title =
-        message("xmlui.ArtifactBrowser.Contact.title");
+        message("xmlui.ArtifactBrowser.LegalNotes.title");
     
     private static final Message T_dspace_home =
         message("xmlui.general.dspace_home");
     
     private static final Message T_trail = 
-        message("xmlui.ArtifactBrowser.Contact.trail");
+        message("xmlui.ArtifactBrowser.LegalNotes.trail");
     
     private static final Message T_head = 
-        message("xmlui.ArtifactBrowser.Contact.head");
+        message("xmlui.ArtifactBrowser.LegalNotes.head");
     
     private static final Message T_para1 =
-        message("xmlui.ArtifactBrowser.Contact.para1");
+        message("xmlui.ArtifactBrowser.LegalNotes.para1");
+    private static final Message T_para2 =
+            message("xmlui.ArtifactBrowser.LegalNotes.para1");
+    private static final Message T_para3 =
+            message("xmlui.ArtifactBrowser.LegalNotes.para1");
 
     private static final Message T_feedback_label =
         message("xmlui.ArtifactBrowser.Contact.feedback_label");
@@ -92,14 +96,15 @@ public class LegalNotes extends AbstractDSpaceTransformer implements CacheablePr
     public void addBody(Body body) throws SAXException, WingException,
             UIException, SQLException, IOException, AuthorizeException
     {
-        Division contact = body.addDivision("contact","primary");
+        Division legalNotes = body.addDivision("contact","primary");
      
-        contact.setHead(T_head);
+        legalNotes.setHead(T_head);
         
+       /*
         String name = ConfigurationManager.getProperty("dspace.name");
-        contact.addPara(T_para1.parameterize(name));
+        legalNotes.addPara(T_para1.parameterize(name));
         
-        List list = contact.addList("contact");
+        List list = legalNotes.addList("contact");
         
         list.addLabel(T_feedback_label);
         list.addItem().addXref(contextPath+"/feedback",T_feedback_link);
@@ -107,5 +112,9 @@ public class LegalNotes extends AbstractDSpaceTransformer implements CacheablePr
         list.addLabel(T_email);
         String email = ConfigurationManager.getProperty("feedback.recipient");
         list.addItem().addXref("mailto:"+email,email); 
+        */
+        legalNotes.addPara(T_para1);
+        legalNotes.addPara(T_para2);
+        legalNotes.addPara(T_para3);
     }
 }

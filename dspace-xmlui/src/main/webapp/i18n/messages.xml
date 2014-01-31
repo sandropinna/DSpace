@@ -235,12 +235,12 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Send Feedback</message>
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.LegalNotes.java -->
-	<message key="xmlui.ArtifactBrowser.Contact.title">Legal Notes</message>
-	<message key="xmlui.ArtifactBrowser.Contact.trail">Legal Notes</message>
-	<message key="xmlui.ArtifactBrowser.Contact.head">Legal Notes</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para1">Paragrafo 1 in inglese</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para2">Paragrafo 2 in inglese</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para3">Paragrafo 3 in inglese etc etc </message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.title">Legal Notes</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.trail">Legal Notes</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.head">Legal Notes</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para1">Paragrafo 1 in inglese</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">Paragrafo 2 in inglese</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para3">Paragrafo 3 in inglese </message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackSent.java -->
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.title">Give feedback</message>

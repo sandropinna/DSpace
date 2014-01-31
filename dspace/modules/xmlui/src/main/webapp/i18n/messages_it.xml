@@ -223,12 +223,12 @@
 	<message key="xmlui.ArtifactBrowser.Contact.email">Email</message>
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.LegalNotes.java -->
-	<message key="xmlui.ArtifactBrowser.Contact.title">Note Legali</message>
-	<message key="xmlui.ArtifactBrowser.Contact.trail">Note Legali</message>
-	<message key="xmlui.ArtifactBrowser.Contact.head">Note Legali</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para1">Paragrafo 1</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para2">Paragrafo 2</message>
-	<message key="xmlui.ArtifactBrowser.Contact.para3">Paragrafo 3 etc etc </message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.title">Note Legali</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.trail">Note Legali</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.head">Note Legali</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para1">Paragrafo 1</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">Paragrafo 2</message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para3">Paragrafo 3 etc etc </message>
 	
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
