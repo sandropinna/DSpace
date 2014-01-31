@@ -103,17 +103,17 @@ public class Contact extends AbstractDSpaceTransformer implements CacheableProce
         contact.setHead(T_head);
         
        // String name = ConfigurationManager.getProperty("dspace.name");
-        //contact.addPara(T_para1.parameterize(name));
+       //contact.addPara(T_para1.parameterize(name));
         contact.addPara(T_para1);
+                
+       // List list = contact.addList("contact");
         
-        List list = contact.addList("contact");
+        //list.addLabel(T_feedback_label);
+        //list.addItem().addXref(contextPath+"/feedback",T_feedback_link);
         
-        list.addLabel(T_feedback_label);
-        list.addItem().addXref(contextPath+"/feedback",T_feedback_link);
-        
-        list.addLabel(T_email);
-        String email = ConfigurationManager.getProperty("feedback.recipient");
-        list.addItem().addXref("mailto:"+email,email); 
+        //list.addLabel(T_email);
+        //String email = ConfigurationManager.getProperty("feedback.recipient");
+        //list.addItem().addXref("mailto:"+email,email); 
         
         contact.addPara(T_para2);
         contact.addPara(T_para3);
