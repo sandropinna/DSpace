@@ -2078,7 +2078,7 @@
 			<a href="http://dspace.org">http://dspace.org</a>
 		</p>
 	</message>
-	<message key="xmlui.dri2xhtml.structural.contact-link">Contact Us</message>
+	<message key="xmlui.dri2xhtml.structural.contact-link">Contacts</message>
 	<message key="xmlui.dri2xhtml.structural.legalnotes-link">Legal Notes</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Send Feedback</message>
 

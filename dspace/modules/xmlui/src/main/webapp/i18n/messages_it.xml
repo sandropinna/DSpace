@@ -1678,7 +1678,7 @@
 			<a href="http://dspace.org">http://dspace.org</a>                            
 		</p>
 	</message>
-	<message key="xmlui.dri2xhtml.structural.contact-link">Contattaci</message>
+	<message key="xmlui.dri2xhtml.structural.contact-link">Contatti</message>
 	<message key="xmlui.dri2xhtml.structural.legalnotes-link">Note Legali</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Manda Feedback</message>
 	
