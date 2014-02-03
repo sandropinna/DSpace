@@ -50,9 +50,9 @@ public class LegalNotes extends AbstractDSpaceTransformer implements CacheablePr
     private static final Message T_para1 =
         message("xmlui.ArtifactBrowser.LegalNotes.para1");
     private static final Message T_para2 =
-            message("xmlui.ArtifactBrowser.LegalNotes.para1");
+            message("xmlui.ArtifactBrowser.LegalNotes.para2");
     private static final Message T_para3 =
-            message("xmlui.ArtifactBrowser.LegalNotes.para1");
+            message("xmlui.ArtifactBrowser.LegalNotes.para3");
 
     private static final Message T_feedback_label =
         message("xmlui.ArtifactBrowser.Contact.feedback_label");

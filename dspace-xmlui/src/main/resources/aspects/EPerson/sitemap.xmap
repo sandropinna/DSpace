@@ -305,8 +305,7 @@ registration, forgotten passwords, editing profiles, and changing passwords.
             <map:match pattern="usefulinformation">
                 <map:transform type="UsefulInformation"/>
                 <map:serialize type="xml"/>
-            </map:match>
-			
+            </map:match>			
 			
 			<map:serialize type="xml"/>
 		</map:pipeline>

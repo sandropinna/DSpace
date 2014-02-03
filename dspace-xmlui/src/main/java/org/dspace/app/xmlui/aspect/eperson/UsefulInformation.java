@@ -27,7 +27,7 @@ import org.dspace.core.ConfigurationManager;
 import org.xml.sax.SAXException;
 
 /**
- * Create a simple legal notes page. 
+ * Create a simple useful information page. 
  * 
  * 
  * @author Sandro Pinna
@@ -36,23 +36,23 @@ public class UsefulInformation extends AbstractDSpaceTransformer implements Cach
 {
     /** language strings */
     private static final Message T_title =
-        message("xmlui.ArtifactBrowser.LegalNotes.title");
+        message("xmlui.EPerson.Navigation.usefulInformation.title");
     
     private static final Message T_dspace_home =
         message("xmlui.general.dspace_home");
     
     private static final Message T_trail = 
-        message("xmlui.ArtifactBrowser.LegalNotes.trail");
+        message("xmlui.EPerson.Navigation.usefulInformation.trail");
     
     private static final Message T_head = 
-        message("xmlui.ArtifactBrowser.LegalNotes.head");
+        message("xmlui.EPerson.Navigation.usefulInformation.head");
     
     private static final Message T_para1 =
-        message("xmlui.ArtifactBrowser.LegalNotes.para1");
+        message("xmlui.EPerson.Navigation.usefulInformation.para1");
     private static final Message T_para2 =
-            message("xmlui.ArtifactBrowser.LegalNotes.para1");
+            message("xmlui.EPerson.Navigation.usefulInformation.para2");
     private static final Message T_para3 =
-            message("xmlui.ArtifactBrowser.LegalNotes.para1");
+            message("xmlui.EPerson.Navigation.usefulInformation.para3");
 
     private static final Message T_feedback_label =
         message("xmlui.ArtifactBrowser.Contact.feedback_label");

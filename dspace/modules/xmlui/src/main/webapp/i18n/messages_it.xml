@@ -390,7 +390,14 @@
 	<message key="xmlui.EPerson.Navigation.logout">Logout</message>
 	<message key="xmlui.EPerson.Navigation.login">Login</message>
 	<message key="xmlui.EPerson.Navigation.register">Registrazione</message>
+	
 	<message key="xmlui.EPerson.Navigation.usefulInformation">Informazioni utili</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.title">Informazioni utili</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.trail">Informazioni utili</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.head">Informazioni utili</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para1">Paragrafo 1</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para2">Paragrafo 2</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para3">Paragrafo 3</message>
 	
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
