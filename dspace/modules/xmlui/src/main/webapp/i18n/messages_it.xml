@@ -228,7 +228,7 @@
 	<message key="xmlui.ArtifactBrowser.LegalNotes.head">Note Legali</message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para1"><h2><b>Politiche dell'archivio</b></h2></message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">P-arch è l'archivio istituzionale ad accesso aperto che raccoglie, rende accessibile e conserva la produzione documentale del Parco scientifico e tecnologico della Sardegna allo scopo di favorirne la più ampia diffusione e disseminazione. </message>
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para3">Paragrafo 3 etc etc </message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para3"><a href="/xmlui/static/pdf/Politiche di deposito e di utilizzo dei contenuti.pdf" >Politiche di deposito e di utilizzo dei contenuti</a></message>
 	
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
