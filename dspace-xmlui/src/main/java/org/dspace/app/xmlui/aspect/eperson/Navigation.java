@@ -66,6 +66,9 @@ public class Navigation extends AbstractDSpaceTransformer implements CacheablePr
     
     private static final Message T_register =
         message("xmlui.EPerson.Navigation.register");
+    
+    private static final Message T_usefulInformation =
+            message("xmlui.EPerson.Navigation.usefulInformation");
 
 	/** Cached validity object */
 	private SourceValidity validity;
@@ -192,6 +195,7 @@ public class Navigation extends AbstractDSpaceTransformer implements CacheablePr
                 account.addItemXref(contextPath + "/register", T_register);
             }
         }
+        account.addItemXref(contextPath + "/usefulinformation", T_usefulInformation);
     }
 
     /**

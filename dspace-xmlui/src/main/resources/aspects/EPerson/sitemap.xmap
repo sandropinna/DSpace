@@ -36,6 +36,9 @@ registration, forgotten passwords, editing profiles, and changing passwords.
 			<map:transformer name="LoginChooser" src="org.dspace.app.xmlui.aspect.eperson.LoginChooser"/>
 			<map:transformer name="FailedAuthentication" src="org.dspace.app.xmlui.aspect.eperson.FailedAuthentication" />
 			
+			<!--SR Useful Information -->
+			<map:transformer name="UsefulInformation" src="org.dspace.app.xmlui.aspect.eperson.UsefulInformation"/>
+			
 			</map:transformers>
 		
 		<map:actions>
@@ -297,6 +300,12 @@ registration, forgotten passwords, editing profiles, and changing passwords.
 				</map:match>
 
 			</map:match>
+			
+			<!-- SR Useful Information. -->
+            <map:match pattern="usefulinformation">
+                <map:transform type="UsefulInformation"/>
+                <map:serialize type="xml"/>
+            </map:match>
 			
 			
 			<map:serialize type="xml"/>
