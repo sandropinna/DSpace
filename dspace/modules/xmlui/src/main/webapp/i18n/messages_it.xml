@@ -824,6 +824,7 @@
     <message key="xmlui.Submission.submit.AccessStep.name">Name</message>
     <message key="xmlui.Submission.submit.AccessStep.description">Description</message>
     <message key="xmlui.Submission.submit.AccessStep.reason">Motivazione embargo</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason_help">Puoi inserire la motivazione dell'embargo.</message>
     <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirm Policy &amp; add another</message>
     <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Groups</message>
     <message key="xmlui.Submission.submit.AccessStep.error_format_date">Error format date</message>
