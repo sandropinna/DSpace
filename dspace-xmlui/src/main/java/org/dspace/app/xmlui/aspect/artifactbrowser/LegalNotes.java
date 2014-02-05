@@ -47,12 +47,22 @@ public class LegalNotes extends AbstractDSpaceTransformer implements CacheablePr
     private static final Message T_head = 
         message("xmlui.ArtifactBrowser.LegalNotes.head");
     
-    private static final Message T_para1 =
-        message("xmlui.ArtifactBrowser.LegalNotes.para1");
-    private static final Message T_para2 =
-            message("xmlui.ArtifactBrowser.LegalNotes.para2");
-    private static final Message T_para3 =
-            message("xmlui.ArtifactBrowser.LegalNotes.para3");
+    private static final Message T_para1 =  message("xmlui.ArtifactBrowser.LegalNotes.para1");
+    private static final Message T_para2 =  message("xmlui.ArtifactBrowser.LegalNotes.para2");
+    private static final Message T_para3 =  message("xmlui.ArtifactBrowser.LegalNotes.para3");
+    private static final Message T_para4 = message("xmlui.ArtifactBrowser.LegalNotes.para4");
+    private static final Message T_para5 = message("xmlui.ArtifactBrowser.LegalNotes.para5");
+    private static final Message T_para6 = message("xmlui.ArtifactBrowser.LegalNotes.para6");
+    private static final Message T_para7 = message("xmlui.ArtifactBrowser.LegalNotes.para7");
+    private static final Message T_para8 = message("xmlui.ArtifactBrowser.LegalNotes.para8");
+    private static final Message T_para9 = message("xmlui.ArtifactBrowser.LegalNotes.para9");
+    private static final Message T_para10 = message("xmlui.ArtifactBrowser.LegalNotes.para10");
+    private static final Message T_para11 = message("xmlui.ArtifactBrowser.LegalNotes.para11");
+    private static final Message T_para12 = message("xmlui.ArtifactBrowser.LegalNotes.para12");
+    private static final Message T_para13 = message("xmlui.ArtifactBrowser.LegalNotes.para13");
+    private static final Message T_para14 = message("xmlui.ArtifactBrowser.LegalNotes.para14");
+    private static final Message T_para15 = message("xmlui.ArtifactBrowser.LegalNotes.para15");
+    private static final Message T_para16 = message("xmlui.ArtifactBrowser.LegalNotes.para16");
 
     private static final Message T_feedback_label =
         message("xmlui.ArtifactBrowser.Contact.feedback_label");
@@ -116,5 +126,18 @@ public class LegalNotes extends AbstractDSpaceTransformer implements CacheablePr
         legalNotes.addPara(T_para1);
         legalNotes.addPara(T_para2);
         legalNotes.addPara(T_para3);
+        legalNotes.addPara(T_para4);
+        legalNotes.addPara(T_para5);
+        legalNotes.addPara(T_para6);
+        legalNotes.addPara(T_para7);
+        legalNotes.addPara(T_para8);
+        legalNotes.addPara(T_para9);
+        legalNotes.addPara(T_para10);
+        legalNotes.addPara(T_para11);
+        legalNotes.addPara(T_para12);
+        legalNotes.addPara(T_para13);
+        legalNotes.addPara(T_para14);
+        legalNotes.addPara(T_para15);
+        legalNotes.addPara(T_para16);
     }
 }
