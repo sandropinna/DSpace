@@ -244,9 +244,6 @@
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para16">Sardegna Ricerche non garantisce che il sito sia privo di errori o virus. Sardegna Ricerche, i suoi fornitori ed i suoi collaboratori non sono responsabili per i danni subiti dall'utente a causa di tali elementi di carattere distruttivo.</message>
 	
 	
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para7"><h2><b></b></h2></message>
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para8"></message>
-	
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Esprimi la tua opinione</message>
@@ -408,14 +405,35 @@
 	<message key="xmlui.EPerson.Navigation.login">Login</message>
 	<message key="xmlui.EPerson.Navigation.register">Registrazione</message>
 	
+	<!-- UsefulInformation.java -->
 	<message key="xmlui.EPerson.Navigation.usefulInformation">Informazioni utili</message>
 	<message key="xmlui.EPerson.Navigation.usefulInformation.title">Informazioni utili</message>
 	<message key="xmlui.EPerson.Navigation.usefulInformation.trail">Informazioni utili</message>
 	<message key="xmlui.EPerson.Navigation.usefulInformation.head">Informazioni utili</message>
-	<message key="xmlui.EPerson.Navigation.usefulInformation.para1">Paragrafo 1</message>
-	<message key="xmlui.EPerson.Navigation.usefulInformation.para2">Paragrafo 2</message>
-	<message key="xmlui.EPerson.Navigation.usefulInformation.para3">Paragrafo 3</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para1"><h2><b>Politiche dell'archivio</b></h2></message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para2">P-arch è l'archivio istituzionale ad accesso aperto che raccoglie, rende accessibile e conserva la produzione documentale del Parco scientifico e tecnologico della Sardegna allo scopo di favorirne la più ampia diffusione e disseminazione.<br></br><a href="/xmlui/static/pdf/Politiche di deposito e di utilizzo dei contenuti.pdf" >Politiche di deposito e di utilizzo dei contenuti</a></message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para3"><h2><b>Diritto d'autore</b></h2></message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para4">Gli autori che procedono con l'autoarchiviazione (o self archiving) dei propri lavori in un archivio ad accesso aperto, devono preventivamente approfondire alcuni aspetti del diritto d'autore connessi alle proprie opere.<br><a href="/xmlui/static/pdf/Vademecum per una sicura autoarchiviazione.pdf" >Vademecum per una sicura auto archiviazione</a></br></message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para5">Strumenti utili per conoscere i propri diritti</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para6">
+		<a href="http://www.sherpa.ac.uk/romeo/" >Sherpa/RoMEO, politiche sul copyright adottate dalle case editrici</a> <br></br>
+    	<a href="/xmlui/static/pdf/Access-Reuse_Addendum.pdf" >Addendum al Contratto Editoriale (versione inglese)</a> <br></br>
+    	<a href="/xmlui/static/pdf/ADDENDUM_traduzione.pdf" >Addendum al Contratto Editoriale (traduzione italiana)</a> <br></br>
+    	<a href="/xmlui/static/pdf/SPARC_AUTHORRIGHTS2007-it.pdf" >Guida per l'Autore (traduzione italiana)</a> <br></br>
+   		<a href="/xmlui/static/pdf/romeo-it-conosci-tuoi-diritti.pdf" >Conosci i tuoi diritti (traduzione italiana)</a> <br></br>
+    	<a href="/xmlui/static/pdf/romeo-it-posso-archiviare.pdf" >Come posso autoarchiviare e far pubblicare il mio lavoro? (traduzione italiana)</a> <br></br>
+    	<a href="http://btfp.sp.unipi.it/?p=4162" >FAQ sull'accesso aperto</a><br/>
+    </message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para7"><h2><b>Come inserire un documento</b></h2></message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para8">Per poter procedere all'autoarchiviazione di un documento è necessario registrarsi e avere attivato il proprio account personale tramite il login.</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para9">Per ulteriori informazioni puoi consultare direttamente lo staff di P-arch <br></br>p-arch@sardegnaricerche.it</message>
+	<message key="xmlui.EPerson.Navigation.usefulInformation.para10">
+		<a href="/xmlui/static/pdf/Come inserire un documento.pdf" >Come inserire un documento</a> <br></br>
+    	<a href="/xmlui/static/pdf/Inserimento di un Articolo-v3.pdf" >Inserimento di un Articolo</a> <br></br>
+    	<a href="/xmlui/static/pdf/allegato 1.pdf" >Inserimento di un Report</a> <br></br>	
+	</message>
 	
+		
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
 	<message key="xmlui.EPerson.PasswordLogin.title">Login</message>

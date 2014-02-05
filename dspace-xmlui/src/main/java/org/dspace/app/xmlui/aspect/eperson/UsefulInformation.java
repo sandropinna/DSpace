@@ -47,12 +47,16 @@ public class UsefulInformation extends AbstractDSpaceTransformer implements Cach
     private static final Message T_head = 
         message("xmlui.EPerson.Navigation.usefulInformation.head");
     
-    private static final Message T_para1 =
-        message("xmlui.EPerson.Navigation.usefulInformation.para1");
-    private static final Message T_para2 =
-            message("xmlui.EPerson.Navigation.usefulInformation.para2");
-    private static final Message T_para3 =
-            message("xmlui.EPerson.Navigation.usefulInformation.para3");
+    private static final Message T_para1 =  message("xmlui.EPerson.Navigation.usefulInformation.para1");
+    private static final Message T_para2 =  message("xmlui.EPerson.Navigation.usefulInformation.para2");
+    private static final Message T_para3 =  message("xmlui.EPerson.Navigation.usefulInformation.para3");
+    private static final Message T_para4 =  message("xmlui.EPerson.Navigation.usefulInformation.para4");
+    private static final Message T_para5 =  message("xmlui.EPerson.Navigation.usefulInformation.para5");
+    private static final Message T_para6 =  message("xmlui.EPerson.Navigation.usefulInformation.para6");
+    private static final Message T_para7 =  message("xmlui.EPerson.Navigation.usefulInformation.para7");
+    private static final Message T_para8 =  message("xmlui.EPerson.Navigation.usefulInformation.para8");
+    private static final Message T_para9 =  message("xmlui.EPerson.Navigation.usefulInformation.para9");
+    private static final Message T_para10 =  message("xmlui.EPerson.Navigation.usefulInformation.para10");
 
     private static final Message T_feedback_label =
         message("xmlui.ArtifactBrowser.Contact.feedback_label");
@@ -116,5 +120,13 @@ public class UsefulInformation extends AbstractDSpaceTransformer implements Cach
         legalNotes.addPara(T_para1);
         legalNotes.addPara(T_para2);
         legalNotes.addPara(T_para3);
+        legalNotes.addPara(T_para4);
+        legalNotes.addPara(T_para5);
+        legalNotes.addPara(T_para6);
+        legalNotes.addPara(T_para7);
+        legalNotes.addPara(T_para8);
+        legalNotes.addPara(T_para9);
+        legalNotes.addPara(T_para10);
+        
     }
 }
