@@ -107,19 +107,20 @@ Progetti
 			<isComposedBy>
 				<node id="501" label="P.I.S (Programma Integrato di Servizi)" >
 					<isComposedBy>
-						<node id="505" label="Adeguamento dei laboratori odontotecnici alla direttiva 9342CEE" />
-						<node id="506" label="Brevettazione, prototipazione e design industriale" />
-						<node id="507" label="Export" />
-						<node id="508" label="Misure di adeguamento al nuovo sistema di accesso al credito bancario previsto da Basilea 2" />
-						<node id="509" label="Promozione e marketing per reti di imprese nel sistema del turismo" />
-						<node id="510" label="Qualità ambientale nel sistema turistico" />
-						<node id="511" label="Sviluppo di nuovi prodotti" />
-						<node id="512" label="Web marketing per il turismo e settori complementari" />
+						<node id="506" label="Adeguamento dei laboratori odontotecnici alla direttiva 9342CEE" />
+						<node id="507" label="Brevettazione, prototipazione e design industriale" />
+						<node id="508" label="Export" />
+						<node id="509" label="Misure di adeguamento al nuovo sistema di accesso al credito bancario previsto da Basilea 2" />
+						<node id="510" label="Promozione e marketing per reti di imprese nel sistema del turismo" />
+						<node id="511" label="Qualità ambientale nel sistema turistico" />
+						<node id="512" label="Sviluppo di nuovi prodotti" />
+						<node id="513" label="Web marketing per il turismo e settori complementari" />
 					</isComposedBy>	
 				</node>
 				<node id="502" label="Servizi di innovazione e trasferimento tecnologico - Cluster Energie Rinnovabili" />
 				<node id="503" label="Servizi di innovazione e trasferimento tecnologico - Sardegna DistrICT" />
 				<node id="504" label="Servizi per il potenziamento delle imprese" />	
+				<node id="505" label=" Microincentivi per l’innovazione"/>
 			</isComposedBy>			
 		</node>
 		
