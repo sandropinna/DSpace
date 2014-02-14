@@ -9,7 +9,8 @@ Progetti
 			<isComposedBy>
 				<node id="001" label="Dicono di Noi"/>	
 				<node id="002" label="One stop shop della proprietà intellettuale"/>					
-				<node id="003" label="Rassegna Stampa Generale"/>				
+				<node id="003" label="Rassegna Stampa Generale"/>	
+				<node id="004" label="Programma Generazione Faber"/>			
 			</isComposedBy>			
 		</node>
 		
@@ -130,19 +131,20 @@ Progetti
 				<node id="604" label="Innova.Re" />
 				<node id="605" label="Progetti per sistemi d'imprese" >
 					<isComposedBy>
-						<node id="609" label="Innovazione e valorizzazione dei pani tradizionali della Sardegna" />
-						<node id="610" label="Innovazione e valorizzazione del sughero" />
-						<node id="611" label="Innovazione nel settore lapideo" />
-						<node id="612" label="Miglioramento e valorizzazione del siero e scotta ovini" />
-						<node id="613" label="Nuovi sistemi diagnostici con applicazioni al settore agroalimentare-zootecnico" />
-						<node id="614" label="Paste fresche: valorizzazione della tradizione alimentare sarda" />
-						<node id="615" label="Piatti pronti: valorizzazione del sistema dei prodotti tradizionali" />
-						<node id="616" label="Valorizzazione e commercializzazione delle produzioni tipiche locali nei canali turistici " />
+						<node id="610" label="Innovazione e valorizzazione dei pani tradizionali della Sardegna" />
+						<node id="611" label="Innovazione e valorizzazione del sughero" />
+						<node id="612" label="Innovazione nel settore lapideo" />
+						<node id="613" label="Miglioramento e valorizzazione del siero e scotta ovini" />
+						<node id="614" label="Nuovi sistemi diagnostici con applicazioni al settore agroalimentare-zootecnico" />
+						<node id="615" label="Paste fresche: valorizzazione della tradizione alimentare sarda" />
+						<node id="616" label="Piatti pronti: valorizzazione del sistema dei prodotti tradizionali" />
+						<node id="617" label="Valorizzazione e commercializzazione delle produzioni tipiche locali nei canali turistici " />
 					</isComposedBy>	
 				</node>
 				<node id="606" label='Progetto interregionale "Cicloturismo"' />
 				<node id="607" label="Promozione settore lapideo (progetto interregionale)" />
-				<node id="608" label="Rete Regionale per l'Innovazione " />		
+				<node id="608" label="Rete Regionale per l'Innovazione " />	
+				<node id="609" label="Progetti di ricerca e innovazione al di sotto della soglia De Minimis" />	
 			</isComposedBy>		
 		</node>	
 		<node id="700" label="Programma di animazione">
