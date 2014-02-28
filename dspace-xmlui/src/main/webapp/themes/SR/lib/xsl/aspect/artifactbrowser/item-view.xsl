@@ -2635,13 +2635,13 @@
               		</xsl:call-template>
           </xsl:when>
           
-          <!-- relation.ispartof row -->
-          <xsl:when test="$clause = 12 and (dim:field[@element='relation' and @qualifier='ispartof'])">
+          <!-- relation.volume row -->
+          <xsl:when test="$clause = 12 and (dim:field[@element='relation' and @qualifier='volume'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Titolo della serie:</span>
 	                	<span>
-	                		<xsl:value-of select="dim:field[@element='relation' and @qualifier='ispartof'][1]/node()"/>
-	                		<xsl:if test="count(following-sibling::dim:field[@element='relation' and @qualifier='ispartof']) != 0">
+	                		<xsl:value-of select="dim:field[@element='relation' and @qualifier='volume'][1]/node()"/>
+	                		<xsl:if test="count(following-sibling::dim:field[@element='relation' and @qualifier='volume']) != 0">
 		                    	<br/>
 		                    </xsl:if>	                    
 	                	</span>
