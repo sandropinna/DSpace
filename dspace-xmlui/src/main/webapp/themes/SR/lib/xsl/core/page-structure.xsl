@@ -630,7 +630,7 @@
                         </xsl:attribute>
                         <i18n:text>xmlui.dri2xhtml.structural.legalnotes-link</i18n:text>
                     </a>
-                    <!-- 
+                    
                     <xsl:text> | </xsl:text>
                     <a>
                         <xsl:attribute name="href">
