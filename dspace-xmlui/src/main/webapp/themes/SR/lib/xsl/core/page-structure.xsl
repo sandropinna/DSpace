@@ -568,7 +568,7 @@
 				<div id="ds-footer-left">
 					<a target="_blank" href="http://www.dspace.org/"></a>
 					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://www.p-arch.it/cgi/oai2">www.p-arch.it/cgi/oai2</a><br/>
-					P-arch è nato all'interno del progetto <span>Biblioteca Scientifica Regionale</span>. 
+					P-arch Ã¨ nato all'interno del progetto <span>Biblioteca Scientifica Regionale</span>. 
 					<a target="_blank" href="http://www.duraspace.org/"></a>
 				</div>
 				<div id="ds-footer-right">
