@@ -565,16 +565,54 @@
     <xsl:template name="buildFooter">
         <div id="ds-footer-wrapper">
             <div id="ds-footer">
-                <div id="ds-footer-left">
+				<div id="ds-footer-left">
+					<a target="_blank" href="http://www.dspace.org/"></a>
+					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://www.p-arch.it/cgi/oai2">www.p-arch.it/cgi/oai2</a><br/>
+					P-arch è nato all'interno del progetto <span>Biblioteca Scientifica Regionale</span>. 
+					<a target="_blank" href="http://www.duraspace.org/"></a>
+				</div>
+				<div id="ds-footer-right">
+					<!--<span class="theme-by"></span>
+					<a id="ds-footer-logo-link" href="http://atmire.com" target="_blank" title="@mire NV">
+						<span id="ds-footer-logo">&nbsp;</span>
+					</a>-->
+					<img src="themes/SR/images/SardegnaCresceEuropa_logo.png" />
+					<img src="themes/SR/images/emblemahd.jpg" />
+					<img src="themes/SR/images/RAS_Logo.jpg" />
+					<img src="themes/SR/images/SR_logo_rosso.png" />
+				</div>
+				<div id="ds-footer-links">
+					<a class="ds-footer-links-left">&#169; Sardegna Ricerche</a>
+					<a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of
+                                    select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
+                            <xsl:text>/contact</xsl:text>
+                        </xsl:attribute>
+                        <i18n:text>xmlui.dri2xhtml.structural.contact-link</i18n:text>
+                    </a>
+                    <xsl:text> | </xsl:text>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of
+                                    select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
+                            <xsl:text>/legalnotes</xsl:text>
+                        </xsl:attribute>
+                        <i18n:text>xmlui.dri2xhtml.structural.legalnotes-link</i18n:text>
+                    </a>
+					<a class="ds-footer-links-right">eprints@sardegnaricerche.it</a>
+				</div>
+			
+                <!--<div id="ds-footer-left">
                     <a href="http://www.dspace.org/" target="_blank">DSpace software</a> copyright&#160;&#169;&#160;2002-2012&#160; <a href="http://www.duraspace.org/" target="_blank">Duraspace</a>
-                </div>
-                <div id="ds-footer-right">
+                </div>-->
+                <!--<div id="ds-footer-right">
                     <span class="theme-by">Theme by&#160;</span>
                     <a title="@mire NV" target="_blank" href="http://atmire.com" id="ds-footer-logo-link">
                     <span id="ds-footer-logo">&#160;</span>
                     </a>
-                </div>
-                <div id="ds-footer-links">
+                </div>-->
+                <!--<div id="ds-footer-links">
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of
@@ -602,8 +640,8 @@
                         </xsl:attribute>
                         <i18n:text>xmlui.dri2xhtml.structural.feedback-link</i18n:text>
                     </a>
-                     -->
-                </div>
+                    
+                </div> -->
                 <!--Invisible link to HTML sitemap (for search engines) -->
                 <a class="hidden">
                     <xsl:attribute name="href">

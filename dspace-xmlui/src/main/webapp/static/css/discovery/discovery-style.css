@@ -24,6 +24,7 @@ div.controls-gear-wrapper .discovery-controls-gear{
     margin-top: 0;
     background: none;
     border: none;
+	float: right;
 }
 
 ul.gear-selection{
@@ -122,11 +123,11 @@ input#aspect_discovery_SimpleSearch_field_query{
 
 
 input.search-icon{
-    height: 33px;
-    float: left;
-    margin-left: 5px;
-    display: block;
-    width: 75px;
+    height: 25px;
+	float: left;
+	margin-left: 15px;
+	display: block;
+	width: 40px;
 }
 
 div#aspect_discovery_SimpleSearch_div_search-results ul{

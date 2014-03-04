@@ -100,6 +100,11 @@
                             <i18n:param><xsl:value-of select="parent::node()/@itemsTotal"/></i18n:param>
                         </i18n:translate>
                     </p>
+					<xsl:if test="parent::node()/dri:div[@n = 'masked-page-control']">
+                        <xsl:apply-templates select="parent::node()/dri:div[@n='masked-page-control']/dri:div">
+                            <xsl:with-param name="position" select="$position"/>
+                        </xsl:apply-templates>
+                    </xsl:if>
                     <ul class="pagination-links">
                         <xsl:if test="not(parent::node()/@firstItemIndex = 0 or parent::node()/@firstItemIndex = 1)">
                             <li>
@@ -180,11 +185,7 @@
                         </xsl:if>
 
                     </ul>
-                    <xsl:if test="parent::node()/dri:div[@n = 'masked-page-control']">
-                        <xsl:apply-templates select="parent::node()/dri:div[@n='masked-page-control']/dri:div">
-                            <xsl:with-param name="position" select="$position"/>
-                        </xsl:apply-templates>
-                    </xsl:if>
+                    
                 </div>
             </xsl:when>
         </xsl:choose>
