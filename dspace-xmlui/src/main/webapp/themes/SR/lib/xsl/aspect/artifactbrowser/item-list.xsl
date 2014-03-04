@@ -75,76 +75,82 @@
     <!--handles the rendering of a single item in a list in file mode-->
     <xsl:template match="dim:dim" mode="itemSummaryList-DIM-file">
         <xsl:param name="href"/>
-        <xsl:variable name="metadataWidth" select="675 - $thumbnail.maxwidth - 30"/>
-        <div class="item-metadata" style="width: {$metadataWidth}px;">
-            <span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.title</i18n:text><xsl:text>:</xsl:text></span>
-            <span class="content" style="width: {$metadataWidth - 110}px;">
-                <xsl:element name="a">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="$href"/>
-                    </xsl:attribute>
-                    <xsl:choose>
-                        <xsl:when test="dim:field[@element='title' and descendant::text()]">
-                            <xsl:value-of select="dim:field[@element='title'][1]/node()"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <i18n:text>xmlui.dri2xhtml.METS-1.0.no-title</i18n:text>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:element>
-            </span>
-            <span class="Z3988">
-                <xsl:attribute name="title">
-                    <xsl:call-template name="renderCOinS"/>
-                </xsl:attribute>
-                &#xFEFF; <!-- non-breaking space to force separating the end tag -->
-            </span>
-            <span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.author</i18n:text><xsl:text>:</xsl:text></span>
-            <span class="content" style="width: {$metadataWidth - 110}px;">
-                <xsl:choose>
-                    <xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
-                        <xsl:for-each select="dim:field[@element='contributor'][@qualifier='author']">
-                            <span>
-                                <xsl:if test="@authority">
-                                    <xsl:attribute name="class">
-                                        <xsl:text>ds-dc_contributor_author-authority</xsl:text>
-                                    </xsl:attribute>
-                                </xsl:if>
-                                <xsl:copy-of select="node()"/>
-                            </span>
-                            <xsl:if test="count(following-sibling::dim:field[@element='contributor'][@qualifier='author']) != 0">
-                                <xsl:text>; </xsl:text>
-                            </xsl:if>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:when test="dim:field[@element='creator']">
-                        <xsl:for-each select="dim:field[@element='creator']">
-                            <xsl:copy-of select="node()"/>
-                            <xsl:if test="count(following-sibling::dim:field[@element='creator']) != 0">
-                                <xsl:text>; </xsl:text>
-                            </xsl:if>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:when test="dim:field[@element='contributor']">
-                        <xsl:for-each select="dim:field[@element='contributor']">
-                            <xsl:copy-of select="node()"/>
-                            <xsl:if test="count(following-sibling::dim:field[@element='contributor']) != 0">
-                                <xsl:text>; </xsl:text>
-                            </xsl:if>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <i18n:text>xmlui.dri2xhtml.METS-1.0.no-author</i18n:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </span>
-            <xsl:if test="dim:field[@element='date' and @qualifier='issued'] or dim:field[@element='publisher']">
-                <span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.date</i18n:text><xsl:text>:</xsl:text></span>
-                <span class="content" style="width: {$metadataWidth - 110}px;">
-                    <xsl:value-of
-                            select="substring(dim:field[@element='date' and @qualifier='issued']/node(),1,10)"/>
-                </span>
-            </xsl:if>
+        <!--<xsl:variable name="metadataWidth" select="675 - $thumbnail.maxwidth - 30"/>-->
+        <div class="item-metadata">
+            <!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.title</i18n:text><xsl:text>:</xsl:text></span>-->            
+			<xsl:if test="dim:field[@element='date' and @qualifier='issued'] or dim:field[@element='publisher']">
+				<div class="item-metadata-date">					
+					<!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.date</i18n:text><xsl:text>:</xsl:text></span>-->
+					<span class="content">
+						<xsl:value-of select="substring(dim:field[@element='date' and @qualifier='issued']/node(),1,10)"/>
+					</span>	
+				</div>
+			</xsl:if>
+			
+			<div class="item-metadata-title">
+				<span class="content">
+					<xsl:element name="a">
+						<xsl:attribute name="href">
+							<xsl:value-of select="$href"/>
+						</xsl:attribute>
+						<xsl:choose>
+							<xsl:when test="dim:field[@element='title' and descendant::text()]">
+								<xsl:value-of select="dim:field[@element='title'][1]/node()"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<i18n:text>xmlui.dri2xhtml.METS-1.0.no-title</i18n:text>
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:element>
+				</span>
+				<span class="Z3988">
+					<xsl:attribute name="title">
+						<xsl:call-template name="renderCOinS"/>
+					</xsl:attribute>
+					&#xFEFF; <!-- non-breaking space to force separating the end tag -->
+				</span>
+			</div>
+            <!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.author</i18n:text><xsl:text>:</xsl:text></span>-->
+            <div class="item-metadata-author">
+				<span class="content">
+					<xsl:choose>
+						<xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
+							<xsl:for-each select="dim:field[@element='contributor'][@qualifier='author']">
+								<span>
+									<xsl:if test="@authority">
+										<xsl:attribute name="class">
+											<xsl:text>ds-dc_contributor_author-authority</xsl:text>
+										</xsl:attribute>
+									</xsl:if>
+									<xsl:copy-of select="node()"/>
+								</span>
+								<xsl:if test="count(following-sibling::dim:field[@element='contributor'][@qualifier='author']) != 0">
+									<xsl:text>; </xsl:text>
+								</xsl:if>
+							</xsl:for-each>
+						</xsl:when>
+						<xsl:when test="dim:field[@element='creator']">
+							<xsl:for-each select="dim:field[@element='creator']">
+								<xsl:copy-of select="node()"/>
+								<xsl:if test="count(following-sibling::dim:field[@element='creator']) != 0">
+									<xsl:text>; </xsl:text>
+								</xsl:if>
+							</xsl:for-each>
+						</xsl:when>
+						<xsl:when test="dim:field[@element='contributor']">
+							<xsl:for-each select="dim:field[@element='contributor']">
+								<xsl:copy-of select="node()"/>
+								<xsl:if test="count(following-sibling::dim:field[@element='contributor']) != 0">
+									<xsl:text>; </xsl:text>
+								</xsl:if>
+							</xsl:for-each>
+						</xsl:when>
+						<xsl:otherwise>
+							<i18n:text>xmlui.dri2xhtml.METS-1.0.no-author</i18n:text>
+						</xsl:otherwise>
+					</xsl:choose>
+				</span>
+			</div>
         </div>
     </xsl:template>
 
