@@ -186,7 +186,7 @@
         
         <!-- Sardegna Ricerche theme basato su Mirage -->
          
-        <theme name="Sardegna Ricerche Theme" regex=".*" path="SR/" />
+        <theme name="Sardegna Ricerche Theme" regex=".*" path="SR-work/" />
         
 
         <!-- Reference theme, the default Manakin XMLUI layout up to DSpace 1.8 -->
