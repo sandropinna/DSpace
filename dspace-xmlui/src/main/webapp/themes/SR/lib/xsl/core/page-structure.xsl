@@ -385,10 +385,8 @@
                             </p>
                         </div>
                     </xsl:otherwise>
-                </xsl:choose>
-                
-                <xsl:call-template name="languageSelection" />
-                
+                </xsl:choose>                
+                <xsl:call-template name="languageSelection" />                
             </div>
         </div>
     </xsl:template>
@@ -565,21 +563,19 @@
     <xsl:template name="buildFooter">
         <div id="ds-footer-wrapper">
             <div id="ds-footer">
-				<div id="ds-footer-left">
-					<a target="_blank" href="http://www.dspace.org/"></a>
+				<div id="ds-footer-left">					
 					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://www.p-arch.it/cgi/oai2">www.p-arch.it/cgi/oai2</a><br/>
-					P-arch è nato all'interno del progetto <span>Biblioteca Scientifica Regionale</span>. 
-					<a target="_blank" href="http://www.duraspace.org/"></a>
+					P-arch è nato all'interno del progetto <span>Biblioteca Scientifica Regionale</span>. 					
 				</div>
 				<div id="ds-footer-right">
 					<!--<span class="theme-by"></span>
 					<a id="ds-footer-logo-link" href="http://atmire.com" target="_blank" title="@mire NV">
 						<span id="ds-footer-logo">&nbsp;</span>
 					</a>-->
-					<img src="themes/SR/images/SardegnaCresceEuropa_logo.png" />
-					<img src="themes/SR/images/emblemahd.jpg" />
-					<img src="themes/SR/images/RAS_Logo.jpg" />
-					<img src="themes/SR/images/SR_logo_rosso.png" />
+					<img src="/themes/SR/images/SardegnaCresceEuropa_logo.png" />
+					<img src="/themes/SR/images/emblemahd.jpg" />
+					<img src="/themes/SR/images/RAS_Logo.jpg" />
+					<img src="/themes/SR/images/SR_logo_rosso.png" />
 				</div>
 				<div id="ds-footer-links">
 					<a class="ds-footer-links-left">&#169; Sardegna Ricerche</a>

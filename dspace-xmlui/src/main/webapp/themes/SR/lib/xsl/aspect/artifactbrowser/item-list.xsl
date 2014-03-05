@@ -248,7 +248,7 @@
 
 
     <xsl:template match="mets:fileSec" mode="artifact-preview">
-        <xsl:param name="href"/>
+        <!--<xsl:param name="href"/>
         <div class="thumbnail-wrapper" style="width: {$thumbnail.maxwidth}px;">
             <div class="artifact-preview">
                 <a class="image-link" href="{$href}">
@@ -267,7 +267,7 @@
                     </xsl:choose>
                 </a>
             </div>
-        </div>
+        </div>-->
     </xsl:template>
 
 

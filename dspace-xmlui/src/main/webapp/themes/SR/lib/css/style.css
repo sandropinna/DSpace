@@ -355,7 +355,7 @@ div#ds-feed-option a
 }
 
 p {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 #aspect_eperson_EditProfile_list_form,
@@ -801,14 +801,13 @@ span.field-help {
 
 .current-page-link {
     font-weight: bold;
-    color: #1F3F5E;
-	background: #008ac9;
+    color: #1F3F5E;	
 }
 
 .current-page-link a{
     font-weight: bold;
     color: #FFF !important;
-	
+	background: #008ac9;
 }
 
 .current-page-link a{
@@ -1116,12 +1115,13 @@ div.spacer{
 .item-metadata-date{
 	font-size: 12px;
 }
-.item-metadata-title{
+.item-metadata-title, .artifact-title{
 	font-size: 18px;
 	font-weight: bold;
 	color: #00547b;
+	clear: both;
 }
-.item-metadata-author{
+.item-metadata-author, .artifact-info{
 	font-size: 14px;
 	font-style: italic;
 }
@@ -1374,7 +1374,7 @@ ul.gear-selection li.gear-option-selected{
 }
 
 input#aspect_discovery_SimpleSearch_field_query{
-    width: 593px;
+    width: 578px;
 }
 
 input.search-icon{
@@ -1393,14 +1393,14 @@ div#aspect_discovery_SimpleSearch_div_search p.pagination-info{
 }
 
 div#aspect_discovery_SimpleSearch_div_search .pagination-links{
-    float: right;
+    float: left;
 }
 
-.pagination-links li{
+.pagination-links li a{
 	text-align: center;
 	border: 1px solid #b8b8b8;
-	padding: 3px 3px 3px 8px;
-	margin: 2px;
+	padding: 1px 7px;
+	margin: 0px;
 }
 
 
@@ -1502,4 +1502,9 @@ table.discovery-filters th.new-filter-header
 .recentSubmissionViewMore {
     text-align: right;
     font-size: 100%;
+}
+
+.ds-interactive-div{
+	background: #f4f9ff;
+	padding: 10px;
 }
