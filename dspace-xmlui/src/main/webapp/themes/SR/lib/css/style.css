@@ -797,8 +797,8 @@ span.field-help {
 
 .pagination-links li {
     display: inline;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
 	cursor: pointer;
 	text-align: center;
 }
@@ -1116,18 +1116,25 @@ div.spacer{
     float: left;
 	padding-left: 10px;
 }
-.item-metadata-date{
+.item-data-date{
 	font-size: 12px;
 }
-.item-metadata-title{
+.item-data-title, .artifact-title{
 	font-size: 18px;
 	font-weight: bold;
 	color: #00547b;
 	clear: both;
 }
-.item-metadata-author{
+.item-data-author, .artifact-info{
 	font-size: 14px;
 	font-style: italic;
+}
+.item-metadata-title{
+	font-size: 14px;
+	color: #00547b;
+}
+.item-metadata-author{
+	font-size: 14px;
 }
 
 .file-metadata {

@@ -596,7 +596,7 @@
                         </xsl:attribute>
                         <i18n:text>xmlui.dri2xhtml.structural.legalnotes-link</i18n:text>
                     </a>
-					<a class="ds-footer-links-right">eprints@sardegnaricerche.it</a>
+					<a class="ds-footer-links-right" href="mailto:eprints@sardegnaricerche.it">eprints@sardegnaricerche.it</a>
 				</div>
 			
                 <!--<div id="ds-footer-left">

@@ -79,14 +79,14 @@
         <div class="item-metadata">
             <!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.title</i18n:text><xsl:text>:</xsl:text></span>-->            
 			<xsl:if test="dim:field[@element='date' and @qualifier='issued'] or dim:field[@element='publisher']">
-				<div class="item-metadata-date">					
+				<div class="item-data-date">					
 					<!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.date</i18n:text><xsl:text>:</xsl:text></span>-->
 					<span class="content">
 						<xsl:value-of select="substring(dim:field[@element='date' and @qualifier='issued']/node(),1,10)"/>
 					</span>	
 				</div>
 			</xsl:if>			
-			<div class="item-metadata-title">
+			<div class="item-data-title">
 				<span class="content">
 					<xsl:element name="a">
 						<xsl:attribute name="href">
@@ -110,7 +110,7 @@
 				</span>
 			</div>
             <!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.author</i18n:text><xsl:text>:</xsl:text></span>-->
-            <div class="item-metadata-author">
+            <div class="item-data-author">
 				<span class="content">
 					<xsl:choose>
 						<xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
@@ -157,7 +157,7 @@
     <xsl:template match="dim:dim" mode="itemSummaryList-DIM-metadata">
         <xsl:param name="href"/>
         <div class="artifact-description">
-            <div class="item-metadata-title">				
+            <div class="item-data-title">				
 				<xsl:element name="a">
 					<xsl:attribute name="href">
 						<xsl:value-of select="$href"/>
@@ -178,7 +178,7 @@
 					&#xFEFF; <!-- non-breaking space to force separating the end tag -->
 				</span>				
 			</div>
-			<div class="item-metadata-author">				
+			<div class="item-data-author">				
 				<span class="author">
 					<xsl:choose>
 						<xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
