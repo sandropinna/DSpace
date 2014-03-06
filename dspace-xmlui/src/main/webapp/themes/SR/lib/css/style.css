@@ -341,6 +341,10 @@ div#ds-feed-option a
 	padding: 2px 10px 0px 10px;
 }
 
+#ds-search-form fieldset label{
+	color: #FFF;
+}
+
 #ds-search-form input.ds-text-field{
     width: 169px;
 }
@@ -1116,14 +1120,11 @@ div.spacer{
 	font-size: 12px;
 }
 .item-metadata-title, .artifact-title{
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 14px;	
 	color: #00547b;
-	clear: both;
 }
 .item-metadata-author, .artifact-info{
 	font-size: 14px;
-	font-style: italic;
 }
 
 .file-metadata {
