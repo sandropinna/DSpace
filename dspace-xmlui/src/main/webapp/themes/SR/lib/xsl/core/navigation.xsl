@@ -65,7 +65,7 @@
                                     </xsl:attribute>
                                 </input>
                                 <input class="ds-button-field searchIcon" name="submit" type="submit" i18n:attr="value"
-                                       value="&nbsp;">
+                                       value=" ">
                                     <xsl:attribute name="onclick">
                                     <xsl:text>
                                         var radio = document.getElementById(&quot;ds-search-form-scope-container&quot;);
