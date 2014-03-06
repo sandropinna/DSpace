@@ -64,8 +64,8 @@
                                                 select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='search'][@qualifier='queryField']"/>
                                     </xsl:attribute>
                                 </input>
-                                <input class="ds-button-field " name="submit" type="submit" i18n:attr="value"
-                                       value="xmlui.general.go">
+                                <input class="ds-button-field searchIcon" name="submit" type="submit" i18n:attr="value"
+                                       value="&nbsp;">
                                     <xsl:attribute name="onclick">
                                     <xsl:text>
                                         var radio = document.getElementById(&quot;ds-search-form-scope-container&quot;);
