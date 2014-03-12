@@ -15,7 +15,7 @@
 h1 {
     font-size: 182%;
     color: #1F3F5E;
-    text-align: justify;
+    text-align: left;
 }
 
 h2{
@@ -386,11 +386,11 @@ td {
 
 .ds-button-field,
 #aspect_eperson_StartRegistration_list_registration-progress li {
-    background-color: #008ac9;
-    padding: 2px 5px;
-    color: #FFFFFF;
-    font-weight: bold;
-    cursor: pointer;
+    background-color: #FFF;
+	padding: 2px 5px;
+	color: #008ac9;
+	/* font-weight: bold; */
+	cursor: pointer;
 	border: 0;
 }
 
@@ -429,7 +429,7 @@ ul.ds-progress-list {
 }
 
 ul.ds-progress-list li {
-    font-weight: bold;
+    /*font-weight: bold;*/
     overflow: hidden;
     display: inline;
     padding: 0;
@@ -453,8 +453,9 @@ ul.ds-progress-list li.button input.ds-button-field {
 
 ul.ds-progress-list li.current input.ds-button-field,
 #aspect_eperson_StartRegistration_list_registration-progress li.current {
-    background-color: #499c73;
-    border: 1px solid #1f5e3f;
+    background-color: #008ac9;
+	border: 1px solid #1f5e3f;
+	color: #fff;
 }
 
 ul.ds-progress-list li.disabled input.ds-button-field
@@ -708,9 +709,15 @@ span.field-help {
     padding: 10px;
 }
 
+
 .ds-static-div ul li{
 	list-style-type: none;
 	font-weight: normal;
+}
+
+.ds-static-div h1{	
+	font-size: 32px;
+	color: #008ac9;
 }
 
 #aspect_submission_Submissions_div_submissions table,
@@ -1069,32 +1076,72 @@ div.item-summary-view-metadata h2 {
 div.item-summary-view-metadata {
     text-align: justify;
     line-height: 161.6%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 div.simple-item-view-authors {
-    font-size: 123.1%;
+    font-size: 100%;
     font-weight: bold;
-    border-bottom:1px solid #D8E8EB;
-    padding-bottom: 2px;
-    margin-bottom: 20px;
-    text-align: justify;
+    border-bottom:3px solid #ebf5ff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 4px;
 }
 
 div.simple-item-view-authors span{
-    text-align: justify;
+    font-size: 18px;
+	font-style: italic;	
 }
+
+.item-summary-view-metadata .simple-item-view-other{
+	background: #ebf5ff;
+	padding: 5px 10px;
+}
+.item-summary-view-metadata .simple-item-view-other span{
+	display: block;
+	line-height: 18px;
+}
+
+.item-summary-view-metadata .simple-item-view-other span a{
+	color: #00557b;
+	font-weight: bold;
+}
+.file-list{
+	padding-bottom: 10px;
+	border-bottom: 3px solid #ebf5ff;
+}
+
 
 #aspect_artifactbrowser_ItemViewer_div_item-view h2,
 div.item-summary-view-metadata p.item-view-toggle-bottom,
 div.simple-item-view-description {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-#aspect_artifactbrowser_ItemViewer_div_item-view h2,
-div.simple-item-view-description h3{
-    border-bottom:1px solid #D8E8EB;
+.item-summary-view-metadata p.item-view-toggle-bottom{
+	text-align: right;	
+	font-weight: bold;
+	margin: 4px 0 !important;
+	border-bottom: 3px solid #ebf5ff;
+	padding-bottom: 4px;
+}
+
+.item-summary-view-metadata p.item-view-toggle-bottom a{
+	color: #00557b !important;	
+}
+
+#aspect_artifactbrowser_ItemViewer_div_item-view h2{
+    font-size: 14px;
     margin-bottom: 3px;
+}
+
+div.simple-item-view-description h3{
+    font-size: 14px;
+}
+div.simple-item-view-description div{
+    font-size: 14px;
+	font-style: italic;
+	line-height: 20px;
 }
 
 #aspect_artifactbrowser_ItemViewer_div_item-view h2 {
@@ -1110,6 +1157,9 @@ div.spacer{
 .file-link {
     float: left;
     margin-right: 15px;
+}
+.download-wrapper{
+	width: 25px;
 }
 
 .item-metadata {
@@ -1138,7 +1188,7 @@ div.spacer{
 }
 
 .file-metadata {
-    width: 300px;
+    min-width: 300px;
 }
 
 .file-metadata span,
@@ -1152,11 +1202,14 @@ div.spacer{
 
 .file-metadata span.bold,
 .item-metadata span.bold {
-    width: 80px;
+    min-width: 80px;
     clear: left;
     text-align: right;
     margin-right: 7px;
 }
+
+
+
 
 #ds-system-wide-alert,
 .notice {
@@ -1526,4 +1579,18 @@ table.discovery-filters th.new-filter-header
 .ds-interactive-div{
 	background: #f4f9ff;
 	padding: 10px;
+}
+
+.ds-referenceSet-list{
+	margin-left: 0;
+}
+.ds-referenceSet-list a{
+	font-weight: bold;
+	color: #00557b;
+}
+
+.ds-list-head{
+	border-bottom: 0 !important;
+	padding: 0;
+	margin-bottom: 0 !important;
 }

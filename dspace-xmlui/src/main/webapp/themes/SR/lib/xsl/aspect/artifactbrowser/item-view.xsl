@@ -7120,25 +7120,17 @@
     <xsl:template match="mets:file">
         <xsl:param name="context" select="."/>
         <div class="file-wrapper clearfix">
-            <div class="thumbnail-wrapper" style="width: {$thumbnail.maxwidth}px;">
+            <div class="thumbnail-wrapper download-wrapper">
                 <a class="image-link">
                     <xsl:attribute name="href">
                         <xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:href"/>
                     </xsl:attribute>
-                    <xsl:choose>
-                        <xsl:when test="$context/mets:fileSec/mets:fileGrp[@USE='THUMBNAIL']/
-                        mets:file[@GROUPID=current()/@GROUPID]">
-                            <img alt="Thumbnail">
-                                <xsl:attribute name="src">
-                                    <xsl:value-of select="$context/mets:fileSec/mets:fileGrp[@USE='THUMBNAIL']/
-                                    mets:file[@GROUPID=current()/@GROUPID]/mets:FLocat[@LOCTYPE='URL']/@xlink:href"/>
-                                </xsl:attribute>
-                            </img>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <img alt="Icon" src="{concat($theme-path, '/images/mime.png')}" style="height: {$thumbnail.maxheight}px;"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <img alt="Icon">
+						<xsl:attribute name="src">
+							<xsl:value-of select="$context-path"/>
+							<xsl:text>/static/icons/download.png</xsl:text>
+						</xsl:attribute>
+					</img>
                     <xsl:if test="contains(mets:FLocat[@LOCTYPE='URL']/@xlink:href,'isAllowed=n')">
                         <img>
                             <xsl:attribute name="src">
@@ -7151,71 +7143,50 @@
                      </xsl:if>
                 </a>
             </div>
-            <div class="file-metadata" style="height: {$thumbnail.maxheight}px;">
-                <div>
-                    <span class="bold">
-                        <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-name</i18n:text>
-                        <xsl:text>:</xsl:text>
-                    </span>
-                    <span>
-                        <xsl:attribute name="title"><xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/></xsl:attribute>
-                        <xsl:value-of select="util:shortenString(mets:FLocat[@LOCTYPE='URL']/@xlink:title, 17, 5)"/>
-                    </span>
-                </div>
-                <!-- File size always comes in bytes and thus needs conversion -->
-                <div>
-                    <span class="bold">
-                        <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-size</i18n:text>
-                        <xsl:text>:</xsl:text>
-                    </span>
-                    <span>
-                        <xsl:choose>
-                            <xsl:when test="@SIZE &lt; 1024">
-                                <xsl:value-of select="@SIZE"/>
-                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-bytes</i18n:text>
-                            </xsl:when>
-                            <xsl:when test="@SIZE &lt; 1024 * 1024">
-                                <xsl:value-of select="substring(string(@SIZE div 1024),1,5)"/>
-                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-kilobytes</i18n:text>
-                            </xsl:when>
-                            <xsl:when test="@SIZE &lt; 1024 * 1024 * 1024">
-                                <xsl:value-of select="substring(string(@SIZE div (1024 * 1024)),1,5)"/>
-                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-megabytes</i18n:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="substring(string(@SIZE div (1024 * 1024 * 1024)),1,5)"/>
-                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-gigabytes</i18n:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </span>
-                </div>
-                <!-- Lookup File Type description in local messages.xml based on MIME Type.
-         In the original DSpace, this would get resolved to an application via
-         the Bitstream Registry, but we are constrained by the capabilities of METS
-         and can't really pass that info through. -->
-                <div>
-                    <span class="bold">
-                        <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-format</i18n:text>
-                        <xsl:text>:</xsl:text>
-                    </span>
-                    <span>
-                        <xsl:call-template name="getFileTypeDesc">
+            <div class="file-metadata" >
+                <div class="file-format-and-title"> 
+					<span>
+						<xsl:call-template name="getFileTypeDesc">
                             <xsl:with-param name="mimetype">
                                 <xsl:value-of select="substring-before(@MIMETYPE,'/')"/>
                                 <xsl:text>/</xsl:text>
                                 <xsl:value-of select="substring-after(@MIMETYPE,'/')"/>
                             </xsl:with-param>
                         </xsl:call-template>
+					</span>
+					<a>
+						<xsl:attribute name="href">
+							<xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:href"/>
+						</xsl:attribute>
+						<span class="bold blueSpan">
+							<xsl:attribute name="title"><xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/></xsl:attribute>
+							<xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:title"/>
+						</span>
+					</a>
+					<span>						
+                        <xsl:choose>
+                            <xsl:when test="@SIZE &lt; 1024">
+                                (<xsl:value-of select="@SIZE"/>
+                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-bytes</i18n:text>)
+                            </xsl:when>
+                            <xsl:when test="@SIZE &lt; 1024 * 1024">
+                                (<xsl:value-of select="substring(string(@SIZE div 1024),1,5)"/>
+                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-kilobytes</i18n:text>)
+                            </xsl:when>
+                            <xsl:when test="@SIZE &lt; 1024 * 1024 * 1024">
+                                (<xsl:value-of select="substring(string(@SIZE div (1024 * 1024)),1,5)"/>
+                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-megabytes</i18n:text>)
+                            </xsl:when>
+                            <xsl:otherwise>
+                                (<xsl:value-of select="substring(string(@SIZE div (1024 * 1024 * 1024)),1,5)"/>
+                                <i18n:text>xmlui.dri2xhtml.METS-1.0.size-gigabytes</i18n:text>)
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </span>
-                </div>
-                <!---->
+                </div>              
                 <!-- Display the contents of 'Description' only if bitstream contains a description -->
                 <xsl:if test="mets:FLocat[@LOCTYPE='URL']/@xlink:label != ''">
-                    <div>
-                        <span class="bold">
-                            <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-description</i18n:text>
-                            <xsl:text>:</xsl:text>
-                        </span>
+                    <div class="file-description">                        
                         <span>
                             <xsl:attribute name="title"><xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:label"/></xsl:attribute>
                             <!--<xsl:value-of select="mets:FLocat[@LOCTYPE='URL']/@xlink:label"/>-->
@@ -7223,17 +7194,7 @@
                         </span>
                     </div>
                 </xsl:if>
-            </div>
-            <div class="file-link" style="height: {$thumbnail.maxheight}px;">
-                <xsl:choose>
-                    <xsl:when test="@ADMID">
-                        <xsl:call-template name="display-rights"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:call-template name="view-open"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </div>
+            </div>            
         </div>
     </xsl:template>
 
