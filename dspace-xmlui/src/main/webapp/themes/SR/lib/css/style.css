@@ -256,9 +256,18 @@ h2.ds-div-head{
 	right: 0;
 }
 
+
+
 #ds-options {
     padding: 0;
 }
+
+#ds-options h1 {
+    line-height: 30px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
 
 h1.ds-option-set-head {
     margin-top: 20px;
@@ -297,6 +306,14 @@ div.ds-option-set ul {
     margin-left: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+ul.ds-options-list li a {
+    margin-left: 10px;
+}
+
+ul.sublist li a{
+	margin-left: 0px;
 }
 
 div.ds-option-set .ds-sublist-head {
@@ -384,7 +401,15 @@ td {
     vertical-align: middle;
 }
 
-.ds-button-field,
+.ds-button-field {
+    background-color: #008ac9;
+	padding: 2px 5px;
+	color: #FFF;
+	/* font-weight: bold; */
+	cursor: pointer;
+	border: 0;
+}
+
 #aspect_eperson_StartRegistration_list_registration-progress li {
     background-color: #FFF;
 	padding: 2px 5px;
@@ -677,7 +702,7 @@ span.field-help {
     font-size: 93%;
     margin-top: 3px;
     width: 506px;
-    text-align: justify;
+    text-align: left;
 }
 
 .ds-checkbox-field input,
@@ -887,7 +912,7 @@ span.field-help {
 }
 
 .artifact-abstract {
-    text-align: justify;
+    text-align: left;
 }
 
 ul.alphabet {
@@ -1047,7 +1072,7 @@ table.detailtable tr.even {
 #aspect_submission_Submissions_table_completed-submissions td,
 table.detailtable td {
     padding: 5px 10px;
-    text-align: justify;
+    text-align: left;
     border: 1px solid #ebebeb;
     vertical-align: top;
 }
@@ -1074,7 +1099,7 @@ div.item-summary-view-metadata h2 {
 }
 
 div.item-summary-view-metadata {
-    text-align: justify;
+    text-align: left;
     line-height: 161.6%;
     margin-bottom: 10px;
 }
@@ -1151,6 +1176,13 @@ div.simple-item-view-description div{
 div.spacer{
     height: 15px;
 }
+.file-metadata{
+	max-width: 620px;
+}
+
+.file-metadata .file-format-and-title .blueSpan{
+	color: #00557b;
+}
 
 .thumbnail-wrapper,
 .file-metadata,
@@ -1190,10 +1222,17 @@ div.spacer{
 .file-metadata {
     min-width: 300px;
 }
+.file-metadata span {
+	color: #737373;
+}
+.file-metadata .file-description span{
+	color: #000;
+	line-height: 14px;
+}
 
-.file-metadata span,
 .item-metadata span {
     float: left;
+	
 }
 
 .item-metadata span.content span {
