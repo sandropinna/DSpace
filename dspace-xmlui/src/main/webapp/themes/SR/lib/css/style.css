@@ -297,6 +297,10 @@ ul.ds-simple-list li:hover {
 	background: #fcfeff;
 }
 
+#aspect_administrative_ControlPanel_list_options.ds-simple-list li a {
+	margin-left: 0;
+}
+
 ul.sublist li a{
 	margin-left: 0;
 }
@@ -780,7 +784,7 @@ span.field-help {
     border: 1px solid #9cacba;
     padding: 5px;
     margin-bottom: -1px;
-    margin-right: 7px;
+    margin-right: -1px;
     border-bottom: none;
 }
 
@@ -796,12 +800,16 @@ span.field-help {
 }
 
 .pane {
-    padding: 10px;
+    padding: 0;
     clear: both;
     background-color: #fafafa;
     border: 1px solid #9cacba;
     margin-bottom: 25px;
     margin-top: 0;
+}
+
+.pane h2 {
+	padding: 10px 5px;
 }
 
 .pane .ds-form-list {
@@ -1043,6 +1051,7 @@ table.detailtable {
     border-collapse: collapse;
 }
 
+
 #aspect_administrative_registries_EditMetadataSchema_table_metadata-schema-edit-existing-fields tr,
 #aspect_administrative_registries_MetadataRegistryMain_table_metadata-registry-main-table tr,
 #aspect_administrative_registries_FormatRegistryMain_table_bitstream-format-registry tr,
@@ -1051,9 +1060,10 @@ table.detailtable {
 #aspect_submission_Submissions_table_completed-submissions tr,
 table.detailtable tr {
     line-height: 1.6em;
-    border: 1px solid #ebebeb;
+    border: 0;
 }
 
+#aspect_administrative_ControlPanel_list_dspace tr.even,
 #aspect_administrative_registries_EditMetadataSchema_table_metadata-schema-edit-existing-fields tr.even,
 #aspect_administrative_registries_MetadataRegistryMain_table_metadata-registry-main-table tr.even,
 #aspect_administrative_registries_FormatRegistryMain_table_bitstream-format-registry tr.even,
@@ -1061,7 +1071,18 @@ table.detailtable tr {
 #aspect_submission_Submissions_table_submissions-inprogress tr.even,
 #aspect_submission_Submissions_table_completed-submissions tr.even,
 table.detailtable tr.even {
-    background-color: #fafafa;
+    background-color: #F5FAFF;
+}
+
+#aspect_administrative_ControlPanel_list_dspace tr.odd,
+#aspect_administrative_registries_EditMetadataSchema_table_metadata-schema-edit-existing-fields tr.odd,
+#aspect_administrative_registries_MetadataRegistryMain_table_metadata-registry-main-table tr.odd,
+#aspect_administrative_registries_FormatRegistryMain_table_bitstream-format-registry tr.odd,
+#aspect_submission_Submissions_table_unfinished-submissions tr.odd,
+#aspect_submission_Submissions_table_submissions-inprogress tr.odd,
+#aspect_submission_Submissions_table_completed-submissions tr.odd,
+table.detailtable tr.odd {
+    background-color: #ebf5ff;
 }
 
 #aspect_administrative_registries_EditMetadataSchema_table_metadata-schema-edit-existing-fields td,
@@ -1073,7 +1094,7 @@ table.detailtable tr.even {
 table.detailtable td {
     padding: 5px 10px;
     text-align: left;
-    border: 1px solid #ebebeb;
+    border: 0;
     vertical-align: top;
 }
 
@@ -1085,6 +1106,7 @@ table.detailtable td {
 #aspect_submission_Submissions_table_completed-submissions tr.ds-table-header-row {
     border: none;
 }
+
 
 
 table.detailtable td.label-cell {
@@ -1153,6 +1175,9 @@ div.simple-item-view-description {
 
 .item-summary-view-metadata p.item-view-toggle-bottom a{
 	color: #00557b !important;	
+}
+.item-view-toggle a{
+	font-weight: bold;
 }
 
 #aspect_artifactbrowser_ItemViewer_div_item-view h2{
@@ -1454,13 +1479,13 @@ table.detailtable {
 }
 
 table.detailtable th{
-    background-color: #F0F2F5;
+    background-color: transparent;
     word-wrap: normal;
 }
 
 table.detailtable td{
-    background-color: #FFFFFF;
-    text-align: right;
+    background-color: transparent;
+    text-align: left;
 }
 
 
@@ -1633,3 +1658,4 @@ table.discovery-filters th.new-filter-header
 	padding: 0;
 	margin-bottom: 0 !important;
 }
+
