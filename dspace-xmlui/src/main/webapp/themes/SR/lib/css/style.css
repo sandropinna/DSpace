@@ -637,7 +637,7 @@ fieldset ol {
 
 li.ds-form-item {
     list-style: none;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     vertical-align: middle !important;
     position: relative;
     clear: left;
@@ -959,9 +959,9 @@ td select.ds-select-field {
 
 form.search,
 div.discoverySearchBox
-{
-    background-color: #f4f9ff;
-    border: 1px solid #FFF;
+{    
+    background-color: #e6e6e6
+	border: 1px solid #FFF;
     padding: 10px;
     margin-bottom: 15px;
 }
