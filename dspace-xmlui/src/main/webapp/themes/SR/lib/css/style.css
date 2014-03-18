@@ -14,7 +14,7 @@
 /*Font size percentages based on the tables at developer.yahoo.com/yui/fonts/ */
 h1 {
     font-size: 182%;
-    color: #1F3F5E;
+    color: #4E5E0B;
     text-align: left;
 }
 
@@ -49,7 +49,7 @@ select.multiple {
 	background-color: #FFF;
     color: #000;
     min-width: 950px;
-	height: 175px;
+	height: 125px;
 }
 
 #ds-header-logo-link {
@@ -117,6 +117,7 @@ select.multiple {
     color: #1F3F5E;
     margin-right: 5px;
 	line-height: 34px;
+	font-style: italic;
 }
 
 #ds-trail a {
@@ -134,7 +135,7 @@ select.multiple {
 }
 
 h1.ds-div-head{
-	color: #5d710d;
+	color: #4E5E0B;
 }
 
 
@@ -250,12 +251,15 @@ h2.ds-div-head{
 #ds-options-wrapper {
     float: right;
     width: 249px;
-	background: #ebf5ff;
+	background: #e6e6e6;
 	position: relative;
 	top: -40px;
 	right: 0;
 }
-
+#ds-options-wrapper a{
+	color: #000;
+	display: block;
+}
 
 
 #ds-options {
@@ -274,10 +278,8 @@ h1.ds-option-set-head {
     background-color: transparent;
     padding: 3px 10px;
     font-weight: bold;
-	color: #008ac9;
     border-bottom: none;
-    font-size: 32px;
-	line-height: 45px;
+	line-height: 30px;
 }
 
 #ds-search-option-head{
@@ -324,7 +326,7 @@ div.ds-option-set .ds-sublist-head {
     font-weight: bold;
 	color: #fff;
     font-size: 14px;
-	background: #008ac9;
+	background: #616161;
 	padding-left: 10px;
 	height: 21px;
 	line-height: 21px;
@@ -339,7 +341,7 @@ div.ds-option-set ul.sublist {
 
 div.ds-option-set ul.sublist li{    
 	line-height: 18px;
-	padding: 4px 0 4px 20px;
+	padding: 4px 0 4px 10px;
 }
 
 div#ds-feed-option li
@@ -354,12 +356,12 @@ div#ds-feed-option a
 }
 
 #ds-search-option {
-    padding: 0px;
+    padding: 0;
 }
 
 #ds-search-form {
 	background: #008ac9;
-	padding: 2px 10px 0px 10px;
+	padding: 2px 10px 3px 10px;
 }
 
 #ds-search-form fieldset label{
@@ -745,8 +747,8 @@ span.field-help {
 }
 
 .ds-static-div h1{	
-	font-size: 32px;
-	color: #008ac9;
+	font-size: 24px;
+	color: #4E5E0B;
 }
 
 #aspect_submission_Submissions_div_submissions table,
@@ -1141,7 +1143,7 @@ div.simple-item-view-authors span{
 }
 
 .item-summary-view-metadata .simple-item-view-other{
-	background: #ebf5ff;
+	background: #e6e6e6;
 	padding: 5px 10px;
 }
 .item-summary-view-metadata .simple-item-view-other span{
@@ -1221,7 +1223,7 @@ div.spacer{
 
 .item-metadata {
     float: left;
-	padding-left: 10px;
+	padding-left: 0px;
 }
 .item-data-date{
 	font-size: 12px;
@@ -1641,7 +1643,7 @@ table.discovery-filters th.new-filter-header
 }
 
 .ds-interactive-div{
-	background: #f4f9ff;
+	background: #e6e6e6;
 	padding: 10px;
 }
 

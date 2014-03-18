@@ -38,12 +38,12 @@
     <xsl:template name="renderHead">
         <xsl:param name="class"/>
         <xsl:variable name="head_count" select="count(ancestor::dri:*[dri:head])"/>
-        <xsl:element name="h{$head_count}">
-            <xsl:call-template name="standardAttributes">
-                <xsl:with-param name="class" select="$class"/>
-            </xsl:call-template>
-            <xsl:apply-templates />
-        </xsl:element>
+		<xsl:element name="h{$head_count}">
+			<xsl:call-template name="standardAttributes">				
+				<xsl:with-param name="class" select="$class"/>
+			</xsl:call-template>
+			<xsl:apply-templates />
+		</xsl:element>
     </xsl:template>
 
 
