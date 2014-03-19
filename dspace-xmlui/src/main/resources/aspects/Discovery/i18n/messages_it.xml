@@ -34,8 +34,8 @@
 
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Subject</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Content Type</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Date Issued</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Date Issued</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Data</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Data</message>
 
 
     <!-- Site Leve Recently Added Content -->
@@ -89,7 +89,7 @@
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Author</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Title</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subject</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Date issued</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Data</message>
 
 
 
@@ -101,7 +101,7 @@
     <message key="xmlui.Discovery.AbstractSearch.type_subject">Filter by: Subject</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subject</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Subject</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Date Issued</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Data</message>
 
 
     <message key="xmlui.Discovery.AbstractSearch.startswith">Starts with</message>
@@ -127,7 +127,7 @@
 
     <message key="xmlui.discovery.SearchFacetFilter.no-results">No filter values found</message>
 
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Discover</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Trova</message>
     <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... View More</message>
 
 
