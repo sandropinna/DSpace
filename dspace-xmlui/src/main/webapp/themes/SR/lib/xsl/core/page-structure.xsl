@@ -564,8 +564,9 @@
         <div id="ds-footer-wrapper">
             <div id="ds-footer">
 				<div id="ds-footer-left">					
-					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://www.p-arch.it/cgi/oai2">www.p-arch.it/cgi/oai2</a><br/>
-					P-arch è nato all'interno del progetto <span>Biblioteca Scientifica Regionale</span>. 					
+					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://p-arch.it/oai/request?verb=Identify">p-arch.it/oai/request?verb=Identify</a><br/>
+					P-arch è nato all'interno del progetto <span><a target="_blank" href="http://www.bsr-sardegna.it">Biblioteca Scientifica Regionale</a></span>. 	
+									
 				</div>
 				<div id="ds-footer-right">
 					<!--<span class="theme-by"></span>
@@ -578,7 +579,7 @@
 					<img src="/themes/SR/images/SR_logo_rosso.png" />
 				</div>
 				<div id="ds-footer-links">
-					<a class="ds-footer-links-left">&#169; Sardegna Ricerche</a>
+					<a class="ds-footer-links-left" href="mailto:p-arch@sardegnaricerche.it">p-arch@sardegnaricerche.it</a>
 					<a>
                         <xsl:attribute name="href">
                             <xsl:value-of
@@ -596,7 +597,7 @@
                         </xsl:attribute>
                         <i18n:text>xmlui.dri2xhtml.structural.legalnotes-link</i18n:text>
                     </a>
-					<a class="ds-footer-links-right" href="mailto:eprints@sardegnaricerche.it">eprints@sardegnaricerche.it</a>
+                    <a class="ds-footer-links-right">CC Sardegna Ricerche</a>					
 				</div>
 			
                 <!--<div id="ds-footer-left">
