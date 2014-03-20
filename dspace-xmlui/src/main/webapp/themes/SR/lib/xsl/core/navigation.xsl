@@ -159,7 +159,7 @@
                     <xsl:attribute name="style">
                         <xsl:text>background: url(</xsl:text>
                         <xsl:value-of select="$context-path"/>
-                        <xsl:text>/static/icons/feed.png) no-repeat</xsl:text>
+                        <xsl:text>/static/icons/feed.png) no-repeat center left</xsl:text>
                     </xsl:attribute>
 
                     <xsl:choose>
