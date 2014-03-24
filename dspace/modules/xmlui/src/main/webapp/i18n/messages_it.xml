@@ -227,7 +227,7 @@
 	<message key="xmlui.ArtifactBrowser.LegalNotes.trail">Note Legali</message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.head">Note Legali</message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para1"><h2><b>Creative Commons e Copyright</b></h2></message>
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">La grafica e i marchi presenti su www.p-arch.it sono protetti ai sensi della normativa sul diritto d'autore. Il contenuto del sito, ove non diversamente specificato, e' rilasciato con la licenza <br></br><a href="http://creativecommons.org/licenses/by-nc/4.0/deed.it" >Creative Commons Attribuzione-Non commerciale 4.0 Internazionale</a> <br></br><img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">La grafica e i marchi presenti su www.p-arch.it sono protetti ai sensi della normativa sul diritto d'autore. Il contenuto del sito, ove non diversamente specificato, e' rilasciato con la licenza <br></br><a href="http://creativecommons.org/licenses/by-nc/4.0/deed.it" >Creative Commons Attribuzione-Non commerciale 4.0 Internazionale</a> <br></br><img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /> </message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para3"><h2><b>Utilizzo del sito</b></h2></message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para4">In nessun caso Sardegna Ricerche potrà essere ritenuto responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall'accesso al sito, dall'utilizzo degli strumenti interattivi, dall'incapacita' o impossibilità di accedervi, dall'utilizzo delle notizie in esso contenute. </message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para5"><h2><b>Segnalazione errori</b></h2></message>
@@ -321,7 +321,7 @@
 
 
 	<!-- Authentication messages used for bitstream authentication -->	
-	<message key="xmlui.BitstreamReader.auth_header">L'accesso al file è riservato</message>	
+	<message key="xmlui.BitstreamReader.auth_header">L'accesso al file e' riservato</message>	
 	<message key="xmlui.BitstreamReader.auth_message">Per visualizzare il file devi effettuare il login.</message>
 	
 	<!-- Export Archive download messages -->
@@ -446,7 +446,7 @@
 	<message key="xmlui.EPerson.PasswordLogin.forgot_link"> Hai dimenticato la password?</message>
 	<message key="xmlui.EPerson.PasswordLogin.submit">Login</message>
 	<message key="xmlui.EPerson.PasswordLogin.head2">Non sei ancora registrato?</message>
-	<message key="xmlui.EPerson.PasswordLogin.para1">Per usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale.</message>
+	<message key="xmlui.EPerson.PasswordLogin.para1">Per usufruire dei servizi dell'archivio e' necessario registrarsi inserendo un indirizzo email istituzionale.</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Clicca qui per registrarti.</message>
 	
 	
@@ -519,13 +519,13 @@
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">Nuova registrazione</message>
 	<message key="xmlui.EPerson.StartRegistration.head1">Email gia' utilizzata</message>
-	<message key="xmlui.EPerson.StartRegistration.para1">Questo indirizzo email è stato già utilzzato per un altro account. Se si vuole cancellare la password per questo account, digitare il tasto Cancella password.</message>
+	<message key="xmlui.EPerson.StartRegistration.para1">Questo indirizzo email e' stato gia' utilzzato per un altro account. Se si vuole cancellare la password per questo account, digitare il tasto Cancella password.</message>
 	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Cancella password</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_reset">Cancella password</message>
 	<message key="xmlui.EPerson.StartRegistration.head2">Nuova registrazione</message>
-	<message key="xmlui.EPerson.StartRegistration.para2">Per usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale. <br></br> La registrazione e l'utilizzo dei servizi di P-arch non implicano alcun costo. </message>
+	<message key="xmlui.EPerson.StartRegistration.para2">Per usufruire dei servizi dell'archivio e' necessario registrarsi inserendo un indirizzo email istituzionale. <br></br> La registrazione e l'utilizzo dei servizi di P-arch non implicano alcun costo. </message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">Indirizzo Email</message>
-	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email sarà verificato e potrà essere utilizzato nella fase di login</message>
+	<message key="xmlui.EPerson.StartRegistration.email_address_help">Questo indirizzo email sara' verificato e potra' essere utilizzato nella fase di login</message>
 	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Impossile mandare una email a questo indirizzo di posta elettronica.</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_register">Invia</message>
 
