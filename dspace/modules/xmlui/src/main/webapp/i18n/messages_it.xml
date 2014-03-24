@@ -227,7 +227,7 @@
 	<message key="xmlui.ArtifactBrowser.LegalNotes.trail">Note Legali</message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.head">Note Legali</message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para1"><h2><b>Creative Commons e Copyright</b></h2></message>
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">La grafica e i marchi presenti su www.p-arch.it sono protetti ai sensi della normativa sul diritto d'autore. Il contenuto del sito, ove non diversamente specificato, e' rilasciato con la licenza <br></br><a href="http://creativecommons.org/licenses/by-nc/4.0/deed.it" >Creative Commons Attribuzione-Non commerciale 4.0 Internazionale</a></message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">La grafica e i marchi presenti su www.p-arch.it sono protetti ai sensi della normativa sul diritto d'autore. Il contenuto del sito, ove non diversamente specificato, e' rilasciato con la licenza <br></br><a href="http://creativecommons.org/licenses/by-nc/4.0/deed.it" >Creative Commons Attribuzione-Non commerciale 4.0 Internazionale</a> <br></br><img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para3"><h2><b>Utilizzo del sito</b></h2></message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para4">In nessun caso Sardegna Ricerche potrà essere ritenuto responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall'accesso al sito, dall'utilizzo degli strumenti interattivi, dall'incapacita' o impossibilità di accedervi, dall'utilizzo delle notizie in esso contenute. </message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para5"><h2><b>Segnalazione errori</b></h2></message>
@@ -448,6 +448,8 @@
 	<message key="xmlui.EPerson.PasswordLogin.head2">Non sei ancora registrato?</message>
 	<message key="xmlui.EPerson.PasswordLogin.para1">Per usufruire dei servizi dell'archivio è necessario registrarsi inserendo un indirizzo email istituzionale.</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Clicca qui per registrarti.</message>
+	
+	
 	
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">Registrati</message>
