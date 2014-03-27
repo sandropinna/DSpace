@@ -417,7 +417,7 @@
 	                        </xsl:when>	                        
 	                    </xsl:choose>
 	               </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Altro">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Articolo">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -984,7 +984,7 @@
 	                        </xsl:when>	                        
 	                    </xsl:choose>
 	               </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Altro">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Atti-di-convegno">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -1961,7 +1961,7 @@
 	                        </xsl:when>	                        
 	                    </xsl:choose>
 	               </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Altro">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Contributo-a-convegno">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -3555,7 +3555,7 @@
 	                        </xsl:when>	                        
 	                    </xsl:choose>
 	               </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Altro">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -4501,7 +4501,7 @@
 	                        </xsl:when>	                        
 	                    </xsl:choose>
 	               </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Altro">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Tesi">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
@@ -4940,7 +4940,7 @@
 	                        </xsl:when>	                        
 	                    </xsl:choose>
 	               </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Altro">
+              <xsl:call-template name="itemSummaryView-DIM-fields-Working-paper">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
               </xsl:call-template>
