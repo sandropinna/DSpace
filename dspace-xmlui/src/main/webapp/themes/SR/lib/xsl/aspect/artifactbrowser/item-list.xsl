@@ -80,6 +80,7 @@
 			<xsl:choose>
 				<xsl:when test="dim:field[@element='type' and descendant::text()]">
 					<xsl:value-of select="dim:field[@element='type'][1]/node()"/>
+					<i class="fa fa-camera-retro fa-5x"></i>
 				</xsl:when>
 				<xsl:otherwise>
 					no metadata type

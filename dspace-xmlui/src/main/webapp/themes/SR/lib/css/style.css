@@ -1237,6 +1237,7 @@ div.spacer{
 }
 .item-data-date{
 	font-size: 12px;
+	clear: both;
 }
 .item-data-title, .artifact-title{
 	font-size: 14px;
@@ -1247,6 +1248,7 @@ div.spacer{
 .item-data-author, .artifact-info{
 	font-size: 14px;
 	font-style: italic;
+	clear: both;
 }
 .item-metadata-title{
 	font-size: 14px;
