@@ -76,7 +76,17 @@
     <xsl:template match="dim:dim" mode="itemSummaryList-DIM-file">
         <xsl:param name="href"/>
         <!--<xsl:variable name="metadataWidth" select="675 - $thumbnail.maxwidth - 30"/>-->
-        <div class="item-metadata">
+        <div class="item-metadata-icon">
+			<xsl:choose>
+				<xsl:when test="dim:field[@element='type' and descendant::text()]">
+					<xsl:value-of select="dim:field[@element='type'][1]/node()"/>
+				</xsl:when>
+				<xsl:otherwise>
+					no metadata type
+				</xsl:otherwise>
+			</xsl:choose>		
+		</div>
+		<div class="item-metadata">
             <!--<span class="bold"><i18n:text>xmlui.dri2xhtml.pioneer.title</i18n:text><xsl:text>:</xsl:text></span>-->            
 			<xsl:if test="dim:field[@element='date' and @qualifier='issued'] or dim:field[@element='publisher']">
 				<div class="item-data-date">					

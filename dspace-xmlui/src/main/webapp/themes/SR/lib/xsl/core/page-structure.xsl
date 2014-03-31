@@ -563,10 +563,9 @@
     <xsl:template name="buildFooter">
         <div id="ds-footer-wrapper">
             <div id="ds-footer">
-				<div id="ds-footer-left">					
-					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://p-arch.it/oai/request?verb=Identify">p-arch.it/oai/request?verb=Identify</a><br/>
-					P-arch è nato all'interno del progetto <span><a target="_blank" href="http://www.bsr-sardegna.it">Biblioteca Scientifica Regionale</a></span>. 	
-									
+				<div id="ds-footer-left">
+					P-arch è nato all'interno del progetto <span><a target="_blank" href="http://www.bsr-sardegna.it">Biblioteca Scientifica Regionale</a></span>.<br/>
+					P-arch supporta lo standard <span>OAI 2.0</span> al seguente URL <a target="_blank" href="http://p-arch.it/oai/request?verb=Identify">p-arch.it/oai/request?verb=Identify</a>
 				</div>
 				<div id="ds-footer-right">
 					<!--<span class="theme-by"></span>

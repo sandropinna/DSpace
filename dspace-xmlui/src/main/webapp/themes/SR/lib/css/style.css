@@ -1226,9 +1226,13 @@ div.spacer{
 .download-wrapper{
 	width: 25px;
 }
-
+.item-metadata-icon{	
+    width: 75px;
+    float: left;
+}
 .item-metadata {
     float: left;
+	width: 600px;
 	padding-left: 0px;
 }
 .item-data-date{
@@ -1279,6 +1283,7 @@ div.spacer{
     text-align: right;
     margin-right: 7px;
 }
+
 
 
 
