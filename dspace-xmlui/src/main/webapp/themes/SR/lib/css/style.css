@@ -1229,6 +1229,10 @@ div.spacer{
 .item-metadata-icon{	
     width: 75px;
     float: left;
+	text-align: center;
+}
+.item-metadata-icon img{	
+    width: 70px;
 }
 .item-metadata {
     float: left;
