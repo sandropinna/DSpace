@@ -81,55 +81,55 @@
 				<xsl:when test="dim:field[@element='type' and descendant::text()]">					
 					<xsl:choose>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Immagine'">							
-							<i class="fa fa-picture-o fa-5x">&nbsp;</i>
+							<i class="fa fa-picture-o fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Video'">							
-							<i class="fa fa-video-camera fa-5x">&nbsp;</i>
+							<i class="fa fa-video-camera fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Articolo'">							
-							<i class="fa fa-file-o fa-5x">&nbsp;</i>
+							<i class="fa fa-file-o fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Atti di convegno'">							
-							<i class="fa fa-files-o fa-5x">&nbsp;</i>
+							<i class="fa fa-files-o fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Brevetto'">							
-							<i class="fa fa-certificate fa-5x">&nbsp;</i>
+							<i class="fa fa-certificate fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Marchio registrato'">							
-							<i class="fa fa-star-o fa-5x">&nbsp;</i>
+							<i class="fa fa-star-o fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Design Registrato'">							
-							<i class="fa fa-star-half-o fa-5x">&nbsp;</i>
+							<i class="fa fa-star-half-o fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Contributo a convegno'">							
-							<i class="fa fa-users fa-5x">&nbsp;</i>
+							<i class="fa fa-users fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Libro'">							
-							<i class="fa fa-book fa-5x">&nbsp;</i>
+							<i class="fa fa-book fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Contributo in un libro'">							
-							<i class="fa fa-quote-left fa-5x">&nbsp;</i>
+							<i class="fa fa-quote-left fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Manuale'">							
-							<i class="fa fa-columns fa-5x">&nbsp;</i>
+							<i class="fa fa-columns fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Catalogo'">							
-							<i class="fa fa-clipboard fa-5x">&nbsp;</i>
+							<i class="fa fa-clipboard fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Report'">							
-							<i class="fa fa-file fa-5x">&nbsp;</i>
+							<i class="fa fa-file fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Scheda progetto'">							
-							<i class="fa fa-list-ul fa-5x">&nbsp;</i>
+							<i class="fa fa-list-ul fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Tesi'">							
-							<i class="fa fa-file-text-o fa-5x">&nbsp;</i>
+							<i class="fa fa-file-text-o fa-5x"></i>
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Working paper'">							
-							<i class="fa fa-file fa-5x">&nbsp;</i>
+							<i class="fa fa-file fa-5x"></i>
 						</xsl:when>
 						<xsl:otherwise>
-							<i class="fa fa-circle fa-4x">&nbsp;</i>
+							<i class="fa fa-circle fa-4x"></i>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:when>
