@@ -93,7 +93,7 @@
 							<img src="/themes/SR/images/icons/AttiDiConvegno.png" />
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Brevetto'">							
-							<img src="/themes/SR/images/icons/Brevetto.png" />
+							<img src="/themes/SR/images/icons/BrevettoDesignRegistrato.png" />
 						</xsl:when>
 						<xsl:when test="dim:field[@element='type'][1]/node() = 'Marchio registrato'">							
 							<img src="/themes/SR/images/icons/MarchioRegistrato.png" />
