@@ -42,8 +42,8 @@
     <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Ultimi inserimenti</message>
 
     <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">View more</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: Recent submissions</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Recent submissions</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">Ultimi inserimenti</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Ultimi inserimenti</message>
     <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Recently added</message>
 
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Kind</message>
@@ -86,9 +86,9 @@
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Browsing by: Department</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Browsing by: Issue date</message>
 
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Author</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Title</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subject</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autore</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Titolo</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Soggetto</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Data</message>
 
 
@@ -118,41 +118,41 @@
     <message key="xmlui.Discovery.AbstractSearch.rpp">Results Per Page:</message>
 
 
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Add Filter</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Apply</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Aggiungi filtro</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Invia</message>
     <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Remove</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">New Filters:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Current Filters:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.display">Add filters</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Nuovi filtri:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Filtri utilizzati:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.display">Aggiungi filtro</message>
 
     <message key="xmlui.discovery.SearchFacetFilter.no-results">No filter values found</message>
 
     <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Trova</message>
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... View More</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... Altri risultati</message>
 
 
-    <message key="xmlui.Discovery.SimpleSearch.search_scope">Search</message>
-    <message key="xmlui.discovery.SimpleSearch.search_label">Search</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_head">Filters</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_help">Use filters to refine the search results.</message>
+    <message key="xmlui.Discovery.SimpleSearch.search_scope">Cerca</message>
+    <message key="xmlui.discovery.SimpleSearch.search_label">Cerca</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_head">Filtri</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_help">Utilizza i filtri per raffinare i risultati della ricerca</message>
 
-    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Contains</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.equals">Equals</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Contiene</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.equals">Uguale a</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
-	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">Not Contains</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">Not Equals</message>
+	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">Non contiene</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">Diverso da</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">Not ID</message>
     
     <message key="xmlui.Discovery.RelatedItems.head">Related items</message>
     <message key="xmlui.Discovery.RelatedItems.help">Showing items related by title, author, creator and subject.</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.head1_community">Showing {0} out of a total of {1} results for community: {2}. <span class="searchTime">({3} seconds)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Showing {0} out of a total of {1} results for collection: {2}. <span class="searchTime">({3} seconds)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Showing {0} out of a total of {1} results. <span class="searchTime">({2} seconds)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Visualizzati {0} su un totale di {1} risultati per l'archivio: {2}. <span class="searchTime">({3} seconds)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Visualizzati {0} su un totale di {1} risultati per la collezione: {2}. <span class="searchTime">({3} seconds)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Visualizzati {0} su un totale di {1} risultati. <span class="searchTime">({2} seconds)</span></message>
 
-    <message key="xmlui.Discovery.AbstractSearch.head2">Communities or Collections matching your query</message>
-   	<message key="xmlui.Discovery.AbstractSearch.head3">Items matching your query</message>
+    <message key="xmlui.Discovery.AbstractSearch.head2">Archivi o Collezioni corrispondenti alla tua ricerca</message>
+   	<message key="xmlui.Discovery.AbstractSearch.head3">Risultati corrispondenti alla tua ricerca</message>
 
-   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Did you mean: </message>
+   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Forse intendevi: </message>
 
 </catalogue>
