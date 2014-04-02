@@ -4616,7 +4616,7 @@
 		                      			<xsl:text>; </xsl:text>
 		                    	
 		                    		</xsl:if>
-	                    	</xsl:for-each>	                                        
+	                    	</xsl:for-each>	                      
 	                	</span>
 	            	</div>
               		<xsl:call-template name="itemSummaryView-DIM-fields-Tesi">
@@ -4624,33 +4624,6 @@
                 		<xsl:with-param name="phase" select="$otherPhase"/>
               		</xsl:call-template>
           </xsl:when>
-          
-          <!-- subject row -->
-          <xsl:when test="$clause = 11  and (dim:field[@element='subject' and not(@qualifier)])">
-                    <div class="simple-item-view-other">
-	                <span class="bold">Keywords:</span>
-	                <span>
-	                	<xsl:for-each select="dim:field[@element='subject' and not(@qualifier)]">
-		                    <xsl:copy-of select="./node()"/>
-		                      <xsl:if test="count(following-sibling::dim:field[@element='subject' and not(@qualifier)]) != 0">
-		                      	<xsl:text>; </xsl:text>
-		                    	
-		                    </xsl:if>
-	                    </xsl:for-each>
-	                </span>
-	            </div>
-              <xsl:call-template name="itemSummaryView-DIM-fields-Tesi">
-                <xsl:with-param name="clause" select="($clause + 1)"/>
-                <xsl:with-param name="phase" select="$otherPhase"/>
-              </xsl:call-template>
-          </xsl:when>   
-          
-          
-          
-          
-          
-          
-          
           
            <!-- subject.program row  Unità organizzativa-->
           <xsl:when test="$clause = 6 and (dim:field[@element='subject' and @qualifier='program'])">
