@@ -119,7 +119,7 @@
 
 
     <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Aggiungi filtro</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Invia</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Applica</message>
     <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Remove</message>
     <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Nuovi filtri:</message>
     <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Filtri utilizzati:</message>
