@@ -229,8 +229,18 @@
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para1"><h2><b>Creative Commons e Copyright</b></h2></message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para2">La grafica e i marchi presenti su www.p-arch.it sono protetti ai sensi della normativa sul diritto d'autore. Il contenuto del sito, ove non diversamente specificato, e' rilasciato con la licenza <br></br><a href="http://creativecommons.org/licenses/by-nc/4.0/deed.it" >Creative Commons Attribuzione-Non commerciale 4.0 Internazionale</a> <br></br><img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /> </message>
 	
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para1b"><h2><b>Icon attributions</b></h2></message>
-	<message key="xmlui.ArtifactBrowser.LegalNotes.para2b"><a href="http://thenounproject.com/term/video/6192/">Video </a>designed by Thomas Le Bas from the Noun Project </message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para1b"><i>Icon attributions</i></message>
+	<message key="xmlui.ArtifactBrowser.LegalNotes.para2b"><a href="http://thenounproject.com/term/video/6192/">Video </a>designed by Thomas Le Bas from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/paper/33918/">Paper </a>designed by Berkay Sargın from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/patent/4467/">Patent </a>designed by James Christopher from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/lecturer/8076/">Lecturer </a>designed by Lissette Arias from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/book/2051/">Book </a>designed by Charles Riccardi from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/add-user/40802/">Add User </a>designed by TukTuk Designz from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/stack-of-books/3700/">Stack Of Books </a>designed by DâLpat TâpaniYa from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/document/16385/">Document </a>designed by Pieter J. Smits from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/document/4090/">Document </a>designed by Samuel Q. Green from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/graduate-cap/15283/">Graduate Cap </a>designed by Diego Naive from the Noun Project <br></br>
+	<a href="http://thenounproject.com/term/notice/">Notebook </a>designed by Carlo Prina from the Noun Project </message>
 	
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para3"><h2><b>Utilizzo del sito</b></h2></message>
 	<message key="xmlui.ArtifactBrowser.LegalNotes.para4">In nessun caso Sardegna Ricerche potrà essere ritenuto responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall'accesso al sito, dall'utilizzo degli strumenti interattivi, dall'incapacita' o impossibilità di accedervi, dall'utilizzo delle notizie in esso contenute. </message>
