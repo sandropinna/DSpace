@@ -4,18 +4,18 @@
 # {1}  Name of collection
 # {2}  handle 
 #
-Subject: DSpace: Submission Approved and Archived 
+Subject: P-arch: Inserimento approvato e archiviato 
 
-You submitted: {0}
+Hai inserito: {0}
 
-To collection: {1}
+Nella collezione: {1}
 
-Your submission has been accepted and archived in P-arch,
-and it has been assigned the following identifier:
+Il tuo inserimento è stato accettato e archiviato in P-arch e
+gli è stato assegnato il seguente identificativo:
 {2}
 
-Please use this identifier when citing your submission.
+Usa questo identificativo quando devi citare il tuo inserimento.
 
-Many thanks!
+Grazie!
 
-The P-arch Team
+Il Team P-arch
