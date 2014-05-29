@@ -792,7 +792,7 @@
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Per domande relative a queste licenze contattare l'amministratore di sistema.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Licenza di distribuzione</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_checkbox">Accetta la licenza</message>
-	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Accettare la licenza per completare l'inserimento. La mancata accettazione della licenza permette comunque di salvare il proprio lavoro e riprenderlo in seguito o rimuoverlo cliccando sul tasto 'Salva/Cancella'.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Accettare la licenza per completare l'inserimento. La mancata accettazione della licenza permette comunque di salvare il proprio lavoro e riprenderlo in seguito o rimuoverlo cliccando sul tasto 'Salva/Annulla'.</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
 	<message key="xmlui.Submission.submit.RemovedStep.head">Inserimento rimosso</message>
