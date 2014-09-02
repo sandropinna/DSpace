@@ -170,7 +170,7 @@
 				</node>
 			</isComposedBy>
 		</node>
-		<node id="PRO12" label="Commessa esterna/Esternal service">
+		<node id="PRO12" label="Commessa esterna/External service">
 			<isComposedBy>
 				<node id="VR121101" label="ADVISE - Analisi di processi e tracciabilità in campo clinico (Inpeco)">
 				</node>
