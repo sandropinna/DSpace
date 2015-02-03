@@ -596,7 +596,7 @@
                         </xsl:attribute>
                         <i18n:text>xmlui.dri2xhtml.structural.legalnotes-link</i18n:text>
                     </a>					
-                    <a target="_blank" href="http://www.sardegnaricerche.it/" class="ds-footer-links-right">2014 Sardegna Ricerche</a>
+                    <a target="_blank" href="http://www.sardegnaricerche.it/" class="ds-footer-links-right">2015 Sardegna Ricerche</a>
 					<a target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/" class="creativeCommons ds-footer-links-right"> </a>
 				</div>
 			
