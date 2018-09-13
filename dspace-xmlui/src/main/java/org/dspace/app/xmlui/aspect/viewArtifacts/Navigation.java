@@ -128,7 +128,8 @@ public class Navigation extends AbstractDSpaceTransformer implements CacheablePr
         }
 
         pageMeta.addMetadata("page","contactURL").addContent(contextPath + "/contact");
-        pageMeta.addMetadata("page","feedbackURL").addContent(contextPath + "/feedback");
+        pageMeta.addMetadata("page","legalNotesURL").addContent(contextPath + "/legalnotes");
+       // pageMeta.addMetadata("page","feedbackURL").addContent(contextPath + "/feedback");
 
         // Add the locale metadata including language-dependent labels
         Locale[] locales = I18nUtil.getSupportedLocales();

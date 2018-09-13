@@ -450,13 +450,14 @@ public class EditProfile extends AbstractDSpaceTransformer
                         {
                             return;
                         }
-                        
+                        /*
                         List list = profile.addList("memberships");
                         list.setHead(T_head_auth);
                         for (Group group: memberships)
                         {
                                 list.addItem(group.getName());
                         }
+                        */
        }
    }
    

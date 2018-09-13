@@ -24,6 +24,7 @@ and searching the repository.
             <map:transformer name="FeedbackForm" src="org.dspace.app.xmlui.aspect.artifactbrowser.FeedbackForm"/>
             <map:transformer name="FeedbackSent" src="org.dspace.app.xmlui.aspect.artifactbrowser.FeedbackSent"/>
             <map:transformer name="Contact" src="org.dspace.app.xmlui.aspect.artifactbrowser.Contact"/>
+            <map:transformer name="LegalNotes" src="org.dspace.app.xmlui.aspect.artifactbrowser.LegalNotes"/>
             <map:transformer name="Statistics" src="org.dspace.app.xmlui.aspect.artifactbrowser.StatisticsViewer"/>
 
         </map:transformers>
@@ -99,6 +100,12 @@ and searching the repository.
                 <map:transform type="Contact"/>
                 <map:serialize type="xml"/>
             </map:match>
+            
+            <!-- SR legal notes -->
+			<map:match pattern="legalnotes">
+				<map:transform type="LegalNotes" />
+				<map:serialize type="xml" />
+			</map:match>
             
             
             <!-- Not a URL we care about, so just pass it on. -->
