@@ -288,7 +288,9 @@
     </bean>
 
     <bean id="searchFilterSubject" class="org.dspace.discovery.configuration.HierarchicalSidebarFacetConfiguration">
-        <property name="indexFieldName" value="subject"/>
+        
+        <!--  <property name="indexFieldName" value="subject"/>-->
+        <property name="indexFieldName" value="subject.progetti"/>
         <property name="metadataFields">
             <list>
                 <value>dc.subject.progetti</value>
