@@ -65,7 +65,7 @@ public class CollectionBrowse extends AbstractDSpaceTransformer {
                 "secondary search-browse");
 
         // Browse by list
-        // SR
+        /* SR
         Division browseDiv = search.addDivision("collection-browse", "secondary browse");
         List browse = browseDiv.addList("collection-browse", List.TYPE_SIMPLE,
                 "collection-browse");
@@ -89,7 +89,7 @@ public class CollectionBrowse extends AbstractDSpaceTransformer {
             browse.addItemXref(url + "/browse?type=title", T_browse_titles);
             browse.addItemXref(url + "/browse?type=author", T_browse_authors);
             browse.addItemXref(url + "/browse?type=dateissued", T_browse_dates);
-        }
+        }*/
         
     }
 }
