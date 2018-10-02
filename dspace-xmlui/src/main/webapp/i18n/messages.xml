@@ -172,6 +172,9 @@
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Browsing {0} by Subject {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Browsing {0} by Subject</message>
+	
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.progetto">Sfoglia {0} per Progetto {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.progetto">Sfoglia {0} per Progetto</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Browsing {0} by Title {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Browsing {0} by Title</message>

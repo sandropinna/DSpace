@@ -170,6 +170,9 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Sfoglia {0} per Soggetto {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Sfoglia {0} per Soggetto</message>
 	
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.progetto">Sfoglia {0} per Progetto {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.progetto">Sfoglia {0} per Progetto</message>
+	
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Sfoglia {0} per Titolo {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Sfoglia {0} per Titolo</message>
 	
