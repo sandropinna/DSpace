@@ -26,7 +26,7 @@ Finanziamenti
 				<node id="900" label="Misura 4.2"/>			 
 			</isComposedBy>			
 		</node>	
-		<node id="1000" label="POR Sardegna 2014-2020">
+		<node id="1000" label="POR FESR Sardegna 2014-2020">
 			<isComposedBy>
 				<node id="1100" label="Azione 1.2.2"/>
 				<node id="1200" label="Azione 1.3.2"/>			 
