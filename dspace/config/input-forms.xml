@@ -9692,6 +9692,14 @@ it, please enter the types and the actual numbers or codes below.</hint>
    
    <value-pairs value-pairs-name="common_types_altro" dc-term="type">
      <pair>
+       <displayed-value>Scheda Tecnica</displayed-value>
+       <stored-value>Scheda Tecnica</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Protocollo di Produzione</displayed-value>
+       <stored-value>Protocollo di Produzione</stored-value>
+     </pair>
+     <pair>
        <displayed-value>Dataset</displayed-value>
        <stored-value>Dataset</stored-value>
      </pair>
