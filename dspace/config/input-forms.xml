@@ -9723,10 +9723,12 @@ it, please enter the types and the actual numbers or codes below.</hint>
        <displayed-value>Mostra</displayed-value>
        <stored-value>Mostra</stored-value>
      </pair>
+     <!--
      <pair>
        <displayed-value>Rivista</displayed-value>
        <stored-value>Rivista</stored-value>
      </pair>
+     -->    
      <pair>
        <displayed-value>Altro</displayed-value>
        <stored-value>Altro</stored-value>
