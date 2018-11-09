@@ -6629,7 +6629,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Autore</label>
-         <type-bind>Manuale,Catalogo</type-bind>
+         <type-bind>Manuale,Catalogo, Linea Guida, Manuale d'uso</type-bind>
          <input-type>name</input-type>
          <hint>Inserisci nome e cognome dell'autore o degli autori</hint>
          <required></required>
@@ -9647,6 +9647,14 @@ it, please enter the types and the actual numbers or codes below.</hint>
      <pair>
        <displayed-value>Catalogo</displayed-value>
        <stored-value>Catalogo</stored-value>
+     </pair> 
+     <pair>
+       <displayed-value>Linea Guida</displayed-value>
+       <stored-value>Linea Guida</stored-value>
+     </pair> 
+     <pair>
+       <displayed-value>Manuale d'uso</displayed-value>
+       <stored-value>Manuale d'uso</stored-value>
      </pair>     
    </value-pairs>
    
