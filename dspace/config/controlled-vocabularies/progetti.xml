@@ -153,5 +153,78 @@ Progetti
 				<node id="701" label="Produzioni naturali e sostenibili in Sardegna" />
 			</isComposedBy>	
 		</node>			
+		
+		<node id="800" label="Progetto Cluster POR FESR 2014-2020">
+			<isComposedBy>
+				<node id="801" label="Aerospazio" >
+					<isComposedBy>
+						<node id="810" label="RadarDrone" />
+					</isComposedBy>
+				</node>	
+				<node id="802" label="Agroindustria" >
+					<isComposedBy>
+						<node id="820" label="AKINAS SPIN OV" />
+						<node id="821" label="AVIPROFO" />
+						<node id="822" label="CarBio" />
+						<node id="823" label="COMISAR" />
+						<node id="824" label="Contaminazioni" />
+						<node id="825" label="GA-VINO" />
+						<node id="826" label="INNOQUINOA" />
+						<node id="827" label="INTESAS" />
+						<node id="828" label="MIGLIORVINO" />
+						<node id="829" label="MINUFORTE" />
+						<node id="830" label="OstrInnova" />
+						<node id="831" label="PAFASEF" />
+						<node id="832" label="Pecorino Romano" />
+						<node id="833" label="RealTimeCheckIVGamma" />
+						<node id="834" label="TECNOMUGILAG" />
+						<node id="835" label="VAGEMAS" />
+					</isComposedBy>
+				</node>	
+				<node id="803" label="Bioeconomia" >
+					<isComposedBy>
+						<node id="840" label="Biomarmo" />
+						<node id="841" label="MEISAR" />
+						<node id="842" label="PLES - Prodotti Locali per l'Edilizia Sostenibile" />
+					</isComposedBy>
+				</node>	
+				<node id="804" label="Biomedicina" >
+					<isComposedBy>
+						<node id="850" label="DoMoMEA" />
+						<node id="851" label="IBERNAT-NBL" />
+						<node id="852" label="NIASMIC" />
+					</isComposedBy>
+				</node>	
+				<node id="805" label="ICT" >
+					<isComposedBy>
+						<node id="860" label="AI-Textiles" />
+						<node id="861" label="DigitArch" />
+						<node id="862" label="DoUtDes" />
+						<node id="863" label="OVERTHEVIEW" />
+						<node id="864" label="PROSSIMO" />
+						<node id="865" label="SARIM" />
+						<node id="866" label="SIMPLE" />
+						<node id="867" label="TESTARE" />
+						<node id="868" label="VIRTUALENERGY" />
+					</isComposedBy>
+				</node>	
+				<node id="806" label="Reti intelligenti per la gestione dell’energia (Smart Grid)" >
+					<isComposedBy>
+						<node id="870" label="PRELuDE" />
+						<node id="871" label="SEMI" />
+						<node id="872" label="SMARTPOLYGEN" />
+					</isComposedBy>
+				</node>	
+				<node id="807" label="Turismo, cultura e ambiente" >
+					<isComposedBy>
+						<node id="880" label="MuseoCagliari.it" />
+						<node id="881" label="NUR_WAY" />
+						<node id="882" label="PAC-PAC (Point-and-Click per Patrimonio Ambientale e Culturale)" />
+						<node id="883" label="SardCoin" />
+					</isComposedBy>
+				</node>					
+			</isComposedBy>
+		</node>	
+		
 	</isComposedBy>
 </node>
