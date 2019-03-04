@@ -3624,7 +3624,7 @@
           
           
           <!-- Author(s) row -->
-          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'][@qualifier='author'] or dim:field[@element='contributor'][@qualifier='responsabilescientifico'] or dim:field[@element='creator'] )">
+          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'][@qualifier='author'] or dim:field[@element='creator'] )">
                     <div class="simple-item-view-authors">
 	                    <xsl:choose>
 	                        <xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
@@ -3637,20 +3637,6 @@
 	                                		<xsl:copy-of select="node()"/>
                                         </span>
 	                                <xsl:if test="count(following-sibling::dim:field[@element='contributor'][@qualifier='author']) != 0">
-	                                    <xsl:text>; </xsl:text>
-	                                </xsl:if>
-	                            </xsl:for-each>
-	                        </xsl:when>
-	                        <xsl:when test="dim:field[@element='contributor'][@qualifier='responsabilescientifico']">
-	                        <span class="bold">Responsabile Scientifico:</span>
-	                            <xsl:for-each select="dim:field[@element='contributor'][@qualifier='responsabilescientifico']">
-                                        <span>
-                                          <xsl:if test="@authority">
-                                            <xsl:attribute name="class"><xsl:text>ds-dc_contributor_author-authority</xsl:text></xsl:attribute>
-                                          </xsl:if>
-	                                		<xsl:copy-of select="node()"/>
-                                        </span>
-	                                <xsl:if test="count(following-sibling::dim:field[@element='contributor'][@qualifier='responsabilescientifico']) != 0">
 	                                    <xsl:text>; </xsl:text>
 	                                </xsl:if>
 	                            </xsl:for-each>
@@ -3804,11 +3790,29 @@
               		</xsl:call-template>
           </xsl:when>  
           
-          
+          <!-- contributor.responsabilescientifico row -->
+          <xsl:when test="$clause = 11 and (dim:field[@element='contributor' and @qualifier='responsabilescientifico'])">
+                    <div class="simple-item-view-other">
+	                	<span class="bold">Responsabile Scientifico:</span>
+	                	<span>	                		
+		                    <xsl:for-each select="dim:field[@element='contributor' and @qualifier='responsabilescientifico']">
+		                    <xsl:copy-of select="./node()"/>
+		                      <xsl:if test="count(following-sibling::dim:field[@element='contributor' and @qualifier='responsabilescientifico']) != 0">
+		                      	<xsl:text>; </xsl:text>
+		                    	<br/>
+		                    </xsl:if>
+	                    	</xsl:for-each>		                    		                                       
+	                	</span>
+	            	</div>
+              		<xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto">
+                		<xsl:with-param name="clause" select="($clause + 1)"/>
+                		<xsl:with-param name="phase" select="$otherPhase"/>
+              		</xsl:call-template>
+          </xsl:when> 
           
           
           <!-- identifier.uri row -->
-          <xsl:when test="$clause = 11 and (dim:field[@element='identifier' and @qualifier='uri'])">
+          <xsl:when test="$clause = 12 and (dim:field[@element='identifier' and @qualifier='uri'])">
                     <div class="simple-item-view-other">
 	                <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-uri</i18n:text>:</span>
 	                <span>
@@ -3834,7 +3838,7 @@
          
                    
           <!-- subject row -->
-          <xsl:when test="$clause = 12  and (dim:field[@element='subject' and not(@qualifier)])">
+          <xsl:when test="$clause = 13  and (dim:field[@element='subject' and not(@qualifier)])">
                     <div class="simple-item-view-other">
 	                <span class="bold">Keywords:</span>
 	                <span>
@@ -3854,7 +3858,7 @@
           </xsl:when>    
           
          <!-- subject.progetti row  -->
-          <xsl:when test="$clause = 13 and (dim:field[@element='subject' and @qualifier='progetti'])">
+          <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='progetti'])">
                     <div class="simple-item-view-other">
 	                <span class="bold">Progetto:</span>
 	                <span>
@@ -3875,7 +3879,7 @@
          
          
           <!-- subject.een-cordis row  -->
-          <xsl:when test="$clause = 14 and (dim:field[@element='subject' and @qualifier='een-cordis'])">
+          <xsl:when test="$clause = 15 and (dim:field[@element='subject' and @qualifier='een-cordis'])">
                     <div class="simple-item-view-other">
 	                <span class="bold">EEN-CORDIS:</span>
 	                <span>
@@ -3898,7 +3902,7 @@
                            
           
           <!-- description.sponsorship row -->
-          <xsl:when test="$clause = 15 and (dim:field[@element='description' and @qualifier='sponsorship'])">
+          <xsl:when test="$clause = 16 and (dim:field[@element='description' and @qualifier='sponsorship'])">
                     <div class="simple-item-view-other">
 	                	<span class="bold">Sponsors:</span>
 	                	<span>
@@ -3918,7 +3922,7 @@
          
 
           <!-- Description row -->
-          <xsl:when test="$clause = 16 and (dim:field[@element='description' and not(@qualifier)])">
+          <xsl:when test="$clause = 17 and (dim:field[@element='description' and not(@qualifier)])">
                 <div class="simple-item-view-description">
 	                <h3 class="bold">Informazioni aggiuntive:</h3>
 	                <div>
@@ -3942,7 +3946,7 @@
               </xsl:call-template>
           </xsl:when>
 
-          <xsl:when test="$clause = 17 and $ds_item_view_toggle_url != ''">
+          <xsl:when test="$clause = 18 and $ds_item_view_toggle_url != ''">
               <p class="ds-paragraph item-view-toggle item-view-toggle-bottom">
                   <a>
                       <xsl:attribute name="href"><xsl:value-of select="$ds_item_view_toggle_url"/></xsl:attribute>
@@ -3955,7 +3959,7 @@
               </xsl:call-template>
           </xsl:when>
           
-          <xsl:when test="$clause = 18 and (dim:field[@element='date'][@qualifier='embargoend'])">
+          <xsl:when test="$clause = 19 and (dim:field[@element='date'][@qualifier='embargoend'])">
   				<div class="simple-item-view-other">
     				<h4>
       					<xsl:value-of select="dim:field[@element='embargo'][@qualifier='description'][1]/node()"/>
@@ -3970,7 +3974,7 @@
           <!-- recurse without changing phase if we didn't output anything -->
           <xsl:otherwise>
             <!-- IMPORTANT: This test should be updated if clauses are added! -->
-            <xsl:if test="$clause &lt; 19">
+            <xsl:if test="$clause &lt; 20">
               <xsl:call-template name="itemSummaryView-DIM-fields-Scheda-progetto">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$phase"/>
