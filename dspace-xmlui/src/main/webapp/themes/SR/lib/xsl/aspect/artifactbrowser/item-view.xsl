@@ -3624,7 +3624,7 @@
           
           
           <!-- Author(s) row -->
-          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'][@qualifier='author'] or dim:field[@element='creator'] )">
+          <xsl:when test="$clause = 4 and (dim:field[@element='contributor'][@qualifier='author'] or dim:field[@element='contributor'][@qualifier='responsabilescientifico'] or dim:field[@element='creator'] )">
                     <div class="simple-item-view-authors">
 	                    <xsl:choose>
 	                        <xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
@@ -3637,6 +3637,20 @@
 	                                		<xsl:copy-of select="node()"/>
                                         </span>
 	                                <xsl:if test="count(following-sibling::dim:field[@element='contributor'][@qualifier='author']) != 0">
+	                                    <xsl:text>; </xsl:text>
+	                                </xsl:if>
+	                            </xsl:for-each>
+	                        </xsl:when>
+	                        <xsl:when test="dim:field[@element='contributor'][@qualifier='responsabilescientifico']">
+	                        <span class="bold">Responsabile Scientifico:</span>
+	                            <xsl:for-each select="dim:field[@element='contributor'][@qualifier='responsabilescientifico']">
+                                        <span>
+                                          <xsl:if test="@authority">
+                                            <xsl:attribute name="class"><xsl:text>ds-dc_contributor_author-authority</xsl:text></xsl:attribute>
+                                          </xsl:if>
+	                                		<xsl:copy-of select="node()"/>
+                                        </span>
+	                                <xsl:if test="count(following-sibling::dim:field[@element='contributor'][@qualifier='responsabilescientifico']) != 0">
 	                                    <xsl:text>; </xsl:text>
 	                                </xsl:if>
 	                            </xsl:for-each>

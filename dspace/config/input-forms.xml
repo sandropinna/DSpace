@@ -7954,6 +7954,17 @@ it, please enter the types and the actual numbers or codes below.</hint>
        
        <field>
          <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>responsabilescientifico</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Responsabile scientifico</label>
+         <input-type>onebox</input-type>
+         <hint>Responsabile scientifico del progetto</hint>
+         <required></required>
+       </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
          <dc-element>date</dc-element>
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
@@ -9730,6 +9741,10 @@ it, please enter the types and the actual numbers or codes below.</hint>
      <pair>
        <displayed-value>Mostra</displayed-value>
        <stored-value>Mostra</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Kickoff Meeting</displayed-value>
+       <stored-value>Kickoff Meeting</stored-value>
      </pair>
      <!--
      <pair>
