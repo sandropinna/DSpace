@@ -7768,17 +7768,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
        
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>responsabilescientifico</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Responsabile scientifico</label>
-         <input-type>onebox</input-type>
-         <hint>Responsabile scientifico del progetto</hint>
-         <required></required>
-       </field>
-       
+            
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>date</dc-element>
@@ -7812,7 +7802,17 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
          <vocabulary closed = "true">finanziamenti</vocabulary>
        </field>       
-        
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>responsabilescientifico</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Responsabile scientifico</label>
+         <input-type>name</input-type>
+         <hint>Inserisci nome e cognome del responsabile scientifico del progetto</hint>
+         <required></required>
+       </field> 
       
        <field>
          <dc-schema>dc</dc-schema>
