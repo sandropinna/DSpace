@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 EEN CORDIS
 -->
@@ -42,6 +42,12 @@ EEN CORDIS
 						<node id="VR110116" label="Smart card e sistemi di accesso">
 						</node>	
 						<node id="VR110117" label="Sensori ambientali e biometrici, attuatori">
+						</node>	
+						<node id="VR110118" label="Micro e nanotecnologie legate all'elettronica e alla microelettronica">
+						</node>	
+						<node id="VR110119" label="Stampa 3D">
+						</node>	
+						<node id="VR110120" label="Tessuti intelligenti (smart fabric)">
 						</node>		
 					</isComposedBy>
 				</node>			
@@ -90,7 +96,13 @@ EEN CORDIS
 						<node id="VR111121" label="Controllo remoto">
 						</node>	
 						<node id="VR111122" label="Dispositivi intelligenti">
-						</node>						
+						</node>
+						<node id="VR111123" label="Tecnologie Cloud">
+						</node>	
+						<node id="VR111124" label="Internet of Things (IoT)">
+						</node>
+						<node id="VR111125" label="CPS Sistemi Cyber fisici">
+						</node>							
 					</isComposedBy>	
 				</node>			
 				<node id="EEN112" label="IT e applicazioni telematiche">	
@@ -108,22 +120,26 @@ EEN CORDIS
 						<node id="VR112106" label="Sistemi di gestione ambientale e sistemi di gestione documentale">
 						</node>	
 						<node id="VR112107" label="Gis sistemi di informazione geografica">
+						</node>
+						<node id="VR112108" label="ERP-Pianificazione delle risorse elettroniche">
+						</node>		
+						<node id="VR112109" label="CRM-Gestione relazioni con i clienti">
 						</node>	
-						<node id="VR112108" label="CRM-Gestione relazioni con i clienti">
+						<node id="VR112110" label="Sistema di gestione della qualità">
 						</node>	
-						<node id="VR112109" label="Sistema di gestione della qualità">
+						<node id="VR112111" label="Sistema di gestione della manutenzione">
 						</node>	
-						<node id="VR112110" label="Sistema di gestione della manutenzione">
+						<node id="VR112112" label="Pianificazione delle operazioni e sistema di schedulazione">
 						</node>	
-						<node id="VR112111" label="Pianificazione delle operazioni e sistema di schedulazione">
+						<node id="VR112113" label="Sistema didattico">
 						</node>	
-						<node id="VR112112" label="Sistema didattico">
+						<node id="VR112114" label="Serious Games">
 						</node>	
-						<node id="VR112113" label="ICM-Gestione dei contenuti Internet">
+						<node id="VR112115" label="ICM-Gestione dei contenuti Internet">
 						</node>	
-						<node id="VR112114" label="Gestione dell'analisi del rischio">
+						<node id="VR112116" label="Gestione dell'analisi del rischio">
 						</node>	
-						<node id="VR112115" label="Gestione dell'igiene e della sicurezza nel lavoro">
+						<node id="VR112117" label="Gestione dell'igiene e della sicurezza nel lavoro">
 						</node>						
 					</isComposedBy>
 				</node>			
@@ -173,6 +189,8 @@ EEN CORDIS
 						</node>	
 						<node id="VR114114" label="Gateway residenziali">
 						</node>
+						<node id="VR114115" label="Telefonia VoIP, accesso remoto">
+						</node>
 					</isComposedBy>
 				</node>				
 			</isComposedBy>
@@ -183,6 +201,8 @@ EEN CORDIS
 				<node id="EEN121" label="Progettazione e Modellazione / Prototipi">
 					<isComposedBy>
 						<node id="VR121101" label="Progettazione e Modellazione / Prototipi">
+						</node>
+						<node id="VR121102" label="Stampa 3D">
 						</node>
 					</isComposedBy>
 				</node>
@@ -214,13 +234,37 @@ EEN CORDIS
 						</node>
 						<node id="VR122113" label="Stampaggio, stampaggio ad iniezione, estrusione, sinterizzazione">
 						</node>
-						<node id="VR122114" label="Trattamento di superficie (pittura, galvanizzazione, lucidatura, CVD, PVD)">
+						<node id="VR122114" label="Stampaggio, stampaggio a iniezione, sinterizzazione">
+						</node>
+						<node id="VR122115" label="Estrusione">
+						</node>
+						<node id="VR122116" label="Trattamento di superficie (pittura, galvanizzazione, lucidatura, CVD, PVD)">
+						</node>
+						<node id="VR122117" label="Microingegneria e nanoingegneria">
+						</node>
+						<node id="VR122118" label="Micromachining, nanomachining">
+						</node>
+						<node id="VR122119" label="Microassembly, nanoassembly">
+						</node>
+						<node id="VR122120" label="Microposizionamento, nanoposizionamento">
 						</node>
 					</isComposedBy>
 				</node>
 				<node id="EEN123" label="Controllo di processo e logistica ">
 					<isComposedBy>
 						<node id="VR123101" label="Controllo di processo e logistica">
+						</node>
+						<node id="VR123102" label="Automazione del processo">
+						</node>
+						<node id="VR123103" label="Reti di stabilimenti produttivi">
+						</node>
+						<node id="VR123104" label="Integrazione dei componenti">
+						</node>
+						<node id="VR123105" label="Catena di fornitura">
+						</node>
+						<node id="VR123106" label="Elaborazione delle informazioni e sistemi, flusso di lavoro">
+						</node>
+						<node id="VR123107" label="Prototipi, prove e schemi pilota">
 						</node>
 					</isComposedBy>
 				</node>
@@ -248,29 +292,41 @@ EEN CORDIS
 					<isComposedBy>
 						<node id="VR126101" label="Materiali da costruzione, componenti e metodi">
 						</node>
-						<node id="VR126102" label="Ingegneria civile">
+						<node id="VR126102" label="Materiali, componenti e sistemi per la costruzione">
 						</node>
-						<node id="VR126103" label="Macchine per l'edilizia">
+						<node id="VR126103" label="Ingegneria civile">
 						</node>
-						<node id="VR126104" label="Resistenza al fuoco / sicurezza">
+						<node id="VR126104" label="Macchine per l'edilizia">
 						</node>
-						<node id="VR126105" label="Ingegneria Meccanica, Idraulica, ingegneria acustica e delle vibrazioni nell'ambito della tecnologia delle costruzioni">
+						<node id="VR126105" label="Metodi di costruzione e attrezzature">
 						</node>
-						<node id="VR126106" label="Tecnologia delle condotte">
+						<node id="VR126106" label="Resistenza al fuoco / sicurezza">
 						</node>
-						<node id="VR126107" label="Tecnologia della polpa di legno relativa alla tecnologia delle costruzioni">
+						<node id="VR126107" label="Ingegneria Meccanica, Idraulica, ingegneria acustica e delle vibrazioni nell'ambito della tecnologia delle costruzioni">
 						</node>
-						<node id="VR126108" label="Tecnologia dei sensori / multisensori, strumentazione relativa alle tecnologia delle costruzioni">
+						<node id="VR126108" label="Installazioni relative alla costruzione (energia, illuminazione, ...)">
 						</node>
-						<node id="VR126109" label="Simulazioni, ingegneria delle simulazioni">
+						<node id="VR126109" label="Tecnologia delle condotte">
 						</node>
-						<node id="VR126110" label="Isolamento acustico">
+						<node id="VR126110" label="Tecnologia della polpa di legno relativa alla tecnologia delle costruzioni">
 						</node>
-						<node id="VR126111" label="Vuoto / tecnologia del vuoto spinto">
+						<node id="VR126111" label="Tecnologia dei sensori / multisensori, strumentazione relativa alle tecnologia delle costruzioni">
 						</node>
-						<node id="VR126112" label="Sicurezza del gas">
+						<node id="VR126112" label="Metodi e attrezzature per la manutenzione e il monitoraggio delle costruzioni">
 						</node>
-						<node id="VR126113" label="Sicurezza">
+						<node id="VR126113" label="Simulazioni, ingegneria delle simulazioni">
+						</node>
+						<node id="VR126114" label="Ingegneria delle costruzioni (progettazione, simulazione)">
+						</node>
+						<node id="VR126115" label="Isolamento acustico">
+						</node>
+						<node id="VR126116" label="Vuoto / tecnologia del vuoto spinto">
+						</node>
+						<node id="VR126117" label="Sicurezza del gas">
+						</node>
+						<node id="VR126118" label="Sicurezza">
+						</node>
+						<node id="VR126119" label="Gestione del processo di costruzione e vita degli edifici">
 						</node>
 					</isComposedBy>
 				</node>
@@ -312,6 +368,18 @@ EEN CORDIS
 						</node>
 						<node id="VR127118" label="Materiali tessili avanzati">
 						</node>
+						<node id="VR127119" label="Materiali leggeri">
+						</node>
+						<node id="VR127120" label="Materiali biobased">
+						</node>
+						<node id="VR127121" label="Nanotubi di carbonio">
+						</node>
+						<node id="VR127122" label="Materiali conduttivi">
+						</node>
+						<node id="VR127123" label="Materiali ibridi">
+						</node>
+						<node id="VR127124" label="Nanomateriali">
+						</node>
 					</isComposedBy>
 				</node>
 				<node id="EEN128" label="Infrastrutture di trasporto">
@@ -348,9 +416,51 @@ EEN CORDIS
 						</node>
 						<node id="VR129106" label="Sistemi di Trazione / Propulsione">
 						</node>
-					</isComposedBy>
+						<node id="VR129107" label="Applicazioni IoT (intelligenza artificiale) per auto e trasporti">
+						</node>
+						<node id="VR129108" label="Navigazione e sistemi integrati">
+						</node>
+						<node id="VR129109" label="Sensori per auto e trasporti">
+						</node>
+						<node id="VR129110" label="Costruzione leggera">
+						</node>
+						<node id="VR129111" label="Controllo dell'inquinamento atmosferico per auto e trasporti">
+						</node>
+						<node id="VR129112" label="Ingegneria automobilistica">
+						</node>
+						<node id="VR129113" label="Corpo e parti principali">
+						</node>
+						<node id="VR129114" label="Settore automobilistico elettrico ed elettronico">
+						</node>
+						<node id="VR129115" label="Audio / video">
+						</node>
+						<node id="VR129116" label="Sistema di ricarica">
+						</node>
+						<node id="VR129117" label="Sistema di alimentazione elettrica">
+						</node>
+						<node id="VR129118" label="Dispositivi di misurazione">
+						</node>
+						<node id="VR129119" label="Sistema di accensione">
+						</node>
+						<node id="VR129120" label="Sistema di illuminazione e segnalazione">
+						</node>
+						<node id="VR129121" label="Switch e cablaggio">
+						</node>
+						<node id="VR129122" label="Sistemi di sicurezza">
+						</node>
+						<node id="VR129123" label="Equipaggiamento interno">
+						</node>
+						<node id="VR129124" label="Powertrain e telaio">
+						</node>
+						<node id="VR129125" label="Sistema di frenata">
+						</node>
+						<node id="VR129126" label="Sistema di approvvigionamento energetico">
+						</node>
+						<node id="VR129127" label="Sistemi di trasmissione">
+						</node>
+					 </isComposedBy>
 				</node>
-				<node id="EEN130" label="Tecnologia aerospaziale ">
+				<node id="EEN130" label="Tecnologia aerospaziale">
 					<isComposedBy>
 						<node id="VR130101" label="Tecnologia aeronautica / avionica">
 						</node>
@@ -361,6 +471,12 @@ EEN CORDIS
 						<node id="VR130104" label="Sistemi di navigazione satellitare">
 						</node>
 						<node id="VR130105" label="Esplorazione e tecnologia dello spazio">
+						</node>
+						<node id="VR130106" label="Propulsione">
+						</node>
+						<node id="VR130107" label="Guida e controllo">
+						</node>
+						<node id="VR130108" label="Isolamento termico per applicazioni spaziali">
 						</node>
 					</isComposedBy>
 				</node>
@@ -429,9 +545,11 @@ EEN CORDIS
 						</node>
 						<node id="VR135107" label="Fibre tessili termoplastiche">
 						</node>
-						<node id="VR135108" label="Attivitàdi tessitura relativa alla tecnologia tessile">
+						<node id="VR135108" label="Fibre tessili">
 						</node>
-						<node id="VR135109" label="Prodotti tecnici tessuti per applicazioni industriali">
+						<node id="VR135109" label="Attivitàdi tessitura relativa alla tecnologia tessile">
+						</node>
+						<node id="VR135110" label="Prodotti tecnici tessuti per applicazioni industriali">
 						</node>
 					</isComposedBy>
 				</node>
@@ -490,25 +608,49 @@ EEN CORDIS
 						</node>
 						<node id="VR141106" label="Trasporto e stoccaggio di idrogeno">
 						</node>
+						<node id="VR141107" label="Tecnologia power-to-gas">
+						</node>
 					</isComposedBy>
 				</node>
 				<node id="EEN142" label="Produzione, trasmissione e conversione di energia">
 					<isComposedBy>
 						<node id="VR142101" label="Celle combustibili, produzione di idrogeno">
 						</node>
-						<node id="VR142102" label="Liquefazione del combustibile, gassificazione">
+						<node id="VR142102" label="Celle combustibili">
 						</node>
-						<node id="VR142103" label="Tecnologia dei forni, costruzione di caldaie per riscaldamento">
+						<node id="VR142103" label="Produzione di idrogeno">
 						</node>
-						<node id="VR142104" label="Generatori, motori elettrici e convertitori di potenza">
+						<node id="VR142104" label="Compressione e liquefazione dei gas">
 						</node>
-						<node id="VR142105" label="Scambiatori di calore">
+						<node id="VR142105" label="Liquefazione del combustibile, gassificazione">
 						</node>
-						<node id="VR142106" label="Pompe di calore, tecnologie di raffreddamento">
+						<node id="VR142106" label="Tecnologia dei forni, costruzione di caldaie per riscaldamento">
 						</node>
-						<node id="VR142107" label="Riscaldamento, ventilazione">
+						<node id="VR142107" label="Tecnologie di forni e caldaie">
 						</node>
-						<node id="VR142108" label="Turbine, macchine a fluido, motori alternativi, produzione combinata di calore e di energia elettrica">
+						<node id="VR142108" label="Generatori, motori elettrici e convertitori di potenza">
+						</node>
+						<node id="VR142109" label="Scambiatori di calore">
+						</node>
+						<node id="VR142110" label="Pompe di calore, tecnologie di raffreddamento">
+						</node>
+						<node id="VR142111" label="Pompe di calore">
+						</node>
+						<node id="VR142112" label="Tecnologie di raffreddamento">
+						</node>
+						<node id="VR142113" label="Riscaldamento, ventilazione">
+						</node>
+						<node id="VR142114" label="Turbine, macchine a fluido, motori alternativi, produzione combinata di calore e di energia elettrica">
+						</node>
+						<node id="VR142115" label="Turbine">
+						</node>
+						<node id="VR142116" label="Motori combinati di calore e potenza (CHP)">
+						</node>
+						<node id="VR142117" label="Micro-generazione e grid connection">
+						</node>
+						<node id="VR142118" label="Altre macchine legate all'energia">
+						</node>
+						<node id="VR142119" label="Smart grids">
 						</node>
 					</isComposedBy>
 				</node>
@@ -521,6 +663,8 @@ EEN CORDIS
 						<node id="VR143103" label="Combustibili fossili solidi">
 						</node>
 						<node id="VR143104" label="Combustibili fossili liquidi">
+						</node>
+						<node id="VR143105" label="Estrazione">
 						</node>
 					</isComposedBy>
 				</node>
@@ -540,21 +684,33 @@ EEN CORDIS
 						</node>
 						<node id="VR145104" label="Biomassa liquida">
 						</node>
-						<node id="VR145105" label="Fotovoltaico">
+						<node id="VR145105" label="Biocarburanti liquidi">
 						</node>
-						<node id="VR145106" label="Energia solare/termica">
+						<node id="VR145106" label="Fotovoltaico">
 						</node>
-						<node id="VR145107" label="Biomassa solida">
+						<node id="VR145107" label="Energia solare/termica">
 						</node>
-						<node id="VR145108" label="Energie non convenzionali e alternative">
+						<node id="VR145108" label="Biomassa solida">
 						</node>
-						<node id="VR145109" label="Incenerimento dei rifiuti">
+						<node id="VR145109" label="Energie non convenzionali e alternative">
 						</node>
-						<node id="VR145110" label="Energia eolica">
+						<node id="VR145110" label="Incenerimento dei rifiuti">
+						</node>
+						<node id="VR145111" label="Energia eolica">
+						</node>
+						<node id="VR145112" label="Energia da acque reflue">
+						</node>
+						<node id="VR145113" label="Processi integrati di waste-energy">
+						</node>
+						<node id="VR145114" label="Bio-raffinerie per l'energia">
+						</node>
+						<node id="VR145115" label="Energia dai rifiuti, altro">
+						</node>
+						<node id="VR145116" label="Uso razionale dell'energia">
 						</node>
 					</isComposedBy>
 				</node>
-				<node id="EEN146" label="Uso razionale dell'energia">
+				<node id="EEN146" label="Efficienza energetica">
 					<isComposedBy>
 						<node id="VR146101" label="Gestione dell'energia">
 						</node>
@@ -564,13 +720,27 @@ EEN CORDIS
 						</node>
 						<node id="VR146104" label="Isolamento termico,efficienza energetica negli edifici">
 						</node>
+						<node id="VR146105" label="Isolamento termico">
+						</node>
+						<node id="VR146106" label="Scambiatori di calore">
+						</node>
+						<node id="VR146107" label="Valutazione energetica">
+						</node>
 					</isComposedBy>
 				</node>
 				<node id="EEN147" label="Altri temi di energia">
 					<isComposedBy>
 						<node id="VR147101" label="Combustione, fiamme">
 						</node>
-						<node id="VR147102" label="Tecnologia del combustibile">
+						<node id="VR147102" label="Combustibile e tecnologie dei motori">
+						</node>
+						<node id="VR147103" label="Micro e Nanotecnologie legate all'energia">
+						</node>
+					</isComposedBy>
+				</node>
+				<node id="EEN148" label="Stoccaggio di carbone ed energia">
+					<isComposedBy>
+						<node id="VR148101" label="Stoccaggio di carbone ed energia">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -681,9 +851,9 @@ EEN CORDIS
 						</node>
 					</isComposedBy>
 				</node>
-				<node id="EEN159" label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+				<node id="EEN159" label="Micro e nanotecnologie">
 					<isComposedBy>
-						<node id="VR159101" label="Micro e nanotecnologie legate alla fisica ed alle scienze esatte">
+						<node id="VR159101" label="Micro e nanotecnologie">
 						</node>
 					</isComposedBy>
 				</node>
@@ -706,45 +876,49 @@ EEN CORDIS
 						</node>
 						<node id="VR161106" label="Diagnostica, diagnosi">
 						</node>
-						<node id="VR161107" label="Malattie">
+						<node id="VR161107" label="Vaccini">
 						</node>
-						<node id="VR161108" label="Medicina ambientale, medicina sociale, medicina dello sport">
+						<node id="VR161108" label="Medicina d'emergenza">
 						</node>
-						<node id="VR161109" label="Terapia genica">
+						<node id="VR161109" label="Medicina ambientale, medicina sociale, medicina dello sport">
 						</node>
-						<node id="VR161110" label="Gerontologia e geriatria">
+						<node id="VR161110" label="Terapia genica">
 						</node>
-						<node id="VR161111" label="Malattie del cuore e della circolazione sanguigna">
+						<node id="VR161111" label="Gerontologia e geriatria">
 						</node>
-						<node id="VR161112" label="Apparecchiature medicali ed elettromedicali">
+						<node id="VR161112" label="Malattie del cuore e della circolazione sanguigna">
 						</node>
-						<node id="VR161113" label="Ricerca medica">
+						<node id="VR161113" label="Apparecchiature medicali ed elettromedicali">
 						</node>
-						<node id="VR161114" label="Tecnologia medica / ingegneria biomedica">
+						<node id="VR161114" label="Ricerca medica">
 						</node>
-						<node id="VR161115" label="Neurologia, ricerca sul cervello">
+						<node id="VR161115" label="Tecnologia medica / ingegneria biomedica">
 						</node>
-						<node id="VR161116" label="Prodotti farmaceutici / farmaci">
+						<node id="VR161116" label="Neurologia, ricerca sul cervello">
 						</node>
-						<node id="VR161117" label="Fisiologia">
+						<node id="VR161117" label="Prodotti farmaceutici / farmaci">
 						</node>
-						<node id="VR161118" label="Chirurgia">
+						<node id="VR161118" label="Fisiologia">
 						</node>
-						<node id="VR161119" label="Virus, virologia / antiobiotici / batteriologia">
+						<node id="VR161119" label="Chirurgia">
 						</node>
-						<node id="VR161120" label="Attrezzatura da laboratorio">
+						<node id="VR161120" label="Virus, virologia / antiobiotici / batteriologia">
 						</node>
-						<node id="VR161121" label="Equipaggiamenti di salvataggio e di emergenza">
+						<node id="VR161121" label="Tecnologie delle cellule staminali">
 						</node>
-						<node id="VR161122" label="Fisioterapia,  tecnologia ortopedica">
+						<node id="VR161122" label="Attrezzatura da laboratorio">
 						</node>
-						<node id="VR161123" label="Prodotti monouso e beni di consumo">
+						<node id="VR161123" label="Equipaggiamenti di salvataggio e di emergenza">
 						</node>
-						<node id="VR161124" label="Tessuti medicali">
+						<node id="VR161124" label="Fisioterapia, tecnologia ortopedica">
 						</node>
-						<node id="VR161125" label="Arredi sanitari">
+						<node id="VR161125" label="Prodotti monouso e beni di consumo">
 						</node>
-						<node id="VR161126" label="Biomateriali medicali">
+						<node id="VR161126" label="Tessuti medicali">
+						</node>
+						<node id="VR161127" label="Arredi sanitari">
+						</node>
+						<node id="VR161128" label="Biomateriali medicali">
 						</node>
 					</isComposedBy>
 				</node>
@@ -754,17 +928,23 @@ EEN CORDIS
 						</node>
 						<node id="VR162102" label="Biologia cellulare e molecolare">
 						</node>
-						<node id="VR162103" label="Enzimologia / ingegneria delle proteine / fermentazione">
+						<node id="VR162103" label="Tecnologia enzimatica">
 						</node>
-						<node id="VR162104" label="Ingegneria genetica">
+						<node id="VR162104" label="Ingegneria delle proteine">
 						</node>
-						<node id="VR162105" label="Test in vitro, prove">
+						<node id="VR162105" label="Ingegneria genetica">
 						</node>
-						<node id="VR162106" label="Microbiologia">
+						<node id="VR162106" label="Biologia di sintesi">
 						</node>
-						<node id="VR162107" label="Progettazione Molecolare">
+						<node id="VR162107" label="Test in vitro, prove">
 						</node>
-						<node id="VR162108" label="Tossicologia">
+						<node id="VR162108" label="Microbiologia">
+						</node>
+						<node id="VR162109" label="Progettazione Molecolare">
+						</node>
+						<node id="VR162110" label="Tossicologia">
+						</node>
+						<node id="VR162111" label="Bionica (biomimetica)">
 						</node>
 					</isComposedBy>
 				</node>
@@ -778,9 +958,51 @@ EEN CORDIS
 						</node>
 					</isComposedBy>
 				</node>
-				<node id="EEN164" label="Micro e nanotecnologie per le scienze biologiche ">
+				<node id="EEN164" label="Micro e nanotecnologie per le scienze biologiche">
 					<isComposedBy>
 						<node id="VR164101" label="Micro e nanotecnologie per le scienze biologiche">
+						</node>
+					</isComposedBy>
+				</node>
+				<node id="EEN165" label="E-Health - Salute digitale">
+					<isComposedBy>
+						<node id="VR165101" label="Sicurezza e sistemi">
+						</node>
+						<node id="VR165102" label="Sensori e prodotti wireless">
+						</node>
+						<node id="VR165103" label="Gestione delle informazioni sanitarie">
+						</node>
+						<node id="VR165104" label="Diagnostica remota">
+						</node>
+					</isComposedBy>
+				</node>
+				<node id="EEN166" label="Biotecnologie industriali">
+					<isComposedBy>
+						<node id="VR166101" label="Materiali biobased">
+						</node>
+						<node id="VR166102" label="Bioplastiche">
+						</node>
+						<node id="VR166103" label="Componenti chimici biobased">
+						</node>
+						<node id="VR166104" label="Biopolimeri">
+						</node>
+						<node id="VR166105" label="Materiali ad alte prestazioni biobased">
+						</node>
+						<node id="VR166106" label="Nanomateriali biologici">
+						</node>
+						<node id="VR166107" label="Biolubrificanti">
+						</node>
+						<node id="VR166108" label="Biotensioattivi">
+						</node>
+						<node id="VR166109" label="Liquidi ionici">
+						</node>
+						<node id="VR166110" label="Bio-compositi">
+						</node>
+						<node id="VR166111" label="Fermentazione">
+						</node>
+						<node id="VR166112" label="Bioprocessi">
+						</node>
+						<node id="VR166113" label="Downstream Processing">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -809,6 +1031,8 @@ EEN CORDIS
 						</node>
 						<node id="VR171109" label="Medicina veterinaria">
 						</node>
+						<node id="VR171110" label="Micro e Nanotecnologie legate all'agricoltura">
+						</node>
 					</isComposedBy>
 				</node>
 				<node id="EEN172" label="Silvicoltura, scienze e tecnologie forestali">
@@ -832,6 +1056,8 @@ EEN CORDIS
 						<node id="VR173102" label="Pesci / pesca / tecnologia della pesca">
 						</node>
 						<node id="VR173103" label="Scienze marine">
+						</node>
+						<node id="VR173104" label="Micro e Nanotecnologie legate alle risorse marine">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -866,9 +1092,9 @@ EEN CORDIS
 						</node>
 					</isComposedBy>
 				</node>
-				<node id="EEN183" label="Nutrizione e salute">
+				<node id="EEN183" label="Micro e nanotecnologie legate alla produzione agroalimentare">
 					<isComposedBy>
-						<node id="VR183101" label="Nutrizione e salute">
+						<node id="VR183101" label="Micro e nanotecnologie legate alla produzione agroalimentare">
 						</node>
 					</isComposedBy>
 				</node>				
@@ -942,7 +1168,7 @@ EEN CORDIS
 					<isComposedBy>
 						<node id="VR201101" label="Sicurezza acustica">
 						</node>
-						<node id="VR201102" label="Valutazione del rischio">
+						<node id="VR201102" label="Valutazione del rischio ambientale e dell'impatto">
 						</node>
 						<node id="VR201103" label="Tecnologia della sicurezza antincendio">
 						</node>
@@ -950,27 +1176,41 @@ EEN CORDIS
 						</node>
 						<node id="VR201105" label="Radioprotezione">
 						</node>
+						<node id="VR201106" label="Protezione contro l'intossicazione">
+						</node>
 					</isComposedBy>
 				</node>
 				<node id="EEN202" label="Ambiente">
 					<isComposedBy>
-						<node id="VR202101" label="Trattamento dell'inquinamento">
+						<node id="VR202101" label="Trattamento dell'inquinamento atmosferico interno">
 						</node>
-						<node id="VR202102" label="Biodiversità">
+						<node id="VR202102" label="Trattamento dell'inquinamento atmosferico esterno">
 						</node>
-						<node id="VR202103" label="Ecologia">
+						<node id="VR202103" label="Cattura e stoccaggio di CO2">
 						</node>
-						<node id="VR202104" label="Tecnologia ed Ingegneria ambientale">
+						<node id="VR202104" label="Mitigazione dei cambiamenti climatici">
 						</node>
-						<node id="VR202105" label="Misurazione e rilevamento dell'inquinamento">
+						<node id="VR202105" label="Biodiversità / Patrimonio naturale">
 						</node>
-						<node id="VR202106" label="Calamità naturali">
+						<node id="VR202106" label="Ecologia">
 						</node>
-						<node id="VR202107" label="Tecnologia del telerilevamento">
+						<node id="VR202107" label="Tecnologia ed Ingegneria ambientale">
 						</node>
-						<node id="VR202108" label="Inquinamento del suolo">
+						<node id="VR202108" label="Misurazione e rilevamento dell'inquinamento">
 						</node>
-						<node id="VR202109" label="Inquinamento delle acque / trattamento">
+						<node id="VR202109" label="Calamità naturali">
+						</node>
+						<node id="VR202110" label="Tecnologia del telerilevamento">
+						</node>
+						<node id="VR202111" label="Inquinamento del suolo e delle acque sotterranee">
+						</node>
+						<node id="VR202112" label="Risanamento di siti contaminati">
+						</node>
+						<node id="VR202113" label="Clean Production / Green Technologies">
+						</node>
+						<node id="VR202114" label="Inquinamento acustico">
+						</node>
+						<node id="VR202115" label="Valutazione del ciclo di vita (LCA)">
 						</node>
 					</isComposedBy>
 				</node>
@@ -985,6 +1225,44 @@ EEN CORDIS
 						<node id="VR203104" label="Riciclaggio, recupero">
 						</node>
 						<node id="VR203105" label="Rifiuti radioattivi">
+						</node>
+						<node id="VR203106" label="Disinfezione dei rifiuti / disintossicazione">
+						</node>
+						<node id="VR203107" label="Energia dai rifiuti / risorse">
+						</node>
+						<node id="VR203108" label="Landfill mining - tecnologia">
+						</node>
+						<node id="VR203109" label="Trattamento dei metalli delle terre rare">
+						</node>
+					</isComposedBy>
+				</node>
+				<node id="EEN204" label="Gestione delle risorse idriche">
+					<isComposedBy>
+						<node id="VR204101" label="Trattamento delle acque industriali">
+						</node>
+						<node id="VR204102" label="Trattamento delle acque pubbliche">
+						</node>
+						<node id="VR204103" label="Riciclaggio delle acque reflue">
+						</node>
+						<node id="VR204104" label="Acqua potabile">
+						</node>
+						<node id="VR204105" label="Acqua piovana">
+						</node>
+						<node id="VR204106" label="Trattamento / smaltimento dei fanghi">
+						</node>
+						<node id="VR204107" label="Desalinizzazione">
+						</node>
+						<node id="VR204108" label="Gestione delle risorse idriche">
+						</node>
+						<node id="VR204109" label="Ambiente marino">
+						</node>
+						<node id="VR204110" label="Idrologia">
+						</node>
+						<node id="VR204111" label="Gestione delle inondazioni">
+						</node>
+						<node id="VR204112" label="Water in Buildings">
+						</node>
+						<node id="VR204113" label="Infrastrutture sotterranee">
 						</node>
 					</isComposedBy>
 				</node>				
