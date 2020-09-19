@@ -3664,7 +3664,7 @@
           <!-- contributor row -->
           <xsl:when test="$clause = 5 and (dim:field[@element='contributor' and not(@qualifier)])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Istituzioni partner:</span>
+	                	<span class="bold">Soggetti coinvolti:</span>
 	                	<span>
 	                		<xsl:for-each select="dim:field[@element='contributor' and not(@qualifier)]">
 		                    	<xsl:copy-of select="./node()"/>

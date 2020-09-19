@@ -7751,7 +7751,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>contributor</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Istituzioni partner</label>
+         <label>Soggetti coinvolti</label>
          <input-type>onebox</input-type>
          <hint>Puoi inserire l'istituzione o le istituzioni partner nella realizzazione del documento</hint>
          <required></required>
