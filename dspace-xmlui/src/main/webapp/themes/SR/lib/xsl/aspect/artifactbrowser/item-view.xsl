@@ -1766,7 +1766,8 @@
 	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
-		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
+		                    <!-- <xsl:copy-of select="substring-after(./node(),'Progetti::')"/> -->
+		                    <xsl:copy-of select="./node()"/>
 		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='progetti']) != 0">
 		                        	<xsl:text>; </xsl:text>
 		                    		<br/>
@@ -3863,7 +3864,8 @@
 	                <span class="bold">Progetto:</span>
 	                <span>
 	                	<xsl:for-each select="dim:field[@element='subject' and @qualifier='progetti']">
-		                    <xsl:copy-of select="substring-after(./node(),'Progetti::')"/>
+		                   <!--  <xsl:copy-of select="substring-after(./node(),'Progetti::')"/> -->
+		                    <xsl:copy-of select="./node()"/>
 		                        <xsl:if test="count(following-sibling::dim:field[@element='subject' and @qualifier='progetti']) != 0">
 		                        	<xsl:text>; </xsl:text>
 		                    		<br/>
