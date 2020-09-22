@@ -3629,7 +3629,8 @@
                     <div class="simple-item-view-authors">
 	                    <xsl:choose>
 	                        <xsl:when test="dim:field[@element='contributor'][@qualifier='author']">
-	                        <span class="bold">Soggetti Attuatori:</span>
+	                        <!-- <span class="bold">Soggetti Attuatori:</span> -->
+	                        <span class="bold"></span>
 	                            <xsl:for-each select="dim:field[@element='contributor'][@qualifier='author']">
                                         <span>
                                           <xsl:if test="@authority">
