@@ -432,7 +432,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier>sponsorship</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Sponsors</label>
+         <label>Finanziamenti</label>
          <input-type>textarea</input-type>
          <hint>Inserisci i nomi di eventuali sponsor e/o codici di finanziamento nel box sottostante </hint>
          <required></required>

@@ -5732,7 +5732,7 @@
           <!-- description.sponsorship row -->
           <xsl:when test="$clause = 14 and (dim:field[@element='description' and @qualifier='sponsorship'])">
                     <div class="simple-item-view-other">
-	                	<span class="bold">Sponsors:</span>
+	                	<span class="bold">Finanziamenti:</span>
 	                	<span>
 	                		<xsl:value-of select="dim:field[@element='description' and @qualifier='sponsorship'][1]/node()"/>
 	                		<xsl:if test="count(following-sibling::dim:field[@element='description' and @qualifier='sponsorship']) != 0">
